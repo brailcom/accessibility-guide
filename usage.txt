@@ -1,0 +1,371 @@
+
+Table of Contents: @TOC@
+
+= General principles =
+
+== Keyboard shortcuts logic ==
+
+:CTRL-combination: Combinations with CTRL key trigger various actions (e.g. CTRL-u undo)
+:ALT-combination: Combinations with ALT key are used for menu access and manipulating with application windows
+:SHIFT-combination: SHIFT is often used to reverse an action (e.g. CTRL-u --Undo, SHIFT-CTRL-u -- Redo)
+
+== Orca ==
+
+Orca offers two default desktop layouts. The only difference between them
+that the desktop layout makes use of the numerical keyboard block, but the
+laptop layout has to deal without it.
+
+Most important difference is in the use of base key for all Orca shortcuts,
+which we reference further on as the Orca key:
+
+:Orca key in Deskto mode: INSERT
+:Orca key in Laptop mode: Caps Lock
+
+=== General ===
+:Orca+Space: Launch the Orca Configuration dialog.
+:Orca+S: Toggle speech on and off.
+:Orca+Q: Quit Orca. 
+:Orca+F: Speak font and attribute information for the current character.
+
+=== Flat review ===
+
+In desktop mode, flat review keys are located in the numerical
+keypad block. Since many laptops do not have a separete, numerical
+keypad, the shortcuts are different for laptop layout and they use
+the Orca key together with the keyboard segment between keys 7, 9, dot
+and coma.
+
+:Numpad-minus (Orca+P): Toogle between flat review and cursor tracking
+
+Reading by lines:
+:Numpad-7 (Orca+U): Previous line -- Move the flat review cursor to the previous line and read it.
+:Numpad-8 (Orca+I): This line -- Read the current line.
+:Numpad-9 (Orca+O): Next line -- Move the flat review cursor to the next line and read it.
+
+Reading by words:
+:Numpad-4 (Orca+J): Previous word -- Move the flat review cursor to the previous word and read it.
+:Numpad-5 (Orca+K): This word -- Read the current word.
+:Numpad-6 (Orca+L): Next word -- Move the flat review cursor to the next word and read it.
+
+Reading by characters:
+:Numpad-1 (Orca+M): Previous character -- Move the flat review cursor to the previous character and read it.
+:Numpad-2 (Orca+coma): This character -- Read the current character.
+:Numpad-3 (Orca+period): Next character -- Move the flat review cursor to the next character and read it.
+
+Mouse clicks at location of the flat-review cursor:
+:Numpad-slash (Orca+7): Left mouse click
+:Numpad-star (Orca+8): Right mouse click
+
+Other:
+:Numpad+Plus: Read all -- reads from the current position of the caret to the end of the document.
+:Numpad+Enter: Where am I -- Speaks information such as the title of the current application window, as well as the name of the control that currently has focus.
+
+=== Tables ===
+
+:Orca+F11: Rows or cells -- Toggle the reading of tables, either by single cell or whole row.
+
+=== Learn mode ===
+
+:Orca+H: Enter into Orca's ``learn mode''
+:ESC: Exit from ``learn mode''
+
+== Applications ==
+
+Useful shortcuts:
+:ALT-SPACE: Go to window menu
+:F10: Go to application menu
+:Alt+F4: Close -- Close the focused window
+
+File menu:
+:Ctrl+N: New -- Create a new document
+:Ctrl+O: Open -- Open a document
+:Ctrl+S: Save -- Save the current document
+:Ctrl+P: Print -- Print the current document
+:Ctrl+W: Close -- Close the current document
+:Ctrl+Q: Quit -- Quit the application
+
+Undo and Redo:
+:Ctrl+Z: Undo -- Undo the last operation
+:Shift+Ctrl+Z: Redo -- Redo the last operation
+
+Copy and paste:
+:Ctrl+X: Cut -- Cut the selected area and store it in the clipboard
+:Ctrl+C: Copy -- Copy the selected area into the clipboard
+:Ctrl+V: Paste -- Paste contents of clipboard at mouse/cursor position
+
+Selecting:
+:Ctrl+A: Select all -- Select everything in focused control or window
+:Ctrl+I: Invert Selection -- Select everything in focused control or window that was previously unselected, and deselect everything that was previously selected
+:Delete: Del -- Delete selection
+
+Searching:
+:Ctrl+F: Find -- Find matches in the current document, highlighting them in-place
+:Ctrl+G: Find next -- Find the next match
+:Ctrl+H: Replace -- Find and replace matches
+
+Text zoom:
+
+/The following keys manipulate the font size in a document, such as a webpage or
+an office document. They just increase and decrese the view of the font sizes, they have
+no relation with magnifying glass technologies./
+
+:Ctrl+Plus: Zoom In -- Zoom in on the document
+:Ctrl+Minus: Zoom Out -- Zoom out of the document
+:Ctrl+0: Normal Size -- Restore to zoom level to normal size (generally 100%)
+
+
+= Navigating the desktop =
+
+Accessing menus, applications and windows:
+
+:ALT-F2: Go to main menu
+:ALT-F2: Launch application by its name
+:ALT-TAB: Cycle forward through currently open windows (SHIFT-ALT-TAB cycles in the other direction)
+
+Navigation among widget inside the application:
+:Tab: Move to the next widget/controll (Shift-Tab moves to previous widget/controll)
+:Ctrl-Tab: Move to the next widget/controll in editable fields or where Tab alone has another function (reverse is Shift-Ctrl-Tab)
+:Ctrl-F1: Show/hide tooltip (if any) for the current element
+:SHIFT-F10: Context menu -- Pop-up context menu on currently selected object (e.g. for a file, this is Delete, Rename, Copy etc.)
+:F6: Switch to next pane (SHIFT-F6 previous pane) (e.g. between bookmarks and file list in Nautilus)
+:CTRL-ALT-PAGEUP: Switch between tabs in the application (opposite direction CTRL-ALT-PAGEDOWN)
+
+:Space: Toogle checkbox
+:ENTER: Select menu item or press button
+
+== Login and Logout ==
+
+To start your computer and login:
+
+ 1) Power the computer on.
+ 2) Wait a minute or two until you hear a 'drums' sound.
+ 3) Press ENTER to choose the last logged in user, then type your password, confirm with ENTER.
+ 4) If your login is successful you will hear the login melody. If not, repeat.
+
+Be aware that repeated failures to login, if you have more users defined in the system,
+might be due to the fact that you are choosing an incorrect user by pressing
+the first ENTER. In such a case, you might need sighted help.
+
+To shut down the computer:
+
+ 1) Press CTRL-ALT-DELETE, a new 'Shutdown computer' dialog will appear in a separate window.
+ 2) In case the dialog doesn't have focus, cycle through the available windows with ALT-TAB to find it.
+ 3) Choose whether you want to shutdown the computer, hibernate, put in sleep mode or restart.
+
+Shortcuts:
+:CTRL-ALT-DELETE: Bring up the 'Shutdown computer' dialog
+
+== Main menu ==
+
+From the main menu, you can launch applications, access directories on your dissk or system settings.
+To get to the menu, press ALT-F1. To move between the items, use the arrow keys.
+
+Shortcuts:
+:ALT-F1: Go to main menu
+
+= Browsing web =
+
+== Thunderbird ==
+
+=== Setup account ===
+
+To setup a new mail account:
+
+ 1) Go to the main application menu using F10 and down key
+ 2) Under the menu item File, select 'New', press right arrow to open the submenu
+ 3) Select Mail account
+ 4) Fill in your full name, email address and password for the account, choose Continue
+ 5) Thunderbird will try to guess the other details. This however often doesn't work, so it is
+perhaps a good ide to go find the Manual settings... button. And check the details in the
+account settings dialog. (Note that this button will only appear after the autodiscovery finishes)
+ 6) The settings for your outgoing (SMTP) mail server can be found in the same dialog window, but
+under different card. Move back to the list of available cards by pressing F6 and move using up and
+down arrows.
+
+=== Subscribe IMAP folders ===
+
+If have an IMAP account (which we highly recommend), you first need
+to subscribe all the folders you want to receive.
+
+ 1) Go to the main application menu using F10 and down key
+ 2) Under File, choose Subscribe folders...
+ 3) In the dialog window that opens you can find a dropdown menu of items and related
+to it a list of folders available for each account under "Folder List".
+ 4) Next to each folder in the list is a checkbox, in Ubuntu Maverick and
+perhaps elsewhere it is however not acessible [https://bugzilla.mozilla.org/show_bug.cgi?id=620915 bug #620915].
+ 5) Even without sighted help, you can browse the collapsable tree
+of folders and choosing whether to subscribe or unsubscribe them using
+the 'Subscribe' and 'Unsubscribe' buttons. You however can't see the current
+state.
+ 6) To subscribe all folders, push Subscribe while on the top level item
+(usually 'INBOX' or similar').
+
+=== Read messages ===
+
+Tha main Thunderbird window has by default three areas (panes):
+    1. List of accounts and folders (such as Inbox, Sent, Drafts...)
+    2. List of mails in the selected folder
+    3. Contents of the selected email
+You can cycle between these three panes using F6 forward and SHIFT-F6
+backward. Thus pressing F6 on a folder will bring you to the list of
+emails and pressing F6 on an email will take you to see what's written
+in it.
+
+To examine the contents of an email line by line, simply press up
+and down arrow keys. Flat review, on the other hand, is not available
+here.
+
+CTRL-R will create a new message as a reply to the sender, CTRL-SHIFT-R
+is Reply to all.
+
+There is of course more things you can do with the message. A full list
+of them you can find in the 'Message' item of the main menu (access it through
+F10 and down key, then use right arrow key to find it)
+
+=== Write a message ===
+
+The new message dialog has 4 areas which you can cycle through using F6:
+ 1. From -- your account selection
+ 2. Addresses -- Fields for To, Copy, Blank copy etc.
+ 3. Subject
+ 4. Text
+
+To write a new message:
+ 1. Press CTRL-N to start new message
+ 2. The focus is on the address field. Once you start typing the email address or
+    the name of the recipient (TO:), you can press the down arrow and choose from the offered
+     completions.
+ 3. Pressing ENTER creates another address field. You can type another recipients
+    address or pres SHIFT-TAB and choose other kind of delivery (CC: -- copy,
+    BCC: -- blind copy), then come back to the address input with TAB. The
+    address area is actually a table of selections of delivery methods and
+    corresponding addresses. You can create as many entries as necessary.
+ 4. When finished with addresses, press F6 to go to the Subject field
+ 5. Then press F6 to go to the text field and write the email text.
+ 6. If you want to add an attachment, you can do so from the main menu (F10 and down).
+    Under 'File' find 'Attach', press right arrow key to open submenu, choose 'File'.
+ 7. To send the message, press CTRL-ENTER
+ 8. To save the message as a draft, go to the main menu, under 'File' choose 'Save as', then 'Draft'
+
+=== Search for messages ===
+
+ 1. In the folder selection pane, choose the folder you want to search
+ 2. Press CTR-F to move focus to the Search input field
+ 3. Type the text you want to search for
+ 4. By default, the text is searched in the 'From' field. There are buttons bellow this
+    input field to search the text also in the 'To' field, in message text or others. They
+    are however not accessible in Ubuntu Maverick.
+
+For a more advanced Search, use CTRL-SHIFT-F or find 'Edit', 'Find' then 'Search messages'
+in the main menu (F10 and down)
+
+== Gnus ==
+
+IMAP folder subscription in Thunderbird is not currently accessible []
+
+= Managing files =
+
+== Nautilus ==
+
+Nautilus is the default file browser in Gnome. It has a menu, a
+location bar displaying the current address and two panes (areas).
+
+The left pane, by default, displays Places -- disks on your system,
+external drives, your camera, network folders. It also contains
+bookmarks to some common destinations like your home directory or your
+Documents directory.  The pane can be switched to display other things
+also, like history of your browsing.
+
+The right pane is used to browse the files and folders and perform
+actions on them.
+
+The location bar is similar to the address field in a web browser.  It
+shows where you currently are but it also allows you to write or paste
+a concrete location in your system.
+
+=== Launching Nautilus ===
+
+ 1) Go to the main menu by pressing ALT-F1 anywhere on the desktop
+ 2) Using right arrow, move to the main item ``Places''
+ 3) Using down arrow, choose the place (disk, device or bookmark)
+ 4) Press ENTER to launch Nautilus at the selected place
+
+=== Browsing files ===
+
+The browse pane of Nautilus can work in two modes, Icon view and list
+view. You can switch between them by pressing CTRL-1 and CTRL-2
+anywhere in the application. We recommend to switch to list view
+(Ctrl-2).
+
+In list view (Ctrl-2), you can browse the directory structure like a
+tree menu by UP and DOWN keys, while you enter deeper into directories
+or return back from them by RIGHT and LEFT keys.
+
+In icon view (Ctrl-1), you can browse files with all the arrow keys
+and you must press ALT-UP and ALT-DOWN to go up and down in the
+directory hierarchy.
+
+Use the F6 key to cycle between the file list, the location bar and
+the Places pane (or SHIFT-F6 to cycle backwards).
+
+For example to find a directory 'photo/norwegia' on an external device
+called 'Camera':
+
+ 1) Go to the Places pane using SHIFT-F6
+ 2) Use up/down keys to choose the 'Camera' device
+ 3) Press F6 to go back to file browser
+ 4) Switch to list view using CTRL-2
+ 5) Use up/down keys to find the 'photo' folder, press ENTER on it
+ 6) No wuse up/down keys to find the 'norwegia folder
+ 7) You can enter the folder by pressing ENTER or do some other action
+    with it by openning the context menu using SHIFT-F10
+
+=== Copying files ===
+
+ 1) Find the file or directory you want to copy
+ 2) Press CTRL-C on it (or CTRL-X if you want to move)
+ 3) Go into the directory you want to place it in
+ 4) Press CTRL-V
+
+=== Operations with files and folders ===
+
+If you want to delete, rename or make a .zip archive from a file or folder:
+
+ 1) Find the file or folder you want to do something with
+ 2) Launch the context menu using SHIFT-F10
+ 3) Choose the action which you want to do (delete, rename, archive...)
+
+=== Connecting and disconnecting external devices ===
+
+External devices are usually connected automatically when you plug the
+cables or the card into the reader. When you finish working with them
+however, you can't just plug the cable out as that could result in
+loss of data. Thus you need to tell the system to disconnect the device first:
+
+ 1) In the 'Places' pane (get to it through F6)
+ 2) Choose the device you want to disconnect
+ 3) Open the context menu using SHIFT-F10
+ 4) From the available actions, select 'Disconnect'
+
+=== Shortcuts overview ===
+
+:Ctrl-1: Icon view
+:Ctrl-2: List view
+:F6: Move between locations and directory listing
+:ALT-HOME: Return to home directory
+:Ctrl-H: Move cursor to location bar
+:SHIFT-F10: Open context menu. If open on files or folders, lists actions available on them (like copy, rename etc.)
+:CTRL-H: Show/hide hidden files
+:F2: Rename
+:DEL: Move into trash
+:SHIFT-DEL: Delete immediatelly (irreversible)
+
+== Command line ==
+
+= Creating documents =
+
+TODO:
+
+= References =
+
+1. [http://library.gnome.org/devel/hig-book/stable/input-keyboard.html.en Keyboard Interaction in Gnome]

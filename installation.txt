@@ -1,0 +1,115 @@
+Table of Contents: @TOC@
+
+= Recommended setup =
+
+For an overview of recommended steps to install the whole accessible desktop, read [installation-full-desktop].
+
+= Accessibility Tools =
+
+== Orca == orca
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install gnome-orca
+:Debian/Ubuntu Command: sudo apt-get install gnome-orca
+
+Try it:
+
+:in Gnome: ALT-F2, type 'orca'
+:in terminal: orca
+
+== Emacs + speechd-el == speechd-el
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install emacs and speechd-el
+:Debian/Ubuntu Command: sudo apt-get install emacs speechd-el
+
+Try it:
+:in Gnome: ALT-F2, type 'emacs', once it starts, ALT-x speechd-speak ENTER
+:in terminal: emacs, once it starts, ALT-x speechd-speak ENTER
+
+==  BrlTTY ==
+
+:Ubuntu: [installation-ubuntu-brltty Installation of BrlTTY in Ubuntu]
+:Debian Command: sudo apt-get install brltty
+
+
+== Speech Dispatcher == speech-dispatcher
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install speech-dispatcher, libspeechd2, python-speechd
+:Debian/Ubuntu Command: sudo apt-get install speech-dispatcher libspeechd2 python-speechd
+
+Try it:
+
+Type 'spd-say test' in terminal or run [orca Orca]. If it doesn't work, try running 'spd-conf -d' in the terminal to check problems.
+
+=== Latest development version of Speech Dispatcher === speechd-dev-version
+
+*In Ubuntu:*
+ 1. sudo add-apt-repository ppa:dusek/spd-test
+ 2. sudo apt-get update
+ 3. sudo apt-get install speech-dispatcher libspeechd2 python-speechd
+ 4. killall speech-dispatcher
+
+== Festival == festival
+
+:Ubuntu UI: [installation-ubuntu-festival]
+:Debian/Ubuntu Command: sudo apt-get install festival festival-freebsoft-utils
+
+Try it:
+:in Orca: Select Settings, select Festival as a device driver, select your prefered voice
+:in speechd-el: ALT-x speechd-set-output-module ENTER festival ENTER
+
+=== Czech Voice === czech-voice
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install festival-czech *and* festival-czech-ph
+:Debian/Ubuntu Command: sudo apt-get install festival-czech festvox-czech-ph
+
+=== Other Voices === voices
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], search for 'festvox' and choose the voice to install
+:Debian/Ubuntu Command: sudo apt-cache search festvox, then sudo-apt-get install festvox-<voice>
+
+=== eSpeak ===
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install espeak
+:Debian/Ubuntu Command: sudo apt-get install espeak
+
+Try it:
+:in Gnome: ALT-F2, type 'espeak test' and press enter. You should hear 'test'.
+
+= Applications =
+
+== Web broser: Firefox == firefox
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install firefox
+:Debian/Ubuntu Command: sudo apt-get install firefox
+
+Try it:
+
+:in Gnome: ALT-F2, type 'firefox'
+
+== Email client: Thunderbird == thunderbird
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install thunderbird
+:Debian/Ubuntu Command: sudo apt-get install thunderbird
+
+Try it:
+
+:in Gnome: ALT-F2, type 'thunderbird'
+
+== Word processor and Office suite: OpenOffice.Org == openoffice
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install openoffice.org
+:Debian/Ubuntu Command: sudo apt-get install openoffice.org
+
+Try it:
+
+:in Gnome: ALT-F2, type 'openoffice.org'
+
+== Instant messager: ? ==
+
+== Notes typesetting: Singing computer ==
+
+= Notes =
+
+== Synaptic Package Manager == synaptic
+
+In Ubuntu/Gnome, you can install packages using the Synaptic Package Manager. You can find it in the main menu as System -> Administration -> Synaptic package Manager. The easiest way to install a given package is to first type it's name in the search window, then find it in the list of results and check its toogle button.

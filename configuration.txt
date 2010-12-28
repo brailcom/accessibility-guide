@@ -1,0 +1,165 @@
+Table of Contents: @TOC@
+
+= Accessibility tools =
+
+== Orca ==
+
+Orca settings are available from the graphical user interface of the application. So to change
+settings, start Orca or switch to its window and find the "Settings" button. Here you can
+find settings for keyboard layout, speech, braille magnification etc. Some key settings might
+require a restart of Orca.
+
+== Emacs + speechd-el ==
+
+=== Configuration methods ===
+
+There are several ways to change settings in Emacs and speechd-el. You can change
+settings temporarily or permanently. You can also have different settings for different
+parts of Emacs.
+
+==== via Emacs command ====
+
+Temporary settings, such as a momentary change of voice rate or punctuation
+level can be done using an Emacs command, which you can insert after pressing
+Meta-X, or using a keyboard shortcut. Bellow is a couple of examples
+
+Set voice: Meta-X speechd-set-voice /or/ CTRL-e d v
+Set voice rate: Meta-X speechd-set-rate /or/ CTRL-e d r
+Set punctuation mode: Meta-X speechd-set-punctuation-mode /or/ CTRL-e d .
+
+You can find a complete list of available speechd-el commands
+in the [http://cvs.freebsoft.org/doc/speechd-el/speechd-el_8.html#SEC12 speechd-el manual, section settings]
+
+==== via customize-group ====
+
+All speechd-el settings are available from the Emacs customization
+interface under the group name 'speechd-el'. You can access it by pressing
+'Meta-X customize-group ENTER speechd-el'. Each setting can be changed
+either just for the given session, or saved permanently. Permanent setting
+means write it into the ~/.emacs configuration file, which is described bellow.
+
+All available options and groups of options are accompanied by their
+full descriptions.
+
+==== via ~/.emacs config file ====
+
+Permanent settings are stored in the ~/.emacs configuration file
+in the Emacs Lisp syntax. All available options are described in
+[http://cvs.freebsoft.org/doc/speechd-el/speechd-el_9.html#SEC15
+speechd-el documentation, section Customization].
+
+=== After installation ===
+
+TODO: One needs to place speechd-el in ~/.emacs, set a suitable voice, speed etc. 
+
+== BrlTTY ==
+
+BrlTTY stores its configuration in a text configuration file, which is
+often placed in '\/etc/brltty.conf', but might be available at a different
+location depending on your Linux distribution.
+
+After changing the configuration settings, you must restart BrlTTY.
+
+-----
+/etc/init.d/brltty restart
+-----
+
+=== After installation ===
+
+Usually, it is needed to at least set BrlTTY for the correct braille device.
+Edit the configuration file as follows
+ 1. Search for series of lines beginning with 'braille-driver' and uncomment (remove the '#' hash sign) from the one that describes your driver.
+ 2. Search for 'text-table' and uncomment the one that describes your prefered language
+ 3. Search for braille-device, uncomment the correct line and if necessary, set address to the device according to the provided template
+
+Take this example (Czech table, Baum USB device). The only uncommented lines (not starting with the hash sign) will be:
+-----
+braille-driver  bm      # Baum
+text-table      cs      # Czech
+braille-device  usb:    # First USB device matching braille driver.
+-----
+
+For British English table, Freedom Scientific device with Mac address 12:2F:22:21:A2:11
+-----
+braille-driver  fs      # FreedomScientific
+text-table      en_UK   # British English
+braille-device bluetooth:12:2F:22:21:A2:11 # Specific bluetooth device by address.
+-----
+
+== Speech Dispatcher ==
+
+Most often, you should not need to change the configuration
+of Speech Dispatcher at all. Most settings, such as voice
+selection or voice rate, can be influenced directly from
+the client application (e.g. Orca or Emacs). There are however
+some special cases where you need to change the configuration
+of the server directly.
+
+Speech Dispatcher stores its configuration in a text configuration
+file. It is stored in \/etc/speech-dispatcher/speechd.conf or similar
+location. If your distribution runs Speech Dispatcher as a user
+service (in Ubuntu, this is the default), you can also override
+the configuration options on per-user basis in
+~/.speech-dispatcher/conf/speechd.conf .
+
+The most common configuration options can be conveniently
+changed using the command line setup tool spd-conf
+
+:User configuration: spd-conf
+:System configuration: sudo spd-conf
+
+After changing the configuration settings, you must reload or restart Speech Dispatcher
+
+-----
+/etc/init.d/speech-dispatcher restart
+-----
+
+=== After installation ===
+
+Only if you want to use a different output module or audio subsystem
+than is offered as preconfigured, you might need the following two steps.
+The recommended way to set them is using the 'spd-conf' command line tool.
+
+-----
+spd-conf
+-----
+
+Most often, you will want to setup an entirely new configuration as the 'user' configuration.
+
+Bellow is described how to make the changes manually.
+
+ * Set output module
+
+Not all supported TTS systems are enabled by default. E.g. in Ubuntu,
+,,espeak'' and ,,festival'' might be offered on fresh instalations, but
+to enable modules like ,,flite'', ,,ivona'' or ,,ibmtts'', you need to
+uncomment the appropriate AddModule line in speechd.conf.
+
+In \/etc/speech-dispatcher/speechd.conf search for the AddModule line
+whose first parameter is the name of the module you want to enable.
+Then remove the '#' character from the beginning of the line if there
+is one.
+
+ * Set audio device
+
+By default, Speech Dispatcher will output sound to Pulse Audio
+and most often, this is the correct and most convenient option.
+If however your system does not use Pulse Audio, you will hear
+no sound. In such a case, you need to change the AudioOutputMethod
+line in \/etc/speech-dispatcher/speechd.conf (and remove the '#'
+character from the beginning of the line if there is any).
+
+For example to set audio output to ALSA, use:
+-----
+AudioOutputMethod "alsa"
+-----
+
+== Festival ==
+
+Festival configuration can be adjusted using a scheme configuration file \/etc/festival.scm or in similar location.
+This is however rarely needed except in conjunction with instalation of new voices or if you want to override
+some defaults of the speech synthesis process.
+
+== eSpeak ==
+
+eSpeak itself doesn't provide any kind of permanent configuration and there is usually no need for any.

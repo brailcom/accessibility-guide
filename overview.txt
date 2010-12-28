@@ -1,0 +1,90 @@
+Among others, the three biggest platforms for desktop computers and laptops
+are: GNU/Linux, Microsoft Windows and Apple's Mac OS X. For mobile devices,
+the most important are Google's Android and Apple's iOS. It is not so easy to
+recommend any one of them as they are quite different and offer qualities
+in different areas. They have their advantages and deficiencies. Thus
+we present all of them in the following three sections. Since many times
+it might be useful to combine two or more different platforms for different
+tasks, the last section of this chapter deals with combining platforms,
+interoperability and virtualization.
+
+Table of Contents: @TOC@
+
+= GNU/Linux =
+
+GNU/Linux is an environment largely based on the [http://www.gnu.org Free Software] development
+model. It's very versatile, secure and comfortable. Most of its components are distributed free
+of charge and thus accessible even to people with little financial resources. The way of being
+able to install applications just by searching for their name, without a need to care about
+their cost, DVDs or licensing, can be very convenient.
+
+From the point of view of accessibility, a good thing about it is that many actions can also
+be accomplished using a set of textual command line tools, which might be easier to handle
+for a visually impaired user than graphical interfaces.
+
+The various systems and tools in GNU/Linux are usually packed in distributions, such as Ubuntu,
+Debian, Fedora or others. The task of distributions is to put all the available pieces together
+in a reasonable way. This guide largely deals with Ubuntu, but most of the information is valid
+for other distributions as well.
+
+== Environments ==
+Following are three big areas of the GNU/Linux platform, accessible for the blind
+and visually handicapped, which can be of interest to you:
+
+=== Gnome desktop ===
+
+[http://www.gnome.org/about/ GNOME] offers an easy to understand modern desktop
+environment for a GNU/Linux computer. Near to all the available applications can
+be operated from this interface, regardless whether they provide a graphical,
+textual or another form of interface.
+
+The Gnome desktop is made accessible mainly through the Orca screen reader. Orca
+includes modules for voice, braille and magnification.
+
+=== Text console ===
+
+Many applications and tools can also be operated from a purely textual
+interface, although with some serious limitations. Some important things,
+such as a modern internet browser, are not available in this environment.
+Still it is a welcomed resort for many users in situations, when
+they face some problems in the GNOME graphical desktop.
+
+Although this is not crucial, a text console can be made fully
+accessible (by voice and braille) using the following tools:
+BrlTTY, eSpeakup and/or YASR.
+
+=== Emacs ===
+
+Emacs is a very interesting environment, because it can bring the advantages
+of a consistent fully textual user interface operated primarily by keyboard
+onto the modern graphical desktop. It can only contain its own applications,
+but the very wide range of tasks that can be accomplished with it, from editing
+text, through managing files and developing applications, to reading mail
+and typesetting notes, make it a primary work environment for many, not just
+the handicapped users.
+
+Be aware however that you will find you have to learn some things first
+and understand its concepts. The efficiency of your work afterwards should
+however be enough of a reward.
+
+Several tools are available to make it accessible, but we highly recommend
+to use speechd-el. 
+
+== Putting it all together ==
+
+How to setup an accessible desktop including the Gnome, text console and Emacs? *[installation-full-desktop GNU/Linux Accessible Desktop Installation]*
+
+= Mac OS X =
+
+Built-in paradigm...
+
+= iOS =
+
+= Microsoft Windows =
+
+Free Software accessibility on Microsoft Windows: NVDA, Speech Dispatcher, Emacs, Firefox...
+
+= Combining platforms =
+
+Virtualization etc.
+
