@@ -163,7 +163,7 @@ To get to the menu, press ALT-F1. To move between the items, use the arrow keys.
 Shortcuts:
 :ALT-F1: Go to main menu
 
-= Browsing web =
+= Reading mail =
 
 == Thunderbird ==
 
@@ -262,6 +262,125 @@ in the main menu (F10 and down)
 == Gnus ==
 
 IMAP folder subscription in Thunderbird is not currently accessible []
+
+= Browsing web =
+
+== Firefox ==
+
+=== Navigation between pages ===
+
+ :Ctrl-l: Enter a new location (URL or search term)
+ :Alt-LeftArrow: Go to previous visited page
+ :Alt-RightArrow: Go to next visited page
+
+To visit a page:
+
+ 1) Press Ctrl-l (location) to enter the address bar
+ 2) You can either type direcly the URL of the page you want to see
+    or just a series of words. If you type only words, Google will
+    search for them and a webpage will display with the search results.
+
+If you are interested in having more pages open at the same time and
+switch between them, see [tabbed-browsing].
+
+=== Navigation inside a page ===
+
+You can read a page line by line using the up and down arrow keys. It
+is however often more convenient to read through bigger sections or
+search just for the part that you are interested. Bellow is a list of
+the most common keyboard shortcuts with Orca:
+
+Basic navigation:
+:Down arrow: Next line (Up arrow previous line)
+:Ctrl+Home or End: Go to top or bottom of the document
+
+Landmark navigation:
+:m: Next landmark (Shift-m previous)
+
+Navigation over page items:
+:h: Next heading (Shift-1 previous)
+:1 or 2,3,4,5,6: Next heading of the given level (Shift-1 or 2,3,4,5,6 previous)
+:p: Next paragraph (Shift-p previous)
+:i: Next list item (Shift-i previous)
+:o: Next large object (Shift-o previous)
+:r: Next live region (Shift-r previous)
+:t: Next table (Shift-t previous)
+:u or v: Next unvisited or visited link (Shift-u or v previous)
+
+Others:
+:ctrl+left/right: goto previous/next word
+:Orca+left/right: goto previous/next object
+
+Orca mode settings:
+:Orca-F12: Toggle between orca navigation and Firefox navigation
+:Orca+z: Toggle structural navigation
+
+== Tables ==
+
+:t: Next table (Shift-t previous)
+:Shift+Alt+Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
+:Shift+Alt+Home or End: Jump to first or last cell in the table
+
+=== Forms ===
+
+:e: Next input field
+:b: Next button
+:Orca-Tab: Go to the next form field (Orca-Shift-Tab previous)
+:Alt+Down: Expand combo box(left alt)
+
+=== Access keys ===
+
+Access keys often provide useful functionality, such as jump to page
+content or jump to menu. There is however no standard definition for
+them and thus they might be different in different web applications.
+
+:SHIFT-ALT-key: Execute action defined for 'key'
+
+=== Live regions ===
+
+:r: Next live region (Shift-r previous)
+:\: Advance the politeness level for the current live region
+:Shift+\: Set all live regions on page to politeness of 'off'
+
+:Orca+F1 or F2 to F9: Review previously announced live region messages (F1 most recent, F2 last most recent etc.)
+
+=== Tabbed browsing === tabbed-browsing
+
+It is possible to keep multiple pages open inside the Firefox
+window and switch between them as necessary. Only one of them is
+visible at once, but the other ones also stay open, they are merely
+hidden visually, and you can bring them up at any time.
+
+To follow a link on the webpage, you have two options.  Pressing ENTER
+on that link will replace the current page with the new page. Pressing
+Ctrl-ENTER however will keep the current page, keep your focus there
+and open your new page in another tab which you can examine later.
+
+To open a new webpage, Ctrl-L will take you to the location bar when
+you can type a new address and it will replace the page that you are
+currently reading. Ctrl-T however will keep your page open, create
+a new tab and bring you to it's location bar. You can then read
+another page without having to close to the former one, to which
+you can return later.
+
+To move between the tabs, use Ctrl-PgUp and Ctrl-PgDown.
+
+Shortcuts:
+:Ctrl-Enter: Open link in new tab
+:Ctrl-T: Open new tab and place focus in its location bar
+:Ctrl-W: Close the current tab
+:Ctrl-PgUp: Move to previous tab
+:Ctrl-PgDown: Move to the next tab
+:Alt-number: Move to the tab with the given numer (Alt-1 first tab, Alt-2 second tab etc.)
+
+=== Full keyboard shortcuts reference for Firefox ==
+
+ * Orca mode for Firefox: [http://live.gnome.org/Orca/Firefox] (incomplete)
+ * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
+
+The complete list of Orca mode keyboard shortcuts you can find in the Orca
+settings dialog for Firefox. While in Firefox, press Orca-Ctrl-Space,
+then use ALT-PgUP or Alt-PgDown to find the Keyboard shortcuts tab.
 
 = Managing files =
 
