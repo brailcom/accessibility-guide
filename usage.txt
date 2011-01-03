@@ -3,29 +3,73 @@ Table of Contents: @TOC@
 
 = General principles =
 
+== Main menu ==
+
+Each appliction has a main menu. The main menu usually gives access to
+most functions that can be used in the application, as well as to the
+application settings and help.
+
+You can access the menu with F10, move in the menu with arrow keys and
+select with ENTER. The left and right keys select among the items in
+the top level menu (such as File, Edit, Tools, Help). Up and Down keys
+select among items in submenus (such as Open, Save, Save As,
+Close). Sometimes an item in a submenu itself has a submenu. Then
+pressing the Right key once will open the submenu and again, you can
+move in it by up and down keys. Pressing the Left key will close the
+submenu, while pressing the Right key again will skip to another item
+in the top level menu.
+
+Shortcuts:
+:F10: Go to application main menu
+:Up or Down: Choose from submenu
+:Right: Next item in top-level menu or open submenu if any
+:Left: Previous item in top-level menu or close submenu (if open)
+
+== Context menu ==
+
+Context menu is not associated with the application as such, but with
+a particular object in the application. Object can be a file, an edit
+field, an song, a piece of text, a link in the internet browser or a
+contact in the instant messagener. Context menu is opened on the given
+object and it offers actions that can be done with it.
+
+Usually, pressing ENTER on the object will perform the default action,
+but there are usually many more accessible through Shift-F10.
+
+Examples:
+ * To compress a folder into a .zip archive, find the folder in the File browser,
+open its context menu, then choose 'Archive...' from the context menu.
+ * To check the size of an image, find the image, open its context menu, then choose Properties.
+ * To open a link in the web browser in a new window instead of the existing window,
+find the link, then chose 'Open in new window' from the context menu.
+
+Shortcuts:
+:Shift-F10: Open context menu
+
 == Keyboard shortcuts logic ==
 
 :CTRL-combination: Combinations with CTRL key trigger various actions (e.g. CTRL-u undo)
 :ALT-combination: Combinations with ALT key are used for menu access and manipulating with application windows
 :SHIFT-combination: SHIFT is often used to reverse an action (e.g. CTRL-u --Undo, SHIFT-CTRL-u -- Redo)
 
-== Orca ==
+== Orca screen reader ==
 
-Orca offers two default desktop layouts. The only difference between them
-that the desktop layout makes use of the numerical keyboard block, but the
-laptop layout has to deal without it.
+Orca offers two default layouts for keyboard navigation. The only
+difference between them that the desktop layout makes use of the
+numerical block on keyboard, but the laptop layout has to deal without
+it.
 
-Most important difference is in the use of base key for all Orca shortcuts,
-which we reference further on as the Orca key:
+Most important difference is in the use of base key for many Orca
+shortcuts, usually called the Orca key:
 
 :Orca key in Deskto mode: INSERT
 :Orca key in Laptop mode: Caps Lock
 
 === General ===
+
 :Orca+Space: Launch the Orca Configuration dialog.
 :Orca+S: Toggle speech on and off.
-:Orca+Q: Quit Orca. 
-:Orca+F: Speak font and attribute information for the current character.
+:Orca+Q: Quit Orca.
 
 === Flat review ===
 
@@ -66,17 +110,39 @@ Other:
 
 === Learn mode ===
 
+To examine the functions of various keys and keyboard shortcuts in the
+given situation, you can always enter the learn mode with Orca-H.  In
+the learn mode, you can press any key or keyboard shortcut and it will
+announce its name and tell what it would be supposed to do, but
+doesn't actually do anything (except for Escape which exits the learn
+mode).
+
+Be aware however that Orca only announces functions of keyboard
+combinations that belong to it. Many useful combinations are
+provided by the application itself and you can't discover them this
+way.
+
+Shortcuts:
 :Orca+H: Enter into Orca's ``learn mode''
 :ESC: Exit from ``learn mode''
 
+=== Advanced ===
+
+:Orca+F: Speak font and attribute information for the current character.
+
 == Applications ==
 
-Useful shortcuts:
-:ALT-SPACE: Go to window menu
-:F10: Go to application menu
-:Alt+F4: Close -- Close the focused window
+Bellow you can find a list of common keyboard shortcuts that can be
+found across different applications. Not all of them might work or
+have sense for a particular application.
 
-File menu:
+General:
+:F10: Go to application menu
+:Shift-F10: Open context menu on the selected object
+:Alt+F4: Close -- Close the focused window
+:Alt-Space: Go to window menu (maximize, minimize, resize, close etc.)
+
+Actions from File menu:
 :Ctrl+N: New -- Create a new document
 :Ctrl+O: Open -- Open a document
 :Ctrl+S: Save -- Save the current document
@@ -112,7 +178,6 @@ no relation with magnifying glass technologies./
 :Ctrl+Plus: Zoom In -- Zoom in on the document
 :Ctrl+Minus: Zoom Out -- Zoom out of the document
 :Ctrl+0: Normal Size -- Restore to zoom level to normal size (generally 100%)
-
 
 = Navigating the desktop =
 
@@ -261,7 +326,6 @@ in the main menu (F10 and down)
 
 == Gnus ==
 
-IMAP folder subscription in Thunderbird is not currently accessible []
 
 = Browsing web =
 
@@ -269,9 +333,9 @@ IMAP folder subscription in Thunderbird is not currently accessible []
 
 === Navigation between pages ===
 
- :Ctrl-l: Enter a new location (URL or search term)
- :Alt-LeftArrow: Go to previous visited page
- :Alt-RightArrow: Go to next visited page
+:Ctrl-l: Enter a new location (URL or search term)
+:Alt-LeftArrow: Go to previous visited page
+:Alt-RightArrow: Go to next visited page
 
 To visit a page:
 
@@ -315,7 +379,7 @@ Orca mode settings:
 :Orca-F12: Toggle between orca navigation and Firefox navigation
 :Orca+z: Toggle structural navigation
 
-== Tables ==
+=== Tables ===
 
 :t: Next table (Shift-t previous)
 :Shift+Alt+Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
@@ -373,7 +437,33 @@ Shortcuts:
 :Ctrl-PgDown: Move to the next tab
 :Alt-number: Move to the tab with the given numer (Alt-1 first tab, Alt-2 second tab etc.)
 
-=== Full keyboard shortcuts reference for Firefox ==
+=== Bookmarks ===
+
+You can create bookmarks on pages that you visit often
+or pages that you want to visit later.
+
+To create a bookmark on a page, open the page, then press Ctrl-D.
+This will open the bookmark dialog, where you can edit its title,
+then press the Save button.
+
+The Bookmarks are stored in the main menu. Access it using F10,
+press right arrow key repeatedly to find the 'Bookmarks' item
+and browse your bookmarks with up/down arrow keys. Pressing
+Enter on any of them will open the associated page in your
+current window.
+
+If you want to do some other action with the selected bookmark, such
+as open it in a new tab or to delete it, press Shift-F10
+to open the context menu and choose the action you would
+like with up and down keys.
+
+You can also group your bookmarks in folders, just see the other edit
+fields and menu items.
+
+Shortcuts:
+:Ctrl-D: Bookmark this page
+
+=== Full keyboard shortcuts reference for Firefox ===
 
  * Orca mode for Firefox: [http://live.gnome.org/Orca/Firefox] (incomplete)
  * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
@@ -481,9 +571,11 @@ loss of data. Thus you need to tell the system to disconnect the device first:
 
 == Command line ==
 
+
+
 = Creating documents =
 
-TODO:
+
 
 = References =
 
