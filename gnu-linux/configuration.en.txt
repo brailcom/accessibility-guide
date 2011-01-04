@@ -165,3 +165,27 @@ some defaults of the speech synthesis process.
 === eSpeak ===
 
 eSpeak itself doesn't provide any kind of permanent configuration and there is usually no need for any.
+
+== Applications ==
+
+=== Firefox ===
+
+There are two basic kinds of settings for Firefox. The settings of the
+application itself and settings of Orca, the screen reader. Additionally,
+Firefox can also remember permission settings specific for a given webpage.
+
+*Firefox settings* can be accessed from the main menu, item Edit, subitem Settings.
+
+*Orca settings for Firefox* can be open with Orca-Ctrl-Space from
+inside Firefox, then move to card 'Firefox' using arrow keys.
+
+*Permission settings for a page* can be accessed by openning the given
+page, pressing Ctrl-I to bring up the 'Information about page' dialog,
+then arrow keys to get to the 'Permissions' card. TAB will cycle
+between the items (Allow popup window, Save cookies etc.).
+
+==== After installation ====
+
+In Orca settings for Firefox (Orca-Ctrl-Space while in Firefox), got
+to card Firefox and set 'Grab focus on object when navigating' to off.
+
