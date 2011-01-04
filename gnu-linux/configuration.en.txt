@@ -184,7 +184,7 @@ page, pressing Ctrl-I to bring up the 'Information about page' dialog,
 then arrow keys to get to the 'Permissions' card. TAB will cycle
 between the items (Allow popup window, Save cookies etc.).
 
-==== After installation ====
+==== Recommendation ====
 
 In Orca settings for Firefox (Orca-Ctrl-Space while in Firefox), got
 to card Firefox and set 'Grab focus on object when navigating' to off.
