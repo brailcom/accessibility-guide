@@ -1,17 +1,20 @@
+
+= Installation of Ubuntu Desktop =
+
 This chapter describes how to install Ubuntu to your computer. If you decide for another distributions,
 some information contained here might also be useful to you, although you will have to be prepared
 for differences in the technical details, such as paths or necessary extra steps.
 
 Table of Contents: @TOC@
 
-= 1. Install the Ubuntu Desktop = install
+== 1. Install the Ubuntu Desktop == install
 
  1) Download the Ubuntu installation ISO image at http://www.ubuntu.com/ . 
  2) Burn it onto a CD or flash disk
  3) Restart your computer and boot from the CD or flash disk
  4) Go through the installation process
 
-== Installation process without sight ==
+=== Installation process without sight ===
 
 In recent versions of Ubuntu, it is theoretically possible to install the
 system without sighted help. In practice however it is only recommendable
@@ -19,7 +22,7 @@ to a skilled user, because it brings some significant challenges and requires
 that you are already able to operate the Orca screen reader. Bellow is described
 how to install Ubuntu 10.10 without sight:
 
- 1. Boot from the installation CD (see the general [install installation instructions] for how to get it.
+ 1. Boot from the installation CD (see the general [#install installation instructions] for how to get it.
  2. Wait for some time (like 3-5 minutes) to be sure the system has loaded
  3. Press TAB, ENTER to select English as the default language and start a live version of the system from CD
  4. Wait until you hear the startup melody in your speakers
@@ -35,7 +38,7 @@ how to install Ubuntu 10.10 without sight:
  the system. Be aware however that there will be periods of silence as the installer doesn't report progress in any audible way.
  14. At the end, you will be asked to reboot. Make sure you take the CD out before you boot again.
 
-= 2. Boot into the newly installed system =
+== 2. Boot into the newly installed system ==
 
 After you reboot your computer after successful installation, you should hear
 the login prompt sound (drums). Here select your user name, type ENTER, then input
@@ -48,7 +51,7 @@ configuration dialog for the Orca screen reader. Go through it to set your prefe
 settings and at the end agree to logout. Repeat the login and you should have a system
 now which automatically starts with a talking screen reader -- Orca.
 
-= 3. Install additional packages =
+== 3. Install additional packages ==
 
  * Install Speech Dispatcher, Festival, BrlTTY, Orca, Emacs and speechd-el using the following
 command:
@@ -57,21 +60,21 @@ command:
 sudo apt-get install speechd festival festival-freebsoft-utils emacs speechd-el
 -----
 
- * [installation-ubuntu-festival Install the launch script for festival]
- * [installation-ubuntu-brltty Install the launch script for BrlTTY]
+ * [ubuntu-festival Install the launch script for festival]
+ * [ubuntu-brltty Install the launch script for BrlTTY]
 
-= 4. Configure Orca =
+== 4. Configure Orca ==
 
 See [configuration#orca Orca Configuration]
 
-= 5. Configure BrlTTY =
+== 5. Configure BrlTTY ==
 
 See [configuration#brltty BrlTTY Configuration]
 
-= 6. Accessible login =
+== 6. Accessible login ==
 
 Accessible login does not work under Ubuntu 10.10 Maverick. [[http://fossplanet.com/f10/possible-bug-maverick-accessible-login-function-surebug-casper-30accessibility-script-57385/ details]]
 
-= 7. See which other accessibility tools might be useful =
+== 7. See which other accessibility tools might be useful ==
 
 Check out the other available programs and tools: [installation]

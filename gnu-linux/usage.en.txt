@@ -1,9 +1,11 @@
 
+= Usage =
+
 Table of Contents: @TOC@
 
-= General principles =
+== General principles ==
 
-== Main menu ==
+=== Main menu ===
 
 Each appliction has a main menu. The main menu usually gives access to
 most functions that can be used in the application, as well as to the
@@ -25,7 +27,7 @@ Shortcuts:
 :Right: Next item in top-level menu or open submenu if any
 :Left: Previous item in top-level menu or close submenu (if open)
 
-== Context menu ==
+=== Context menu ===
 
 Context menu is not associated with the application as such, but with
 a particular object in the application. Object can be a file, an edit
@@ -46,13 +48,13 @@ find the link, then chose 'Open in new window' from the context menu.
 Shortcuts:
 :Shift-F10: Open context menu
 
-== Keyboard shortcuts logic ==
+=== Keyboard shortcuts logic ===
 
 :CTRL-combination: Combinations with CTRL key trigger various actions (e.g. CTRL-u undo)
 :ALT-combination: Combinations with ALT key are used for menu access and manipulating with application windows
 :SHIFT-combination: SHIFT is often used to reverse an action (e.g. CTRL-u --Undo, SHIFT-CTRL-u -- Redo)
 
-== Orca screen reader ==
+=== Orca screen reader ===
 
 Orca offers two default layouts for keyboard navigation. The only
 difference between them that the desktop layout makes use of the
@@ -65,13 +67,13 @@ shortcuts, usually called the Orca key:
 :Orca key in Deskto mode: INSERT
 :Orca key in Laptop mode: Caps Lock
 
-=== General ===
+==== General ====
 
 :Orca+Space: Launch the Orca Configuration dialog.
 :Orca+S: Toggle speech on and off.
 :Orca+Q: Quit Orca.
 
-=== Flat review ===
+==== Flat review ====
 
 In desktop mode, flat review keys are located in the numerical
 keypad block. Since many laptops do not have a separete, numerical
@@ -104,11 +106,11 @@ Other:
 :Numpad+Plus: Read all -- reads from the current position of the caret to the end of the document.
 :Numpad+Enter: Where am I -- Speaks information such as the title of the current application window, as well as the name of the control that currently has focus.
 
-=== Tables ===
+==== Tables ====
 
 :Orca+F11: Rows or cells -- Toggle the reading of tables, either by single cell or whole row.
 
-=== Learn mode ===
+==== Learn mode ====
 
 To examine the functions of various keys and keyboard shortcuts in the
 given situation, you can always enter the learn mode with Orca-H.  In
@@ -126,11 +128,11 @@ Shortcuts:
 :Orca+H: Enter into Orca's ``learn mode''
 :ESC: Exit from ``learn mode''
 
-=== Advanced ===
+==== Advanced ====
 
 :Orca+F: Speak font and attribute information for the current character.
 
-== Applications ==
+=== Applications ===
 
 Bellow you can find a list of common keyboard shortcuts that can be
 found across different applications. Not all of them might work or
@@ -179,7 +181,7 @@ no relation with magnifying glass technologies./
 :Ctrl+Minus: Zoom Out -- Zoom out of the document
 :Ctrl+0: Normal Size -- Restore to zoom level to normal size (generally 100%)
 
-= Navigating the desktop =
+== Navigating the desktop ==
 
 Accessing menus, applications and windows:
 
@@ -198,7 +200,7 @@ Navigation among widget inside the application:
 :Space: Toogle checkbox
 :ENTER: Select menu item or press button
 
-== Login and Logout ==
+=== Login and Logout ===
 
 To start your computer and login:
 
@@ -220,7 +222,7 @@ To shut down the computer:
 Shortcuts:
 :CTRL-ALT-DELETE: Bring up the 'Shutdown computer' dialog
 
-== Main menu ==
+=== Main menu ===
 
 From the main menu, you can launch applications, access directories on your dissk or system settings.
 To get to the menu, press ALT-F1. To move between the items, use the arrow keys.
@@ -228,11 +230,11 @@ To get to the menu, press ALT-F1. To move between the items, use the arrow keys.
 Shortcuts:
 :ALT-F1: Go to main menu
 
-= Reading mail =
+== Reading mail ==
 
-== Thunderbird ==
+=== Thunderbird ===
 
-=== Setup account ===
+==== Setup account ====
 
 To setup a new mail account:
 
@@ -247,7 +249,7 @@ account settings dialog. (Note that this button will only appear after the autod
 under different card. Move back to the list of available cards by pressing F6 and move using up and
 down arrows.
 
-=== Subscribe IMAP folders ===
+==== Subscribe IMAP folders ====
 
 If have an IMAP account (which we highly recommend), you first need
 to subscribe all the folders you want to receive.
@@ -265,7 +267,7 @@ state.
  6) To subscribe all folders, push Subscribe while on the top level item
 (usually 'INBOX' or similar').
 
-=== Read messages ===
+==== Read messages ====
 
 Tha main Thunderbird window has by default three areas (panes):
     1. List of accounts and folders (such as Inbox, Sent, Drafts...)
@@ -287,7 +289,7 @@ There is of course more things you can do with the message. A full list
 of them you can find in the 'Message' item of the main menu (access it through
 F10 and down key, then use right arrow key to find it)
 
-=== Write a message ===
+==== Write a message ====
 
 The new message dialog has 4 areas which you can cycle through using F6:
  1. From -- your account selection
@@ -312,7 +314,7 @@ To write a new message:
  7. To send the message, press CTRL-ENTER
  8. To save the message as a draft, go to the main menu, under 'File' choose 'Save as', then 'Draft'
 
-=== Search for messages ===
+==== Search for messages ====
 
  1. In the folder selection pane, choose the folder you want to search
  2. Press CTR-F to move focus to the Search input field
@@ -324,14 +326,14 @@ To write a new message:
 For a more advanced Search, use CTRL-SHIFT-F or find 'Edit', 'Find' then 'Search messages'
 in the main menu (F10 and down)
 
-== Gnus ==
+=== Gnus ===
 
 
-= Browsing web =
+== Browsing web ==
 
-== Firefox ==
+=== Firefox ===
 
-=== Navigation between pages ===
+==== Navigation between pages ====
 
 :Ctrl-l: Enter a new location (URL or search term)
 :Alt-LeftArrow: Go to previous visited page
@@ -345,9 +347,9 @@ To visit a page:
     search for them and a webpage will display with the search results.
 
 If you are interested in having more pages open at the same time and
-switch between them, see [tabbed-browsing].
+switch between them, see [#tabbed-browsing].
 
-=== Navigation inside a page ===
+==== Navigation inside a page ====
 
 You can read a page line by line using the up and down arrow keys. It
 is however often more convenient to read through bigger sections or
@@ -379,20 +381,20 @@ Orca mode settings:
 :Orca-F12: Toggle between orca navigation and Firefox navigation
 :Orca+z: Toggle structural navigation
 
-=== Tables ===
+==== Tables ====
 
 :t: Next table (Shift-t previous)
 :Shift+Alt+Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
 :Shift+Alt+Home or End: Jump to first or last cell in the table
 
-=== Forms ===
+==== Forms ====
 
 :e: Next input field
 :b: Next button
 :Orca-Tab: Go to the next form field (Orca-Shift-Tab previous)
 :Alt+Down: Expand combo box(left alt)
 
-=== Access keys ===
+==== Access keys ====
 
 Access keys often provide useful functionality, such as jump to page
 content or jump to menu. There is however no standard definition for
@@ -400,7 +402,7 @@ them and thus they might be different in different web applications.
 
 :SHIFT-ALT-key: Execute action defined for 'key'
 
-=== Live regions ===
+==== Live regions ====
 
 :r: Next live region (Shift-r previous)
 :\: Advance the politeness level for the current live region
@@ -408,7 +410,7 @@ them and thus they might be different in different web applications.
 
 :Orca+F1 or F2 to F9: Review previously announced live region messages (F1 most recent, F2 last most recent etc.)
 
-=== Tabbed browsing === tabbed-browsing
+==== Tabbed browsing ==== tabbed-browsing
 
 It is possible to keep multiple pages open inside the Firefox
 window and switch between them as necessary. Only one of them is
@@ -437,7 +439,7 @@ Shortcuts:
 :Ctrl-PgDown: Move to the next tab
 :Alt-number: Move to the tab with the given numer (Alt-1 first tab, Alt-2 second tab etc.)
 
-=== Bookmarks ===
+==== Bookmarks ====
 
 You can create bookmarks on pages that you visit often
 or pages that you want to visit later.
@@ -463,7 +465,7 @@ fields and menu items.
 Shortcuts:
 :Ctrl-D: Bookmark this page
 
-=== Full keyboard shortcuts reference for Firefox ===
+==== Full keyboard shortcuts reference for Firefox ====
 
  * Orca mode for Firefox: [http://live.gnome.org/Orca/Firefox] (incomplete)
  * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
@@ -472,9 +474,9 @@ The complete list of Orca mode keyboard shortcuts you can find in the Orca
 settings dialog for Firefox. While in Firefox, press Orca-Ctrl-Space,
 then use ALT-PgUP or Alt-PgDown to find the Keyboard shortcuts tab.
 
-= Managing files =
+== Managing files ==
 
-== Nautilus ==
+=== Nautilus ===
 
 Nautilus is the default file browser in Gnome. It has a menu, a
 location bar displaying the current address and two panes (areas).
@@ -492,19 +494,20 @@ The location bar is similar to the address field in a web browser.  It
 shows where you currently are but it also allows you to write or paste
 a concrete location in your system.
 
-=== Launching Nautilus ===
+==== Launching Nautilus ====
 
  1) Go to the main menu by pressing ALT-F1 anywhere on the desktop
  2) Using right arrow, move to the main item ``Places''
  3) Using down arrow, choose the place (disk, device or bookmark)
  4) Press ENTER to launch Nautilus at the selected place
 
-=== Browsing files ===
+==== Browsing files ====
 
 The browse pane of Nautilus can work in two modes, Icon view and list
 view. You can switch between them by pressing CTRL-1 and CTRL-2
 anywhere in the application. We recommend to switch to list view
-(Ctrl-2).
+(Ctrl-2). Nautilus will remember this and use this view also next
+time.
 
 In list view (Ctrl-2), you can browse the directory structure like a
 tree menu by UP and DOWN keys, while you enter deeper into directories
@@ -520,23 +523,23 @@ the Places pane (or SHIFT-F6 to cycle backwards).
 For example to find a directory 'photo/norwegia' on an external device
 called 'Camera':
 
+ 0) Switch to list view using CTRL-2 if you have not already done so
  1) Go to the Places pane using SHIFT-F6
  2) Use up/down keys to choose the 'Camera' device
  3) Press F6 to go back to file browser
- 4) Switch to list view using CTRL-2
- 5) Use up/down keys to find the 'photo' folder, press ENTER on it
- 6) No wuse up/down keys to find the 'norwegia folder
- 7) You can enter the folder by pressing ENTER or do some other action
+ 4) Use up/down keys to find the 'photo' folder, press ENTER on it
+ 5) No wuse up/down keys to find the 'norwegia folder
+ 6) You can enter the folder by pressing ENTER or do some other action
     with it by openning the context menu using SHIFT-F10
 
-=== Copying files ===
+==== Copying files ====
 
  1) Find the file or directory you want to copy
  2) Press CTRL-C on it (or CTRL-X if you want to move)
  3) Go into the directory you want to place it in
  4) Press CTRL-V
 
-=== Operations with files and folders ===
+==== Operations with files and folders ====
 
 If you want to delete, rename or make a .zip archive from a file or folder:
 
@@ -544,7 +547,7 @@ If you want to delete, rename or make a .zip archive from a file or folder:
  2) Launch the context menu using SHIFT-F10
  3) Choose the action which you want to do (delete, rename, archive...)
 
-=== Connecting and disconnecting external devices ===
+==== Connecting and disconnecting external devices ====
 
 External devices are usually connected automatically when you plug the
 cables or the card into the reader. When you finish working with them
@@ -556,7 +559,7 @@ loss of data. Thus you need to tell the system to disconnect the device first:
  3) Open the context menu using SHIFT-F10
  4) From the available actions, select 'Disconnect'
 
-=== Shortcuts overview ===
+==== Shortcuts overview ====
 
 :Ctrl-1: Icon view
 :Ctrl-2: List view
@@ -569,14 +572,62 @@ loss of data. Thus you need to tell the system to disconnect the device first:
 :DEL: Move into trash
 :SHIFT-DEL: Delete immediatelly (irreversible)
 
-== Command line ==
+=== Command line ===
+
+Many times, it can be more convenient to use textual commands and
+manipulate files on the command line. One must have a basic knowledge
+of the commands that are available, but for details, he can always
+consult the embedded help. It is not even necessary to type much as
+the shell can complete commands and names of files automatically once
+you type the first few letters.
+
+Shortcuts:
+:CTRL-ALT-t" Launch terminal
+:TAB: Complete a command, parameter or filename or list available options if more than one
+
+==== Basic file manipulation ====
+
+:ls: list contents of a folder
+:cp file location: Copy file (also folder) to location (filename or folder)
+:mv file location: Move file (also folder) to location (filename or folder)
+:rm file: Permanently remove a file
+:mkdir folder_name: Create a folder (it is a shortcut for 'make directory')
+
+This section is here just to explain the basic idea and show that this
+way of work can be actually quite easy and fast. For a more complete
+guide, see TODO: link
+
+
+==== Example ====
+
+To move a file 'ubuntu-accessibility.txt' from folder '/home/joe/' into a new folder '/home/joe/notes',
+
+ 1. cd (change directory to the home folder)
+ 2. ls (see the contents of the directory if you wish)
+ 3. mkdir notes (create a new directory 'notes')
+ 4. mv ubun
+ 5. Press TAB to complete, you should now see: 'mv ubuntu-accessibility.txt '
+ 6. Type notes
+ 7. Now you have 'mv ubuntu-accessibility.txt notes', press ENTER
+ 8. Type 'ls notes' and ENTER to verify that the file is in there
+
+To copy all .txt files into a folder 'documents':
+ * cp *.txt documents ENTER
+or just
+ * cp *.txt docu TAB ENTER
+
+== Creating documents ==
+
+=== Openoffice Writer ===
 
 
 
-= Creating documents =
+=== Openoffice Calc  ===
+
+=== Openoffice Presentation ===
 
 
 
-= References =
+== References ==
 
 1. [http://library.gnome.org/devel/hig-book/stable/input-keyboard.html.en Keyboard Interaction in Gnome]

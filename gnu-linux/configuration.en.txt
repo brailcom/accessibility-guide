@@ -1,23 +1,25 @@
+= Configuration =
+
 Table of Contents: @TOC@
 
-= Accessibility tools =
+== Accessibility tools ==
 
-== Orca ==
+=== Orca === orca
 
 Orca settings are available from the graphical user interface of the application. So to change
 settings, start Orca or switch to its window and find the "Settings" button. Here you can
 find settings for keyboard layout, speech, braille magnification etc. Some key settings might
 require a restart of Orca.
 
-== Emacs + speechd-el ==
+=== Emacs + speechd-el ===
 
-=== Configuration methods ===
+==== Configuration methods ====
 
 There are several ways to change settings in Emacs and speechd-el. You can change
 settings temporarily or permanently. You can also have different settings for different
 parts of Emacs.
 
-==== via Emacs command ====
+===== via Emacs command =====
 
 Temporary settings, such as a momentary change of voice rate or punctuation
 level can be done using an Emacs command, which you can insert after pressing
@@ -30,7 +32,7 @@ Set punctuation mode: Meta-X speechd-set-punctuation-mode /or/ CTRL-e d .
 You can find a complete list of available speechd-el commands
 in the [http://cvs.freebsoft.org/doc/speechd-el/speechd-el_8.html#SEC12 speechd-el manual, section settings]
 
-==== via customize-group ====
+===== via customize-group =====
 
 All speechd-el settings are available from the Emacs customization
 interface under the group name 'speechd-el'. You can access it by pressing
@@ -41,18 +43,18 @@ means write it into the ~/.emacs configuration file, which is described bellow.
 All available options and groups of options are accompanied by their
 full descriptions.
 
-==== via ~/.emacs config file ====
+===== via ~/.emacs config file =====
 
 Permanent settings are stored in the ~/.emacs configuration file
 in the Emacs Lisp syntax. All available options are described in
 [http://cvs.freebsoft.org/doc/speechd-el/speechd-el_9.html#SEC15
 speechd-el documentation, section Customization].
 
-=== After installation ===
+==== After installation ====
 
 TODO: One needs to place speechd-el in ~/.emacs, set a suitable voice, speed etc. 
 
-== BrlTTY ==
+=== BrlTTY === brltty
 
 BrlTTY stores its configuration in a text configuration file, which is
 often placed in '\/etc/brltty.conf', but might be available at a different
@@ -64,7 +66,7 @@ After changing the configuration settings, you must restart BrlTTY.
 /etc/init.d/brltty restart
 -----
 
-=== After installation ===
+==== After installation ====
 
 Usually, it is needed to at least set BrlTTY for the correct braille device.
 Edit the configuration file as follows
@@ -86,7 +88,7 @@ text-table      en_UK   # British English
 braille-device bluetooth:12:2F:22:21:A2:11 # Specific bluetooth device by address.
 -----
 
-== Speech Dispatcher ==
+=== Speech Dispatcher ===
 
 Most often, you should not need to change the configuration
 of Speech Dispatcher at all. Most settings, such as voice
@@ -114,7 +116,7 @@ After changing the configuration settings, you must reload or restart Speech Dis
 /etc/init.d/speech-dispatcher restart
 -----
 
-=== After installation ===
+==== After installation ====
 
 Only if you want to use a different output module or audio subsystem
 than is offered as preconfigured, you might need the following two steps.
@@ -154,12 +156,12 @@ For example to set audio output to ALSA, use:
 AudioOutputMethod "alsa"
 -----
 
-== Festival ==
+=== Festival ===
 
 Festival configuration can be adjusted using a scheme configuration file \/etc/festival.scm or in similar location.
 This is however rarely needed except in conjunction with instalation of new voices or if you want to override
 some defaults of the speech synthesis process.
 
-== eSpeak ==
+=== eSpeak ===
 
 eSpeak itself doesn't provide any kind of permanent configuration and there is usually no need for any.

@@ -1,3 +1,6 @@
+
+= Overview =
+
 Among others, the three biggest platforms for desktop computers and laptops
 are: GNU/Linux, Microsoft Windows and Apple's Mac OS X. For mobile devices,
 the most important are Google's Android and Apple's iOS. It is not so easy to
@@ -10,7 +13,7 @@ interoperability and virtualization.
 
 Table of Contents: @TOC@
 
-= GNU/Linux =
+== GNU/Linux ==
 
 GNU/Linux is an environment largely based on the [http://www.gnu.org Free Software] development
 model. It's very versatile, secure and comfortable. Most of its components are distributed free
@@ -27,11 +30,11 @@ Debian, Fedora or others. The task of distributions is to put all the available 
 in a reasonable way. This guide largely deals with Ubuntu, but most of the information is valid
 for other distributions as well.
 
-== Environments ==
+=== Environments ===
 Following are three big areas of the GNU/Linux platform, accessible for the blind
 and visually handicapped, which can be of interest to you:
 
-=== Gnome desktop ===
+==== Gnome desktop ====
 
 [http://www.gnome.org/about/ GNOME] offers an easy to understand modern desktop
 environment for a GNU/Linux computer. Near to all the available applications can
@@ -41,7 +44,7 @@ textual or another form of interface.
 The Gnome desktop is made accessible mainly through the Orca screen reader. Orca
 includes modules for voice, braille and magnification.
 
-=== Text console ===
+==== Text console ====
 
 Many applications and tools can also be operated from a purely textual
 interface, although with some serious limitations. Some important things,
@@ -53,7 +56,7 @@ Although this is not crucial, a text console can be made fully
 accessible (by voice and braille) using the following tools:
 BrlTTY, eSpeakup and/or YASR.
 
-=== Emacs ===
+==== Emacs ====
 
 Emacs is a very interesting environment, because it can bring the advantages
 of a consistent fully textual user interface operated primarily by keyboard
@@ -70,21 +73,21 @@ however be enough of a reward.
 Several tools are available to make it accessible, but we highly recommend
 to use speechd-el. 
 
-== Putting it all together ==
+=== Putting it all together ===
 
-How to setup an accessible desktop including the Gnome, text console and Emacs? *[installation-full-desktop GNU/Linux Accessible Desktop Installation]*
+How to setup an accessible desktop including the Gnome, text console and Emacs? *[ubuntu-desktop GNU/Linux Accessible Desktop Installation]*
 
-= Mac OS X =
+== Mac OS X ==
 
 Built-in paradigm...
 
-= iOS =
+== iOS ==
 
-= Microsoft Windows =
+== Microsoft Windows ==
 
 Free Software accessibility on Microsoft Windows: NVDA, Speech Dispatcher, Emacs, Firefox...
 
-= Combining platforms =
+== Combining platforms ==
 
 Virtualization etc.
 

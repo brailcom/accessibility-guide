@@ -1,0 +1,32 @@
+
+= Instalation of BrlTTY on Ubuntu =
+
+This applies to *Ubuntu Lucid* and *Maverick*. If you have an older version of Ubuntu, we highly recommend to upgrade first.
+
+== Step 1: Package installation ==
+
+First, we need to download and install the BrlTTY package. This
+can be done in the graphical user interface or on the command line
+as follows:
+
+:Ubuntu UI: In [installation#synaptic Synaptic package manager], install brltty
+:Ubuntu Command: sudo apt-get install brltty
+
+== Step 2: Get configuration file ==
+
+In Ubuntu 10.10, the BrlTTY package does not contain a configuration file [[https://its.freebsoft.org/its/issues/3145 bug #3145]].
+Normally, the prefered way to create it would be by running the 'brltty-setup'
+command. This however doesn't work in Ubuntu 10.10.
+
+What needs to be done is to download the [ http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf conf script]
+and copy it into \/etc/brltty.conf . It can be accomplished by the
+following commands.
+
+-----
+wget http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf -O /tmp/brltty.conf
+sudo cp /tmp/brltty.conf /etc/brltty.conf
+-----
+
+== Step 3: Configuration ==
+
+Now you need to [configuration#brltty configure BrlTTY]
