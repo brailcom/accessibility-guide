@@ -79,9 +79,37 @@ How to setup an accessible desktop including the Gnome, text console and Emacs? 
 
 == Mac OS X ==
 
-Built-in paradigm...
+Mac OS X is a popular UNIX-based desktop operating system.  It is known for its
+intuitive, elegant and easy to use user interface.  Users can search for and
+install applications, both free and paid, from the Mac App Store.  Many well
+known applications are available for Mac OS X, like Microsoft Office, or Steam
+with Valve's games.
+
+From the accessibility point of view, every machine with Mac OS X comes with a
+screen reader called VoiceOver and English voices.  Braille display support for
+selected displays is also included, and magnification support is also provided
+by VoiceOver.  Therefore, blind or visually impaired English-speaking user can
+literally start using the Mac computer right after unboxing it.
+
+Situation is much more complicated for non-English users, who have to buy
+voices for their language and get Braille input tables for their language.
+
+Apple tests all its applications so that they work with VoiceOver.  So you can
+use the built-in apps like Mail, Safari (internet browser), Address Book, iCal
+and others and be sure that they provide reasonable experience with VoiceOver.
 
 == iOS ==
+
+iOS is a derivative of the Mac OS X operating system designed specifically for
+touchscreen mobile devices.  It runs on iPhone, iPad and iPod touch.  Users can
+install and update their apps, both free and paid, using the App Store.
+
+iOS comes with built-in screen reader VoiceOver, which is the first touchscreen
+screen reader.  It uses touch gestures for navigating in the screen reader.
+iOS also ships with synthetic voices for over 30 languages and supports reading
+different parts of user interface using the appropriate language ("language
+switching").  iOS also ships with out-of-the box support for many bluetooth
+Braille displays and Braille tables for many languages.
 
 == Microsoft Windows ==
 
