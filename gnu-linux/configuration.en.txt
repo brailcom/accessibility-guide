@@ -189,3 +189,20 @@ between the items (Allow popup window, Save cookies etc.).
 In Orca settings for Firefox (Orca-Ctrl-Space while in Firefox), got
 to card Firefox and set 'Grab focus on object when navigating' to off.
 
+=== Thunderbird ===
+
+Thunderbird preferences can be accessed from the main menu, item
+'Edit', subitem 'Preferences'. These are the general settings
+of the application.
+
+Account settings can be opened on every account, see [usage#account-settings].
+
+The default layout is controlled from the main menu, item 'View'.
+
+==== Recommendation ====
+
+Switch off the message pane in main menu item View, subitem Layout or
+by pressing F8. If not, every message you go through when navigating
+through the list of messages by pressing up and down keys will be
+downloaded, displayed and marked as read.
+
