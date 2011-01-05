@@ -699,9 +699,10 @@ OpenOffice style (if any) for the given word (such as 'Normal text' or
 :HOME, END: Move to beginning or end of line
 :Ctrl-HOME, Ctrl-END: Move to beginning or end of document
 
-==== Selections ====
+==== Selections ==== openoffice-selections
 
 :Ctrl-Shift-s: Select current paragraph (Note: This is a [configuration#openoffice-shortcuts custom shortcut], you need to define it first.)
+:Ctrl-Shift-Down: Select till the end of paragraph
 :Ctrl-A: Select all -- everything in the whole document
 :Shift-END: Select till the end of line
 
