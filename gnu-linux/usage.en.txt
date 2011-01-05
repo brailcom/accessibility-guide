@@ -635,15 +635,155 @@ or just
 
 == Creating documents ==
 
+Various documents (such as papers, letter, spreadsheets or
+presentation) can be created with the Openoffice.Org package.
+
+To launch OpenOffice, press Alt-F2, then type 'openoffice.org'
+
+There are several different components inside OpenOffice
+that can be used for different tasks. These are:
+
+:Openoffice Writer: Word processor (documents, letters etc.)
+:Openoffice Calc: Table calculator (spreadsheets)
+:Openoffice Presenter: Conference style presentations
+
+When you launch OpenOffice, it will offer various options what to
+create, as well as the possibility to open a file.  Based on your
+decision, the appropriate application will open.
+
 === Openoffice Writer ===
 
+Writer is a word processor that can be used to read or create
+documents, letters etc.
 
+The default view includes four main components which you can browse
+using F6 and SHIFT-F6:
+ 1. the main menu -- near to all actions are available from main menu
+ 2. standard tools -- most common tools and actions (such as save, open,
+    print, create table etc.)
+ 3. formatting tools -- formatting (such as text style, font, size,
+    paragraph aligment etc.)
+ 4. document edit box -- the contents of the document
+
+==== Creating a simple document ====
+
+This is just an example, we will create a document with a heading and
+a paragraph.
+
+ 0. Open Openoffice.Org, choose 'Text document'
+ 1. This will start the application with an empty document, cursor
+    placed into the edit box
+ 2. Write a text for the heading, for example 'My Story'
+ 3. Press Ctrl-1 to assign the current paragraph the 'Heading 1' style
+ 4. Start a new line (move to end of the first one using END key and press ENTER)
+ 5. Type the text of the first paragraph of your story, do not split lines
+    using ENTER. Lines are wrapped automatically, ENTER serves to create
+    new paragraphs.
+ 6. Press Ctrl-S to save the document using the standard Save dialog
+
+==== Review of formatting ====
+
+You can review the formatting of the document by using the Orca-f
+keyboard shortcut in different places in the document. It will
+announce font family and size of the current letter, but also
+OpenOffice style (if any) for the given word (such as 'Normal text' or
+'Heading 2').
+
+==== Movement ====
+
+:Right, Left: Move by characters
+:Ctrl-Right, Ctrl-Left: Move by words
+:Up, Down: Move by lines
+:Ctrl-Up, Ctrl-Down: Move by paragraphs
+
+:HOME, END: Move to beginning or end of line
+:Ctrl-HOME, Ctrl-END: Move to beginning or end of document
+
+==== Selections ====
+
+:Ctrl-Shift-s: Select current paragraph (Note: This is a [configuration#openoffice-shortcuts custom shortcut], you need to define it first.)
+:Ctrl-A: Select all -- everything in the whole document
+:Shift-END: Select till the end of line
+
+==== Text style, paragraph aligment and fonts ====
+
+Simple style and formatting changes are best done using shortcuts:
+
+:Ctrl-0: Change current paragraph to normal text
+:Ctrl-1 to Ctrl-5: Change current paragraph to heading 1 (biggest) to 5 (smallest)
+
+:Ctrl-L: Align current paragraph left
+:Ctrl-R: Align current paragraph right
+:Ctrl-J: Justify current paragraph into block
+
+To apply font properties, you must first select a piece of text you
+want to apply them to. See [#openoffice-selections]. Otherwise they
+will get applied to all text you will type later.
+
+:Ctrl-B: Toogle 'bold' property on selected text on and off
+:Ctrl-I: Toogle 'italics' property on selected text on and off
+:Ctrl-U: Toogle 'underline' property on selected text on and off
+
+To access all other formatting options (such as size of text, line
+spacing or font family), press Shift-F10 to bring up the context menu
+on the selected text. Browse it using the arrow keys and select with
+ENTER.
+
+==== Create a table ====
+
+Go to main menu (F10) and select Table->Insert->Table . This will
+bring up an Insert table dialog. Choose name for the table and its
+size. ENTER will confirm the dialog and insert the table in your
+document. You can enter it using arrow keys as well as move among its
+cells.
+
+To include a row or column, or delete a row or column, use the
+context menu (Shift-F10) while inside one of the tables cells.
+
+==== Spell checking ====
+
+To be able to use spell checking, it is necessary to first set a correct language
+for the document. This can be done in main menu, Tools->Language->For all text...
+Spell checking for the whole document can be started by pressing F7.
+
+On every error the spell checker finds, a dialog window will appear. The dialog
+displays the part of the sentence where the error was found, a list of suggested
+corrections and several action buttons (Change, Ignore, Add to dictionary). When
+the dialog appears, the Change button is focused.
+
+To examine the text that is supposed to contain a mistake and the proposed variants,
+use SHIFT-TAB to move up to see the two areas.
+
+ * If the word is actually correct in the given language, use Add to add it
+to the dictionary
+ * If you want to ignore this warning, use Ignore button
+ * To correct by choosing from the offered alternatives, choose the desired one and press ENTER
+ * To correct the mistake in another way, go to the window that displays the suspicious text,
+   make any changes, use TAB to come back to the Change button and then press ENTER
+
+If another possible mistake is found, another window will appear. At
+the end, a window will appear to say that the spell check is
+complete. Close it by pressing the OK button. This will take you back
+to the document edit box.
+
+Shortcuts:
+:F7: Check Spelling and grammar
 
 === Openoffice Calc  ===
 
-=== Openoffice Presentation ===
 
 
+=== Openoffice Presenter ===
+
+We are not going to cover work with presentations in this basic
+guide. It is however possible to create presentations without sight
+and there are special ways how to give the presentations (the
+challenge of course is to access what is displayed on the big screen
+without disturbing the picture for the viewers).
+
+More information can be found here:
+ * [http://ui.openoffice.org/accessibility/]
+ * [http://extensions.services.openoffice.org/project/presenter-screen]
 
 == References ==
 
