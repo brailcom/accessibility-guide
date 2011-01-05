@@ -269,7 +269,7 @@ state.
 
 ==== Read messages ====
 
-Tha main Thunderbird window has by default three areas (panes):
+The main Thunderbird window has by default three areas (panes):
     1. List of accounts and folders (such as Inbox, Sent, Drafts...)
     2. List of mails in the selected folder
     3. Contents of the selected email
@@ -313,6 +313,23 @@ To write a new message:
     Under 'File' find 'Attach', press right arrow key to open submenu, choose 'File'.
  7. To send the message, press CTRL-ENTER
  8. To save the message as a draft, go to the main menu, under 'File' choose 'Save as', then 'Draft'
+
+==== Unread folders and messages ====
+
+:Display unread messages only: Alt-v e u or menu-View-Threads-Unread
+:Display all messages: Alt-v e a or menu-View-Threads-All
+
+:Display folders with unread messages only: Alt-v f u or menu-View-Folders-Unread
+:Display all folders: Alt-v f a or menu-View-Folders-All
+
+==== Sort messages ====
+
+To sort messages using one of the available fields, select View item
+in the main menu, then open the subitem 'Sort by' using right arrow
+key.  From the submenu, choose on of the offered fields (Date,
+Subject, Received...) using ENTER. Come again to the same submenu to
+choose whether the sort should be asceding or descending.
+
 
 ==== Search for messages ====
 

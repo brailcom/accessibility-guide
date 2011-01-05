@@ -195,7 +195,8 @@ Thunderbird preferences can be accessed from the main menu, item
 'Edit', subitem 'Preferences'. These are the general settings
 of the application.
 
-Account settings can be opened on every account, see [usage#account-settings].
+Account settings can be opened on every account, see main menu 'Edit',
+subitem 'Account settings'.
 
 The default layout is controlled from the main menu, item 'View'.
 
