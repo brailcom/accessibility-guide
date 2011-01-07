@@ -831,6 +831,7 @@ Shortcuts:
 
 === Openoffice Calc  === openoffice-calc
 
+TODO:
 
 
 === Openoffice Impress === openoffice-impress
@@ -843,6 +844,106 @@ is displayed on the big screen without disturbing the picture for the viewers).
 More information can be found here:
  * [http://ui.openoffice.org/accessibility/]
  * [http://extensions.services.openoffice.org/project/presenter-screen]
+
+== Virtual Computer == virtual-computer
+
+=== VMWare Player === vmware
+
+VMWare player can be started from the main desktop menu (>>Alt+F1<<) as 'System
+Tools->VMWare Player'.
+
+==== Create a new virtual machine ==== vmware-new-machine
+
+To install another operating system in a virtual machine, follow the bellow
+steps. Please note however that this is an example. Depending on which system
+are you installing, some of the steps might be slightly different:
+
+ 1. Start VMWare Player
+ 2. Press >>F10<< to access the main menu
+ 3. Under 'File', choose 'Create new virtual machine'
+ 4. A dialog window will open where you have to specify some details
+ 5. Choose whether you want to install the new operating system from an ISO
+    file or CD/DVD drive
+ 6. VMWare knows how to install some of the systems and might offer you to do
+    an 'Easy Install'. This means that it will just ask you a few questions at
+    the beginning and then complete the whole installation process without your
+    intervention. This is recommendable. (If you want to go through a normal
+    installation, choose 'I will install operating system later'. Press 'Next'
+    button.
+ 7. Fill in the the name, username and password you want for your user account
+    in the new system. Press 'Next' button.
+ 8. Choose a name of the virtual machine and the directory on your file system
+    where to store it. Press 'Next' button.
+ 9. Choose how much space can the virtual machine use on your disk.
+    Press 'Next' button.
+ 10. The virtual machine will use virtual hardware. There is a step where you
+     can customize the details, such as how much RAM to use, but you can also
+     leave them as they are and change them later if necessary.
+ 11. Press 'Finish' button to start the installation process.
+
+This last step will close the dialog and start booting the machine and
+installing it. Since now, what is running inside the main player window is your
+new virtual computer. Installation will only be accessible if the installer of
+the operating system you have chosen itself is accessible (just as if you are
+installing on a real computer). To see how you can use it, continue to
+[#vmware-using-machine].
+
+==== Starting and stopping virtual machine ==== vmware-start-stop-machine
+
+To *start* a virtual machine:
+ 1. Start VMWare player
+ 2. Use >>Up<< and >>Down<< arrow keys to choose the machine you want to start.
+ 3. Press >>ENTER<< to start it
+ 4. Now see [#vmware-using-machine]. We recommend to wait a minute or two until
+    the machine finishes booting before switching into it, because otherwise
+    you might experience some problems with wrong cursor grabbing.
+
+There are two options to *suspend* the virtual machine. You can either use the
+suspend function in your operating system inside the machine or you can suspend
+the whole machine from VMWare controll menu. We recommend the later method:
+ 1. If inside the machine, use >>Ctrl+Alt<< to leave it
+ 2. Press >>F10<< to enter the VMWare menu
+ 3. Choose 'Virtual Machine->Power->Suspend'
+This is a suspend to disk. The machine will use no resources or power on your
+real computer when it is suspended.
+
+To *shut down* or restart the virtual machine:
+ 1. Enter the machine with >>Ctrl+G<<
+ 2. Shutdown or reboot the system
+ 3. VMWare will recognize when the operating system inside has shut down and
+    will return focus back to your original system.
+See [#vmware-using-machine] .
+
+==== Using virtual machine ==== vmware-using-machine
+
+The VMWare player is like an ordinary application. It has a main menu and some
+other widgets. Unlike in a normal application however, you can also use it to
+enter inside the virtual machine. Once you are inside the virtual machine, you
+can use it just as if it was a computer on itself, but there is a special key
+combination to escape from it and come back to your original environment.
+
+To *enter* inside the virtual machine:
+ 1. If the VMWare Player application doesn't have focus yet, use >>Alt+TAB<< to
+ find it.
+ 2. Once you are in VMWare Player, press CTRL+g to enter it
+ 3. All your keyboard and mouse input will now go to the virtual machine
+
+/Note: If you can't enter the machine with Ctrl+g, it might be either because
+the machine is not running (see [#vmware-start-stop-machine]) or because some
+dialog window has appeared but didn't get focus. Use >>Alt+TAB<< to find it./
+
+To *leave* the virtual machine:
+ 1. Press >>Ctrl+Alt<< to leave the machine
+ 2. The machine is still running, but your keyboard and mouse input now goes
+to your original operating system.
+
+Shortcuts:
+:Ctrl+g: Enter virtual machine
+:Ctrl+Alt: Leave virtual machine
+
+==== Copy files to and from machine ==== vmware-copy-files
+
+
 
 == References == references
 

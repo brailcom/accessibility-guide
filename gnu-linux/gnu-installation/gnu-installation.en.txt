@@ -112,7 +112,15 @@ Try it:
 
 === Instant messager: ? ===
 
+TODO:
+
 === Notes typesetting: Singing computer === singing-computer
+
+TODO:
+
+=== Virtual Computer: VMWare === vmware
+
+TODO:
 
 == Notes ==
 
