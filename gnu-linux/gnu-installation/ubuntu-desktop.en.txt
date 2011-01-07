@@ -78,11 +78,11 @@ sudo apt-get install speechd festival festival-freebsoft-utils emacs speechd-el
 
 == 4. Configure Orca ==
 
-See [configuration#orca Orca Configuration]
+See [gnu-configuration#orca Orca Configuration]
 
 == 5. Configure BrlTTY ==
 
-See [configuration#brltty BrlTTY Configuration]
+See [gnu-configuration#brltty BrlTTY Configuration]
 
 == 6. Accessible login ==
 
@@ -91,4 +91,4 @@ Accessible login does not work under Ubuntu 10.10 Maverick.
 
 == 7. See which other accessibility tools might be useful ==
 
-Check out the other available programs and tools: [installation]
+Check out the other available programs and tools: [gnu-installation]

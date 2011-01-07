@@ -11,7 +11,7 @@ First, we need to download and install the necessary packages. This
 can be done in the graphical user interface or on the command line
 as follows:
 
-:Ubuntu UI: In [installation#synaptic Synaptic package manager], install festival *and* festival-freebsoft-utils
+:Ubuntu UI: In [gnu-installation#synaptic Synaptic package manager], install festival *and* festival-freebsoft-utils
 :Ubuntu Command: sudo apt-get install festival festival-freebsoft-utils
 
 == Step 2: Launch script ==
@@ -43,4 +43,4 @@ sudo /etc/init.d/festival start
 
 Your Festival should be installed and running by now. You might
 however want to install some additional voices or sound libraries.
-Go back to the [installation Installation page] to read more.
+Go back to the [gnu-installation Installation page] to read more.

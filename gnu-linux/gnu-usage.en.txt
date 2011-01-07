@@ -292,7 +292,7 @@ The main Thunderbird window has by default three panes (areas):
  2. List of mails in the selected folder
  3. Contents of the selected email
 We recommend to switch the contents view off, see
-[configuration#thunderbird-recommendation Thunderbird configuration]
+[gnu-configuration#thunderbird-recommendation Thunderbird configuration]
 
 You can cycle between these panes using >>F6<< forward and >>Shift+F6<<
 backward. Thus pressing >>F6<< on a folder will bring you to the list of emails
@@ -390,7 +390,14 @@ from the main menu (>>F10<<).
 
 === Gnus === gnus
 
-TODO:
+Gnus is a mail reading application inside [emacs Emacs]. It might require you
+to study how to use it a little bit at first, but then its very powerful and
+[speechd-el] makes it very accessible too.
+
+You can launch gnus from inside Emacs by typing '>>M-x gnus<<'.
+
+For detailed information how to setup accounts and how to use it,
+see [http://www.gnus.org/manual/gnus_toc.html The Gnus Manual].
 
 == Browsing web == browsing-web
 
@@ -752,10 +759,10 @@ word (such as 'Normal text' or 'Heading 2').
 
 ==== Selections ==== openoffice-writer-selections
 
-:>>Ctrl-Shift-s: Select current paragraph (Note: This is a [configuration#openoffice-writer-shortcuts custom shortcut], you need to define it first.)
-:>>Ctrl-Shift-Down: Select till the end of paragraph
-:>>Ctrl-a: Select all -- everything in the whole document
-:>>Shift-END: Select till the end of line
+:>>Ctrl-Shift-s<<: Select current paragraph (Note: This is a [gnu-configuration#openoffice-writer-shortcuts custom shortcut], you need to define it first.)
+:>>Ctrl-Shift-Down<<: Select till the end of paragraph
+:>>Ctrl-a<<: Select all -- everything in the whole document
+:>>Shift-END<<: Select till the end of line
 
 ==== Text style, paragraph alignment and fonts ==== openoffice-writer-aligment-and-fonts
 

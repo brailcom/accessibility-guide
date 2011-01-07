@@ -10,7 +10,7 @@ First, we need to download and install the BrlTTY package. This
 can be done in the graphical user interface or on the command line
 as follows:
 
-:Ubuntu UI: In [installation#synaptic Synaptic package manager], install brltty
+:Ubuntu UI: In [gnu-installation#synaptic Synaptic package manager], install brltty
 :Ubuntu Command: sudo apt-get install brltty
 
 == Step 2: Get configuration file ==
@@ -30,4 +30,4 @@ sudo cp /tmp/brltty.conf /etc/brltty.conf
 
 == Step 3: Configuration ==
 
-Now you need to [configuration#brltty configure BrlTTY]
+Now you need to [gnu-configuration#brltty configure BrlTTY]
