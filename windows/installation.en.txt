@@ -1,0 +1,36 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Installation =
+
+Table of Contents: @TOC@
+
+== JAWS == jaws
+
+JAWS is a proprietary software, you must first buy a license.  You can then
+install JAWS a CD or online. To find more information, please visit the
+distributors website [http://www.freedomscientific.com/] .
+
+=== Voices === jaws-voices
+
+The online installation of JAWS comes with the default English 'Eloquent'
+voice. To install other voices and voices for other languages, JAWS recommends
+to use the RealSpeak voices:
+
+ * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/ RealSpeak Solo Direct Voices]
+
+You will then have to set voice output to RealSpeak in JAWS settings.
+
+== NVDA == nvda
+
+NVDA can be downloaded and used free of charge.
+
+ 1. Visit [http://www.nvda-project.org/wiki/Download]
+ 2. If you intend to use it for your own computer, we recommend to download the
+    'Installer' version from 'Stable releases'
+
+After download, allow your system to execute the install file and follow the
+installation process.
+
+=== Voices ===
+
+TODO:

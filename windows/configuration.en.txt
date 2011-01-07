@@ -1,0 +1,11 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Configuration =
+
+Table of Contents: @TOC@
+
+== Accessibility tools ==
+
+=== JAWS ===
+
+TODO: How to set JAWS to use RealSpeak voices
