@@ -113,9 +113,54 @@ Braille displays and Braille tables for many languages.
 
 == Microsoft Windows ==
 
-Free Software accessibility on Microsoft Windows: NVDA, Speech Dispatcher, Emacs, Firefox...
+Microsoft Windows is currently the most widely used operating system.
+It offers a wire range of applications and compared to the other
+platforms, it is best often the platform that is best supported by
+third party companies. The former problems with stability and security
+issues were largely overcome in the recent versions.
+
+Though the platform is largely proprietary and it is also common to
+have to pay for most new software, many Free Software packages are
+also available on Windows, including accessibility packages.  These
+include the Firefox web browser, the NVDA screen reader, the
+Emacs+speechd-el environment.
 
 == Combining platforms ==
 
-Virtualization etc.
+Sometimes, it is useful to be able to run more platforms at the same
+time. For example a GNU/Linux user might sometimes want to start
+Microsoft Windows, use a special application which is only available
+on Microsoft Windows (such as Microsoft Word) and then move the
+resulting file back to his GNU/Linux desktop in some convenient
+manner. Or perhaps a Mac OS user wants to use Ubuntu GNU/Linux
+sometimes because there is some clever application which is missing or
+costly on Mac OS.
+
+On most today computers, it is perfectly possible to run another
+operating system or another platform in what looks just like an
+ordinary application window on your desktop. In this way, you can
+start even several so-called virtual computers and do with them
+whatever you like. They have access to the network or to the soundcard
+and moving files between them can be as easy as between any other
+applications in your desktop. You can even take the machine on a flash
+disk and continue using it on another computer, which might be
+particularly interesting for accessibility purposes. Of course there
+must be some pretty heavy logic beneath to make this possible, but
+today technologies spare the user these details and are very easy to
+use.
+
+There are several virtualization technologies available, such as
+Virtual Box, Xen, Virtuozzo or VMWare. We recommend VMWare Player,
+because it is at the same time free of charge, cross platform, well
+accessible, easy to use and quite powerful.
+
+Bellow you can find information about how to install and use it:
+
+ * VMWare Player on GNU/Linux:
+    * [gnu-installation#vmware Installation of VMWare]
+    * [gnu-usage#vmware Usage of VMWare]
+ * VMWare Player on Windows
+ * VMWare on Mac OS
+
+
 
