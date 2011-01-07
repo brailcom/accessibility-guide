@@ -1,372 +1,417 @@
+# -*- coding: utf-8; mode: structured-text -*-
 
-= Usage =
+= Usage = usage
 
 Table of Contents: @TOC@
 
-== General principles ==
+== General principles == general-principles
 
-=== Main menu ===
+=== Main menu === main-menu
 
-Each appliction has a main menu. The main menu usually gives access to
-most functions that can be used in the application, as well as to the
-application settings and help.
+Each application has a main menu. The main menu usually gives access to most
+functions that can be used in the application, as well as to the application
+settings and help.
 
-You can access the menu with F10, move in the menu with arrow keys and
-select with ENTER. The left and right keys select among the items in
-the top level menu (such as File, Edit, Tools, Help). Up and Down keys
-select among items in submenus (such as Open, Save, Save As,
-Close). Sometimes an item in a submenu itself has a submenu. Then
-pressing the Right key once will open the submenu and again, you can
-move in it by up and down keys. Pressing the Left key will close the
-submenu, while pressing the Right key again will skip to another item
-in the top level menu.
+You can access the menu with >>F10<<, move in the menu with arrow keys and
+select with >>ENTER<<. The left and right keys select among the items in the
+top level menu (such as 'File', 'Edit', 'Tools', 'Help'). Up and Down arrow
+keys select among items in submenus (such as 'Open', 'Save', 'Save As',
+'Close'). Sometimes an item in a submenu itself has a submenu. Then pressing
+the Right key once will open the submenu and again, you can move in it by up
+and down keys. Pressing the Left key will close the submenu, while pressing the
+Right key again will skip to another item in the top level menu.
+
+Hint: It is perhaps better to always use the left key to move in the top level
+menu and only use the right key to open submenus.
 
 Shortcuts:
-:F10: Go to application main menu
-:Up or Down: Choose from submenu
-:Right: Next item in top-level menu or open submenu if any
-:Left: Previous item in top-level menu or close submenu (if open)
 
-=== Context menu ===
+:>>F10<<: Go to application main menu
+:>>Up or Down<<: Choose from submenu
+:>>Right<<: Next item in top-level menu or open submenu if any
+:>>Left<<: Previous item in top-level menu or close submenu (if open)
+
+=== Context menu === context-menu
 
 Context menu is not associated with the application as such, but with
 a particular object in the application. Object can be a file, an edit
-field, an song, a piece of text, a link in the internet browser or a
-contact in the instant messagener. Context menu is opened on the given
-object and it offers actions that can be done with it.
+field, a piece of text or a contact in an instant messanger. Context
+menu is opened on the given object and it offers actions that can be
+done with it.
 
-Usually, pressing ENTER on the object will perform the default action,
-but there are usually many more accessible through Shift-F10.
+Usually, pressing >>ENTER<< on the object will perform the default
+action, but there are usually many more actions available in the
+context menu.
+
+To bring up a context menu, select an object and press >>Shift+F10<<.
 
 Examples:
- * To compress a folder into a .zip archive, find the folder in the File browser,
-open its context menu, then choose 'Archive...' from the context menu.
- * To check the size of an image, find the image, open its context menu, then choose Properties.
- * To open a link in the web browser in a new window instead of the existing window,
-find the link, then chose 'Open in new window' from the context menu.
+ * To compress a folder into a .zip archive, find the folder in the File
+browser, open its context menu, then choose 'Archive...' from the context menu.
+ * To check the size of an image, find the image, open its context menu, then
+   choose 'Properties'.
+ * To open a link in the web browser in a new window instead of the existing
+window, find the link, then chose 'Open in new window' from the context menu.
 
 Shortcuts:
-:Shift-F10: Open context menu
+:>>Shift+F10<<: Open context menu
 
-=== Keyboard shortcuts logic ===
+=== Keyboard shortcuts logic === keyboard-shortcuts-logic
 
-:CTRL-combination: Combinations with CTRL key trigger various actions (e.g. CTRL-u undo)
-:ALT-combination: Combinations with ALT key are used for menu access and manipulating with application windows
-:SHIFT-combination: SHIFT is often used to reverse an action (e.g. CTRL-u --Undo, SHIFT-CTRL-u -- Redo)
+:>>Ctrl+<<combination: Combinations with >>Ctrl<< key trigger various actions (e.g. >>Ctrl+u<< undo)
+:>>Alt+<<combination: Combinations with >>Alt<< key are used for menu access and manipulating with application windows
+:>>Shift+<<combination: >>Shift<< is often used to reverse an action (e.g. >>Ctrl+u<< -- Undo, >>Shift+Ctrl+u<< -- Redo)
 
-=== Orca screen reader ===
-
-Orca offers two default layouts for keyboard navigation. The only
-difference between them that the desktop layout makes use of the
-numerical block on keyboard, but the laptop layout has to deal without
-it.
-
-Most important difference is in the use of base key for many Orca
-shortcuts, usually called the Orca key:
-
-:Orca key in Deskto mode: INSERT
-:Orca key in Laptop mode: Caps Lock
-
-==== General ====
-
-:Orca+Space: Launch the Orca Configuration dialog.
-:Orca+S: Toggle speech on and off.
-:Orca+Q: Quit Orca.
-
-==== Flat review ====
-
-In desktop mode, flat review keys are located in the numerical
-keypad block. Since many laptops do not have a separete, numerical
-keypad, the shortcuts are different for laptop layout and they use
-the Orca key together with the keyboard segment between keys 7, 9, dot
-and coma.
-
-:Numpad-minus (Orca+P): Toogle between flat review and cursor tracking
-
-Reading by lines:
-:Numpad-7 (Orca+U): Previous line -- Move the flat review cursor to the previous line and read it.
-:Numpad-8 (Orca+I): This line -- Read the current line.
-:Numpad-9 (Orca+O): Next line -- Move the flat review cursor to the next line and read it.
-
-Reading by words:
-:Numpad-4 (Orca+J): Previous word -- Move the flat review cursor to the previous word and read it.
-:Numpad-5 (Orca+K): This word -- Read the current word.
-:Numpad-6 (Orca+L): Next word -- Move the flat review cursor to the next word and read it.
-
-Reading by characters:
-:Numpad-1 (Orca+M): Previous character -- Move the flat review cursor to the previous character and read it.
-:Numpad-2 (Orca+coma): This character -- Read the current character.
-:Numpad-3 (Orca+period): Next character -- Move the flat review cursor to the next character and read it.
-
-Mouse clicks at location of the flat-review cursor:
-:Numpad-slash (Orca+7): Left mouse click
-:Numpad-star (Orca+8): Right mouse click
-
-Other:
-:Numpad+Plus: Read all -- reads from the current position of the caret to the end of the document.
-:Numpad+Enter: Where am I -- Speaks information such as the title of the current application window, as well as the name of the control that currently has focus.
-
-==== Tables ====
-
-:Orca+F11: Rows or cells -- Toggle the reading of tables, either by single cell or whole row.
-
-==== Learn mode ====
-
-To examine the functions of various keys and keyboard shortcuts in the
-given situation, you can always enter the learn mode with Orca-H.  In
-the learn mode, you can press any key or keyboard shortcut and it will
-announce its name and tell what it would be supposed to do, but
-doesn't actually do anything (except for Escape which exits the learn
-mode).
-
-Be aware however that Orca only announces functions of keyboard
-combinations that belong to it. Many useful combinations are
-provided by the application itself and you can't discover them this
-way.
-
-Shortcuts:
-:Orca+H: Enter into Orca's ``learn mode''
-:ESC: Exit from ``learn mode''
-
-==== Advanced ====
-
-:Orca+F: Speak font and attribute information for the current character.
-
-=== Applications ===
-
-Bellow you can find a list of common keyboard shortcuts that can be
-found across different applications. Not all of them might work or
-have sense for a particular application.
-
-General:
-:F10: Go to application menu
-:Shift-F10: Open context menu on the selected object
-:Alt+F4: Close -- Close the focused window
-:Alt-Space: Go to window menu (maximize, minimize, resize, close etc.)
-
-Actions from File menu:
-:Ctrl+N: New -- Create a new document
-:Ctrl+O: Open -- Open a document
-:Ctrl+S: Save -- Save the current document
-:Ctrl+P: Print -- Print the current document
-:Ctrl+W: Close -- Close the current document
-:Ctrl+Q: Quit -- Quit the application
-
-Undo and Redo:
-:Ctrl+Z: Undo -- Undo the last operation
-:Shift+Ctrl+Z: Redo -- Redo the last operation
-
-Copy and paste:
-:Ctrl+X: Cut -- Cut the selected area and store it in the clipboard
-:Ctrl+C: Copy -- Copy the selected area into the clipboard
-:Ctrl+V: Paste -- Paste contents of clipboard at mouse/cursor position
-
-Selecting:
-:Ctrl+A: Select all -- Select everything in focused control or window
-:Ctrl+I: Invert Selection -- Select everything in focused control or window that was previously unselected, and deselect everything that was previously selected
-:Delete: Del -- Delete selection
-
-Searching:
-:Ctrl+F: Find -- Find matches in the current document, highlighting them in-place
-:Ctrl+G: Find next -- Find the next match
-:Ctrl+H: Replace -- Find and replace matches
-
-Text zoom:
-
-/The following keys manipulate the font size in a document, such as a webpage or
-an office document. They just increase and decrese the view of the font sizes, they have
-no relation with magnifying glass technologies./
-
-:Ctrl+Plus: Zoom In -- Zoom in on the document
-:Ctrl+Minus: Zoom Out -- Zoom out of the document
-:Ctrl+0: Normal Size -- Restore to zoom level to normal size (generally 100%)
-
-== Navigating the desktop ==
+=== Navigation === navigation
 
 Accessing menus, applications and windows:
 
-:ALT-F2: Go to main menu
-:ALT-F2: Launch application by its name
-:ALT-TAB: Cycle forward through currently open windows (SHIFT-ALT-TAB cycles in the other direction)
+:>>Alt+F1<<: Go to desktop main menu
+:>>Alt+F2<<: Launch application by its name
+:>>Alt+TAB<<: Cycle forward through currently open windows (Shift+Alt+TAB cycles in the other direction)
 
 Navigation among widget inside the application:
-:Tab: Move to the next widget/controll (Shift-Tab moves to previous widget/controll)
-:Ctrl-Tab: Move to the next widget/controll in editable fields or where Tab alone has another function (reverse is Shift-Ctrl-Tab)
-:Ctrl-F1: Show/hide tooltip (if any) for the current element
-:SHIFT-F10: Context menu -- Pop-up context menu on currently selected object (e.g. for a file, this is Delete, Rename, Copy etc.)
-:F6: Switch to next pane (SHIFT-F6 previous pane) (e.g. between bookmarks and file list in Nautilus)
-:CTRL-ALT-PAGEUP: Switch between tabs in the application (opposite direction CTRL-ALT-PAGEDOWN)
 
-:Space: Toogle checkbox
-:ENTER: Select menu item or press button
+:>>Tab<<: Move to the next widget/controll (>>Shift+Tab<< moves to previous widget/controll)
+:>>Ctrl+Tab<<: Move to the next widget/controll in editable fields or where >>Tab<< alone has another function (reverse is >>Shift+Ctrl+Tab<<)
+:>>F6<<: Switch to next pane -- usually between most important sections in the contents of current window (>>Shift+F6<< previous pane)
+:>>Ctrl+F1<<: Show/hide tooltip (if any) for the current element
+:>>Ctrl+Alt-PgUp<<: Switch between tabs in the application (opposite direction >>Ctrl+Alt+PgDown<<)
+:>>Space<<: Toggle checkbox
+:>>ENTER<<: Select menu item or press button
 
-=== Login and Logout ===
+=== Orca screen reader === orca
+
+Orca is today the primary screen reader for the Gnome desktop. If not started
+yet, you can start it with '>>Alt-F2 orca<<'. It launches as an independent
+application with Settings, Quit and Help buttons.  It can be controlled using
+key combinations (shortcuts) from any other application.
+
+Orca offers two default layouts for key combinations. The *desktop layout*
+makes use of the numerical block on keyboard, but the *laptop layout* has to
+deal without it as most laptops do not have a separate numerical block.
+
+Most important difference is in the use of base key for many Orca shortcuts,
+usually called the Orca key:
+
+:Orca key in Desktop mode: >>Insert<<
+:Orca key in Laptop mode: >>Caps Lock<<
+
+==== General ==== orca-general
+
+:>>Orca+Space<<: Launch the Orca Configuration dialog.
+:>>Orca+s<<: Toggle speech on and off.
+:>>Orca+q<<: Quit Orca.
+
+==== Flat review ==== orca-flat-review
+
+Flat review offers an opportunity to examine the contents of the screen without
+moving the cursor from its original position.
+
+In desktop mode, flat review keys are located in the numerical keypad block. In
+laptop mode, the shortcuts use the Orca key together with the keyboard segment
+between keys 7, 9, dot and coma.
+
+:>>Numpad-minus<< (>>Orca+P<<): Toggle between flat review and cursor tracking
+
+Reading by lines:
+:>>Numpad-7 (Orca+U)<<: Previous line -- Move the flat review cursor to the previous line and read it.
+:>>Numpad-8 (Orca+I)<<: This line -- Read the current line.
+:>>Numpad-9 (Orca+O)<<: Next line -- Move the flat review cursor to the next line and read it.
+
+Reading by words:
+:>>Numpad-4 (Orca+J)<<: Previous word -- Move the flat review cursor to the previous word and read it.
+:>>Numpad-5 (Orca+K)<<: This word -- Read the current word.
+:>>Numpad-6 (Orca+L)<<: Next word -- Move the flat review cursor to the next word and read it.
+
+Reading by characters:
+:>>Numpad-1 (Orca+M)<<: Previous character -- Move the flat review cursor to the previous character and read it.
+:>>Numpad-2 (Orca+coma)<<: This character -- Read the current character.
+:>>Numpad-3 (Orca+period)<<: Next character -- Move the flat review cursor to the next character and read it.
+
+Mouse clicks at location of the flat-review cursor:
+:>>Numpad-slash (Orca+7)<<: Left mouse click
+:>>Numpad-star (Orca+8)<<: Right mouse click
+
+Other:
+:>>Numpad-Plus<<: Read all -- reads from the current position of the caret to the end of the document.
+:>>Numpad-Enter<<: Where am I -- Speaks information such as the title of the current application window, as well as the name of the control that currently has focus.
+
+==== Tables ==== orca-tables
+
+:>>Orca+F11<<: Rows or cells -- Toggle the reading of tables, either by single cell or whole row.
+
+==== Learn mode ==== orca-learn-mode
+
+To examine the functions of various keys and keyboard shortcuts in the given
+situation, you can always enter the learn mode with >>Orca+H<<.  In the learn
+mode, you can press any key or keyboard shortcut and it will announce its name
+and tell what it would be supposed to do, but doesn't actually do anything
+(except for >>Escape<< which exits the learn mode).
+
+Be aware however that Orca only announces functions of keyboard combinations
+that belong to it. Many useful combinations are provided by the application
+itself and you can't discover them this way.
+
+Shortcuts:
+:>>Orca+H<<: Enter into Orca's ``learn mode''
+:>>ESC<<: Exit from ``learn mode''
+
+==== Advanced ==== orca-advanced
+
+:>>Orca+F<<: Speak font and attribute information for the current character.
+
+=== Applications === applications
+
+Bellow you can find a list of common keyboard shortcuts that can be found
+across different applications. Not all of them might work or have sense for a
+particular application.
+
+General:
+:>>F10<<: Go to application menu
+:>>Shift-F10<<: Open context menu on the selected object
+:>>Alt+F4<<: Close -- Close the focused window
+:>>Alt+Space<<: Go to window menu (maximize, minimize, resize, close etc.)
+
+Actions from File menu:
+:>>Ctrl+N<<: New -- Create a new document
+:>>Ctrl+O<<: Open -- Open a document
+:>>Ctrl+S<<: Save -- Save the current document
+:>>Ctrl+P<<: Print -- Print the current document
+:>>Ctrl+W<<: Close -- Close the current document
+:>>Ctrl+Q<<: Quit -- Quit the application
+
+Undo and Redo:
+:>>Ctrl+Z<<: Undo -- Undo the last operation
+:>>Shift+Ctrl+Z<<: Redo -- Redo the last operation
+
+Copy and paste:
+:>>Ctrl+X<<: Cut -- Cut the selected area and store it in the clipboard
+:>>Ctrl+C<<: Copy -- Copy the selected area into the clipboard
+:>>Ctrl+V<<: Paste -- Paste contents of clipboard at cursor position
+
+Selecting:
+:>>Ctrl+A<<: Select all -- Select everything in focused control or window
+:>>Ctrl+I<<: Invert Selection -- Select everything in focused control or window that was previously unselected, and deselect everything that was previously selected
+:>>Delete<<: Delete selection
+
+Searching:
+:>>Ctrl+F<<: Find -- Find matches in the current document
+:>>Ctrl+G<<: Find next -- Find the next match
+:>>Ctrl+H<<: Replace -- Find and replace matches
+
+Text zoom:
+
+/The following keys manipulate the font size in a document, such as a webpage
+or an office document. They just increase and decrease the view of the font
+sizes, they have no relation with magnifying glass technologies./
+
+:>>Ctrl+Plus<<: Zoom In -- Zoom in on the document
+:>>Ctrl+Minus<<: Zoom Out -- Zoom out of the document
+:>>Ctrl+0<<: Normal Size -- Restore to zoom level to normal size
+
+=== Login and Logout === login-and-logout
 
 To start your computer and login:
-
  1) Power the computer on.
- 2) Wait a minute or two until you hear a 'drums' sound.
- 3) Press ENTER to choose the last logged in user, then type your password, confirm with ENTER.
+ 2) Wait a minute or two until you hear the sound of drums.
+ 3) Press >>ENTER<< to choose the last logged in user, then type your password,
+ confirm with >>ENTER<<.
  4) If your login is successful you will hear the login melody. If not, repeat.
 
-Be aware that repeated failures to login, if you have more users defined in the system,
-might be due to the fact that you are choosing an incorrect user by pressing
-the first ENTER. In such a case, you might need sighted help.
+Be aware that repeated failures to login, if you have more users defined in the
+system, might be due to the fact that you are choosing an incorrect user by
+pressing the first >>ENTER<<. In such a case, you might need sighted help.
 
 To shut down the computer:
-
- 1) Press CTRL-ALT-DELETE, a new 'Shutdown computer' dialog will appear in a separate window.
- 2) In case the dialog doesn't have focus, cycle through the available windows with ALT-TAB to find it.
- 3) Choose whether you want to shutdown the computer, hibernate, put in sleep mode or restart.
-
-Shortcuts:
-:CTRL-ALT-DELETE: Bring up the 'Shutdown computer' dialog
-
-=== Main menu ===
-
-From the main menu, you can launch applications, access directories on your dissk or system settings.
-To get to the menu, press ALT-F1. To move between the items, use the arrow keys.
+ 1) Press >>Ctrl+Alt_Delete<<
+ 2) A new 'Shutdown computer' dialog will appear in a  separate window.
+ 2) In case the dialog doesn't have focus, cycle through the available windows
+    with >>Alt+TAB<< to find it.
+ 3) Choose whether you want to shutdown the computer, hibernate, put in sleep
+    mode or restart.
 
 Shortcuts:
-:ALT-F1: Go to main menu
+:Ctrl-Alt-Delete: Bring up the 'Shutdown computer' dialog
 
-== Reading mail ==
+=== Desktop main menu === desktop-main-menu
 
-=== Thunderbird ===
+From the desktop main menu, you can launch applications, access directories on
+your disk or system settings.  To get to the menu, press >>Alt+F1<<. To move
+between the items, use the arrow keys.
 
-==== Setup account ====
+Shortcuts:
+:>>Alt+F1<<: Go to desktop main menu
+
+== Reading mail == reading-mail
+
+=== Thunderbird === thunderbird
+
+==== Setup account ==== thunderbird-setup-account
 
 To setup a new mail account:
 
+ 1) Go to the main application menu using >>F10<< and down arrow
+ 2) Under the menu item File, select New, press right arrow to open the submenu
+ 3) Select 'Mail account'
+ 4) Fill in your full name, email address and password for the account, press
+ 'Continue' button
+ 5) Thunderbird will try to guess the other details. This however often doesn't
+ work, so it is perhaps a good idea to go find the 'Manual settings...' button
+ and check the details in the account settings dialog. (Note that this button
+ will only appear after the auto-discovery finishes, so you may have to wait a
+ little).
+ 6) The settings for your outgoing (SMTP) mail server can be found in the same
+ dialog window, but under different card. Move back to the list of available
+ cards by pressing >>F6<< and move in it using up and down arrows.
+
+==== Subscribe IMAP folders ==== thunderbird-subscribe-imap-folders
+
+If have an IMAP account (which we highly recommend), you first need to
+subscribe all the folders you want to receive.
+
  1) Go to the main application menu using F10 and down key
- 2) Under the menu item File, select 'New', press right arrow to open the submenu
- 3) Select Mail account
- 4) Fill in your full name, email address and password for the account, choose Continue
- 5) Thunderbird will try to guess the other details. This however often doesn't work, so it is
-perhaps a good ide to go find the Manual settings... button. And check the details in the
-account settings dialog. (Note that this button will only appear after the autodiscovery finishes)
- 6) The settings for your outgoing (SMTP) mail server can be found in the same dialog window, but
-under different card. Move back to the list of available cards by pressing F6 and move using up and
-down arrows.
-
-==== Subscribe IMAP folders ====
-
-If have an IMAP account (which we highly recommend), you first need
-to subscribe all the folders you want to receive.
-
- 1) Go to the main application menu using F10 and down key
- 2) Under File, choose Subscribe folders...
- 3) In the dialog window that opens you can find a dropdown menu of items and related
-to it a list of folders available for each account under "Folder List".
+ 2) Under 'File', choose 'Subscribe folders...'
+ 3) In the dialog window that opens you can find a drop-down menu of items and
+    related to it a list of folders available for each account under 'Folder
+    List'.
  4) Next to each folder in the list is a checkbox, in Ubuntu Maverick and
-perhaps elsewhere it is however not acessible [https://bugzilla.mozilla.org/show_bug.cgi?id=620915 bug #620915].
+    perhaps elsewhere it is however not accessible
+    [[https://its.freebsoft.org/its/issues/3149 bug #3149]].
  5) Even without sighted help, you can browse the collapsable tree
-of folders and choosing whether to subscribe or unsubscribe them using
-the 'Subscribe' and 'Unsubscribe' buttons. You however can't see the current
-state.
+    of folders and choosing whether to subscribe or unsubscribe them using
+    the 'Subscribe' and 'Unsubscribe' buttons. You however can't see the current
+    state.
  6) To subscribe all folders, push Subscribe while on the top level item
-(usually 'INBOX' or similar').
+    (usually 'INBOX' or similar').
 
-==== Read messages ====
+==== Read messages ==== thunderbird-read
 
-The main Thunderbird window has by default three areas (panes):
-    1. List of accounts and folders (such as Inbox, Sent, Drafts...)
-    2. List of mails in the selected folder
-    3. Contents of the selected email
-You can cycle between these three panes using F6 forward and SHIFT-F6
-backward. Thus pressing F6 on a folder will bring you to the list of
-emails and pressing F6 on an email will take you to see what's written
-in it.
+The main Thunderbird window has by default three panes (areas):
+ 1. List of accounts and folders (such as Inbox, Sent, Drafts...)
+ 2. List of mails in the selected folder
+ 3. Contents of the selected email
+We recommend to switch the contents view off, see
+[configuration#thunderbird-recommendation Thunderbird configuration]
 
-To examine the contents of an email line by line, simply press up
-and down arrow keys. Flat review, on the other hand, is not available
-here.
+You can cycle between these panes using >>F6<< forward and >>Shift+F6<<
+backward. Thus pressing >>F6<< on a folder will bring you to the list of emails
+and pressing >>F6<< again will bring you to the email contents or back to the
+list of folders.
 
-CTRL-R will create a new message as a reply to the sender, CTRL-SHIFT-R
-is Reply to all.
+You can easily open the contents of a message in a new tab by pressing ENTER on
+it. To examine the contents of an email line by line, simply press up and down
+arrow keys. Flat review, on the other hand, is not available here. When you
+finish reading, close it with >>Ctrl-w<<.
 
-There is of course more things you can do with the message. A full list
-of them you can find in the 'Message' item of the main menu (access it through
-F10 and down key, then use right arrow key to find it)
+>>Ctrl+R<< will create a new message as a reply to the sender, >>Ctrl+Shift+R<<
+means Reply to all.
 
-==== Write a message ====
+There is of course more things you can do with the message. A full list of them
+you can find in the 'Message' item of the main menu (access it through >>F10<<
+and down arrow, then use right arrow key to find it)
 
-The new message dialog has 4 areas which you can cycle through using F6:
+Shortcuts:
+:>>F6<<: Move between panes (Shift-F6 backwards)
+:>>ENTER<<: Open message in different tab (in list of messages)
+:>>Ctrl+w<<: Close tab
+:>>Ctrl+PgUp<<: Move between tabs (Ctrl-PgDown backwards)
+
+==== Write a message ==== thunderbird-write
+
+The new message dialog has 4 areas which you can cycle through using >>F6<<:
  1. From -- your account selection
  2. Addresses -- Fields for To, Copy, Blank copy etc.
  3. Subject
  4. Text
 
 To write a new message:
- 1. Press CTRL-N to start new message
- 2. The focus is on the address field. Once you start typing the email address or
-    the name of the recipient (TO:), you can press the down arrow and choose from the offered
-     completions.
- 3. Pressing ENTER creates another address field. You can type another recipients
-    address or pres SHIFT-TAB and choose other kind of delivery (CC: -- copy,
-    BCC: -- blind copy), then come back to the address input with TAB. The
-    address area is actually a table of selections of delivery methods and
-    corresponding addresses. You can create as many entries as necessary.
- 4. When finished with addresses, press F6 to go to the Subject field
- 5. Then press F6 to go to the text field and write the email text.
- 6. If you want to add an attachment, you can do so from the main menu (F10 and down).
-    Under 'File' find 'Attach', press right arrow key to open submenu, choose 'File'.
- 7. To send the message, press CTRL-ENTER
- 8. To save the message as a draft, go to the main menu, under 'File' choose 'Save as', then 'Draft'
+ 1. Press >>Ctrl+N<< to start new message
+ 2. The focus is on the address field. Once you start typing the email address
+    or the name of the recipient (To:), you can press the down arrow and choose
+    from the offered completions.
+ 3. Pressing >>ENTER<< creates another address field. You can type another
+    recipients address or press >>Shift+Tab<< and choose other kind of delivery
+    (CC: -- copy, BCC: -- blind copy), then come back to the address input with
+    >>Tab<<. The address area is actually a table of selections of delivery
+    methods and corresponding addresses. You can create as many entries as
+    necessary.
+ 4. When finished with addresses, press >>F6<< to go to the Subject field
+ 5. Then press >>F6<< to go to the text field and write the email text.
+ 6. If you want to add an attachment, you can do so from the main menu
+    (>>F10<<).  Under File find Attach, press right arrow key to open submenu,
+    choose File.
+ 7. To send the message, press >>Ctrl+ENTER<<
+ 8. To save the message as a draft, go to the main menu, under 'File' choose
+    'Save as', then 'Draft'
 
-==== Unread folders and messages ====
+==== Unread folders and messages ==== thunderbird-unread
 
-:Display unread messages only: Alt-v e u or menu-View-Threads-Unread
-:Display all messages: Alt-v e a or menu-View-Threads-All
+# >>The bellow shortcuts using Alt need to be translated as
+# they are different in different localizations<<
 
-:Display folders with unread messages only: Alt-v f u or menu-View-Folders-Unread
-:Display all folders: Alt-v f a or menu-View-Folders-All
+Messages:
+:Display unread messages only: Alt-v e u or 'menu->View->Threads->Unread'
+:Display all messages: Alt-v e a or 'menu->View->Threads->All'
 
-==== Sort messages ====
+Folders:
+:Display folders with unread messages only: Alt-v f u or
+'menu->View->Folders->Unread'
+:Display all folders: Alt-v f a or 'menu->View->Folders->All'
 
-To sort messages using one of the available fields, select View item
-in the main menu, then open the subitem 'Sort by' using right arrow
-key.  From the submenu, choose on of the offered fields (Date,
-Subject, Received...) using ENTER. Come again to the same submenu to
-choose whether the sort should be asceding or descending.
+==== Sort messages ==== thunderbird-sort
 
+To sort messages using one of the available fields, select the 'View' item in
+main menu, then open the subitem 'Sort by' using right arrow key.  From the
+submenu, choose on of the offered fields ('Date', 'Subject', 'Received'...) and
+confirm with 'ENTER'. Come again to the same submenu to choose whether the sort
+should be ascending or descending.
 
-==== Search for messages ====
+Hint: 'Date' is the date when the email was written. If you want to sort mail
+based on when it was received, use the 'Received' item. There can be a several
+hours or even days difference. Some people like to write email on train or
+other places with no internet connection, but send it only later when they
+connect to internet. If you would sort by Date, not Received, such an email
+would never appear on the top of the list, where you might be expecting it,
+even if you have just received it.
 
- 1. In the folder selection pane, choose the folder you want to search
- 2. Press CTR-F to move focus to the Search input field
+==== Search for messages ==== thunderbird-search
+
+ 1. In the folder selection pane, choose the folder you want to search in
+ 2. Press >>Ctrl-f<< to move focus to the Search input field
  3. Type the text you want to search for
- 4. By default, the text is searched in the 'From' field. There are buttons bellow this
-    input field to search the text also in the 'To' field, in message text or others. They
-    are however not accessible in Ubuntu Maverick.
+ 4. By default, the text is searched in the 'From' field. There are buttons
+    bellow this input field to search the text also in the 'To' field, in
+    message text or other parts. They are however not accessible in Ubuntu
+    Maverick. As a possible workaround, we suggest to use the Advanced search.
 
-For a more advanced Search, use CTRL-SHIFT-F or find 'Edit', 'Find' then 'Search messages'
-in the main menu (F10 and down)
+For Advanced search, use >>Ctrl-Shift-f<< or use 'Edit->Find->Search messages'
+from the main menu (>>F10<<).
 
-=== Gnus ===
+=== Gnus === gnus
 
+TODO:
 
-== Browsing web ==
+== Browsing web == browsing-web
 
-=== Firefox ===
+=== Firefox === firefox
 
-==== Navigation between pages ====
+==== Navigation between pages ==== firefox-navigation-between-pages
 
-:Ctrl-l: Enter a new location (URL or search term)
-:Alt-LeftArrow: Go to previous visited page
-:Alt-RightArrow: Go to next visited page
+:>>Ctrl+l<<: Enter a new location (URL or search term)
+:>>Alt+Left<<: Go to previous visited page
+:>>Alt+Right<<: Go to next visited page
 
 To visit a page:
-
- 1) Press Ctrl-l (location) to enter the address bar
- 2) You can either type direcly the URL of the page you want to see
+ 1) Press >>Ctrl+l<< (>>location<<) to enter the address bar
+ 2) You can either type directly the URL of the page you want to see
     or just a series of words. If you type only words, Google will
     search for them and a webpage will display with the search results.
 
 If you are interested in having more pages open at the same time and
-switch between them, see [#tabbed-browsing].
+switch between them, see [#firefox-tabbed-browsing].
 
-==== Navigation inside a page ====
+==== Navigation inside a page ==== firefox-navigation-inside-page
 
 You can read a page line by line using the up and down arrow keys. It
 is however often more convenient to read through bigger sections or
@@ -375,297 +420,303 @@ the most common keyboard shortcuts with Orca:
 
 Basic navigation:
 :Down arrow: Next line (Up arrow previous line)
-:Ctrl+Home or End: Go to top or bottom of the document
+:>>Ctrl+Home<< or >>End<<: Go to top or bottom of the document
 
 Landmark navigation:
-:m: Next landmark (Shift-m previous)
+:>>m<<: Next landmark (>>Shift+m<< previous)
 
 Navigation over page items:
-:h: Next heading (Shift-1 previous)
-:1 or 2,3,4,5,6: Next heading of the given level (Shift-1 or 2,3,4,5,6 previous)
-:p: Next paragraph (Shift-p previous)
-:i: Next list item (Shift-i previous)
-:o: Next large object (Shift-o previous)
-:r: Next live region (Shift-r previous)
-:t: Next table (Shift-t previous)
-:u or v: Next unvisited or visited link (Shift-u or v previous)
+:>>Orca+Right<<: Go to next object (>>Orca+Left<< previous object)
+:>>h<<: Next heading (Shift-1 previous)
+:>>1<< or >>2,3,4,5,6<<: Next heading of the given level (>>Shift+1>> or >>2,3,4,5,6<< previous)
+:>>p<<: Next paragraph (Shift-p previous)
+:>>i<<: Next list item (Shift-i previous)
+:>>r<<: Next live region (Shift-r previous)
+:>>t<<: Next table (Shift-t previous)
+:>>o<<: Next large object (Shift-o previous)
+:>>Ctrl+Right<<: Next word (>>Ctrl+Left<< previous word)
 
-Others:
-:ctrl+left/right: goto previous/next word
-:Orca+left/right: goto previous/next object
+#>>The following has doubtful usefulness:<<
+# :>>u<< or >>v<<: Next unvisited or visited link (Shift-u or v previous)
 
 Orca mode settings:
-:Orca-F12: Toggle between orca navigation and Firefox navigation
-:Orca+z: Toggle structural navigation
+:>>Orca+z<<: Toggle structural navigation
+:>>Orca+F12<<: Toggle between orca navigation and Firefox (Gecko) navigation
 
-==== Tables ====
+==== Tables ==== firefox-tables
 
-:t: Next table (Shift-t previous)
-:Shift+Alt+Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
-:Shift+Alt+Home or End: Jump to first or last cell in the table
+:>>t<<: Next table (>>Shift+t<< previous)
+:>>Shift+Alt+Arrow<<: Jump to table cell in given arrow direction (Up, Down, Left, Right)
+:>>Shift+Alt+Home<< or >>End<<: Jump to first or last cell in the table
 
-==== Forms ====
+==== Forms ==== firefox-forms
 
-:e: Next input field
-:b: Next button
-:Orca-Tab: Go to the next form field (Orca-Shift-Tab previous)
-:Alt+Down: Expand combo box(left alt)
+:>>e<<: Next input field
+:>>b<<: Next button
+:>>Orca+Tab<<: Go to the next form field (>>Shift+Orca+Tab<< previous)
+:>>Alt+Down<<: Expand combo box(left >>Alt<<)
 
-==== Access keys ====
+==== Access keys ==== firefox-access-keys
 
-Access keys often provide useful functionality, such as jump to page
-content or jump to menu. There is however no standard definition for
-them and thus they might be different in different web applications.
+Access keys often provide useful functionality, such as jump to page content or
+jump to menu. There is however no standard definition for them and thus they
+might be different in different web applications.
 
-:SHIFT-ALT-key: Execute action defined for 'key'
+:>>Shift-Alt-<<key: Execute action defined for 'key'
 
-==== Live regions ====
+==== Live regions ==== firefox-live-regions
 
-:r: Next live region (Shift-r previous)
-:\: Advance the politeness level for the current live region
-:Shift+\: Set all live regions on page to politeness of 'off'
+:>>r<<: Next live region (>>Shift+r<< previous)
+:>>\\<<: Advance the politeness level for the current live region
+:>>Shift+\\<<: Set all live regions on page to politeness of 'off'
+:>>Orca+F1<< or >>F2<< to >>F9<<: Review previously announced live region messages (>>F1<< most recent, >>F2<< last most recent etc.)
 
-:Orca+F1 or F2 to F9: Review previously announced live region messages (F1 most recent, F2 last most recent etc.)
+==== Tabbed browsing ==== firefox-tabbed-browsing
 
-==== Tabbed browsing ==== tabbed-browsing
+It is possible to keep multiple pages open inside the Firefox window and switch
+between them as necessary. Only one of them is visible at once, but the other
+ones also stay open, they are merely hidden visually, and you can bring them up
+at any time.
 
-It is possible to keep multiple pages open inside the Firefox
-window and switch between them as necessary. Only one of them is
-visible at once, but the other ones also stay open, they are merely
-hidden visually, and you can bring them up at any time.
+To follow a link on the webpage, you have two options.  Pressing >>ENTER<< on
+that link will replace the current page with the new page. Pressing
+>>Ctrl+ENTER<< however will keep the current page, keep your focus there and
+open your new page in another tab which you can examine later.
 
-To follow a link on the webpage, you have two options.  Pressing ENTER
-on that link will replace the current page with the new page. Pressing
-Ctrl-ENTER however will keep the current page, keep your focus there
-and open your new page in another tab which you can examine later.
+To open a new webpage, >>Ctrl+l<< will take you to the location bar when you
+can type a new address and it will replace the page that you are currently
+reading. >>Ctrl+t<< however will keep your page open, create a new tab and bring
+you to its location bar. You can then read another page without having to
+close to the former one, to which you can return later.
 
-To open a new webpage, Ctrl-L will take you to the location bar when
-you can type a new address and it will replace the page that you are
-currently reading. Ctrl-T however will keep your page open, create
-a new tab and bring you to it's location bar. You can then read
-another page without having to close to the former one, to which
-you can return later.
-
-To move between the tabs, use Ctrl-PgUp and Ctrl-PgDown.
+To move between the tabs, use >>Ctrl+PgUp<< and >>Ctrl+PgDown<<.
 
 Shortcuts:
-:Ctrl-Enter: Open link in new tab
-:Ctrl-T: Open new tab and place focus in its location bar
-:Ctrl-W: Close the current tab
-:Ctrl-PgUp: Move to previous tab
-:Ctrl-PgDown: Move to the next tab
-:Alt-number: Move to the tab with the given numer (Alt-1 first tab, Alt-2 second tab etc.)
+:>>Ctrl+ENTER<<: Open link in new tab
+:>>Ctrl+t<<: Open new tab and place focus in its location bar
+:>>Ctrl+w<<: Close the current tab
+:>>Ctrl+PgUp<<: Move to previous tab
+:>>Ctrl+PgDown<<: Move to the next tab
+:>>Alt+<<number: Move to the tab with the given number (>>Alt+1<< first tab, >>Alt+2<< second tab etc.)
 
-==== Bookmarks ====
+==== Bookmarks ==== firefox-bookmarks
 
-You can create bookmarks on pages that you visit often
-or pages that you want to visit later.
+You can create bookmarks on pages that you visit often or pages that you want
+to visit later.
 
-To create a bookmark on a page, open the page, then press Ctrl-D.
-This will open the bookmark dialog, where you can edit its title,
-then press the Save button.
+To create a bookmark on a page, open the page, then press >>Ctrl+D<<.  This
+will open the bookmark dialog, where you can edit its title, then press the
+Save button.
 
-The Bookmarks are stored in the main menu. Access it using F10,
-press right arrow key repeatedly to find the 'Bookmarks' item
-and browse your bookmarks with up/down arrow keys. Pressing
-Enter on any of them will open the associated page in your
-current window.
+The Bookmarks are stored in the main menu. Access it using >>F10<<, press right
+arrow key repeatedly to find the 'Bookmarks' item and browse your bookmarks
+with up/down arrow keys. Pressing >>ENTER<< on any of them will open the
+associated page in your current window.
 
-If you want to do some other action with the selected bookmark, such
-as open it in a new tab or to delete it, press Shift-F10
-to open the context menu and choose the action you would
-like with up and down keys.
+If you want to do some other action with the selected bookmark, such as open it
+in a new tab or to delete it, press >>Shift+F10<< to open the context menu and
+choose the action you would like with up and down keys.
 
-You can also group your bookmarks in folders, just see the other edit
-fields and menu items.
+You can also group your bookmarks in folders, just see the other edit fields
+and menu items.
 
 Shortcuts:
-:Ctrl-D: Bookmark this page
+:>>Ctrl+D<<: Bookmark this page
 
-==== Full keyboard shortcuts reference for Firefox ====
+==== Full keyboard shortcuts reference for Firefox ==== firefox-shortcuts-reference
 
  * Orca mode for Firefox: [http://live.gnome.org/Orca/Firefox] (incomplete)
  * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
 
 The complete list of Orca mode keyboard shortcuts you can find in the Orca
-settings dialog for Firefox. While in Firefox, press Orca-Ctrl-Space,
-then use ALT-PgUP or Alt-PgDown to find the Keyboard shortcuts tab.
+settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl+Space<<, then
+use >>Alt+PgUP<< or >>Alt+PgDown<< to find the Keyboard shortcuts tab.
 
-== Managing files ==
+== Managing files == managing-files
 
-=== Nautilus ===
+There are two basic methods to manage files and folders. One is using the
+Nautilus application and second is from command line.
 
-Nautilus is the default file browser in Gnome. It has a menu, a
-location bar displaying the current address and two panes (areas).
+=== Nautilus === nautilus
 
-The left pane, by default, displays Places -- disks on your system,
-external drives, your camera, network folders. It also contains
-bookmarks to some common destinations like your home directory or your
-Documents directory.  The pane can be switched to display other things
-also, like history of your browsing.
+Nautilus is the default file browser in Gnome. It has a menu, a location bar
+displaying the current address and two panes (areas).
+
+The left pane, by default, displays Places -- disks on your system, external
+drives, your camera, network folders. It also contains bookmarks to some common
+destinations like your home directory or your Documents directory.  The pane
+can be switched to display other things also, like history of your browsing.
 
 The right pane is used to browse the files and folders and perform
 actions on them.
 
-The location bar is similar to the address field in a web browser.  It
-shows where you currently are but it also allows you to write or paste
-a concrete location in your system.
+The location bar is similar to the address field in a web browser.  It shows
+where you currently are in the file system hierarchy but it also allows you to
+write or paste a concrete location on your system.
 
-==== Launching Nautilus ====
+==== Launching Nautilus ==== nautilus-launching
 
- 1) Go to the main menu by pressing ALT-F1 anywhere on the desktop
- 2) Using right arrow, move to the main item ``Places''
+ 1) Go to the main menu by pressing >>Alt+F1<< anywhere on the desktop
+ 2) Using right arrow, move to the main item 'Places'
  3) Using down arrow, choose the place (disk, device or bookmark)
- 4) Press ENTER to launch Nautilus at the selected place
+ 4) Press >>ENTER<< to launch Nautilus at the selected place
 
-==== Browsing files ====
+==== Browsing files ==== nautilus-browsing-files
 
-The browse pane of Nautilus can work in two modes, Icon view and list
-view. You can switch between them by pressing CTRL-1 and CTRL-2
-anywhere in the application. We recommend to switch to list view
-(Ctrl-2). Nautilus will remember this and use this view also next
-time.
+The browse pane of Nautilus can work in two modes, Icon view and list view. You
+can switch between them by pressing >>Ctrl+1<< and >>Ctrl+2<< anywhere in the
+application. We recommend to switch to list view (>>Ctrl+2<<). Nautilus will
+remember this and use this view also next time.
 
-In list view (Ctrl-2), you can browse the directory structure like a
-tree menu by UP and DOWN keys, while you enter deeper into directories
-or return back from them by RIGHT and LEFT keys.
+In list view (>>Ctrl+2<<), you can browse the directory structure like a tree
+menu by Up and Down arrow keys, while you enter deeper into directories or
+return back from them by Right and Left keys.
 
-In icon view (Ctrl-1), you can browse files with all the arrow keys
-and you must press ALT-UP and ALT-DOWN to go up and down in the
+In icon view (>>Ctrl+1<<), you can browse files with all the arrow keys
+and you must press >>Alt-Up<< and >>Alt-Down<< to go up and down in the
 directory hierarchy.
 
-Use the F6 key to cycle between the file list, the location bar and
-the Places pane (or SHIFT-F6 to cycle backwards).
+Use the >>F6<< key to cycle between the file list, the location bar and
+the Places pane (or >>Shift+F6<< to cycle backwards).
 
-For example to find a directory 'photo/norwegia' on an external device
-called 'Camera':
+For example to find a directory 'photo/norwegia' on an external device called
+'Camera':
 
- 0) Switch to list view using CTRL-2 if you have not already done so
- 1) Go to the Places pane using SHIFT-F6
+ 0) Switch to list view using >>Ctrl+2<< if you have not already done so
+ 1) Go to the Places pane using >>Shift+F6<<
  2) Use up/down keys to choose the 'Camera' device
- 3) Press F6 to go back to file browser
+ 3) Press >>F6<< to go back to file browser
  4) Use up/down keys to find the 'photo' folder, press ENTER on it
- 5) No wuse up/down keys to find the 'norwegia folder
- 6) You can enter the folder by pressing ENTER or do some other action
-    with it by openning the context menu using SHIFT-F10
+ 5) No use up/down keys to find the 'norwegia folder
+ 6) You can enter the folder by pressing >>ENTER<< or do some other action
+    with it by opening the context menu using >>Shift+F10<<
 
-==== Copying files ====
+==== Copying files ==== nautilus-copying-files
 
  1) Find the file or directory you want to copy
- 2) Press CTRL-C on it (or CTRL-X if you want to move)
+ 2) Press >>Ctrl+C<< on it (or >>Ctrl+X<< if you want to move)
  3) Go into the directory you want to place it in
- 4) Press CTRL-V
+ 4) Press >>Ctrl+V<<
 
-==== Operations with files and folders ====
+==== Operations with files and folders ==== nautilus-operations-files-folders
 
-If you want to delete, rename or make a .zip archive from a file or folder:
+If you want to delete, rename or make a '.zip' archive from a file or folder:
 
  1) Find the file or folder you want to do something with
- 2) Launch the context menu using SHIFT-F10
- 3) Choose the action which you want to do (delete, rename, archive...)
+ 2) Launch the context menu using >>Shift+F10<<
+ 3) Choose the action which you want to do ('delete', 'rename', 'archive', ...)
 
-==== Connecting and disconnecting external devices ====
+==== Connecting and disconnecting external devices ==== nautilus-connecting-and-disconnecting
 
 External devices are usually connected automatically when you plug the
 cables or the card into the reader. When you finish working with them
 however, you can't just plug the cable out as that could result in
 loss of data. Thus you need to tell the system to disconnect the device first:
 
- 1) In the 'Places' pane (get to it through F6)
+ 1) Go to the 'Places' pane (use >>F6<<)
  2) Choose the device you want to disconnect
- 3) Open the context menu using SHIFT-F10
+ 3) Open the context menu using >>Shift+F10<<
  4) From the available actions, select 'Disconnect'
 
-==== Shortcuts overview ====
+==== Shortcuts overview ==== nautilus-shortcuts-overview
 
-:Ctrl-1: Icon view
-:Ctrl-2: List view
-:F6: Move between locations and directory listing
-:ALT-HOME: Return to home directory
-:Ctrl-H: Move cursor to location bar
-:SHIFT-F10: Open context menu. If open on files or folders, lists actions available on them (like copy, rename etc.)
-:CTRL-H: Show/hide hidden files
-:F2: Rename
-:DEL: Move into trash
-:SHIFT-DEL: Delete immediatelly (irreversible)
+:>>Ctrl+1<<: Icon view
+:>>Ctrl+2<<: List view
+:>>F6<<: Move between locations and directory listing
+:>>Alt+HOME<<: Return to home directory
+:>>Ctrl+H<<: Move cursor to location bar
+:>>Shift+F10<<: Open context menu. If open on files or folders, lists actions available on them (like 'Copy', 'Rename' etc.)
+:>>Ctrl+H<<: Show/hide hidden files
+:>>F2<<: Rename
+:>>DEL<<: Move into trash
+:>>Shift-DEL<<: Delete immediately (irreversible)
 
-=== Command line ===
+=== Command line === command-line-files-
 
-Many times, it can be more convenient to use textual commands and
-manipulate files on the command line. One must have a basic knowledge
-of the commands that are available, but for details, he can always
-consult the embedded help. It is not even necessary to type much as
-the shell can complete commands and names of files automatically once
-you type the first few letters.
+Many times, it can be more convenient to use textual commands and manipulate
+files on the command line. One must have a basic knowledge of the commands that
+are available, but for details, he/she can always consult the embedded help. It
+is not even necessary to type much as the shell can complete commands and names
+of files automatically once you type the first few letters.
 
 Shortcuts:
-:CTRL-ALT-t" Launch terminal
-:TAB: Complete a command, parameter or filename or list available options if more than one
+:>>Ctrl+Alt+t<<: Launch terminal
+:>>TAB<<: Complete a command, parameter or filename or list available options if more than one exist
 
-==== Basic file manipulation ====
+==== Basic file manipulation ==== command-line-files-basic
 
-:ls: list contents of a folder
-:cp file location: Copy file (also folder) to location (filename or folder)
-:mv file location: Move file (also folder) to location (filename or folder)
-:rm file: Permanently remove a file
-:mkdir folder_name: Create a folder (it is a shortcut for 'make directory')
+:>>ls: list contents of a folder ('ls -lh' including information on each file)
+:>>cp<< file location: Copy file (also folder) to location (file or folder)
+:>>mv<< file location: Move file (also folder) to location (file or folder)
+:>>rm<< file: Permanently remove a file ('>>rm -rf<< directory' to remove non-empty directories)
+:>>mkdir<< folder_name: Create a folder (it is a shortcut for 'make directory')
 
-This section is here just to explain the basic idea and show that this
-way of work can be actually quite easy and fast. For a more complete
-guide, see TODO: link
+This section is here just to explain the basic idea and show that this way of
+work can be actually quite easy and fast.
 
+You can obtain a brief help on every commands function and parameters
+if you execute it with the '--help' parameter, e.g. 'cp --help'. To obtain
+more detailed help, type 'man command' (e.g. man cp). 'man' stands for
+manual.
 
-==== Example ====
+For more complete guides, see:
 
-To move a file 'ubuntu-accessibility.txt' from folder '/home/joe/' into a new folder '/home/joe/notes',
+ * [http://mally.stanford.edu/~sr/computing/basic-unix.html Basic UNIX Commands]
+ * [http://home.eol.ca/~hgibson/UnixCommandLine-HOWTO/UnixCommandLine-HOWTO.html (Advanced) Unix Command line Howto]
 
- 1. cd (change directory to the home folder)
- 2. ls (see the contents of the directory if you wish)
- 3. mkdir notes (create a new directory 'notes')
- 4. mv ubun
- 5. Press TAB to complete, you should now see: 'mv ubuntu-accessibility.txt '
- 6. Type notes
- 7. Now you have 'mv ubuntu-accessibility.txt notes', press ENTER
- 8. Type 'ls notes' and ENTER to verify that the file is in there
+==== Example ==== command-line-files-example
+
+To move a file 'ubuntu-accessibility.txt' from folder '/home/joe/' into a new
+folder '/home/joe/notes',
+
+ 1. >>cd<< (change directory to the home folder)
+ 2. >>ls<< (see the contents of the directory if you wish)
+ 3. >>mkdir notes<< (create a new directory 'notes')
+ 4. >>mv ubun<<
+ 5. Press >>TAB<< to complete, you should now see: >>'mv
+    ubuntu-accessibility.txt'<<
+ 6. Type >>notes<<
+ 7. Now you have '>>mv ubuntu-accessibility.txt notes<<', press >>ENTER<<
+ 8. Type '>>ls notes<<' and >>ENTER<< to verify that the file is in there
 
 To copy all .txt files into a folder 'documents':
- * cp *.txt documents ENTER
+ * >>cp *.txt documents ENTER<<
 or just
- * cp *.txt docu TAB ENTER
+ * >>cp *.txt docu TAB ENTER<<
 
-== Creating documents ==
+== Creating documents == creating-documents
 
-Various documents (such as papers, letter, spreadsheets or
-presentation) can be created with the Openoffice.Org package.
+Various documents (such as papers, letter, spreadsheets or presentation) can be
+created with the Openoffice.Org package.
 
-To launch OpenOffice, press Alt-F2, then type 'openoffice.org'
+To launch OpenOffice, press >>Alt+F2<<, then type '>>openoffice.org<<'
 
-There are several different components inside OpenOffice
-that can be used for different tasks. These are:
+There are several different components inside OpenOffice that can be used for
+different tasks. These are:
 
 :Openoffice Writer: Word processor (documents, letters etc.)
 :Openoffice Calc: Table calculator (spreadsheets)
-:Openoffice Presenter: Conference style presentations
+:Openoffice Impress: Conference style presentations
 
-When you launch OpenOffice, it will offer various options what to
-create, as well as the possibility to open a file.  Based on your
-decision, the appropriate application will open.
+When you launch OpenOffice, it will offer various options what to create, as
+well as the possibility to open a file.  Based on your decision, the
+appropriate application will open.
 
-=== Openoffice Writer ===
+=== Openoffice Writer === openoffice-writer
 
-Writer is a word processor that can be used to read or create
-documents, letters etc.
+Writer is a word processor that can be used to read or create documents,
+letters etc.
 
-The default view includes four main components which you can browse
-using F6 and SHIFT-F6:
+The default view includes four main components which you can browse using >>F6<<
+and >>Shift+F6<<:
  1. the main menu -- near to all actions are available from main menu
  2. standard tools -- most common tools and actions (such as save, open,
     print, create table etc.)
  3. formatting tools -- formatting (such as text style, font, size,
-    paragraph aligment etc.)
+    paragraph alignment etc.)
  4. document edit box -- the contents of the document
 
-==== Creating a simple document ====
+==== Creating a simple document ==== openoffice-writer-simple-document
 
 This is just an example, we will create a document with a heading and
 a paragraph.
@@ -674,118 +725,118 @@ a paragraph.
  1. This will start the application with an empty document, cursor
     placed into the edit box
  2. Write a text for the heading, for example 'My Story'
- 3. Press Ctrl-1 to assign the current paragraph the 'Heading 1' style
- 4. Start a new line (move to end of the first one using END key and press ENTER)
+ 3. Press >>Ctrl+1<< to assign the current paragraph the 'Heading 1' style
+ 4. Start a new line (move to end of the first one using >>END<< key and press
+    >>ENTER<<
  5. Type the text of the first paragraph of your story, do not split lines
-    using ENTER. Lines are wrapped automatically, ENTER serves to create
-    new paragraphs.
- 6. Press Ctrl-S to save the document using the standard Save dialog
+    using >>ENTER<<. Lines are wrapped automatically, >>ENTER<< serves to
+    create new paragraphs.
+ 6. Press >>Ctrl-S<< to save the document using the standard 'Save' dialog
 
-==== Review of formatting ====
+==== Review of formatting ==== openoffice-writer-review-of-formatting
 
-You can review the formatting of the document by using the Orca-f
-keyboard shortcut in different places in the document. It will
-announce font family and size of the current letter, but also
-OpenOffice style (if any) for the given word (such as 'Normal text' or
-'Heading 2').
+You can review the formatting of the document by using the >>Orca+f<< keyboard
+shortcut in different places in the document. It will announce font family and
+size of the current letter, but also OpenOffice style (if any) for the given
+word (such as 'Normal text' or 'Heading 2').
 
-==== Movement ====
+==== Movement ==== openoffice-writer-movement
 
-:Right, Left: Move by characters
-:Ctrl-Right, Ctrl-Left: Move by words
-:Up, Down: Move by lines
-:Ctrl-Up, Ctrl-Down: Move by paragraphs
+:>>Right, Left<<: Move by characters
+:>>Ctrl-Right, Ctrl-Left<<: Move by words
+:>>Up, Down<<: Move by lines
+:>>Ctrl-Up, Ctrl-Down<<: Move by paragraphs
 
-:HOME, END: Move to beginning or end of line
-:Ctrl-HOME, Ctrl-END: Move to beginning or end of document
+:>>HOME, END<<: Move to beginning or end of line
+:>>Ctrl-HOME, Ctrl-END<<: Move to beginning or end of document
 
-==== Selections ==== openoffice-selections
+==== Selections ==== openoffice-writer-selections
 
-:Ctrl-Shift-s: Select current paragraph (Note: This is a [configuration#openoffice-shortcuts custom shortcut], you need to define it first.)
-:Ctrl-Shift-Down: Select till the end of paragraph
-:Ctrl-A: Select all -- everything in the whole document
-:Shift-END: Select till the end of line
+:>>Ctrl-Shift-s: Select current paragraph (Note: This is a [configuration#openoffice-writer-shortcuts custom shortcut], you need to define it first.)
+:>>Ctrl-Shift-Down: Select till the end of paragraph
+:>>Ctrl-a: Select all -- everything in the whole document
+:>>Shift-END: Select till the end of line
 
-==== Text style, paragraph aligment and fonts ====
+==== Text style, paragraph alignment and fonts ==== openoffice-writer-aligment-and-fonts
 
 Simple style and formatting changes are best done using shortcuts:
 
-:Ctrl-0: Change current paragraph to normal text
-:Ctrl-1 to Ctrl-5: Change current paragraph to heading 1 (biggest) to 5 (smallest)
+:>>Ctrl+0<<: Change current paragraph to normal text
+:>>Ctrl+1<< to >>Ctrl+5<<: Change current paragraph to heading 1 (biggest) to 5 (smallest)
 
-:Ctrl-L: Align current paragraph left
-:Ctrl-R: Align current paragraph right
-:Ctrl-J: Justify current paragraph into block
+:>>Ctrl+l<<: Align current paragraph left
+:>>Ctrl+r<<: Align current paragraph right
+:>>Ctrl+j<<: Justify current paragraph into block
 
-To apply font properties, you must first select a piece of text you
-want to apply them to. See [#openoffice-selections]. Otherwise they
-will get applied to all text you will type later.
+To apply font properties, you must first select a piece of text you want to
+apply them to. See [#openoffice-writer-selections]. Otherwise they will get
+applied to all text you will type later.
 
-:Ctrl-B: Toogle 'bold' property on selected text on and off
-:Ctrl-I: Toogle 'italics' property on selected text on and off
-:Ctrl-U: Toogle 'underline' property on selected text on and off
+:>>Ctrl+b<<: Toggle 'bold' property on selected text on and off
+:>>Ctrl+i<<: Toggle 'italics' property on selected text on and off
+:>>Ctrl+u<<: Toggle 'underline' property on selected text on and off
 
-To access all other formatting options (such as size of text, line
-spacing or font family), press Shift-F10 to bring up the context menu
-on the selected text. Browse it using the arrow keys and select with
-ENTER.
+To access all other formatting options (such as size of text, line spacing or
+font family), press Shift-F10 to bring up the context menu on the selected
+text. Browse it using the arrow keys and select with >>ENTER<<.
 
-==== Create a table ====
+==== Create a table ==== openoffice-writer-create-table
 
-Go to main menu (F10) and select Table->Insert->Table . This will
-bring up an Insert table dialog. Choose name for the table and its
-size. ENTER will confirm the dialog and insert the table in your
-document. You can enter it using arrow keys as well as move among its
-cells.
+Go to main menu (>>F10<<) and select 'Table->Insert->Table' . This will bring
+up an 'Insert table' dialog. Choose name for the table and its size. >>ENTER<<
+will confirm the dialog and insert the table in your document. You can enter it
+using arrow keys as well as move among its cells.
 
 To include a row or column, or delete a row or column, use the
-context menu (Shift-F10) while inside one of the tables cells.
+context menu (>>Shift+F10<<) while inside one of the tables cells.
 
-==== Spell checking ====
+==== Spell checking ==== openoffice-writer-spell-checking
 
-To be able to use spell checking, it is necessary to first set a correct language
-for the document. This can be done in main menu, Tools->Language->For all text...
-Spell checking for the whole document can be started by pressing F7.
+To be able to use spell checking, it is necessary to first set a correct
+language for the document. This can be done in main menu, 'Tools->Language->For
+all text...'
+
+Spell checking for the whole document can be started by pressing >>F7<<.
 
 On every error the spell checker finds, a dialog window will appear. The dialog
-displays the part of the sentence where the error was found, a list of suggested
-corrections and several action buttons (Change, Ignore, Add to dictionary). When
-the dialog appears, the Change button is focused.
+displays the part of the sentence where the error was found, a list of
+suggested corrections and several action buttons ('Change, Ignore, Add to
+dictionary'). When the dialog appears, the 'Change' button is focused.
 
-To examine the text that is supposed to contain a mistake and the proposed variants,
-use SHIFT-TAB to move up to see the two areas.
+To examine the text that is supposed to contain a mistake and the proposed
+variants, use >>Shift+TAB<< to move up to see the two areas.
 
  * If the word is actually correct in the given language, use Add to add it
-to the dictionary
+   to the dictionary
  * If you want to ignore this warning, use Ignore button
- * To correct by choosing from the offered alternatives, choose the desired one and press ENTER
- * To correct the mistake in another way, go to the window that displays the suspicious text,
-   make any changes, use TAB to come back to the Change button and then press ENTER
+ * To correct by choosing from the offered alternatives, choose the desired one
+   and press >>ENTER<<
+ * To correct the mistake in another way, go to the window that displays the
+   suspicious text, make any changes, use TAB to come back to the Change button
+   and then press >>ENTER<<
 
-If another possible mistake is found, another window will appear. At
-the end, a window will appear to say that the spell check is
-complete. Close it by pressing the OK button. This will take you back
-to the document edit box.
+If another possible mistake is found, another window will appear. At the end, a
+window will appear to say that the spell check is complete. Close it by
+pressing the 'OK' button. This will take you back to the document edit box.
 
 Shortcuts:
-:F7: Check Spelling and grammar
+:>>F7<<: Check Spelling and grammar
 
-=== Openoffice Calc  ===
+=== Openoffice Calc  === openoffice-calc
 
 
 
-=== Openoffice Presenter ===
+=== Openoffice Impress === openoffice-impress
 
-We are not going to cover work with presentations in this basic
-guide. It is however possible to create presentations without sight
-and there are special ways how to give the presentations (the
-challenge of course is to access what is displayed on the big screen
-without disturbing the picture for the viewers).
+We are not going to cover work with presentations in this basic guide. It is
+however possible to create presentations without sight and there are special
+ways how to give the presentations (the challenge of course is to access what
+is displayed on the big screen without disturbing the picture for the viewers).
 
 More information can be found here:
  * [http://ui.openoffice.org/accessibility/]
  * [http://extensions.services.openoffice.org/project/presenter-screen]
 
-== References ==
+== References == references
 
 1. [http://library.gnome.org/devel/hig-book/stable/input-keyboard.html.en Keyboard Interaction in Gnome]

@@ -1,9 +1,11 @@
+# -*- coding: utf-8; mode: structured-text -*-
 
 = Installation of Ubuntu Desktop =
 
-This chapter describes how to install Ubuntu to your computer. If you decide for another distributions,
-some information contained here might also be useful to you, although you will have to be prepared
-for differences in the technical details, such as paths or necessary extra steps.
+This chapter describes how to install Ubuntu to your computer. If you decide
+for another distributions, some information contained here might also be useful
+to you, although you will have to be prepared for differences in the technical
+details, such as paths or necessary extra steps.
 
 Table of Contents: @TOC@
 
@@ -14,7 +16,7 @@ Table of Contents: @TOC@
  3) Restart your computer and boot from the CD or flash disk
  4) Go through the installation process
 
-=== Installation process without sight ===
+=== Installation process without sight === install-without-sight
 
 In recent versions of Ubuntu, it is theoretically possible to install the
 system without sighted help. In practice however it is only recommendable
@@ -22,39 +24,50 @@ to a skilled user, because it brings some significant challenges and requires
 that you are already able to operate the Orca screen reader. Bellow is described
 how to install Ubuntu 10.10 without sight:
 
- 1. Boot from the installation CD (see the general [#install installation instructions] for how to get it.
+ 1. Boot from the installation CD (see the general [#install installation
+ instructions] for how to get it.
  2. Wait for some time (like 3-5 minutes) to be sure the system has loaded
- 3. Press TAB, ENTER to select English as the default language and start a live version of the system from CD
+ 3. Press >>TAB<<, >>ENTER<< to select English as the default language and
+ start a live version of the system from CD
  4. Wait until you hear the startup melody in your speakers
- 5. Press ALT-F2 and type 'orca' to launch the screen reader
- 6. This will actually start a self-voicing configuration dialog, answer the questions
- 7. Answer ``Automatically start Orca when you login - YES'', ``Logout now -- YES''
- 8. On hearing the login prompt sound, type 'ubuntu ENTER ENTER' to login back as user ubuntu with an empty password.
+ 5. Press >>ALT+F2<< and type '>>orca<<' to launch the screen reader
+ 6. This will actually start a self-voicing configuration dialog, answer the
+ questions
+ 7. Answer ``Automatically start Orca when you login - YES'', ``Logout now --
+ YES''
+ 8. On hearing the login prompt sound, type '>>ubuntu ENTER ENTER<<' to login
+ back as user ubuntu with an empty password.
  9. You will once again hear the startup melody.
  10. Now you should be setup with the screen reader.
- 11. 'ALT-F1' will bring you to the main Gnome menu. Press right, select Places, press down key repeatedly to select 'Desktop'
- 12. A file browser dialog opens. By moving around with your cursor, you can find the 'Install Ubuntu 10.10' icon, click it
- 13. This will start the installer, which is now accessible using Orca and you should be able to go through it and install
- the system. Be aware however that there will be periods of silence as the installer doesn't report progress in any audible way.
- 14. At the end, you will be asked to reboot. Make sure you take the CD out before you boot again.
+ 11. >>ALT-F1<< will bring you to the main Gnome menu. Press >>Rigtht<<, select
+ 'Places', press down key repeatedly to select 'Desktop'
+ 12. A file browser dialog opens. By moving around with your cursor, you can
+ find the 'Install Ubuntu 10.10' icon, click it
+ 13. This will start the installer, which is now accessible using Orca and you
+ should be able to go through it and install the system. Be aware however that
+ there will be periods of silence as the installer doesn't report progress in
+ any audible way.
+ 14. At the end, you will be asked to reboot. Make sure you take the CD out
+ before you boot again.
 
 == 2. Boot into the newly installed system ==
 
 After you reboot your computer after successful installation, you should hear
-the login prompt sound (drums). Here select your user name, type ENTER, then input
-your passowrd and type enter. If you then hear the login prompt again (drums), there
-was something wrong with the username and password you have given, and you need to
-repeat. Otherwise you will hear a startup melody.
+the login prompt sound (drums). Here select your user name, type ENTER, then
+input your passowrd and type enter. If you then hear the login prompt again
+(drums), there was something wrong with the username and password you have
+given, and you need to repeat. Otherwise you will hear a startup melody.
 
-After hearing the startup melody, type ALT-F2 orca ENTER. This will start a self-voicing
-configuration dialog for the Orca screen reader. Go through it to set your prefered
-settings and at the end agree to logout. Repeat the login and you should have a system
-now which automatically starts with a talking screen reader -- Orca.
+After hearing the startup melody, type ALT-F2 orca ENTER. This will start a
+self-voicing configuration dialog for the Orca screen reader. Go through it to
+set your prefered settings and at the end agree to logout. Repeat the login and
+you should have a system now which automatically starts with a talking screen
+reader -- Orca.
 
 == 3. Install additional packages ==
 
- * Install Speech Dispatcher, Festival, BrlTTY, Orca, Emacs and speechd-el using the following
-command:
+ * Install Speech Dispatcher, Festival, BrlTTY, Orca, Emacs and speechd-el
+using the following command:
 
 -----
 sudo apt-get install speechd festival festival-freebsoft-utils emacs speechd-el
@@ -73,7 +86,8 @@ See [configuration#brltty BrlTTY Configuration]
 
 == 6. Accessible login ==
 
-Accessible login does not work under Ubuntu 10.10 Maverick. [[http://fossplanet.com/f10/possible-bug-maverick-accessible-login-function-surebug-casper-30accessibility-script-57385/ details]]
+Accessible login does not work under Ubuntu 10.10 Maverick.
+[[http://fossplanet.com/f10/possible-bug-maverick-accessible-login-function-surebug-casper-30accessibility-script-57385/ details]]
 
 == 7. See which other accessibility tools might be useful ==
 

@@ -1,13 +1,15 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
 = Installation =
 
 Table of Contents: @TOC@
 
-== Recommended setup ==
+== Recommended setup == recommended-setup
 
 For an overview of recommended steps to install the whole accessible
 desktop, read [ubuntu-desktop].
 
-== Accessibility Tools ==
+== Accessibility Tools == accessibility-tools
 
 === Orca === orca
 
@@ -28,7 +30,7 @@ Try it:
 :in Gnome: ALT-F2, type 'emacs', once it starts, ALT-x speechd-speak ENTER
 :in terminal: emacs, once it starts, ALT-x speechd-speak ENTER
 
-===  BrlTTY ===
+===  BrlTTY === brltty
 
 :Ubuntu: [ubuntu-brltty Installation of BrlTTY in Ubuntu]
 :Debian Command: sudo apt-get install brltty
@@ -79,7 +81,7 @@ Try it:
 Try it:
 :in Gnome: ALT-F2, type 'espeak test' and press enter. You should hear 'test'.
 
-== Applications ==
+== Applications == applications
 
 === Web broser: Firefox === firefox
 
@@ -110,7 +112,7 @@ Try it:
 
 === Instant messager: ? ===
 
-=== Notes typesetting: Singing computer ===
+=== Notes typesetting: Singing computer === singing-computer
 
 == Notes ==
 

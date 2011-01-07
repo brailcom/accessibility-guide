@@ -1,7 +1,9 @@
+# -*- coding: utf-8; mode: structured-text -*-
 
 = Installation of Festival on Ubuntu =
 
-This applies to *Ubuntu Lucid* and *Maverick*. If you have an older version of Ubuntu, we highly recommend to upgrade first.
+This applies to *Ubuntu Lucid* and *Maverick*. If you have an older version of
+Ubuntu, we highly recommend to upgrade first.
 
 == Step 1: Packages installation ==
 

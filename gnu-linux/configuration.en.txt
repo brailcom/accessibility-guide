@@ -1,3 +1,5 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
 = Configuration =
 
 Table of Contents: @TOC@
@@ -6,18 +8,18 @@ Table of Contents: @TOC@
 
 === Orca === orca
 
-Orca settings are available from the graphical user interface of the application. So to change
-settings, start Orca or switch to its window and find the "Settings" button. Here you can
-find settings for keyboard layout, speech, braille magnification etc. Some key settings might
-require a restart of Orca.
+Orca settings are available from the graphical user interface of the
+application. So to change settings, start Orca or switch to its window and find
+the "Settings" button. Here you can find settings for keyboard layout, speech,
+braille magnification etc. Some key settings might require a restart of Orca.
 
 === Emacs + speechd-el ===
 
 ==== Configuration methods ====
 
-There are several ways to change settings in Emacs and speechd-el. You can change
-settings temporarily or permanently. You can also have different settings for different
-parts of Emacs.
+There are several ways to change settings in Emacs and speechd-el. You can
+change settings temporarily or permanently. You can also have different
+settings for different parts of Emacs.
 
 ===== via Emacs command =====
 
@@ -52,7 +54,8 @@ speechd-el documentation, section Customization].
 
 ==== After installation ====
 
-TODO: One needs to place speechd-el in ~/.emacs, set a suitable voice, speed etc. 
+TODO: One needs to place speechd-el in ~/.emacs, set a suitable voice, speed
+etc.
 
 === BrlTTY === brltty
 
@@ -70,18 +73,26 @@ After changing the configuration settings, you must restart BrlTTY.
 
 Usually, it is needed to at least set BrlTTY for the correct braille device.
 Edit the configuration file as follows
- 1. Search for series of lines beginning with 'braille-driver' and uncomment (remove the '#' hash sign) from the one that describes your driver.
- 2. Search for 'text-table' and uncomment the one that describes your prefered language
- 3. Search for braille-device, uncomment the correct line and if necessary, set address to the device according to the provided template
 
-Take this example (Czech table, Baum USB device). The only uncommented lines (not starting with the hash sign) will be:
+ 1. Search for series of lines beginning with 'braille-driver' and uncomment
+ (remove the '#' hash sign) from the one that describes your driver.
+
+ 2. Search for 'text-table' and uncomment the one that describes your prefered
+ language
+
+ 3. Search for braille-device, uncomment the correct line and if necessary, set
+ address to the device according to the provided template
+
+Take this example (Czech table, Baum USB device). The only uncommented lines
+(not starting with the hash sign) will be:
 -----
 braille-driver  bm      # Baum
 text-table      cs      # Czech
 braille-device  usb:    # First USB device matching braille driver.
 -----
 
-For British English table, Freedom Scientific device with Mac address 12:2F:22:21:A2:11
+For British English table, Freedom Scientific device with Mac address
+12:2F:22:21:A2:11
 -----
 braille-driver  fs      # FreedomScientific
 text-table      en_UK   # British English
@@ -110,7 +121,8 @@ changed using the command line setup tool spd-conf
 :User configuration: spd-conf
 :System configuration: sudo spd-conf
 
-After changing the configuration settings, you must reload or restart Speech Dispatcher
+After changing the configuration settings, you must reload or restart Speech
+Dispatcher
 
 -----
 /etc/init.d/speech-dispatcher restart
@@ -126,7 +138,8 @@ The recommended way to set them is using the 'spd-conf' command line tool.
 spd-conf
 -----
 
-Most often, you will want to setup an entirely new configuration as the 'user' configuration.
+Most often, you will want to setup an entirely new configuration as the 'user'
+configuration.
 
 Bellow is described how to make the changes manually.
 
@@ -158,13 +171,15 @@ AudioOutputMethod "alsa"
 
 === Festival ===
 
-Festival configuration can be adjusted using a scheme configuration file \/etc/festival.scm or in similar location.
-This is however rarely needed except in conjunction with instalation of new voices or if you want to override
+Festival configuration can be adjusted using a scheme configuration file
+\/etc/festival.scm or in similar location.  This is however rarely needed
+except in conjunction with instalation of new voices or if you want to override
 some defaults of the speech synthesis process.
 
 === eSpeak ===
 
-eSpeak itself doesn't provide any kind of permanent configuration and there is usually no need for any.
+eSpeak itself doesn't provide any kind of permanent configuration and there is
+usually no need for any.
 
 == Applications ==
 
@@ -174,9 +189,10 @@ There are two basic kinds of settings for Firefox. The settings of the
 application itself and settings of Orca, the screen reader. Additionally,
 Firefox can also remember permission settings specific for a given webpage.
 
-*Firefox settings* can be accessed from the main menu, item Edit, subitem Settings.
+*Firefox settings* can be accessed from the main menu, item Edit, subitem
+ Settings.
 
-*Orca settings for Firefox* can be open with Orca-Ctrl-Space from
+*Orca settings for Firefox* can be open with >>Orca+Ctrl+Space<< from
 inside Firefox, then move to card 'Firefox' using arrow keys.
 
 *Permission settings for a page* can be accessed by openning the given
@@ -186,10 +202,10 @@ between the items (Allow popup window, Save cookies etc.).
 
 ==== Recommendation ====
 
-In Orca settings for Firefox (Orca-Ctrl-Space while in Firefox), got
+In Orca settings for Firefox (>>Orca+Ctrl+Space<< while in Firefox), got
 to card Firefox and set 'Grab focus on object when navigating' to off.
 
-=== Thunderbird ===
+=== Thunderbird === thunderbird
 
 Thunderbird preferences can be accessed from the main menu, item
 'Edit', subitem 'Preferences'. These are the general settings
@@ -200,10 +216,10 @@ subitem 'Account settings'.
 
 The default layout is controlled from the main menu, item 'View'.
 
-==== Recommendation ====
+==== Recommendation ==== thunderbird-recommendation
 
-Switch off the message pane in main menu item View, subitem Layout or
-by pressing F8. If not, every message you go through when navigating
-through the list of messages by pressing up and down keys will be
-downloaded, displayed and marked as read.
+Switch off the message pane in main menu item View, subitem Layout or by
+pressing F8. If not, every message you go through when navigating through the
+list of messages by pressing up and down keys will be downloaded, displayed and
+marked as read.
 
