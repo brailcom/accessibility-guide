@@ -4,7 +4,7 @@
 
 Table of Contents: @TOC@
 
-== Accessibility tools ==
+== Accessibility tools == accessibility-tools
 
 === Orca === orca
 
@@ -13,9 +13,9 @@ application. So to change settings, start Orca or switch to its window and find
 the "Settings" button. Here you can find settings for keyboard layout, speech,
 braille magnification etc. Some key settings might require a restart of Orca.
 
-=== Emacs + speechd-el ===
+=== Emacs + speechd-el === emacs
 
-==== Configuration methods ====
+==== Configuration methods ==== emacs-conf-methods
 
 There are several ways to change settings in Emacs and speechd-el. You can
 change settings temporarily or permanently. You can also have different
@@ -52,10 +52,14 @@ in the Emacs Lisp syntax. All available options are described in
 [http://cvs.freebsoft.org/doc/speechd-el/speechd-el_9.html#SEC15
 speechd-el documentation, section Customization].
 
-==== After installation ====
+==== Initial setup ==== brltty
 
-TODO: One needs to place speechd-el in ~/.emacs, set a suitable voice, speed
-etc.
+In order to start speechd-el automatically when Emacs starts, place the
+following commands at the end of your ~/.emacs file:
+
+-----
+(autoload 'speechd-speak "speechd-speak" nil t)
+-----
 
 === BrlTTY === brltty
 
@@ -69,10 +73,10 @@ After changing the configuration settings, you must restart BrlTTY.
 /etc/init.d/brltty restart
 -----
 
-==== After installation ====
+==== Initial setup ==== brltty-initial-setup
 
-Usually, it is needed to at least set BrlTTY for the correct braille device.
-Edit the configuration file as follows
+Usually, it is needed to at least set BrlTTY for the correct braille
+device. Edit the configuration file as follows
 
  1. Search for series of lines beginning with 'braille-driver' and uncomment
  (remove the '#' hash sign) from the one that describes your driver.
@@ -99,7 +103,7 @@ text-table      en_UK   # British English
 braille-device bluetooth:12:2F:22:21:A2:11 # Specific bluetooth device by address.
 -----
 
-=== Speech Dispatcher ===
+=== Speech Dispatcher === speech-dispatcher
 
 Most often, you should not need to change the configuration
 of Speech Dispatcher at all. Most settings, such as voice
@@ -128,7 +132,7 @@ Dispatcher
 /etc/init.d/speech-dispatcher restart
 -----
 
-==== After installation ====
+==== Initial setup ==== speech-dispatcher-initial-setup
 
 Only if you want to use a different output module or audio subsystem
 than is offered as preconfigured, you might need the following two steps.
@@ -169,21 +173,21 @@ For example to set audio output to ALSA, use:
 AudioOutputMethod "alsa"
 -----
 
-=== Festival ===
+=== Festival === festival
 
 Festival configuration can be adjusted using a scheme configuration file
 \/etc/festival.scm or in similar location.  This is however rarely needed
 except in conjunction with instalation of new voices or if you want to override
 some defaults of the speech synthesis process.
 
-=== eSpeak ===
+=== eSpeak === espeak
 
 eSpeak itself doesn't provide any kind of permanent configuration and there is
 usually no need for any.
 
-== Applications ==
+== Applications == applications
 
-=== Firefox ===
+=== Firefox === firefox
 
 There are two basic kinds of settings for Firefox. The settings of the
 application itself and settings of Orca, the screen reader. Additionally,
@@ -200,7 +204,7 @@ page, pressing Ctrl-I to bring up the 'Information about page' dialog,
 then arrow keys to get to the 'Permissions' card. TAB will cycle
 between the items (Allow popup window, Save cookies etc.).
 
-==== Recommendation ====
+==== Recommendation ==== firefox-recommendation
 
 In Orca settings for Firefox (>>Orca+Ctrl+Space<< while in Firefox), got
 to card Firefox and set 'Grab focus on object when navigating' to off.
