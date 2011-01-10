@@ -4,10 +4,16 @@
 
 Table of Contents: @TOC@
 
-== Recommended setup == recommended-setup
+== Complete desktop == complete-desktop
 
-For an overview of recommended steps to install the whole accessible
-desktop, read [ubuntu-desktop].
+If you want to install a complete new desktop, on a physical computer or in a
+virtual machine, or if you are looking for steps to make and already installed
+desktop accessible, read our guide how to install the whole environment:
+
+ * [ubuntu-desktop]
+
+The bellow chapters on this page deal with installation of the
+various components.
 
 == Accessibility Tools == accessibility-tools
 
@@ -120,7 +126,21 @@ TODO:
 
 === Virtual Computer: VMWare === vmware
 
-TODO:
+ 1. Go to [http://downloads.vmware.com/d/info/desktop_downloads/vmware_player/3_0]
+ 2. Under 'Product Downloads', find 'VMWare Player' and press the 'Download'
+    button next to it
+ 3. On next page, you will have to register (search for form bellow the 'New to
+    VMWare' heading'), choose 'Continue'
+ 4. On next page, select country, choose a password and confirm agreement with
+    the license, choose 'Register'
+ 5. If successful, there is a page informing you that you need to see your email
+ 6. You get an email with a link 'Activate now' which you need to first visit
+    to activate your account. Type in your password.
+ 7. This will bring you onto a page where you can download. Select an
+    appropriate version (32 or 64 bit Linux VMWare Player) and click the
+    'Download' button next to it. Save it on disk.
+ 8. The .bundle file is executable, execute it. It will launch an accessible
+    installer which will take you through the installation process.
 
 == Notes ==
 
