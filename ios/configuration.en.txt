@@ -1,0 +1,129 @@
+= Configuration =
+
+There are 2 kinds of things that you have to configure on your iOS device:
+
+ * setup - configure the settings without which you cannot use the iOS
+   device with VoiceOver (like turning VoiceOver on or setting up
+   Braille display if you want to use it)
+ * preference - things that improve your experience, but you could do
+   without them
+
+Both setup and preferences are usually set in the VoiceOver
+settings. To navigate to VoiceOver settings, follow these steps:
+
+ * Get to the home screen of your device using the home button
+ * Open the Settings app
+ * Open the "General" item
+ * Open the "Accessibility" item
+ * Open the "VoiceOver" item
+
+When you are in the VoiceOver settings, then follow the instructions
+for the specific setup setting or preference.
+
+== Setup ==
+
+=== Turning VoiceOver on ===
+==== Turning VoiceOver on from the computer during first setup ====
+When you connect your iOS device to iTunes for the first time, you
+have the option to select that the device should have VoiceOver turned
+on.  In fact, if you are using iTunes itself with a screen reader
+running, iTunes detects this and turns VoiceOver on your iOS device
+automatically (this does not work on Mac OS X: see bug#???).
+During the setup, you can also set up triple-click of
+the home button to an accessibility-related action, like turning
+VoiceOver on and off,  or turning zoom on and off.  The fact that you
+can turn VoiceOver on iOS device on from your computer enables you to
+unpack and setup the device without assistance of a sighted person.
+
+You can turn VoiceOver on and off using iTunes during any sync. So if
+you forget to turn it on during the first sync (and it did not turn on
+by autodetection of Windows or Mac screenreader), you can turn
+VoiceOver on during next sync.
+==== Turning VoiceOver on manually on the device ====
+If you forgot to turn VoiceOver on using iTunes and do not want to use
+iTunes to do it (e.g. because you are away from your computer), you
+can turn VoiceOver on on the device with assistance from the sighted
+person.  Follow these steps:
+
+ * Go to the home screen by pressing the Home button
+ * Open the Settings app
+ * Open the "General" item
+ * Open the "Accessibility" item
+ * Open the "VoiceOver" item
+ * Turn the "VoiceOver" setting from "OFF" to "ON"
+ * if a dialog appears that warns you about change of gestures and ask
+   you whether you really want to turn VoiceOver on, answer
+   affirmatively
+
+=== Setting your language ===
+In some non-English speaking countries, some iOS devices are shipped with English set as the default language. To set the user interface and VoiceOver voice for the proper language, follow these steps:
+
+ * navigate to VoiceOver settings
+ * open the "Language" item
+ * navigate to the language you want to use your iOS device in
+ * double-tap to select the language
+ * navigate to the beginning of the screen and press the "Done" button
+
+The user interface and VoiceOver voice will use the new language after
+a few seconds.
+
+=== Using Braille displays ===
+iOS ships with out-of-the-box support of * braille displays. You can
+see them listed <here>.
+
+To setup your bluetooth Braille display, follow these instructions:
+
+ * Turn your Braille display on
+ * navigate to VoiceOver settings
+ * open the "Braille" item
+ * if bluetooth is off, iOS asks you if you want to turn it on - answer "Yes"
+ * iOS is searching for bluetooth Braille displays and shows the found ones in the section "Choose a Braille Device"
+ * once a desired display is found, select it in the list
+ * enter the bluetooth PIN for your Braille device.  (Please be
+   careful and enter it right, or you will have to restart your device
+   to have a chance to enter the right PIN)
+ * your bluetooth Braille display should now in a few seconds pair and
+   work.
+
+In case there is a problem during the setup of the connection, or
+during usage, please see the Troubleshooting section on Braille displays.
+
+== Preferences ==
+
+=== Speaking rate ===
+To have VoiceOver speak faster or slower:
+ * navigate to VoiceOver settings
+ * navigate to the "Speaking Rate" adjustable field (right after
+   "Speaking Rate" heading)
+ * flick up or down to increase or decrease speaking rate. The setting
+   is in effect immediately
+
+You might also prefer to be able to set the speaking rate directly in
+the currenctly used app without having to go to VoiceOver settings to
+change it back and forth.  To be able to do that,  navigate to the
+"Include in Rotor" preference next to the "Speaking Rate" preference
+and turn it on.  See TODO to learn how to use rotor to adjust
+VoiceOver parameters directly in your application.
+
+=== Language rotor ===
+You should generally put into language rotor languages that you
+understand and in which you might read content on your iOS device (be
+it a foreign webpage, or an email from a person speaking that foreign
+language).
+
+To add a language to your rotor, follow these steps:
+
+ * navigate to VoiceOver settings
+ * navigate to Language Rotor
+ * navigate to the language you want added to Language Rotor; ignore
+   the reorder buttons
+ * double-tap the language to add it to the rotor (unless you heard that it is
+   "selected", in which case it is already in the rotor and you can
+   remove it by double-tap)
+
+Note that you do not have to add your default language to the rotor,
+and we recommend you do not add it.
+
+To learn how to use the Language Rotor, see TODO.
+
+[1]: to learn how to use VoiceOver to navigate and operate your iOS device, see section "Using VoiceOver in iOS"

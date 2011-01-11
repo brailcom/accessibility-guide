@@ -1,0 +1,23 @@
+= Installation and setup of accessibility on Mac OS X =
+
+== VoiceOver ==
+When you have a Mac running, you can turn VoiceOver on and off by pressing Cmd+F5. Cmd is a key with Apple logo just left to the space bar. F5 is 6th key on the very top row.
+
+== Braille ==
+To connect a Braille display, connect it by a USB cable to the Mac. When VoiceOver is running, it will automatically detect it and use it.  If you have a Braille display that you want to connect using Bluetooth, follow these steps to connect it:
+ * open the VoiceOver utility (e.g. by pressing Ctrl+Option+F8)
+ * navigate to the section "Braille"
+ * select the "Displays" tab
+ * navigate to and press the "Add Bluetooth Display" button; a dialog appears
+ * wait a few seconds until the bluetooth display is shown in the table
+ * select the row with the braille display in the table and press "Select"
+ * enter the Braille displays Bluetooth PIN. Unless you have changed it, it's usually something like 1234 or 0000.
+ * the Bluetooth display should now work
+
+TODO: bluetooth braille radek musi byt zapnuty!
+
+== Braille input tables ==
+Mac OS X ships only with American English Braille tables. So if you are not an English speaker, you need to install Braille tables that ensure the text in your language is properly displayed on your Braille display.  Cecimac provides Braile tables for many languages.  You can download the installer <here>. When you are finished, select the proper Braille table in VoiceOver Utility in section "Braille" in the "Display" tab.
+
+== VoiceOver voices ==
+Mac OS X ships only with American English voices. Even if you are an English speaker, you might prefer a different voice than the one shipped. And if you are not an English speaker, you will have to install and get voice for your language. Infovox iVox provides voices for various languages. The price is 150EUR per voice. Just download the installer with voices for your language.
