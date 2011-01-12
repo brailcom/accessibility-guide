@@ -1,5 +1,7 @@
 = Usage =
 
+Table of Contents: @TOC@
+
 Usage of VoiceOver can be summarized as navigating through
 contents of the application's screen, hearing the contents of the
 currently navigated-to item, and optionally interacting with the
