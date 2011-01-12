@@ -1,5 +1,5 @@
 overview
 gnu-linux
 windows
-macos
+macosx
 ios
