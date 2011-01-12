@@ -1,5 +1,7 @@
 = Installation =
 
+Table of Contents: @TOC@
+
 The user does not need to install accessibility support on iOS devices
 since it is preinstalled. That includes the VoiceOver screenreader,
 voices for more than 30 languages, drivers for

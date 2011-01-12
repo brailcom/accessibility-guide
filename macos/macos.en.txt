@@ -1,4 +1,4 @@
 
-= MacOS =
+= Mac OS X =
 
 @NodeIndex(1)@

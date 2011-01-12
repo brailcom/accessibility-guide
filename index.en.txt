@@ -10,6 +10,8 @@ published by the Free Software Foundation; with no Invariant Sections, no
 Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included
 in the section [fdl].
 
+Authors: Jan Buchal, Hynek Hanke, Boris Dušek
+
 == Table of Contents ==
 
 @NodeIndex(2)@

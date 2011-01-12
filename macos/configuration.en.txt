@@ -1,5 +1,7 @@
 = Installation and setup of accessibility on Mac OS X =
 
+Table of Contents: @TOC@
+
 == VoiceOver ==
 When you have a Mac running, you can turn VoiceOver on and off by pressing Cmd+F5. Cmd is a key with Apple logo just left to the space bar. F5 is 6th key on the very top row.
 

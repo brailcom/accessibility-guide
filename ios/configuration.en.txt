@@ -1,5 +1,7 @@
 = Configuration =
 
+Table of Contents: @TOC@
+
 There are 2 kinds of things that you have to configure on your iOS device:
 
  * setup - configure the settings without which you cannot use the iOS
@@ -126,4 +128,4 @@ and we recommend you do not add it.
 
 To learn how to use the Language Rotor, see TODO.
 
-[1]: to learn how to use VoiceOver to navigate and operate your iOS device, see section "Using VoiceOver in iOS"
+(1): to learn how to use VoiceOver to navigate and operate your iOS device, see section "Using VoiceOver in iOS"
