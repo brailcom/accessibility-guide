@@ -392,7 +392,7 @@ from the main menu (>>F10<<).
 
 Gnus is a mail reading application inside [emacs Emacs]. It might require you
 to study how to use it a little bit at first, but then its very powerful and
-[speechd-el] makes it very accessible too.
+speechd-el makes it very accessible too.
 
 You can launch gnus from inside Emacs by typing '>>M-x gnus<<'.
 
@@ -831,8 +831,91 @@ Shortcuts:
 
 === Openoffice Calc  === openoffice-calc
 
-TODO:
+Openoffice Calc is a table calculator. It can be navigated similar to
+OpenOffice Writer (use F6 to cycle between main parts, cursor arrows to move
+around).
 
+The power of table calculators lies in the fact that some of the cells in the
+table can include automatic formulas which display the result of some action
+performed on the surrounding data (e.g. the sum of cells, a condition or the
+result of a search). Each time something in the data changes, these cells are
+automatically recalculated. Thus complicated interactive and interconnected
+sheets of data can be created.
+
+The bellow sections will not teach you how to work with a table calculator, but
+will offer a few examples to get you started. Fore more information, see
+[http://documentation.openoffice.org/manuals OpenOffice.Org Manuals].
+
+==== Entering values ====
+
+To include a value (number, text or for example a data):
+ 1) Navigate to the cell you want to edit
+ 2) If you want to overwrite the current value, just start typing
+ 3) If you want to edit the current value instead, press >>F2<< to enter the edit field
+ 3) Press >>ENTER<< to confirm
+
+==== Entering a formula ====
+
+A formula can be either a simple mathematical formula (like A1+A2) or a
+function. Each function has one or more arguments. For example, there is a
+function called 'Sum' to sum all the numbers in a given region. It is most
+convenient to know the common functions by their names and be able to type them
+directly. If not, you can also use a guide to create the formula.
+
+*Example how to create a summation formula*:
+   1. Enter for example values 1, 2, 3 into cells B1, B2, B3
+   2. Go to cell B4 and enter the text: '=Sum(B1:B3)'
+   3. Press ENTER
+   4. The cell B4 will display '6'
+   5. To see the underlying formula instead of the result, press F2 while on
+   the cell to enter the edit mode
+
+*Example how to create a formula with the guide*
+   1. Enter for example values 1, 2, 3 into cells B1, B2, B3
+   2. Now we want to display the average of the three cells in cell B5
+      but we do not know the name of the corresponding function
+   3. Go to cell B4
+   4. Use F6 to enter the formula pane
+   5. Use >>Right<< arrow key to find 'Function wizard' and select with ENTER
+   6. From the 'Category' drop down menu choose the family of functions you are
+      interested in (e.g. Mathematical, Logical, Text). Choose 'Statistical'.
+   7. Press >>TAB<< to go to the selection of the concrete function to
+      use. Find 'Average' but do not confirm with >>ENTER<<.
+   8. Use >>TAB<< to find the 'Next' button.
+   9. The next page of the dialog displays functions arguments. You can
+      use numbers, table cells (such as A5) or ranges of cells (such as A1:B1).
+      Type in 'B1:B3' and press >>ENTER<<.
+   10. The cell B5 will now display '2', which is the avarage of numbers
+       1, 2 and 3.
+   11. To see the formula, not the result, press 2. You can also learn the
+       formula and type it without the guide next time.
+
+*Example on automatic recalculation*
+   1. Complete one of the previous examples. You will have
+      numbers 1, 2, 3 in cell tables B1, B2, B3 and their
+      sum (6) in cell B4 and/or average in cell B5 (2).
+   2. Go to cell B1 and type '4', then press ENTER.
+   3. Now go back to tables B4 and/or B5 and see how they changed.
+   4. The sum in B4 now displays 9 and the average in B5 displays 3.
+
+==== Switching sheets ====
+
+Every doccument can have either one or more sheets of data. All sheets form one
+document and they can be interconnected. E.g. results on one sheet can depend
+on data in another one.
+
+In OpenOffice, the sheets are represented as tabs and you can use the standard
+key combinations >>Ctrl+PgUp<< and >>Ctrl+PgDown<< to move between them.
+
+==== Shortcuts ====
+
+:>>F2<<: Start editing a cell
+:>>Ctrl+PgUP<<: Move to previous sheet
+:>>Ctrl+PgDown<<: Move to next sheet
+
+Main menu, 'Tools->Customize', card 'Keyboard' (>>Ctrl-PgDown<<)
+contains a list of all available shortcuts as well as a possibility
+to define new ones.
 
 === Openoffice Impress === openoffice-impress
 
