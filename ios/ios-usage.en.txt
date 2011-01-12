@@ -1,3 +1,4 @@
+# -*- coding: utf-8; mode: structured-text -*-
 = Usage =
 
 Table of Contents: @TOC@
@@ -156,3 +157,52 @@ either on the "numbers" or "symbols" page, there is an additional
 button above the main switching button.  It switches between "numbers"
 and "symbols" pages.  You press the 2 switching buttons by standard
 typing. Touch typing does not work on these 2 buttons.
+
+=== Rotor ===
+Rotor expands the navigation and input commands you can use anywhere
+in iOS.  Think of it as a context menu.  First you select the setting
+you would like to change by the rotation gesture, or navigation axis
+you would like to follow, and then you increase/decrease the setting
+or follow forward/backward the axis by flicking up or down. The
+following example will clarify this:
+
+Let's suppose you want to inspect the spelling of name of the YouTube
+app on the home screen.  First navigate to the app (it's in row 2,
+column 1).  When you are there, select the "characters" axis in
+rotor.  You do this by applying the rotation gesture so many times
+after VoiceOver says "characters".  The rotation gesture is best done
+as if you were turning a volume button on radio with your thumb and
+index finger.
+
+When you have selected the "characters" axis, you can move along the
+axis by flicking up and down.  In the case of the "characters" axis,
+this moves you one character backward and forward, respectively, with
+each letter being spelled to you.  This way, you will discover that
+the letter "t" in the word "YouTube" is in capital, something you
+would not know by simply having VoiceOver read the whole word.  This
+is also a good way to check for spelling errors in important input,
+like email address, or learn spelling of a new name or word.
+
+Useful places where you can use rotor:
+ * when you are in the Contacts app searching for a contact by
+   entering their name in the search field, you can spell the contact's
+   name by using the "characters" axis to make sure you are searching
+   for the right contact
+ * when you are on a webpage and want to navigate by a type of element
+   (e.g. jump through all the form buttons on the webpage), you can set
+   the rotor to the "buttons" axis
+
+The axes available to you are different based on your current
+location and configuration.  Please refer to the manual for their
+list.
+
+=== Calling ===
+When someone calls you (either using your iPhone number or on FaceTime), you
+can pick up the call using double-tap with two fingers.  The same way, you can
+terminate the phone call by double-tapping with two fingers.  When terminating
+the call this way, note that the gesture works only after you have the phone
+away from your face for some time, not immediately.
+
+Note that iPhone detects when your face touches it.  If it does, you hear the
+caller in "silent" mode.  However when you put the phone away from your face a
+bit, the phone switches to loud mode where everyone can hear the caller.
