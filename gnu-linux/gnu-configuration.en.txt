@@ -227,3 +227,24 @@ pressing F8. If not, every message you go through when navigating through the
 list of messages by pressing up and down keys will be downloaded, displayed and
 marked as read.
 
+==== Openoffice.Org ==== openoffice
+
+==== Openoffice Writer Shortcuts ==== openoffice-writer-shortcuts
+
+OpenOffice has a very useful command to select the text in the current
+paragraph (exactly). This command, like quite a few others, is just not mapped
+to any keyboard shortcut. This can be done from main menu
+'Tools->Customize'. This will bring up a dialog with several cards
+(tabs). Keyboard shortcuts can be re-defined on card 'Keyboard' (use
+>>Ctrl+PgUP<< and >>Ctrl+PgDown<< to browse them). You can browse the list of
+available keyboard shortcuts as well as define new ones.
+
+To define the keyboard shortcut for 'Select paragraph':
+ 1) Go to the 'Keyboard' card in the Customize dialog
+ 2) Select the desired key combination (recommended is >>Ctrl+Shift+s<<)
+ 3) Press >>TAB<< repeatedly to get into the 'Category' tree
+ 4) Select 'Edit' with >>Up<< and >>Down<< arrow keys
+ 5) Press TAB to go to the 'Function' tree
+ 6) Select 'Select paragraph' using >>Up<< and >>Down<< keys
+ 7) Press >>TAB<< repeatedly to find the 'Modify' button and press it
+ 8) Now >>Ctrl+Shift+s<< is defined as a new shortcut, close the dialog with the OK button
