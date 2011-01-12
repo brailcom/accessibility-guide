@@ -10,9 +10,9 @@ just 3 gestures - we call this basic usage.  To take full advantage of
 VoiceOver gestures for effective work with VoiceOver, you can study
 the advanced usage section.
 
-== Basic usage ==
+== Basic usage == basic
 
-=== Navigating using VoiceOver ===
+=== Navigating using VoiceOver === basic-navigating
 To navigate using VoiceOver, you use touch gestures. The basic
 navigation gestures are:
 
@@ -26,7 +26,7 @@ Another way to navigate items on screen is to simply touch the screen
 and move your finger around.  VoiceOver will announce items on the
 screen as you move your finger.
 
-=== Interacting with content using VoiceOver ===
+=== Interacting with content using VoiceOver === basic-interacting
 
 You can interact with an item depending on the type of item.
 
@@ -45,7 +45,7 @@ respectively. This is for example:
  * the "Speaking Rate" slider in VoiceOver settings
  * name of day or month in calendar date editing control
 
-== Advanced usage ==
+== Advanced usage == advanced
 
 You can refer to Apple's manual for advanced gestures.  We will just
 sum up things you can do with VoiceOver to get you motivated to read
@@ -57,9 +57,9 @@ the manual:
  * navigating contacts using first letter of name
  * gesture for navigating one level back in hierarchical views
 
-== Scenarios and tasks ==
+== Scenarios and tasks == tasks
 
-=== Unlocking screen ===
+=== Unlocking screen === tasks-unlock
 
 Screen gets locked automatically after some time. When screen is
 locked, you cannot interact with the device. The only thing the device
@@ -71,4 +71,29 @@ right part of your device.
 To unlock the screen:
  * press either the home button or lock button
  * navigate with flicking right to "slide to unlock"
- * double-tap the screen
+ * double-tap the screen anywhere
+
+=== Home screen === tasks-homescreen
+
+The home screen is the basic location from which you start most
+activities.  The home screen contains applications that you can
+launch.  The applications on the home screen are arranged
+rectangularly with 5 rows, each having 4 apps.  You can navigate
+through the applications by moving your finger around the screen,  or
+by flicking left and right.  You open an app by double-tapping it.
+
+In order to accomodate for having many apps,  the home screen is
+paged.  That means that it has several pages and you are displaying
+only one at a time.  To have VoiceOver tell you which page of home
+screen you are currently displaying, tap the screen with three
+fingers.  To move between pages, flick with three fingers left or
+right.  The last row of the home screen is called the Dock and stays
+the same across all pages. 
+
+There is an additional extra page before page 1 called "iPod search",
+"iPhone search", or other depending on your device.  There you can
+enter text which is searched for in most items on your device (like
+contacts, emails etc.).  To learn how to use the keyboard to enter the
+search term, see section [tasks-keyboard].
+
+=== 
