@@ -98,7 +98,7 @@ enter text which is searched for in most items on your device (like
 contacts, emails etc.).  To learn how to use the keyboard to enter the
 search term, see section [tasks-keyboard].
 
-=== Using the keyboard ===
+=== Using the keyboard === tasks-keyboard
 
 Touchscreen devices usually do not have physical keyboard.  Instead,
 the keyboard is displayed on the screen and you touch the letters on
@@ -107,12 +107,12 @@ lower half of the screen.  Move your finger around the screen to let
 VoiceOver tell you where are which letters.  The letters on the
 keyboard are in a standard layout you know from a physical keyboard.
 
-==== Modes of typing ====
+==== Modes of typing ==== tasks-keyboard-mode
 
 There are 2 modes in which you can input text: standard typing and
 touch typing.
 
-===== Standard typing =====
+===== Standard typing ===== tasks-keyboard-mode-standard
 Once you are on the letter you want to input, activate it either by
 double-tapping anywhere on the screen, or single-tapping with another
 finger while holding the original finger on the letter.  Note that the
@@ -124,14 +124,14 @@ selected letter input.  After you input that letter,  you can select
 another letter with the "selecting" finger, which ideally stays on the
 screen all the time during whole keyboard session.
 
-===== Touch typing =====
+===== Touch typing ===== tasks-keyboard-mode-touch
 Another way to input letters from keyboard is called touch typing. You
 enable it in the rotor (TODO link).  Once enabled,  you use just one
 finger to input the letter.  You first navigate to the letter you want
 to input with your finger, then you input the letter by releasing the
 touch.  Repeat until you have entered the whole text.
 
-==== Finishing input ====
+==== Finishing input ==== tasks-keyboard-finish
 When you have input the text,  you can usually finish the input by
 pressing a key on the keyboard in the right low corner.  E.g. when you
 enter address of web page in Safari,  when you are done, the button in
@@ -142,7 +142,7 @@ right corner reads "Search".  That is because if you press it, Safari
 will search the term you entered on Google (or on whatever the search
 provider you have configured).
 
-==== Entering non-letter characters ====
+==== Entering non-letter characters ==== tasks-keyboard-nonletter
 There are other characters you might want to input on the keyboard,
 like numbers, interpunction (like comma, dash).  These are not
 displayed on the keyboard by default.  In fact, the keyboard is
