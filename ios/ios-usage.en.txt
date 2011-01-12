@@ -98,4 +98,61 @@ enter text which is searched for in most items on your device (like
 contacts, emails etc.).  To learn how to use the keyboard to enter the
 search term, see section [tasks-keyboard].
 
-=== 
+=== Using the keyboard ===
+
+Touchscreen devices usually do not have physical keyboard.  Instead,
+the keyboard is displayed on the screen and you touch the letters on
+the screen to input numbers.  The keyboard is always displayed in the
+lower half of the screen.  Move your finger around the screen to let
+VoiceOver tell you where are which letters.  The letters on the
+keyboard are in a standard layout you know from a physical keyboard.
+
+==== Modes of typing ====
+
+There are 2 modes in which you can input text: standard typing and
+touch typing.
+
+===== Standard typing =====
+Once you are on the letter you want to input, activate it either by
+double-tapping anywhere on the screen, or single-tapping with another
+finger while holding the original finger on the letter.  Note that the
+latter way enables you to input letters this way:  have one finger
+always touching the screen,  moving the keyboard until you find the
+letter you want to input, and then use another finger, possibly from a
+different hand, to single-tap the screen anywhere to have that
+selected letter input.  After you input that letter,  you can select
+another letter with the "selecting" finger, which ideally stays on the
+screen all the time during whole keyboard session.
+
+===== Touch typing =====
+Another way to input letters from keyboard is called touch typing. You
+enable it in the rotor (TODO link).  Once enabled,  you use just one
+finger to input the letter.  You first navigate to the letter you want
+to input with your finger, then you input the letter by releasing the
+touch.  Repeat until you have entered the whole text.
+
+==== Finishing input ====
+When you have input the text,  you can usually finish the input by
+pressing a key on the keyboard in the right low corner.  E.g. when you
+enter address of web page in Safari,  when you are done, the button in
+the lower right corner reads "Go".  Thas is because if you press it,
+Safari will "go" to the address you input.  Similarly in Safari, if
+you input some text to the search bar,  then the button in the lower
+right corner reads "Search".  That is because if you press it, Safari
+will search the term you entered on Google (or on whatever the search
+provider you have configured).
+
+==== Entering non-letter characters ====
+There are other characters you might want to input on the keyboard,
+like numbers, interpunction (like comma, dash).  These are not
+displayed on the keyboard by default.  In fact, the keyboard is
+"paged" (similarly like the home screen).  The main page that is
+displayed by default is called "letters".  The additional two pages
+are called "numbers" and "symbols".  When you are on the "letters"
+page, which is displayed by default, you can switch between it and the
+other 2 pages by pressing the button in the lower left corner.  Its
+description tells you which page you will be switching to.  If you are
+either on the "numbers" or "symbols" page, there is an additional
+button above the main switching button.  It switches between "numbers"
+and "symbols" pages.  You press the 2 switching buttons by standard
+typing. Touch typing does not work on these 2 buttons.
