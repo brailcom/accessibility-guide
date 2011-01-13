@@ -1,0 +1,50 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Environments on GNU/Linux =
+
+Following are three big areas of the GNU/Linux platform, accessible for the
+blind and visually handicapped, which can be of interest to you:
+
+== Gnome desktop ==
+
+[http://www.gnome.org/about/ GNOME] offers an easy to understand modern desktop
+environment for a GNU/Linux computer. Near to all the available applications can
+be operated from this interface, regardless whether they provide a graphical,
+textual or another form of interface.
+
+The Gnome desktop is made accessible mainly through the Orca screen reader. Orca
+includes modules for voice, braille and magnification.
+
+== Text console ==
+
+Many applications and tools can also be operated from a purely textual
+interface, although with some serious limitations. Some important things,
+such as a modern internet browser, are not available in this environment.
+Still it is a welcomed resort for many users in situations, when
+they face some problems in the GNOME graphical desktop.
+
+Although this is not crucial, a text console can be made fully
+accessible (by voice and braille) using the following tools:
+BrlTTY, eSpeakup and/or YASR.
+
+== Emacs ==
+
+Emacs is a very interesting environment, because it can bring the advantages
+of a consistent fully textual user interface operated primarily by keyboard
+onto the modern graphical desktop. It can only contain its own applications,
+but the very wide range of tasks that can be accomplished with it, from editing
+text, through managing files and developing applications, to reading mail
+and typesetting notes, make it a primary work environment for many, not just
+the handicapped users.
+
+Be aware however that you will find you have to learn some things first
+and understand its concepts. The efficiency of your work afterwards should
+however be enough of a reward.
+
+Several tools are available to make it accessible, but we highly recommend
+to use speechd-el.
+
+== Putting it all together ==
+
+How to setup an accessible desktop including the Gnome, text console and Emacs?
+*[ubuntu-desktop GNU/Linux Accessible Desktop Installation]*
