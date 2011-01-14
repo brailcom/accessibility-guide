@@ -1,25 +1,58 @@
-= Installation and setup of accessibility on Mac OS X =
+# -*- coding: utf-8; mode: structured-text -*-
+= Configuration =
 
 Table of Contents: @TOC@
 
-== VoiceOver ==
-When you have a Mac running, you can turn VoiceOver on and off by pressing Cmd+F5. Cmd is a key with Apple logo just left to the space bar. F5 is 6th key on the very top row.
+== VoiceOver == voiceover
 
-== Braille ==
-To connect a Braille display, connect it by a USB cable to the Mac. When VoiceOver is running, it will automatically detect it and use it.  If you have a Braille display that you want to connect using Bluetooth, follow these steps to connect it:
+=== Turning VoiceOver on and off === voiceover-start
+When you have a Mac running, you can turn VoiceOver on and off by
+pressing Cmd+F5. Cmd is a key with Apple logo just left to the space
+bar. F5 is 6th key on the very top row.
+
+=== Using different voice === voiceover-voice
+To change the voice with which VoiceOver speaks (including different
+language voices), follow these steps:
+
+ * go to VoiceOver utility
+ * go to the "Speech" section
+ * go to the "Voices" tab
+ * select the voice in the "Voice" column for "Category" called "Default"
+
+== Braille == braille
+
+=== Connecting your Braille display === braille-connect
+
+==== Connecting USB Braille display ==== braille-connect-usb
+To connect a USB Braille display, first turn it on (if applicable) and
+then just connect it by a USB cable to the Mac. When VoiceOver is
+running, it will automatically detect it and use it.
+
+==== Connecting bluetooth Braille display ==== braille-connect-bluetooth
+If you have a Braille display that you want to connect using
+Bluetooth, follow these steps to connect it:
+ * if your Braille display supports it, turn your Braille display on
  * open the VoiceOver utility (e.g. by pressing Ctrl+Option+F8)
  * navigate to the section "Braille"
  * select the "Displays" tab
  * navigate to and press the "Add Bluetooth Display" button; a dialog appears
  * wait a few seconds until the bluetooth display is shown in the table
  * select the row with the braille display in the table and press "Select"
- * enter the Braille displays Bluetooth PIN. Unless you have changed it, it's usually something like 1234 or 0000.
+ * enter the Braille displays Bluetooth PIN. Unless you have changed
+   it, it's usually something like 1234 or 0000. 
  * the Bluetooth display should now work
 
+=== Configuring language for your Braille display === braille-language
+To set the proper language for your Braille display, follow these
+steps:
+ * open VoiceOver utility
+ * navigate to section "Braille"
+ * there navigate to tab "Layout"
+ * navigate to pop-up "Braille Translation" and select your language
+
+Note that, as per Cecimac's installer's instructions, you should not
+change the settings "Use dots 7 and 8 to indicate cursor" when using
+other table than Apple American English, otherwise you will experience
+stability problems.
+
 TODO: bluetooth braille radek musi byt zapnuty!
-
-== Braille input tables ==
-Mac OS X ships only with American English Braille tables. So if you are not an English speaker, you need to install Braille tables that ensure the text in your language is properly displayed on your Braille display.  Cecimac provides Braile tables for many languages.  You can download the installer <here>. When you are finished, select the proper Braille table in VoiceOver Utility in section "Braille" in the "Display" tab.
-
-== VoiceOver voices ==
-Mac OS X ships only with American English voices. Even if you are an English speaker, you might prefer a different voice than the one shipped. And if you are not an English speaker, you will have to install and get voice for your language. Infovox iVox provides voices for various languages. The price is 150EUR per voice. Just download the installer with voices for your language.

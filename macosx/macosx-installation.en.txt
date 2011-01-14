@@ -1,0 +1,29 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Installation =
+
+Table of Contents: @TOC@
+
+== VoiceOver voices ==
+Mac OS X ships only with American English voices (see bug
+[https://boss.brailcom.org/its/issues/3437 #3437]). Even if you are an
+English speaker, you might prefer a different voice than the one
+shipped. And if you are not an English speaker, you will have to
+install and get voice for your language. Infovox iVox provides voices
+for various languages. The price is 99 EUR/USD per voice. Just
+download the 30-day trial installer with voice for your language from
+[http://www.assistiveware.com/voicedownload.php this page] and if you
+are satisfied, purchase the voice before the 30-day deadline passes.
+
+== Braille input tables ==
+Mac OS X ships only with American English Braille tables (see bug
+[https://boss.brailcom.org/its/issues/3439 #3439]. So if you
+are not an English speaker, you need to install Braille tables that
+ensure the text in your language is properly displayed on your Braille
+display.  Cecimac provides Braile tables for many languages.  You can
+download the installer [http://www.cecimac.org/CeciMacBraille.dmg
+here]. After installation is finished, you have to restart your
+computer. After the restart, select the proper Braille table in
+VoiceOver Utility in section "Braille" in the "Display" tab. You do
+not have to have the same language for Mac OS X and the Braille table
+selected, you can freely switch between tables in the VoiceOver
+utility and it takes effect immediately, without restarting VoiceOver.

@@ -20,7 +20,9 @@ settings. To navigate to VoiceOver settings, follow these steps:
  * Open the "VoiceOver" item
 
 When you are in the VoiceOver settings, then follow the instructions
-for the specific setup setting or preference.
+for the specific setup setting or preference.  To learn the basic
+gestures to be able to navigate to the settings and change them, read
+the [ios-usage#basic] section of this guide.
 
 == Setup ==
 
@@ -28,10 +30,7 @@ for the specific setup setting or preference.
 ==== Turning VoiceOver on from the computer during first setup ====
 When you connect your iOS device to iTunes for the first time, you
 have the option to select that the device should have VoiceOver turned
-on.  In fact, if you are using iTunes itself with a screen reader
-running, iTunes detects this and turns VoiceOver on your iOS device
-automatically (this does not work on Mac OS X: see bug#???).
-During the setup, you can also set up triple-click of
+on.  During the setup, you can also set up triple-click of
 the home button to an accessibility-related action, like turning
 VoiceOver on and off,  or turning zoom on and off.  The fact that you
 can turn VoiceOver on iOS device on from your computer enables you to
@@ -87,8 +86,10 @@ To setup your bluetooth Braille display, follow these instructions:
  * your bluetooth Braille display should now in a few seconds pair and
    work.
 
-In case there is a problem during the setup of the connection, or
-during usage, please see the Troubleshooting section on Braille displays.
+Sometimes, the Braille display is not setup due to some error, or
+takes indefinitely (see [https://boss.brailcom.org/its/issues/3397
+#3397]).  In such case, you will probably need to restart your iOS
+device.
 
 == Preferences ==
 
@@ -125,7 +126,3 @@ To add a language to your rotor, follow these steps:
 
 Note that you do not have to add your default language to the rotor,
 and we recommend you do not add it.
-
-To learn how to use the Language Rotor, see TODO.
-
-(1): to learn how to use VoiceOver to navigate and operate your iOS device, see section "Using VoiceOver in iOS"

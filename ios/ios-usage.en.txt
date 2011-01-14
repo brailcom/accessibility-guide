@@ -206,3 +206,13 @@ away from your face for some time, not immediately.
 Note that iPhone detects when your face touches it.  If it does, you hear the
 caller in "silent" mode.  However when you put the phone away from your face a
 bit, the phone switches to loud mode where everyone can hear the caller.
+
+Note that the VoiceOver voice can sometimes become "choppy" after a phone call
+(see bug [#3443 https://boss.brailcom.org/its/issues/3443]).  If you experience
+that, restart your phone and the problem should disappear.  You can restart
+your phone by first shutting it down and then powering it back on.  You shut
+your phone down by pressing and holding the lock button (physical button on top
+of your device) for a few seconds, and then double-tapping to confirm the
+"slide to power off" button. The phone will then switch off. After a few
+seconds, power the phone on by again pressing and holding the lock button for a
+few seconds and wait.
