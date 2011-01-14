@@ -97,7 +97,7 @@ There is an additional extra page before page 1 called "iPod search",
 "iPhone search", or other depending on your device.  There you can
 enter text which is searched for in most items on your device (like
 contacts, emails etc.).  To learn how to use the keyboard to enter the
-search term, see section [tasks-keyboard].
+search term, see section [#tasks-keyboard].
 
 === Using the keyboard === tasks-keyboard
 
@@ -208,7 +208,7 @@ caller in "silent" mode.  However when you put the phone away from your face a
 bit, the phone switches to loud mode where everyone can hear the caller.
 
 Note that the VoiceOver voice can sometimes become "choppy" after a phone call
-(see bug [#3443 https://boss.brailcom.org/its/issues/3443]).  If you experience
+(see bug [https://boss.brailcom.org/its/issues/3443 #3443]).  If you experience
 that, restart your phone and the problem should disappear.  You can restart
 your phone by first shutting it down and then powering it back on.  You shut
 your phone down by pressing and holding the lock button (physical button on top
