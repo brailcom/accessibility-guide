@@ -116,14 +116,6 @@ Try it:
 
 :in Gnome: ALT-F2, type 'openoffice.org'
 
-=== Instant messager: ? ===
-
-TODO:
-
-=== Notes typesetting: Singing computer === singing-computer
-
-TODO:
-
 === Virtual Computer: VMWare === vmware
 
  1. Go to [http://downloads.vmware.com/d/info/desktop_downloads/vmware_player/3_0]

@@ -8,8 +8,8 @@ recommend any one of them as they are quite different and offer qualities in
 different areas. They have their advantages and deficiencies. Thus we present
 all of them in the following sections.
 
-Mobile devices are today becomming small computers on their own. We show this
-on the example of Apple's iOS, which we have choosen for its very good
+Mobile devices are today becoming small computers on their own. We show this on
+the example of Apple's iOS, which we have choosen for its very good
 accessibility support.
 
 Since many times it might be useful to combine two or more different platforms

@@ -390,9 +390,9 @@ from the main menu (>>F10<<).
 
 === Gnus === gnus
 
-Gnus is a mail reading application inside [emacs Emacs]. It might require you
-to study how to use it a little bit at first, but then its very powerful and
-speechd-el makes it very accessible too.
+Gnus is a mail reading application inside Emacs. It might require you to study
+how to use it a little bit at first, but then its very powerful and speechd-el
+makes it very accessible too.
 
 You can launch gnus from inside Emacs by typing '>>M-x gnus<<'.
 

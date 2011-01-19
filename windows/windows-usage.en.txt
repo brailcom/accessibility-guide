@@ -4,7 +4,7 @@
 
 Table of Contents: @TOC@
 
-== Accessibility Tools ==
+== Accessibility Tools == accessibility-tools
 
 === JAWS Screen Reader === jaws
 
@@ -18,17 +18,39 @@ training materials, which are available as audio-books in the DAISY format.
  * [http://www.nvda-project.org/documentation/nvda_2010.1_userGuide.html NVDA user guide]
  * [http://www.nvda-project.org/wiki/ApplicationSupport NVDA and various applications]
 
-== Applications ==
+== Applications == applications
 
 This guide does not describe how to use the various native MS Windows
 applications as this is sufficiently described in other guides. We however
 point out the several Open Source applications which are very powerful and can
 be used on MS Windows as well as on GNU/Linux.
 
-=== Firefox ===
+=== Firefox === firefox
 
-TODO:
+Firefox is a freely distributed internet browser. You can find
+more information on [http://www.mozilla.com/firefox]
 
-=== Emacs + speechd-el ===
+Using firefox with JAWS:
+[http://www.jaws-users.com/text/Internet/firefox.htm]
 
-TODO:
+=== Thunderbird === thunderbird
+
+Thunderbird is a freely distributed email and news reader. You can find more
+information on [http://www.mozilla.com/thunderbird]
+
+Using Thunderbird with JAWS:
+[http://www.jaws-users.com/scripts/ThunderBird/Thunderbird.htm]
+
+=== OpenOffice Org === openoffice
+
+OpenOffice.Org is a freely distributable office suite, including a word
+processor, spreadsheet calculator and a presentation tool. You can find
+more information on [http://www.openoffice.org]
+
+It's usage should be very similar to the one on GNU/Linux:
+[gnu-usage#creating-documents OpenOffice on GNU/Linux]
+
+
+
+
+
