@@ -1,0 +1,18 @@
+= Instalace =
+
+Obsah: @TOC@
+
+Uživatel nemusí do iOS zařízení doinstalovávat podporu pro
+zpřístupnění, protože ta je již v nich obsažena.  Obsažená podpora
+zpřístupnění zahrnuje odečítač obrazovky VoiceOver, hlasy pro více než
+30 jazyků, ovladače pro
+[http://www.apple.com/accessibility/iphone/braille-display.html
+podporované bluetooth braillské řádky], vstupní a výstupní Braillské
+tabulky pro podporované jazyky, a lupu obrazovky.
+
+Nevýhoda tohoto zabudovaného přístupu je nutnost spoléhat pouze na
+Apple v případě chyb ve zpřístupnění, nebo nepodpoře Vašeho jazyka
+nebo braillského řádku.  Pokud narazíte na jakýkoliv nedostatek ve
+zpřístupnění, neváhejte kontaktovat [mailto:accessibility@apple.com
+accessibility@apple.com] a dejte Applu vědět o Vašich problémech.
+

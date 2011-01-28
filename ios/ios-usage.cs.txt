@@ -1,0 +1,146 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Použití =
+
+Obsah: @TOC@
+
+Na použití VoiceOveru se můžeme dívat v principu jako na pohyb po obsahu
+obrazovky aplikace,  poslech obsahu právě označené položky, a volitelně
+interakci s právě označenou položkou.
+
+Abyste byli schopni použít VoiceOver pro úplně základní činnosti, stačí se
+naučit jen 3 gesta - tato nazýváme jako základní použití. Abyste pak mohli
+naplno využít možností VoiceOveru pro efektivní práci, můžete postupně studovat
+oddíl s pokročilým použitím.
+
+== Základní použití == basic
+
+=== Pohyb po obrazovce pomocí VoiceOveru === basic-navigating
+Pro pohyb na obrazovce pomocí VoiceOveru používáte dotyková gesta. Základní
+gesta pro pohyb na obrazovce jsou:
+
+ * švihnutí prstem doleva: přejdete na předchozí položku
+ * švihnutí prstem doprava: přejdete na následující položku
+
+Abyste mohli interagovat s vybranými položkami, např. je otevřít, přečtěte si
+další oddíl.
+
+Jiný způsob, jak se pohybovat po obrazovce, je jednoduše se dotknout obrazovky
+a pohybovat po ní prstem.  VoiceOver Vám bude číst položky na obrazovce, které
+se právě nacházejí pod Vaším prstem.
+
+=== Interakce s obsahem pomocí VoiceOveru === basic-interacting
+
+S právě vybranou položkou můžete interagovat v závislosti na typu položky.
+
+Pokud je aktuální vybranou položkou tlačítko, můžete poklepat kamkoliv na
+obrazovku, abyste spustili akci přiřazenou tlačítku.  Přiřazené akce může být:
+
+ * vypnutí nebo zapnutí nastavení (např. "Letový režim" v aplikaci Nastavení)
+ * otevření nové obrazovky s obsahem souvisejícím s popiskem stisknutého
+   tlačítka (např. "WiFi" v aplikaci Nastavení)
+ * provést akci popsanou v popisu tlačítka (např. tlačítko "Odeslat" v aplikaci
+   Mail odešle email)
+
+Interakce s položkou může také měnit číselnou hodnotu, v tom případě použijte
+gesta "švihnutí nahoru", resp. "švihnutí dolu" pro zvýšení, resp. snížení
+hodnoty.  Toho využijete např. v těchto situacích:
+ * nastavení "Rychlost čtení" v nastavení VoiceOveru
+ * jméno dnu, nebo měsíce v prvku pro zadání datumu
+
+== Pokročilé použití == advanced
+
+
+O pokročilém ovládání VoiceOveru pomocí dalších gest se můžete více dozvědět v
+oficiálních manuálech společnosti Apple k jednotlivým zařízením.
+([http://manuals.info.apple.com/cs_CZ/iPad_iOS4_Uzivatelska_prirucka.pdf iPad],
+[http://manuals.info.apple.com/cs_CZ/iPhone_iOS4_Uzivatelska_prirucka.pdf
+iPhone], [http://manuals.info.apple.com/en_US/iPod_touch_iOS4_User_Guide.pdf iPod
+Touch]).  Abychom Vás motivovali ke studiu jeho sekce o zpřístupnění, zmíníme
+jen některé z dalších věcí, které můžete dělat s VoiceOvereme:
+
+ * dotykové psaní
+ * rotor, včetně jeho použití pro prohlížení webových stránek
+ * rolování stránkami pro rychlejší pohyb po obrazovce
+ * navigaci v kontaktech pomocí prvního písmena jména
+ * gesto pro přechod o úroveň zpět v hierarchickým náhledech
+
+== Příklady použití == tasks
+
+=== Odemknutí obrazovky === tasks-unlock
+
+Obrazovka Vašeho iOS zařízení se po určité době sama zamkne.  Když je obrazovka
+uzamčená, nemůžete zařízení používat.  Jediná věc, kterou v takové situaci
+můžete udělat, je obrazovku odemknout.
+
+Abyste obrazovku zamknuli ručně, zmáčkněte fyzické zamykací tlačítko, které se
+nachází na vrchní pravé straně Vašeho zařízení.
+
+Pro odemknutí obrazovky:
+ * stiskněte buď tlačítko plochy nebo zamykací tlačítko
+ * přejděte na tlačítko "Odemknout" pomocí gest "švihnutí vpravo"
+ * stiskněte tlačítko (poklepejte kdekoliv na obrazovce)
+
+=== Domácí obrazovka === tasks-homescreen
+
+Domácí obrazovka je základní místo, ze kterého začínáte většinu činností.
+Domácí obrazovka obsahuje aplikace, které můžete spustit.  Aplikace na domácí
+obrazovce jsou uspořádány v obdélníku o 5 řádcích, z nichž každý řádek má 4
+aplikace (sloupce).  Mezi aplikacemi můžete přecházet jednak posouváním prstu
+po obrazovce, nebo pomocí švihání doprava a doleva.  Aplikaci můžete otevřít
+poklepáním.
+
+Jelikož můžete mít velmi mnoho aplikací, je domácí obrazovka stránkovaná.  To
+znamená, že má několik stránek a v každý okamžik zobrazujete jen jednu
+stránku.  Aby Vám VoiceOver řekl, na jaké jste zrovna stránce, dotkněte se
+obrazovky třemi tlačítky.  Pro zobrazení jiné než aktuální stránky, švihněte
+třemi prsty vpravo nebo vlevo.
+
+Před první stránkou je ještě navíc jedna nečíslovaná stránka nazvaná "Hledání v iPodu"
+(popř. jinak pojmenovaná v závislosti na názvu Vašeho zařízení).  Tam můžete
+zadat do vyhledávacího políčka text, který bude prohledáván ve většině položek
+na Vašem zařízení (např. kontakty, emaily atd.). Abyste se používat klávesnici
+pro zadání textu k vyhledávání, vizte [#tasks-keyboard].
+
+=== Používání klávesnice === tasks-keyboard
+
+Zařízení s dotykovou obrazovkou obvykle nemají fyzickou klávesnici.  Místo toho
+je klávesnice zobrazena přímo na obrazovce a Vy se dotýkáte písmen na
+obrazovce, abyste je zadali.  Klávesnice je vždy zobrazena v dolní části
+obrazovky. Pohybujte prstem po obrazovce a VoiceOver Vám bude sdělovat, které
+písmeno nebo jiný znak máte právě pod prstem.  Klávesy jsou zhruba ve
+standardním rozložení známém z normálních fyzických klávesnic.
+
+==== Způsoby psaní ==== tasks-keyboard-mode
+
+Jsou 2 způsoby, pomocí kterých můžete vkládat text: standardní psaní a dotykové
+psaní.
+
+===== Standardní psaní ===== tasks-keyboard-mode-standard
+Jakmile jste na písmenu, které chcete zadata, aktivujte ho buď poklepáním
+kdekoliv na obrazovce, nebo klepnutím kamkoliv na obrazovku jiným prstem,
+zatímco původní prst držíte na písmenu.  Všimněte si, že ta druhá možnost Vám
+umožňuje přistoupit k zadávání delšího textu následovně:  vyberte si prst,
+kterým se pořád budete dotýkat obrazovky, a pak použijte jakýkoliv jiný prst,
+klidně i z druhé ruky, abyste klepli na obrazovku, čímž dosáhnete zadání
+písmena, na kterém je právě první prst.  Potom, co zadáte toto písmeno,  můžete
+vybrat jiné písmeno přetažením prvního prstu na správné místo, a opakováním
+postupu.  Takto se první prst může obrazovky dotýkat po celou dobu zadávání
+textu.
+
+===== Dotykové psaní ===== tasks-keyboard-mode-touch
+Jiný způsob pro zadávání textu pomocí klávesnice je dotykové psaní.  Můžete ho
+zvolit v [#advanced rotoru]. Potom, co jej vyberete, můžete text zadávat jen
+jedním prstem.  Nejprve tento prst přemístíte na klávesu se symbolem, který
+chcete zadat, potom toto písmeno zadáte ukončením dotyku.  Opakujte, dokud
+nezadáte celý text.
+
+==== Dokončení vstupu === tasks-keyboard-finish
+Pokud jste již zadali celý text, můžete vstup obvykle potvrdit stisknutím
+tlačítka v pravém dolním rohu klávesnice.  Např. když zadáváte adresu
+internetové stránky v Safari, tak potom, co jste celou adresu napsali, v pravém
+dolním rohu klávesnice stiskněte tlačítko "Otevřít".  Tím potvrdíte, že adresa
+je celá, a Safari ji začne načítat. Podobně pokud v Safari zadáte nějaký text
+do vyhledávacího pole,  bude v pravém dolním rohu klávesnice tlačítko
+"Hledat".  Pokud ho stisknete (tím, že na něj najedete a dvakrát klepnete),
+potvrdíte vyhledávaný výraz a Safari vyhledá daný výraz na Googlu (nebo jiném
+poskytovateli vyhledávání, kterého jste si nastavili).

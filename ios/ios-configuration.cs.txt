@@ -1,0 +1,138 @@
+= Konfigurace =
+
+Obsah: @TOC@
+
+Existují 2 druhy věci, která můžete chtít měnit na svém iOS
+zařízení:
+
+ * nastavení - důležité věci, které je nezbytné nastavit pro správnou
+   funkci iOS zařízení s VoiceOverem (např. zapnutí/vypnutí
+   VoiceOveru, nebo Braillského řádku pokud ho chcete používat)
+ * preference - věci, které vylepšují Vaše pohodlí, ale můžete se bez
+   nich obejít
+
+Jak nastavení tak preference se dají obvykle nastavit v nastavení
+VoiceOveru.  Abyste se dostali do nastavení VoiceOver, následujte tyto
+kroky:
+
+ * Jděte na domovskou obrazovku pomocí tlačítka plochy
+ * otevřete aplikaci "Nastavení"
+ * otevřete položku "Obecné"
+ * otevřete položku "Zpřístupnění"
+ * otevřete položku "VoiceOver"
+
+Pokud jste v nastavení VoiceOver, potom následujte pokyny pro dané
+nastavení nebo preferenci.  Abyste se naučili základní gesta pro to,
+abyste se dostali do nastavení VoiceOver, přečtěte si v této příručce
+oddíl [ios-usage#basic].
+
+== Nastavení ==
+
+=== Zapnutí VoiceOveru ===
+==== Zapnutí VoiceOveru z počítače při prvotním nastavování ====
+Když poprvé zapojíte své iOS zařízení do iTunes, máte možnost v iTunes
+nastavit, že chcete mít na zařízení zapnutý VoiceOver.  Během
+tohoto nastavení máte také možnost přiřadit trojitému stisknutí
+tlačítka plochy zajímavé akce, jako např. zapnutí/vypnutí VoiceOveru
+nebo přepnutí do černobílého režimu.  To, že můžete zapnout VoiceOver
+na svém iOS zařízení z Vašeho počítače Vám umožňuje si jej nastavit
+bez asistence vidící osoby.
+
+VoiceOver můžete pomocí iTunes zapnout a vypnout během jakékoliv
+synchronizace.  Takže jestli na to zapomenete při první synchronizaci,
+můžete VoiceOver zapnout při příští synchronizaci.
+
+==== Zapnutí VoiceOveru přímo na zařízení ====
+Pokud jste zapomněli zapnout VoiceOver během prvního nastavení pomocí
+iTunes a nemůžete k tomu momentálně použít iTunes (např. protože
+nejste u svého počítače), můžete zapnout VoiceOver na zařízení s
+pomocí vidící osoby, která by měla následovat tyto kroky:
+
+ * Jděte na domovskou obrazovku stisknutím fyzického kulatého tlačítka
+   plochy
+ * otevřete aplikaci "Nastavení"
+ * otevřete položku "Obecné"
+ * otevřete položku "Zpřístupnění"
+ * otevřete položku "VoiceOver"
+ * zapněte nastavení "VoiceOver" ze stavu "vypnuto" do stavu "zapnuto"
+   táhnutím tlačítka doprava
+ * pokud se objeví výstraha, která varuje před změnou gest a ptá se,
+   zda-li opravdu chcete zapnout VoiceOver, odpovězte kladně
+
+=== Nastavení jazyka ===
+V některých neanglicky mluvících zemích jsou některá iOS zařízení
+dodávána s jazykem nastaveným na angličtinu.  Pro změnu jazyka na
+češtinu pro uživatelské rozhraní i VoiceOver postupujte následovně:
+
+ * jděte na domovskou stránku stisknutím fyzického kulatého tlačítka
+   plochy dole na zařízení
+ * otevřete aplikaci "Settings"
+ * otevřete položku "General"
+ * otevřete položku "International"
+ * otevřete položku "Language"
+ * najděte svůj jazyk a dvakrát na něj poklepejte
+ * stiskněte tlačítko "Done"
+
+Uživatelské rozhraní i hlas VoiceOveru pak začnou používat nový jazyk po
+pár vteřinách.
+
+=== Používání Braillských řádků ===
+iOS je dodáván s podporou
+[http://www.apple.com/accessibility/iphone/braille-display.html
+vybraných braillských řádků].
+
+Pro to, aby Vaše iOS zařízení zobrazovalo na braillském řádku,
+následujte tyto kroky:
+
+ * zapněte svůj braillský řádek
+ * otevřete nastavení VoiceOveru
+ * otevřete položky "Braillovo písmo"
+ * pokud máte vypnuté Bluetooth, iOS se Vás zeptá, zda-li ho chcete
+   zapnout - odpovězte "Ano"
+ * iOS nyní vyhledává bezdrátové braillské řádky a zobrazuje je v
+   sekci "Vyberte Braillovo zařízení"
+ * jakmile vidíte v seznamu Váš braillský řádek, vyberte ho poklepáním
+ * zadejte PIN svého Braillského řádku (prosím buďte opatrní a zadejte
+   ho správně napoprvé, nebo budete pravděpodobně muset své zařízení
+   restartovat, abyste se mohli znovu pokusit zadat správný PIN
+ * Váš bluetooth Braillský řádek by měl nyní fungovat během několika
+   málo sekund
+
+Někdy se nastavení Braillského řádku nepodaří kvůli nějaké chybě, nebo
+trvá donekonečna (viz [https://boss.brailcom.org/its/issues/3397
+#3397]). V takovém případě budete asi muset restartovat své zařízení.
+
+== Preference ==
+
+=== Rychlost řeči ===
+Aby na Vás VoiceOver mluvil rychleji nebo pomaleji:
+ * přejděte do nastavení VoiceOveru
+ * přesuňte se na upravitelnou položku "Rychlost čtení"
+ * švihnutím prstem nahoru a dolu nastavte požadovanou rychlost
+
+Můžete také chtít nastavit rychlost čtení přímo v aplikaci, kterou
+právě používáte, aniž abyste kvůli tomu museli do nastavení
+VoiceOveru (a pak zpět).  Abyste toho mohli dosáhnout, přesuňte se na
+položku "Zahrnout do rotoru" hned vedle položky "Rychlost čtení" a
+zapněte ji.  Podívejte se do TODO, abyste se naučili používat rotor
+pro změnu parametrů VoiceOveru (vč. rychlosti čtení) přímo ve Vaší
+aplikaci.
+
+=== Jazykový rotor ===
+Do jazykového rotoru byste si měli přidat jazyky, kterým bez potíží
+rozumíte a u kterých byste někdy mohli po VoiceOveru chtít, aby Vám v
+nich četl obsah (např. cizojazyčnou stránku, nebo email od osoby,
+která mluví cizím jazykem.
+
+Pro přidání jazyka do jazykového rotoru následujte tyto kroky:
+
+ * přejděte do nastavení VoiceOveru
+ * otevřete položku "Jazykový rotor"
+ * najděte v tabulce požadovaný jazyk, neberte ohled na tlačítka
+   "uspořádat"
+ * poklepejte, abyste vybraný jazyk přidali do jazykového rotoru (mimo
+   případy, kdy uslyšíte, že je jazyk "vybrán", v takovém případě už
+   jazyk je v jazykovém rotoru a poklepání by ho z něj odstranilo)
+
+Berte v potaz, že svůj výchozí jazyk nemusíte přidávat do jazykového
+rotoru, a také nedoporučujeme, abyste ho přidávali.
