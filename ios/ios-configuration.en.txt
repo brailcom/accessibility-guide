@@ -32,7 +32,7 @@ When you connect your iOS device to iTunes for the first time, you
 have the option to select that the device should have VoiceOver turned
 on.  During the setup, you can also set up triple-click of
 the home button to an accessibility-related action, like turning
-VoiceOver on and off,  or turning zoom on and off.  The fact that you
+VoiceOver on and off,  or turning black and white mode on and off.  The fact that you
 can turn VoiceOver on iOS device on from your computer enables you to
 unpack and setup the device without assistance of a sighted person.
 
@@ -69,8 +69,9 @@ The user interface and VoiceOver voice will use the new language after
 a few seconds.
 
 === Using Braille displays ===
-iOS ships with out-of-the-box support of * braille displays. You can
-see them listed <here>.
+iOS ships with out-of-the-box support of
+[http://www.apple.com/accessibility/iphone/braille-display.html select
+braille displays].
 
 To setup your bluetooth Braille display, follow these instructions:
 

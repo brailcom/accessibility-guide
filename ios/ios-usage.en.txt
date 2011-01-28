@@ -50,9 +50,13 @@ respectively. This is for example:
 
 == Advanced usage == advanced
 
-You can refer to Apple's manual for advanced gestures.  We will just
-sum up things you can do with VoiceOver to get you motivated to read
-the manual:
+You can refer to Apple's manual
+([http://manuals.info.apple.com/en_US/iPad_iOS4_User_Guide.pdf iPad],
+[http://manuals.info.apple.com/en_US/iPhone_iOS4_User_Guide.pdf iPhone],
+[http://manuals.info.apple.com/en_US/iPod_touch_iOS4_User_Guide.pdf iPod
+Touch])
+for advanced gestures.  We will just sum up things you can do with VoiceOver to
+get you motivated to read the manual:
 
  * touch typing
  * rotor, including its usage in web pages
@@ -103,7 +107,7 @@ search term, see section [#tasks-keyboard].
 
 Touchscreen devices usually do not have physical keyboard.  Instead,
 the keyboard is displayed on the screen and you touch the letters on
-the screen to input numbers.  The keyboard is always displayed in the
+the screen to input them.  The keyboard is always displayed in the
 lower half of the screen.  Move your finger around the screen to let
 VoiceOver tell you where are which letters.  The letters on the
 keyboard are in a standard layout you know from a physical keyboard.
@@ -127,7 +131,7 @@ screen all the time during whole keyboard session.
 
 ===== Touch typing ===== tasks-keyboard-mode-touch
 Another way to input letters from keyboard is called touch typing. You
-enable it in the rotor (TODO link).  Once enabled,  you use just one
+enable it in the [#advanced rotor].  Once enabled,  you use just one
 finger to input the letter.  You first navigate to the letter you want
 to input with your finger, then you input the letter by releasing the
 touch.  Repeat until you have entered the whole text.
