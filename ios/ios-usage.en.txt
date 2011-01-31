@@ -162,7 +162,7 @@ button above the main switching button.  It switches between "numbers"
 and "symbols" pages.  You press the 2 switching buttons by standard
 typing. Touch typing does not work on these 2 buttons.
 
-=== Rotor ===
+=== Rotor === rotor
 Rotor expands the navigation and input commands you can use anywhere
 in iOS.  Think of it as a context menu.  First you select the setting
 you would like to change by the rotation gesture, or navigation axis
@@ -209,7 +209,8 @@ away from your face for some time, not immediately.
 
 Note that iPhone detects when your face touches it.  If it does, you hear the
 caller in "silent" mode.  However when you put the phone away from your face a
-bit, the phone switches to loud mode where everyone can hear the caller.
+bit (e.g. put it on a table), the phone switches to loud mode where everyone
+can hear the caller.
 
 Note that the VoiceOver voice can sometimes become "choppy" after a phone call
 (see bug [https://boss.brailcom.org/its/issues/3443 #3443]).  If you experience

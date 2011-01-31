@@ -32,7 +32,7 @@ running, it will automatically detect it and use it.
 If you have a Braille display that you want to connect using
 Bluetooth, follow these steps to connect it:
  * if your Braille display supports it, turn your Braille display on
- * open the VoiceOver utility (e.g. by pressing Ctrl+Option+F8)
+ * open the VoiceOver Utility (e.g. by pressing Ctrl+Option+F8)
  * navigate to the section "Braille"
  * select the "Displays" tab
  * navigate to and press the "Add Bluetooth Display" button; a dialog appears
@@ -45,7 +45,7 @@ Bluetooth, follow these steps to connect it:
 === Configuring language for your Braille display === braille-language
 To set the proper language for your Braille display, follow these
 steps:
- * open VoiceOver utility
+ * open VoiceOver Utility
  * navigate to section "Braille"
  * there navigate to tab "Layout"
  * navigate to pop-up "Braille Translation" and select your language
