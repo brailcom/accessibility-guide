@@ -144,3 +144,79 @@ do vyhledávacího pole,  bude v pravém dolním rohu klávesnice tlačítko
 "Hledat".  Pokud ho stisknete (tím, že na něj najedete a dvakrát klepnete),
 potvrdíte vyhledávaný výraz a Safari vyhledá daný výraz na Googlu (nebo jiném
 poskytovateli vyhledávání, kterého jste si nastavili).
+
+==== Zadávání jiných symbolů ==== tasks-keyboard-nonletter
+Jsou také jiné znaky, které můžete chtít zadat přes klávesnici, jako
+čísla, interpunkce (např. čárka, pomlčka).  Tyto nejsou v počátačním stavu
+klávesnice zobrazeny.  Klávesnice ve skutečnosti obsahuje stránky.  Hlavní
+stránka, která je zobrazena na začátku práce s klávesnicí, se nazývá
+"písmena".  Další dostupné stránky se nazývají "čísla" a "symboly".  Když jste
+na stránce "písmena", která je zobrazena ve výchozím stavu, můžete se přepnout
+mezi ní a dalšími dvěma stránkami stisknutím tlačítka v dolním levém rohu.
+Popis tohoto tlačítka Vám říká, na jakou stránku se tím přepnete.  Pokud jste
+na stránce "čísla" nebo "symboly", je nad hlavním tlačítkem pro přepínání
+stránek ještě jedno tlačítko, které přepíná mezi stránkami "čísla" a
+"symboly".  Tato 2 přepínací tlačítka musíte přepínat jako ve standardním psaní
+(tedy označením tlačítka a pak poklepáním kamkoliv na obrazovku), i když jste
+právě v módu dotykového psaní.
+
+=== Rotor === rotor
+Rotor rozšiřuje možnosti pohybu po obrazovce a vstupních příkazů, které můžete
+používat kdekoliv v iOS.  Představte si rotor jako kontextové menu.  Nejprve
+pomocí gesta otočení dvěma prsty vyberete nastavení nebo preferenci, které
+chcete změnit, nebo navigační osu, po které se chcete pohybovat.  Potom
+zvýšíte/snížíte hodnotu nastavení nebo se pohnete na navigační ose
+dopředu/dozadu pomocí gesta švihnutí nahoru a dolu.  Následující příklad se
+bude snažit věc více ozřejmit:
+
+Předpokládajme, že si chcete prohlédnout, jak se písmeno po písmenu hláskuje
+název aplikace YouTube, která je na domovské obrazovce.  Nejprve dojděte na
+tuto aplikaci (je na domovské obrazovce v druhém řádku, prvním sloupci).  Když
+jste na ní, vyberte si v rotoru navigační osu "znaky": dvěma prsty na obrazovce
+opakovaně otáčejte, dokud neuslyšíte "znaky".  Gesto otáčení si nejlépe
+představíte, jako kdyby jste otáčeli otočným knoflíkem např. hlasitosti na
+rádiu pomocí palce a ukazováčku.
+
+Potom, co jste si vybrali osu "znaky", můžete se po ose pohybovat pomocí
+švihnutí prstem nahoru a dolů.  V případě osy "znaky" se tím pohybujete o jeden
+znak dopředu a dozadu, a právě přeskočené písmeno je Vám při tom vysloveno.
+Takto se dozvíte, že písmeno "t" ve slově "YouTube" je velké, což je něco, co
+byste nevěděli, kdybyste si nechali VoiceOverem přečíst celé slovo "YouTube".
+Toto je také dobrý způsob, jak si po sobě zkontrolovat důležitý text, který
+jste napsali, např. emailovou adresu, nebo když se chcete naučit psát nové
+slovo, na které narazíte.
+
+Užitečné příklady použití rotoru:
+
+ * když jste v aplikaci Kontakty a hledáte kontakt pomocí zadání jejich jména
+   ve vyhledávacím poli, můžete si takto znak po znaku zkontrolovat, že jste
+   jméno zadali opravdu správně
+ * když jste na internetové stránce a chcete se pohybovat přes prvky stejného
+   typu (např. postupně projít všechna formulářová tlačítka na stránce), můžete
+   si nastavit hodnotu rotoru na "tlačítka" a použít opět gesta švihnutí nahoru
+   a dolu pro skočení na předchozí a další tlačítko.
+
+Osy rotoru, které máte právě dostupné, se mění v závislosti na tom, ve které
+aplikaci právě jste a co děláte.  Seznam všech os se dozvíte v oficiálním
+manuálu.
+
+=== Volání ===
+Když Vám někdo zavolá (např. pomocí telefonního čísla Vašeho iPhone, nebo na
+FaceTime), můžete hovor zvednout pomocí dvojího poklepání dvěma prsty kamkoliv
+na obrazovku.  Stejným gestem pak můžete hovor zavěsit.  Když takto hovor
+zavěšujete, tak toto gesto funguje pouze poté, co máte přístroj nějakou dobu od
+svého obličeje, tedy ne ihned po jeho oddálení od obličeje.
+
+iPhone detekuje, když se obrazovka dotýká Vašeho obličeje.  Pokud se dotýká,
+slyšíte volajícího v "tichém" módu.  Pokud ale telefon oddálíte od svého
+obličeje (např. položíte na stůl), přepne se telefon do hlasitého módu kdy
+všichni okolo Vás slyší volajícího.
+
+Hlas VoiceOveru se občas po hovoru začne sekat (viz chyba
+[https://boss.brailcom.org/its/issues/3443 #3443]). Pokud se Vám toto stane,
+můžete problém vyřešit restartováním telefonu, tedy jeho vypnutím a následným
+zapnutím.  Telefon vypnete podržením zamykacího tlačítka (fyzického tlačítka na
+vrchu Vašeho telefonu) na pár sekund, a potom poklepáním, abyste potvrdili
+vypnutí pomocí tlačítka "vypnout". Telefon se pak vypne. Po několika sekundách
+pak telefon zapněte opět tím, že na pár sekund stisknete a podržíte zamykací
+tlačítko.  Telefon bude za pár sekund zapnutý a ohlásí se pomocí VoiceOveru.

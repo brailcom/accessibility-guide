@@ -1,0 +1,21 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Instalace =
+
+Obsah: @TOC@
+
+== Národní hlasy pro VoiceOver ==
+Mac OS X je dodáván pouze s hlasy pro americkou angličtinu (viz chyba
+[https://boss.brailcom.org/its/issues/3437 #3437]). I když jste anglicky
+mluvící, můžete preferovat jiný hlas než ten dodaný (např. britskou
+angličtinu).  A pokud nejste rodilý anglický mluvčí, budete si muset
+obstarat a nainstalovat hlas pro svůj jazyk.  Infovox iVos poskytuje hlasy pro
+různé jazyky.  Cena je 99 EUR/USD za hlas.  Stačí si stáhnout 30denní zkoušku z
+[http://www.assistiveware.com/voicedownload.php této stránky] a pokud jste
+spokojeni, kupte si hlas před vypršením 30denní zkušební doby.
+
+== Braillské vstupní tabulky ==
+Mac OS X je dodáván s braillskými tabulkami pouze pro americkou angličtinu
+(viz chyba [https://boss.brailcom.org/its/issues/3439 #3439]).  Takže jestli
+nejste rodilý anglický mluvčí, musíte si doinstalovat Braillské tabulky
+pomocí instalátoru [http://www.cecimac.org/CeciMacBraille.dmg
+zde].  Bohužel ale neobsahuje tabulku pro český jazyk.

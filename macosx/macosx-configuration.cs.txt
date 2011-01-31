@@ -1,0 +1,57 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Konfigurace =
+
+Obsah: @TOC@
+
+== VoiceOver == voiceover
+
+=== Zapnutí a vypnutí VoiceOveru === voiceover-start
+Když Váš počítač Mac beží, můžete VoiceOver zapnout a vypnout současným
+stisknutím kláves Cmd a F5.  Cmd je tlačítko s logem Apple (jablko)
+bezprostředně vlevo od mezerníku.  F5 je šestá klávesa na vrchní řadě kláves.
+
+=== Použití jiného hlasu === voiceover-voice
+Abyste změnili hlas, kterým VoiceOver mluví (např. hlas pro jiný jazyk),
+postupujte následovně:
+
+ * Otevřete VoiceOver utility (např. pomocí klávesové zkratky Ctrl+Alt+F8)
+ * jděte do oddělení "Speech"
+ * jděte do panelu "Voices"
+ * vyberte hlas ve sloupci "Voice" pro "Category" nazvanou "Default"
+
+== Braille == braille
+
+=== Připojení Vašeho braillského řádku === braille-connect
+
+==== Připojení USB Braillského řádku ==== braille-connect-usb
+Abyste připojili svůj Braillský řádek pomocí kabelu (USB), nejprve řádek zapněte
+a pak jej připojte USB kabelem k Vašemu počítači Mac.  Když VoiceOver běží, tak
+připojený řádek ihned automaticky rozpozná a začne jej používat.
+
+==== Připojení Braillského řádku pomocí bluetooth ==== braille-connect-bluetooth
+Pokud máte Braillský řádek, který chcete připojit bezdrátově (pomocí
+Bluetooth), postupujte následovně:
+
+ * zapněte svůj Braillský řádek
+ * otevřete VoiceOver Utility (např. pomocí stisknutí Ctrl+Alt+F8)
+ * přejděte na oddělení "Braille"
+ * zde otevřete panel "Displays"
+ * najděte a stiskněte tlačítko "Add Bluetooth Display"; objeví se dialogové
+   okno
+ * počkejte pár sekund, dokud se Váš Braillský řádek neobjeví v tabulce
+ * označte řádek s Vaším braillským displejem a stiskněte tlačítko "Select"
+ * zadejte Bluetooth PIN Vašeho Braillského řádku.  Pokud jste jen nikdy
+   neměnili, je Váš PIN pravděpodobně 1234 nebo 0000.
+
+=== Nastavení jazyka pro Váš Braillský řádek === braill-language
+Abyste nastavili správný jazyk pro Váš Braillský řádek, následujte tyto kroky:
+
+ * otevřete VoiceOver Utility
+ * přejděte do sekce "Braille"
+ * tam otevřete panel "Layout"
+ * přejděte na rozbalovací seznam "Braille Translation" a vyberte Váš jazyk
+
+Mějte na paměti, že dle instalačních instrukcí braillských tabulek pro ostatní
+jazyky nesmíte zaškrtávat volbu "Use dots 7 and 8 to indicate cursor", když
+máte nastaven jiný jazyk pro "Braille Translation" než "Apple American
+English", jinak se musíte připravit na problémy se stabilitou.
