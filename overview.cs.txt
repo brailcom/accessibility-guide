@@ -1,0 +1,122 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Přehled =
+
+Tři nejrozšířenější platformy pro stolní počítače a laptopy jsou: GNU/Linux,
+Microsoft Windows a Apple Mac OS X. Není snadné některou z nich doporučit,
+jelikož jsou docela různé a poskytují kvality v různých oblastech. Každá má
+své vlastní výhody i nevýhody. Proto je v následujících sekcích postupně
+představujeme všechny.
+
+Mobilní zařízení se dnes stávají malými počítači samy o sobě. Ukazujeme
+to na příkladu Apple iOS, který jsme vybrali pro jeho výtečné zpřístupnění.
+
+Jelikož je často užitečné zkombinovat pro různé účely dvě nebo i více různých
+platforem. Poslední sekce této kapitoly se tak zaobírá kombinováním různých
+platforem, interoperabilitou a virtualizací.
+
+Obsah: @TOC@
+
+== GNU/Linux ==
+
+Platforma GNU/Linux je založená převážně na vývojovém modelu
+[http://www.gnu.org Svobodného software].  Je všestranná, bezpečná a
+komfortní. Většina jejích komponent je dostupná zdarma a tudíž přístupná i
+lidem s omezenými finančními zdroji. Pro každého je ale často pohodlné novou
+aplikaci prostě snadno najít v rejstříku a po internetu ji ihned nainstalovat,
+aniž by se musel starat o cenu, krabice s DVD nebo o licenční podmínky.
+
+Z pohledu zpřístupnění je na něm výhodné, že mnoho akcí lze realizovat pomocí
+sady čistě textových nástrojů z příkazové řádky, která se nevidícím ovládá
+často snadněji než grafická rozhraní.
+
+Různé systémy a nástroje v GNU/Linuxu jsou obyčejně seskupeny v distribucích,
+jako je Ubuntu, Debian, Fedora a jiné. Účelem distribucí je poskládat
+softwarové komponenty dohromady nějakým rozumným způsobem. Tato příručka
+popisuje především distribuci Ubuntu, ale většina informací v ní obsažených
+platí i pro jiné distribuce.
+
+[overview-gnu-linux More on GNU/Linux]
+
+== Mac OS X ==
+
+Mac OS X is a popular UNIX-based desktop operating system.  It is known for its
+intuitive, elegant and easy to use user interface.  Users can search for and
+install applications, both free and paid, from the Mac App Store.  Many well
+known applications are available for Mac OS X, like Microsoft Office, or Steam
+with Valve's games.
+
+From the accessibility point of view, every machine with Mac OS X comes with a
+screen reader called VoiceOver and English voices.  Braille display support for
+selected displays is also included, and magnification support is also provided
+by VoiceOver.  Therefore, blind or visually impaired English-speaking user can
+literally start using the Mac computer right after unboxing it.
+
+Situation is much more complicated for non-English users, who have to buy
+voices for their language and get Braille input tables for their language.
+
+Apple tests all its applications so that they work with VoiceOver.  So you can
+use the built-in apps like Mail, Safari (internet browser), Address Book, iCal
+and others and be sure that they provide reasonable experience with VoiceOver.
+
+== iOS ==
+
+iOS is a derivative of the Mac OS X operating system designed specifically for
+touchscreen mobile devices.  It runs on iPhone, iPad and iPod touch.  Users can
+install and update their apps, both free and paid, using the App Store.
+
+iOS comes with built-in screen reader VoiceOver, which is the first touchscreen
+screen reader.  It uses touch gestures for navigating in the screen reader.
+iOS also ships with synthetic voices for over 30 languages and supports reading
+different parts of user interface using the appropriate language ("language
+switching").  iOS also ships with out-of-the box support for many bluetooth
+Braille displays and Braille tables for many languages.
+
+== Microsoft Windows ==
+
+Microsoft Windows je momentálně nejrozšířenějším operačním systémem. Je pro něj
+dostupná široká škála aplikací a v porovnání s jinými platformami je často tou,
+která je nejlépe podporována dalšími firmami. Původní problémy se stabilitou a
+bezpečností byli v novějších verzích již z velké míry překonány.
+
+Ačkoliv je tato platforma převážně proprietární a za jakýkoliv další software
+se na ní obyčejně platí, je pro ní rovněž dostupných mnoho balíčků svobodného
+software, včetně aplikací poskytujících zpřístupňující technologie.  Ty
+zahrnují webový prohlížeč Firefox, kancelářský balík OpenOffice.Org nebo
+odečítač obrazovky NVDA a prostředí Emacs+speechd-el.
+
+== Kombinování platforem ==
+
+Někdy je užitečné mít možnost spustit najednou více než jednu z uvedených
+platforem. Například uživatel GNU/Linuxu může někdy chtít spustit Microsoft
+Windows a použít speciální aplikaci, která je dostupná jenom tam (jako
+například Microsoft Word) a poté přesunout výsledný soubor zpět na
+svou pracovní plochu v GNU/Linuxu. Nebo možná uživatel MacOS občas potřebuje
+použít GNU/Linux kvůli nějaké chytré aplikaci, která na Mac OS X chybí nebo
+je příliš drahá.
+
+Na většině dnešních počítačů je běžně možné spoustit jiný operační systém
+nebo jinou platformu způsobem, který se jeví jako obyčejné další okno
+v jeho pracovním prostředí. Tímto způsobem můžete spustit až několik
+tzv. virtuálních počítačů a dělat si s nimi, co se vám líbí. Mají všechny
+přístup k internetu i ke zvukovému výstupu a kopírovat mezi nimi soubory
+může být tak snadné, jako mezi jakýmikoliv dvěma aplikacemi na vaší
+pracovní ploše. Takový virtuální počítač můžete dokonce umístit na flash
+disk a používat je na různých skutečných počítačích, což může být velmi
+zajímavé z pohledu zpřístupnění. Aby něco takového bylo možné, musí v pozadí
+fungovat složité technologie, ale dnešní nástroje jsou schopny tyto detaily
+před uživatelem skrýt a používají se zcela jednoduše.
+
+Existuje několik takovýchto virtualizačních technologií, jako například Virtual
+Box, Xen, Virtuozzo nebo VMWare. My zde doporučujeme VMWare Player, protože je
+zároveň zdarma, dostupný na všech platformách, dobře přístupný, jednoduchý na
+používání a docela výkonný.
+
+Níže naleznete informace, jak jej nainstalovat a používat:
+
+ * VMWare Player pro GNU/Linux:
+    * [gnu-installation#vmware Instalace VMWare]
+    * [gnu-usage#vmware Používání VMWare]
+
+
+

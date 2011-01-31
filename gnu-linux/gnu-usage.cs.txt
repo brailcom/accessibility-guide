@@ -1,0 +1,1053 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Používání = usage
+
+Obsah: @TOC@
+
+== Obecné principy == general-principles
+
+=== Hlavní menu === main-menu
+
+Každá aplikace má jedno hlavní menu. Hlavní menu obvykle poskytuje přístup
+k většině dostupných funkcí aplikace, stejně jako k jejímu nastavení
+a k nápovědě.
+
+Do hlavního menu se dostanete pomocí klávesy >>F10<<, pohybovat se v něm
+můžete pomocí kurzorových šipek a vybírat klávesou >>ENTER<<. Šipky
+vlevo a vpravo vybírají mezi hlavními položkami v menu (např. 'Soubor',
+'Úpravy', 'Nástroje', 'Nápověda'). Šipky nahoru a dolů vybírají z položek
+v podmenu (například 'Otevřít', 'Uložit', 'Uložit jako', 'Zavřít').
+
+Někdy má položka podmenu ještě další vlastní podmenu. V tom případě
+jej dále rozbalí stisk šipky vpravo a opět se v něm můžete pohybovat
+šipakmi nahoru a dolů. Šipka vlevo takové podmeny uzavře, zatímco
+opakovaný stisk šipky vpravo vás přenese na další položku hlavního
+menu.
+
+Rada: Z toho důvodu je možná přehlednější používat šipku vpravo jen pro
+otevírání položek podmenu a k pohybu mezi hlavními položkami menu
+používat vždy pouze šipku vlevo.
+
+Klávesové zkratky:
+:>>F10<<: Přejdi do hlavního menu aplikace
+:Nahoru a Dolů: Vybírej z podmenu
+:Vpravo: Další položka v top-level menu nebo otevření podmenu
+:Vlevo: Předchozí položka v top-level menu nebo zavření submenu
+
+=== Kontextové menu === context-menu
+
+Kontextové menu se neváže k aplikaci jako takové, ale k nějakému
+konkrétnímu objektu v aplikaci. Objekt může být třeba soubor,
+editační políčko, kus textu nebo kontakt v komunikačním nástroji.
+Kontextové menu se otevírá na tomto konkrétním objektu a nabízí
+sadu akcí, které je s ním možné provádět.
+
+Jednu z těchto akcí obyčejně vyvoláte, pokud na objektu zmáčknete
+klávesu >>ENTER<<, ale v kontextovém menu máte většinou na výběr
+z více možností.
+
+K jeho vyvolání přejděte na objekt a stiskněte >>Shift+F10<<.
+
+Příklady:
+ * Chcete-li sbalit složku do archivu .zip, najdede si ji v průzkumníku
+   souborů, vyvoláte kontextové menu a vyberete ,,Archivovat...''
+ * Pro zjištění velikosti obrázku najdete obrázek, otevřete si na něm
+   kontextové menu a vyberete si ,,Vlastnosti''
+ * Chcete-li otevřít odkaz na webové stránce v novém okně prohlížeče,
+   místo v existujícím okně, najdete tento odkaz a z kontextového menu
+   vyberete akci ,,Otevřít v novém okně''.
+
+Klávesové zkratky:
+:>>Shift+F10<<: Otevřít kontextové menu
+
+=== Logika klávesových zkratek === keyboard-shortcuts-logic
+
+:>>Ctrl+<<kombinace: Kombinace s klávesou >>Ctrl<< vyvolávají různé akce (např. >>Ctrl+u<< Undo -- Vrátit zpět)
+:>>Alt+<<kombinace: Kombinace s klávesou >>Alt<< jsou určeny k přístupu do menu a k manipulaci s okny
+:>>Shift+<<kombinace: >>Shift<< je často využíván k obrácení nějaké akce (např.  >>Ctrl+u<< Undo -- Vrátit, >>Shift+Ctrl+u<< Redo -- Opakovat)
+
+=== Navigace === navigation
+
+Přístup k menu, aplikacím a oknům:
+
+:>>Alt+F1<<: Přejít na hlavní menu pracovní plochy
+:>>Alt+F2<<: Spustit aplikaci s určitým jménem
+:>>Alt+TAB<<: Přesun na další aktuálně otevřené okno (Shift+Alt+TAB v opačném směru)
+
+Navigace mezi prvky (widgety) uvnitř aplikace:
+
+:>>Tab<<: Přesun na další prvek (>>Shift+Tab<< na předchozí prvek)
+:>>Ctrl+Tab<<: Přechod na další prvek z vnitřku editačních políček nebo všude jinde, kde má klávesa >>Tab<< samotná jinou funkci (opak je >>Shift+Ctrl+Tab<<)
+:>>F6<<: Přechod na další panel -- obyčejně přesouvá mezi důležitými částmi aktuálního okna (>>Shift+F6<< předchozí panel)
+:>>Ctrl+F1<<: Zobraz/skryj doplňující informaci (tooltip) pro objekt pod kurzorem (pokud objekt nějakou poskytuje)
+:>>Ctrl+Alt-PgUp<<: Přepínání mezi kartami (tabs) v okně (opačný směr >>Ctrl+Alt+PgDown<<)
+:>>Space<<: Přepni stav zaškrtávacího políčka
+:>>ENTER<<: Vyber položku menu nebo stiskni tlačítko
+
+=== Odečítač obrazovky Orca === orca
+
+Orca je dnes hlavním odečítačem obrazovky v prostředí Gnome. Pokud ještě není
+nastartovaná, můžete ji nastartovat pomocí '>>Alt-F2 orca<<'. Nastartuje
+v samostatném okně s tlačítky 'Nastavení', 'Nápověda' a 'Konec'. Pomocí
+klávesových zkratek ji ale lze kontrolovat i z okna jakékoliv jiné aplikace.
+
+Orca poskytuje dvě předdefinované rozložení kláves.  *Rozložení pro stolní
+počítač* využívá numerického bloku na klávesnici, ale *Rozložení pro laptop* se
+musí vyrovnat s tím, že většina přenosných počítačů na klávesnici nemá
+samostatný numerický blok.
+
+Nejdůležitějším rozdílem je použití základní klávesy pro klávesové zkratky Orca,
+většinou nazývané 'Orca klávesa':
+
+:Orca klávesa v rozložení pro stolní počítač: >>Insert<<
+:Orca klávesa v rozložení pro laptop: >>Caps Lock<<
+
+==== Obecné ==== orca-general
+
+:>>Orca+Space<<: Spusť konfigurační dialog Orca
+:>>Orca+s<<: Zapni/vypni řeč.
+:>>Orca+q<<: Ukonči odečítač Orca.
+
+==== Plošný náhled ==== orca-flat-review
+
+Plošný náhled poskytuje možnost zkoumat aktuální obsah obrazovky bez toho,
+abyste hýbali kurzorem z jeho původní pozice.
+
+Při klávesovém rozložení pro stolní počítač se k ovládání plošného náhledu
+využívají klávesy numerického bloku. V rozložení pro laptop je to pak
+kombinace Orca klávesy (Caps Lock) spolu s částí klávesnice nalézající
+se v segmentu mezi klávesami 7, 9, tečka a čárka. V následujícím
+přehledu uvádíme vždy obě varianty:
+
+:>>Numpad-minus<< (>>Orca+P<<): Zapnout a vypnout plošný náhled
+
+Čtení po řádcích:
+:>>Numpad-7 (Orca+U)<<: Předchozí řádek -- Přesunout kurzor plošného náhledu na předchozí řádek
+:>>Numpad-8 (Orca+I)<<: Tento řádek -- Přečíst aktuální řádek
+:>>Numpad-9 (Orca+O)<<: Následující řádek -- Přesunout kurzor plošného náhledu na další řádek
+
+Čtení po slovech:
+:>>Numpad-4 (Orca+J)<<: Předchozí slovo -- Přesunout kurzor plošného náhledu na předchozí slovo
+:>>Numpad-5 (Orca+K)<<: Toto slovo -- Přečíst aktuální slovo
+:>>Numpad-6 (Orca+L)<<: Následující slovo -- Přesunout kurzor plošného náhledu na následující slovo
+
+Čtení po znacích:
+:>>Numpad-1 (Orca+M)<<: Předchozí znak -- Move the flat review cursor to the previous character and read it.
+:>>Numpad-2 (Orca+coma)<<: Tento znak -- Přečíst aktuální znak.
+:>>Numpad-3 (Orca+period)<<: Následující znak -- Přesunout kurzor plošného náhledu na následujcí znak.
+
+Kliknutí myší na pozici kurzoru plošného náhledu:
+:>>Numpad-slash (Orca+7)<<: Kliknutí levým tlačítkem myši
+:>>Numpad-star (Orca+8)<<: Kliknutí pravým tlačítkem myši
+
+Další:
+:>>Numpad-Plus<<: Přečíst vše -- Čte od aktuální pozice kurzoru až do konce dokumentu
+:>>Numpad-Enter<<: Kde se nacházím -- Přemluví informaci zahrnující titulek okna aktuální aplikace, stejně jako název ovládacího prvku, na němž je aktuálně kurzor
+
+==== Tabulky ==== orca-tables
+
+:>>Orca+F11<<: Řádky nebo buňky -- Přepíná režim čtení tabulek mezi čtením individuálních buňek a celých řádků
+
+==== Výukový režim ==== orca-learn-mode
+
+Chcete-li prozkoumat funkci jednotlivých kláves a klávesových zkratek
+v určité situaci, můžete vstoupit do tzv. výukového režimu Orca pomocí kláves
+>>Orca+H<<. V tomto režimu můžete stisknout jakoukoliv klávesu nebo
+klávesovou zkratku a Orca oznámí její funkci, ve skutečnosti však nic
+neudělá (s výjimkou klávesy >>Escape<<, která výukový mód ukončí).
+
+Je však nutno si uvědomit, že Orca popíše funkce pouze těch klávesových
+zkratek, které patří jí. Mnoho dalších užitečných klávesových zkratek
+je obyčejně poskytováno aplikací samotnou a ty se takto odhalit nedají.
+
+Klávesové zkratky:
+:>>Orca+H<<: Vstoupit do výukového režimu Orca
+:>>ESC<<: Opustit výukový režim
+
+==== Advanced ==== orca-advanced
+
+:>>Orca+F<<: Oznámit font a atributy aktuálního znaku
+
+=== Applications === applications
+
+Níže uvádíme přehled běžně používaných klávesových zkratek, které
+se využívají napříč nejrůznějšími aplikacemi. Protože je ale
+každá aplikace trošku jiná, ne všechny níže uvedené zkratky
+v ní musí mít smysl.
+
+General:
+:>>F10<<: Přejdi do hlavního menu aplikace
+:>>Shift-F10<<: Otevři kontextové menu na zvoleném objektu
+:>>Alt+F4<<: Zavři aktuální okno
+:>>Alt+Space<<: Přejdi do menu okna (maximalizovat, minimalizovat, změnit velikost, zrušit okno)
+
+Akce položky menu Soubor:
+:>>Ctrl+N<<: Nový -- Vytvoř dokument
+:>>Ctrl+O<<: Otevřít -- Otevři dokument
+:>>Ctrl+S<<: Uložit -- Ulož aktuální dokument
+:>>Ctrl+P<<: Tisk -- Tiskni aktuální dokument
+:>>Ctrl+W<<: Zavřít -- Zavři aktuální dokument
+:>>Ctrl+Q<<: Ukončit -- Ukonči aplikaci
+
+Vrátit zpět a opakovat (undo a redo):
+:>>Ctrl+Z<<: Undo -- Vrátit zpět
+:>>Shift+Ctrl+Z<<: Redo -- Opakovat
+
+Kopírovat a vložit ze schránky:
+:>>Ctrl+X<<: Vyřízkout -- Vyříznout zvolený objekt nebo oblast a uložit je do schránky
+:>>Ctrl+C<<: Kopírovat -- Kopírovat zvolený objekt nebo oblast do schránky
+:>>Ctrl+V<<: Vložit -- Vložit obsah schránky na pozici kurzoru
+
+Výběr:
+:>>Ctrl+A<<: Vyber vše -- Vyber vše v rámci zaměřeního ovládacího prvku nebo aktivního okna
+:>>Ctrl+I<<: Obrať výběr -- Vyber vše, co vybráno nebylo, a zruš výběr na tom, co vybráno bylo
+:>>Delete<<: Vymaž vybrané objekty
+
+Vyhledávání:
+:>>Ctrl+F<<: Najdi -- Najdi výskyty hledaného textu v aktuálním dokumentu
+:>>Ctrl+G<<: Najdi další -- Najdi další výskyt téhož
+:>>Ctrl+H<<: Najdi a změň -- Najdi a změň všechny výskyty daného textu na text jiný
+
+Zvětšení textu:
+
+/Následující klávesové zkratky ovlivňují velikost obsahu dokumentu, například
+textu a obrázků na webové stránce nebo v kancelářském programu. Operují pouze s
+obsahem dokumentů a nijak nesouvisí se zpřístupňujícími technologiemi lupy,
+které zvětšují nejen text, ale i všechny ovládací prvky aplikace./
+
+:>>Ctrl+Plus<<: Zvětšit -- Zvětšit obsah dokumentu
+:>>Ctrl+Minus<<: Zmenšit -- Zmenšit obsah dokumentu
+:>>Ctrl+0<<: Normální velikost -- Obnov normální velikost
+
+=== Přihlášení a odhlášení === login-and-logout
+
+Pro nastartování počítače a přihlášení:
+ 1) Zapněte počítač
+ 2) Počkejte jednu až dvě minuty dokud neuslyšíte zvuk bubnů
+ 3) Stiskněte >>ENTER<<, čímž vyberete posledního zalogovaného uživatele,
+    následně napište své heslo a znovu potvrďte >>ENTER<<.
+ 4) Pokud je vaše přihlášení úspěšné, uslišíte přihlašovací melodii. Pokud ne,
+    postup opakujte.
+
+Pokud máte v systému definovaných více než jednoho uživatele a opakovaně vám
+selhává pokus o přihlášení, může to být tím, že při prvním stisku >>ENTER<<
+vybíráte jiného než požadovaného uživatele. V tom případě zkuste nejprve vybrat
+správného uživatele stisknem šipky dolů, možná ale budete potřebovat pomoc
+vidícího.
+
+Pro vypnutí počítače
+ 1) Stiskněte >>Ctrl+Alt+Delete<<
+ 2) V novém okně se objeví se dialog 'Vypnout počítač'
+ 2) Pokud tento dialog není aktuálně zaměřený, najděte jej přepínáním mezi okny
+    pomocí >>Alt+TAB<<.
+ 3) Vyberte si z nabídky, zda chcete počítač ukončit, hibernovat, uložit ke
+    spánku nebo restartovat.
+
+Klávesové zkratky:
+:Ctrl-Alt-Delete: Vyvolej dialog 'Vypnout počítač'
+
+=== Hlavní menu pracovní plochy === desktop-main-menu
+
+Z hlavního menu pracovní plochy můžete spouštět aplikace, přistupovat k
+adresářím na disku i k systémovým nastavením. Pro přechod do tohoto menu
+stiskněte >>Alt+F1<<. Pohybovat se v něm můžete s použitím klávesových šipek.
+
+Klávesové zkratky:
+:>>Alt+F1<<: Přejdi do hlavního menu pracovní plochy
+
+== Čtení pošty == reading-mail
+
+=== Thunderbird === thunderbird
+
+==== Nastavení účtu ==== thunderbird-setup-account
+
+Pro nastavení nového účtu:
+
+ 1) Přejděte do hlavního menu aplikace pomocí >>F10<<
+ 2) V menu 'Soubor', vyberte 'Nový' a stiskem šipky vpravo otevřete podmenu
+ 3) Vyberte 'Účet pošty'
+ 4) Vyplňte své celé jméno, emailovou adresu, heslo účtu a stiskněte
+   'Pokračovat'
+ 5) Thunderbird se pokusí zbytek potřebných údajů o vašem účtu uhodnout.  To
+    však bohužel často nefunguje, takže je možná lepší poté stejně přejít na
+    tlačítko 'Ruční nastavení' a zkontrolovat detaily v dialogu nastavení
+    účtu. (Poznámka: Toto tlačítko se objeví až tehdy, kdy automatická detekce
+    parametrů skončí. Pokud jej tedy nevidíte, musíte chvíli počkat.)
+ 6) Nastavení pro server odchozí pošty (SMTP) naleznete v tomtéž dialogovém
+    okně, ale pod jinou kartou. Do seznamu karet přejdete klávesou >>F6<<,
+    najděte šipkou dolů kartu 'Server odchozí pošty' a pomocí >>F6<< přejděte
+    ze seznamu zpět na její obsah, kde můžete parametry pro odchozí poštu
+    nastavit.
+
+==== Přihlašování IMAP složek ==== thunderbird-subscribe-imap-folders
+
+Máte-li nastaven poštovní účet typu IMAP (což vřele doporučujeme), musíte
+si nejprve přihlásit všechny složky, které chcete dostávat.
+
+ 1) Přejděte do hlavního menu aplikace pomocí >>F10<<
+ 2) V menu 'Soubor' vyberte 'Správce odebírání...'
+ 3) V dialogovém okně, které se otevře, najdete rolovací menu účtů
+    a s ním související seznam složek v daném účtu
+ 4) U každé složky je zaškrtávací políčko, které udává, zda je složka
+    aktuálně přihlášena nebo ne. V Ubuntu Maverick a možná jinde však
+    tento checkbox není přístupný
+    [[https://its.freebsoft.org/its/issues/3149 bug #3149]].
+ 5) I bez pomoci zraku však můžete tento rozbalovací strom složek procházet a
+    stiskem tlačítka 'Subscribe' a 'Unsubscribe' si složky přihlašovat nebo
+    odhlašovat. Nemůžete pouze zjistit aktuální stav.
+ 6) Chcete-li přihlásit všechny složky, stiskněte tlačítko Subscribe
+    na položce nejvyšší úrovni (ta je často 'INBOX' nebo nějak podobně).
+
+==== Čtení zpráv ==== thunderbird-read
+
+Hlavní okno Thunderbirdu má po spuštění tři panely (oblasti):
+ 1. Seznam účtů a složek (jako je Doručená pošta, Odeslané, Koncepty...)
+ 2. Seznam zpráv v aktuálně vybrané složce
+ 3. Obsah aktuálně vybrané zprávy
+
+Třetí jmenovaný panel (automatické zobrazení obsahu aktuálně vybrané zprávy)
+vypnout, postup viz
+[gnu-configuration#thunderbird-recommendation Konfigurace Thunderbird]
+
+Mezi těmito panely se můžete přepínat pomocí >>F6<< vpřed a >>Shift+F6<<
+vzad. Zmáčknete-li >>F6<< na seznamu složek, přejdete na seznam zpráv.
+Zmáčknete-li >>F6<< na seznamu zpráv, přejdete na obsah emailu nebo
+zpět na seznam složek.
+
+Každou zprávu lze jednoduše otevřít na samostatné kartě tím, že na
+ní stisknete >>ENTER<<. Pro čtení obsahu zprávy řádek po řádku můžete
+používat kurzorové šipky nahoru a dolů. Flat review zde nefunguje.
+Když se čtením skončíte, můžete kartu zavřít pomocí >>Ctrl+w<<.
+
+>>Ctrl+R<< vytvoří novou zprávu jako odpověď odesílateli,
+>>Ctrl+Shift+R<< znamená ,,odpovědět všem''.
+
+Se zprávou můžete samozřejmě dělat mnoho dalších věcí. Kompletní seznam
+najdete pod položkou menu 'Zpráva' (dostanete se k ní pomocí >>F10<<
+a následně opakovaným stiskem šipky vlevo).
+
+Klávesové zkratky:
+:>>F6<<: Přechod mezi panely (Shift-F6 opačným směrem)
+:>>ENTER<<: Otevři zprávu v nové kartě (pouze v seznamu zpráv)
+:>>Ctrl+w<<: Zavři kartu
+:>>Ctrl+PgUp<<: Přejdi na následující kartu (Ctrl-PgDown na předchozí kartu)
+
+==== Psaní zpráv ==== thunderbird-write
+
+Dialog pro tvorbu nové zprávy má 4 oblasti, mezi kterými se můžete
+přesouvat s využitím klávesy >>F6<<:
+ 1. Od -- výběr z vašich účtů
+ 2. Adresy -- políčka pro 'Komu:', 'Kopie:', 'BCC:' atd.
+ 3. Předmět
+ 4. Text
+
+Pro vytvoření nové zprávy:
+ 1. Stiskněte >>Ctrl+N<< pro vyvolání dialogového okna nové zprávy
+ 2. Zaměření je na políčku adres. Jakmile začnete psát emailovou adresu nebo
+    jméno příjemce (Komu:), můžete stisknout šipku dolů a vybírat z nabízených
+    automatických doplnění.
+ 3. Stisknutím >>ENTER<< vytvoříte další adresní pole. Můžete zde vložit další
+    adresu, nebo stisknout >>Shift+TAB<<,vybrat si jiný způsob doručení
+    (Kopie:, BCC: -- slepá kopie) a pak stisknout opět >>TAB<< a vrátit se k
+    editaci adresy na tomto řádku. Oblast 'Adresy' je vlastně tabulka v jejímž
+    prvním sloupci je vždy výběr metod doručení a v pravém sloupci ke každé
+    vždy jedna nebo více adres. Můžete zde vytvořit tolik záznamů, kolik je
+    potřeba.
+ 4. Když skončíte s adresami, stiskněte >>F6<< pro přechod na políčko 'Předmět'
+ 5. Poté stiskněte znovu >>F6<<, čímž přejde do textového pole. Zde můžete
+    napsat text zprávy.
+ 6. Chcete-li přidat přílohu, lze to snadno učinit z hlavního menu (>>F10<<).
+    Pod položkou 'Soubor' najděte 'Přiložit', pravou šipkou otevřete submeny a
+    vyberte 'Soubor'.
+ 7. Správu odešlete stisknem >>Ctrl+ENTER<<
+ 8. Chcete-li zprávu místo toho uložit jako koncept, jděte do hlavního menu,
+    pod 'Soubor' vyberte 'Uložit jako', poté 'Koncept'.
+
+==== Nepřečtené zprávy a složky ==== thunderbird-unread
+
+# >>The bellow shortcuts using Alt need to be translated as
+# they are different in different localizations<<
+
+Zprávy:
+:Zobraz pouze nepřečtené zprávy: Alt-z v Vpravo n nebo 'menu->Zobrazení->Vlákna->Nepřečtené'
+:Zobraz všechny zprávy: Alt-z v Vpravo v nebo 'menu->Zobrazení->Vlákna->Všechny'
+
+Složky:
+:Zobraz pouze složky s nepřečtenými zprávami: Alt-z s s Vpravo n nebo
+'menu->Zobrazení->Složky->Nepřečtené'
+:Zobraz všechny složky: Alt-z s s Vpravo v nebo 'menu->Zobrazení->Složky->Všechny'
+
+==== Třídění zpráv ==== thunderbird-sort
+
+Chcete-li třídit zprávy podle některého z jejich polí, jděte do položky
+'Zobrazení' v hlavním menu, pravou šipkou otevřete podmenu položky 'Seřadit
+podle sloupce'. Z tohoto podmenu si potom můžete vybrat kterékoliv z nabízených
+polí ('Datum', 'Předmět', 'Doručeno'...) a potvrdit stiskem >>ENTER<<. Chcete-li
+změnit i pořadí položek, navštivte totéž menu ještě jednou a na konci výběru
+naleznete rovněž položky 'Sestupně' nebo 'Vzestupně'.
+
+Rada: 'Datum' je datumem, kdy byl email sepsán. Chcete-li řadit poštu podle
+datumu přijetí, abyste měli vždy nejnovější zprávy nahoře, vyberte si řazení
+podle sloupce 'Doručeno'. Mezi oběma položkami může být několik hodin, nebo
+dokonce i dní rozdíl. Někteří lidé rádi vyřizují poštu třeba ve vlaku a na
+jiných místech bez připojení k internetu, ale emaily se rozešlou až později,
+kdy se připojí k internetu. Pokud byste třídili podle 'Datum' a nikoliv podle
+'Doručení', taková zpráva by se vám nezobrazila na vrcholu seznamu, kde byste
+ji mohli čekat, a to ani v případě, že jste ji právě obdrželi.
+
+==== Search for messages ==== thunderbird-search
+
+ 1. In the folder selection pane, choose the folder you want to search in
+ 2. Press >>Ctrl-f<< to move focus to the Search input field
+ 3. Type the text you want to search for
+ 4. By default, the text is searched in the 'From' field. There are buttons
+    bellow this input field to search the text also in the 'To' field, in
+    message text or other parts. They are however not accessible in Ubuntu
+    Maverick. As a possible workaround, we suggest to use the Advanced search.
+
+For Advanced search, use >>Ctrl-Shift-f<< or use 'Edit->Find->Search messages'
+from the main menu (>>F10<<).
+
+=== Gnus === gnus
+
+Gnus is a mail reading application inside Emacs. It might require you to study
+how to use it a little bit at first, but then its very powerful and speechd-el
+makes it very accessible too.
+
+You can launch gnus from inside Emacs by typing '>>M-x gnus<<'.
+
+For detailed information how to setup accounts and how to use it,
+see [http://www.gnus.org/manual/gnus_toc.html The Gnus Manual].
+
+== Browsing web == browsing-web
+
+=== Firefox === firefox
+
+==== Navigation between pages ==== firefox-navigation-between-pages
+
+:>>Ctrl+l<<: Enter a new location (URL or search term)
+:>>Alt+Left<<: Go to previous visited page
+:>>Alt+Right<<: Go to next visited page
+
+To visit a page:
+ 1) Press >>Ctrl+l<< (>>location<<) to enter the address bar
+ 2) You can either type directly the URL of the page you want to see
+    or just a series of words. If you type only words, Google will
+    search for them and a webpage will display with the search results.
+
+If you are interested in having more pages open at the same time and
+switch between them, see [#firefox-tabbed-browsing].
+
+==== Navigation inside a page ==== firefox-navigation-inside-page
+
+You can read a page line by line using the up and down arrow keys. It
+is however often more convenient to read through bigger sections or
+search just for the part that you are interested. Bellow is a list of
+the most common keyboard shortcuts with Orca:
+
+Basic navigation:
+:Down arrow: Next line (Up arrow previous line)
+:>>Ctrl+Home<< or >>End<<: Go to top or bottom of the document
+
+Landmark navigation:
+:>>m<<: Next landmark (>>Shift+m<< previous)
+
+Navigation over page items:
+:>>Orca+Right<<: Go to next object (>>Orca+Left<< previous object)
+:>>h<<: Next heading (Shift-1 previous)
+:>>1<< or >>2,3,4,5,6<<: Next heading of the given level (>>Shift+1>> or >>2,3,4,5,6<< previous)
+:>>p<<: Next paragraph (Shift-p previous)
+:>>i<<: Next list item (Shift-i previous)
+:>>r<<: Next live region (Shift-r previous)
+:>>t<<: Next table (Shift-t previous)
+:>>o<<: Next large object (Shift-o previous)
+:>>Ctrl+Right<<: Next word (>>Ctrl+Left<< previous word)
+
+#>>The following has doubtful usefulness:<<
+# :>>u<< or >>v<<: Next unvisited or visited link (Shift-u or v previous)
+
+Orca mode settings:
+:>>Orca+z<<: Toggle structural navigation
+:>>Orca+F12<<: Toggle between orca navigation and Firefox (Gecko) navigation
+
+==== Tables ==== firefox-tables
+
+:>>t<<: Next table (>>Shift+t<< previous)
+:>>Shift+Alt+Arrow<<: Jump to table cell in given arrow direction (Up, Down, Left, Right)
+:>>Shift+Alt+Home<< or >>End<<: Jump to first or last cell in the table
+
+==== Forms ==== firefox-forms
+
+:>>e<<: Next input field
+:>>b<<: Next button
+:>>Orca+Tab<<: Go to the next form field (>>Shift+Orca+Tab<< previous)
+:>>Alt+Down<<: Expand combo box(left >>Alt<<)
+
+==== Access keys ==== firefox-access-keys
+
+Access keys often provide useful functionality, such as jump to page content or
+jump to menu. There is however no standard definition for them and thus they
+might be different in different web applications.
+
+:>>Shift-Alt-<<key: Execute action defined for 'key'
+
+==== Live regions ==== firefox-live-regions
+
+:>>r<<: Next live region (>>Shift+r<< previous)
+:>>\\<<: Advance the politeness level for the current live region
+:>>Shift+\\<<: Set all live regions on page to politeness of 'off'
+:>>Orca+F1<< or >>F2<< to >>F9<<: Review previously announced live region messages (>>F1<< most recent, >>F2<< last most recent etc.)
+
+==== Tabbed browsing ==== firefox-tabbed-browsing
+
+It is possible to keep multiple pages open inside the Firefox window and switch
+between them as necessary. Only one of them is visible at once, but the other
+ones also stay open, they are merely hidden visually, and you can bring them up
+at any time.
+
+To follow a link on the webpage, you have two options.  Pressing >>ENTER<< on
+that link will replace the current page with the new page. Pressing
+>>Ctrl+ENTER<< however will keep the current page, keep your focus there and
+open your new page in another tab which you can examine later.
+
+To open a new webpage, >>Ctrl+l<< will take you to the location bar when you
+can type a new address and it will replace the page that you are currently
+reading. >>Ctrl+t<< however will keep your page open, create a new tab and bring
+you to its location bar. You can then read another page without having to
+close to the former one, to which you can return later.
+
+To move between the tabs, use >>Ctrl+PgUp<< and >>Ctrl+PgDown<<.
+
+Shortcuts:
+:>>Ctrl+ENTER<<: Open link in new tab
+:>>Ctrl+t<<: Open new tab and place focus in its location bar
+:>>Ctrl+w<<: Close the current tab
+:>>Ctrl+PgUp<<: Move to previous tab
+:>>Ctrl+PgDown<<: Move to the next tab
+:>>Alt+<<number: Move to the tab with the given number (>>Alt+1<< first tab, >>Alt+2<< second tab etc.)
+
+==== Bookmarks ==== firefox-bookmarks
+
+You can create bookmarks on pages that you visit often or pages that you want
+to visit later.
+
+To create a bookmark on a page, open the page, then press >>Ctrl+D<<.  This
+will open the bookmark dialog, where you can edit its title, then press the
+Save button.
+
+The Bookmarks are stored in the main menu. Access it using >>F10<<, press right
+arrow key repeatedly to find the 'Bookmarks' item and browse your bookmarks
+with up/down arrow keys. Pressing >>ENTER<< on any of them will open the
+associated page in your current window.
+
+If you want to do some other action with the selected bookmark, such as open it
+in a new tab or to delete it, press >>Shift+F10<< to open the context menu and
+choose the action you would like with up and down keys.
+
+You can also group your bookmarks in folders, just see the other edit fields
+and menu items.
+
+Shortcuts:
+:>>Ctrl+D<<: Bookmark this page
+
+==== Full keyboard shortcuts reference for Firefox ==== firefox-shortcuts-reference
+
+ * Orca mode for Firefox: [http://live.gnome.org/Orca/Firefox] (incomplete)
+ * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
+
+The complete list of Orca mode keyboard shortcuts you can find in the Orca
+settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl+Space<<, then
+use >>Alt+PgUP<< or >>Alt+PgDown<< to find the Keyboard shortcuts tab.
+
+== Managing files == managing-files
+
+There are two basic methods to manage files and folders. One is using the
+Nautilus application and second is from command line.
+
+=== Nautilus === nautilus
+
+Nautilus is the default file browser in Gnome. It has a menu, a location bar
+displaying the current address and two panes (areas).
+
+The left pane, by default, displays Places -- disks on your system, external
+drives, your camera, network folders. It also contains bookmarks to some common
+destinations like your home directory or your Documents directory.  The pane
+can be switched to display other things also, like history of your browsing.
+
+The right pane is used to browse the files and folders and perform
+actions on them.
+
+The location bar is similar to the address field in a web browser.  It shows
+where you currently are in the file system hierarchy but it also allows you to
+write or paste a concrete location on your system.
+
+==== Launching Nautilus ==== nautilus-launching
+
+ 1) Go to the main menu by pressing >>Alt+F1<< anywhere on the desktop
+ 2) Using right arrow, move to the main item 'Places'
+ 3) Using down arrow, choose the place (disk, device or bookmark)
+ 4) Press >>ENTER<< to launch Nautilus at the selected place
+
+==== Browsing files ==== nautilus-browsing-files
+
+The browse pane of Nautilus can work in two modes, Icon view and list view. You
+can switch between them by pressing >>Ctrl+1<< and >>Ctrl+2<< anywhere in the
+application. We recommend to switch to list view (>>Ctrl+2<<). Nautilus will
+remember this and use this view also next time.
+
+In list view (>>Ctrl+2<<), you can browse the directory structure like a tree
+menu by Up and Down arrow keys, while you enter deeper into directories or
+return back from them by Right and Left keys.
+
+In icon view (>>Ctrl+1<<), you can browse files with all the arrow keys
+and you must press >>Alt-Up<< and >>Alt-Down<< to go up and down in the
+directory hierarchy.
+
+Use the >>F6<< key to cycle between the file list, the location bar and
+the Places pane (or >>Shift+F6<< to cycle backwards).
+
+For example to find a directory 'photo/norwegia' on an external device called
+'Camera':
+
+ 0) Switch to list view using >>Ctrl+2<< if you have not already done so
+ 1) Go to the Places pane using >>Shift+F6<<
+ 2) Use up/down keys to choose the 'Camera' device
+ 3) Press >>F6<< to go back to file browser
+ 4) Use up/down keys to find the 'photo' folder, press ENTER on it
+ 5) No use up/down keys to find the 'norwegia folder
+ 6) You can enter the folder by pressing >>ENTER<< or do some other action
+    with it by opening the context menu using >>Shift+F10<<
+
+==== Copying files ==== nautilus-copying-files
+
+ 1) Find the file or directory you want to copy
+ 2) Press >>Ctrl+C<< on it (or >>Ctrl+X<< if you want to move)
+ 3) Go into the directory you want to place it in
+ 4) Press >>Ctrl+V<<
+
+==== Operations with files and folders ==== nautilus-operations-files-folders
+
+If you want to delete, rename or make a '.zip' archive from a file or folder:
+
+ 1) Find the file or folder you want to do something with
+ 2) Launch the context menu using >>Shift+F10<<
+ 3) Choose the action which you want to do ('delete', 'rename', 'archive', ...)
+
+==== Connecting and disconnecting external devices ==== nautilus-connecting-and-disconnecting
+
+External devices are usually connected automatically when you plug the
+cables or the card into the reader. When you finish working with them
+however, you can't just plug the cable out as that could result in
+loss of data. Thus you need to tell the system to disconnect the device first:
+
+ 1) Go to the 'Places' pane (use >>F6<<)
+ 2) Choose the device you want to disconnect
+ 3) Open the context menu using >>Shift+F10<<
+ 4) From the available actions, select 'Disconnect'
+
+==== Shortcuts overview ==== nautilus-shortcuts-overview
+
+:>>Ctrl+1<<: Icon view
+:>>Ctrl+2<<: List view
+:>>F6<<: Move between locations and directory listing
+:>>Alt+HOME<<: Return to home directory
+:>>Ctrl+H<<: Move cursor to location bar
+:>>Shift+F10<<: Open context menu. If open on files or folders, lists actions available on them (like 'Copy', 'Rename' etc.)
+:>>Ctrl+H<<: Show/hide hidden files
+:>>F2<<: Rename
+:>>DEL<<: Move into trash
+:>>Shift-DEL<<: Delete immediately (irreversible)
+
+=== Command line === command-line-files-
+
+Many times, it can be more convenient to use textual commands and manipulate
+files on the command line. One must have a basic knowledge of the commands that
+are available, but for details, he/she can always consult the embedded help. It
+is not even necessary to type much as the shell can complete commands and names
+of files automatically once you type the first few letters.
+
+Shortcuts:
+:>>Ctrl+Alt+t<<: Launch terminal
+:>>TAB<<: Complete a command, parameter or filename or list available options if more than one exist
+
+==== Basic file manipulation ==== command-line-files-basic
+
+:>>ls: list contents of a folder ('ls -lh' including information on each file)
+:>>cp<< file location: Copy file (also folder) to location (file or folder)
+:>>mv<< file location: Move file (also folder) to location (file or folder)
+:>>rm<< file: Permanently remove a file ('>>rm -rf<< directory' to remove non-empty directories)
+:>>mkdir<< folder_name: Create a folder (it is a shortcut for 'make directory')
+
+This section is here just to explain the basic idea and show that this way of
+work can be actually quite easy and fast.
+
+You can obtain a brief help on every commands function and parameters
+if you execute it with the '--help' parameter, e.g. 'cp --help'. To obtain
+more detailed help, type 'man command' (e.g. man cp). 'man' stands for
+manual.
+
+For more complete guides, see:
+
+ * [http://mally.stanford.edu/~sr/computing/basic-unix.html Basic UNIX Commands]
+ * [http://home.eol.ca/~hgibson/UnixCommandLine-HOWTO/UnixCommandLine-HOWTO.html (Advanced) Unix Command line Howto]
+
+==== Example ==== command-line-files-example
+
+To move a file 'ubuntu-accessibility.txt' from folder '/home/joe/' into a new
+folder '/home/joe/notes',
+
+ 1. >>cd<< (change directory to the home folder)
+ 2. >>ls<< (see the contents of the directory if you wish)
+ 3. >>mkdir notes<< (create a new directory 'notes')
+ 4. >>mv ubun<<
+ 5. Press >>TAB<< to complete, you should now see: >>'mv
+    ubuntu-accessibility.txt'<<
+ 6. Type >>notes<<
+ 7. Now you have '>>mv ubuntu-accessibility.txt notes<<', press >>ENTER<<
+ 8. Type '>>ls notes<<' and >>ENTER<< to verify that the file is in there
+
+To copy all .txt files into a folder 'documents':
+ * >>cp *.txt documents ENTER<<
+or just
+ * >>cp *.txt docu TAB ENTER<<
+
+== Creating documents == creating-documents
+
+Various documents (such as papers, letter, spreadsheets or presentation) can be
+created with the Openoffice.Org package.
+
+To launch OpenOffice, press >>Alt+F2<<, then type '>>openoffice.org<<'
+
+There are several different components inside OpenOffice that can be used for
+different tasks. These are:
+
+:Openoffice Writer: Word processor (documents, letters etc.)
+:Openoffice Calc: Table calculator (spreadsheets)
+:Openoffice Impress: Conference style presentations
+
+When you launch OpenOffice, it will offer various options what to create, as
+well as the possibility to open a file.  Based on your decision, the
+appropriate application will open.
+
+=== Openoffice Writer === openoffice-writer
+
+Writer is a word processor that can be used to read or create documents,
+letters etc.
+
+The default view includes four main components which you can browse using >>F6<<
+and >>Shift+F6<<:
+ 1. the main menu -- near to all actions are available from main menu
+ 2. standard tools -- most common tools and actions (such as save, open,
+    print, create table etc.)
+ 3. formatting tools -- formatting (such as text style, font, size,
+    paragraph alignment etc.)
+ 4. document edit box -- the contents of the document
+
+==== Creating a simple document ==== openoffice-writer-simple-document
+
+This is just an example, we will create a document with a heading and
+a paragraph.
+
+ 0. Open Openoffice.Org, choose 'Text document'
+ 1. This will start the application with an empty document, cursor
+    placed into the edit box
+ 2. Write a text for the heading, for example 'My Story'
+ 3. Press >>Ctrl+1<< to assign the current paragraph the 'Heading 1' style
+ 4. Start a new line (move to end of the first one using >>END<< key and press
+    >>ENTER<<
+ 5. Type the text of the first paragraph of your story, do not split lines
+    using >>ENTER<<. Lines are wrapped automatically, >>ENTER<< serves to
+    create new paragraphs.
+ 6. Press >>Ctrl-S<< to save the document using the standard 'Save' dialog
+
+==== Review of formatting ==== openoffice-writer-review-of-formatting
+
+You can review the formatting of the document by using the >>Orca+f<< keyboard
+shortcut in different places in the document. It will announce font family and
+size of the current letter, but also OpenOffice style (if any) for the given
+word (such as 'Normal text' or 'Heading 2').
+
+==== Movement ==== openoffice-writer-movement
+
+:>>Right, Left<<: Move by characters
+:>>Ctrl-Right, Ctrl-Left<<: Move by words
+:>>Up, Down<<: Move by lines
+:>>Ctrl-Up, Ctrl-Down<<: Move by paragraphs
+
+:>>HOME, END<<: Move to beginning or end of line
+:>>Ctrl-HOME, Ctrl-END<<: Move to beginning or end of document
+
+==== Selections ==== openoffice-writer-selections
+
+:>>Ctrl-Shift-s<<: Select current paragraph (Note: This is a [gnu-configuration#openoffice-writer-shortcuts custom shortcut], you need to define it first.)
+:>>Ctrl-Shift-Down<<: Select till the end of paragraph
+:>>Ctrl-a<<: Select all -- everything in the whole document
+:>>Shift-END<<: Select till the end of line
+
+==== Text style, paragraph alignment and fonts ==== openoffice-writer-aligment-and-fonts
+
+Simple style and formatting changes are best done using shortcuts:
+
+:>>Ctrl+0<<: Change current paragraph to normal text
+:>>Ctrl+1<< to >>Ctrl+5<<: Change current paragraph to heading 1 (biggest) to 5 (smallest)
+
+:>>Ctrl+l<<: Align current paragraph left
+:>>Ctrl+r<<: Align current paragraph right
+:>>Ctrl+j<<: Justify current paragraph into block
+
+To apply font properties, you must first select a piece of text you want to
+apply them to. See [#openoffice-writer-selections]. Otherwise they will get
+applied to all text you will type later.
+
+:>>Ctrl+b<<: Toggle 'bold' property on selected text on and off
+:>>Ctrl+i<<: Toggle 'italics' property on selected text on and off
+:>>Ctrl+u<<: Toggle 'underline' property on selected text on and off
+
+To access all other formatting options (such as size of text, line spacing or
+font family), press Shift-F10 to bring up the context menu on the selected
+text. Browse it using the arrow keys and select with >>ENTER<<.
+
+==== Create a table ==== openoffice-writer-create-table
+
+Go to main menu (>>F10<<) and select 'Table->Insert->Table' . This will bring
+up an 'Insert table' dialog. Choose name for the table and its size. >>ENTER<<
+will confirm the dialog and insert the table in your document. You can enter it
+using arrow keys as well as move among its cells.
+
+To include a row or column, or delete a row or column, use the
+context menu (>>Shift+F10<<) while inside one of the tables cells.
+
+==== Spell checking ==== openoffice-writer-spell-checking
+
+To be able to use spell checking, it is necessary to first set a correct
+language for the document. This can be done in main menu, 'Tools->Language->For
+all text...'
+
+Spell checking for the whole document can be started by pressing >>F7<<.
+
+On every error the spell checker finds, a dialog window will appear. The dialog
+displays the part of the sentence where the error was found, a list of
+suggested corrections and several action buttons ('Change, Ignore, Add to
+dictionary'). When the dialog appears, the 'Change' button is focused.
+
+To examine the text that is supposed to contain a mistake and the proposed
+variants, use >>Shift+TAB<< to move up to see the two areas.
+
+ * If the word is actually correct in the given language, use Add to add it
+   to the dictionary
+ * If you want to ignore this warning, use Ignore button
+ * To correct by choosing from the offered alternatives, choose the desired one
+   and press >>ENTER<<
+ * To correct the mistake in another way, go to the window that displays the
+   suspicious text, make any changes, use TAB to come back to the Change button
+   and then press >>ENTER<<
+
+If another possible mistake is found, another window will appear. At the end, a
+window will appear to say that the spell check is complete. Close it by
+pressing the 'OK' button. This will take you back to the document edit box.
+
+Shortcuts:
+:>>F7<<: Check Spelling and grammar
+
+=== Openoffice Calc  === openoffice-calc
+
+Openoffice Calc is a table calculator. It can be navigated similar to
+OpenOffice Writer (use F6 to cycle between main parts, cursor arrows to move
+around).
+
+The power of table calculators lies in the fact that some of the cells in the
+table can include automatic formulas which display the result of some action
+performed on the surrounding data (e.g. the sum of cells, a condition or the
+result of a search). Each time something in the data changes, these cells are
+automatically recalculated. Thus complicated interactive and interconnected
+sheets of data can be created.
+
+The bellow sections will not teach you how to work with a table calculator, but
+will offer a few examples to get you started. Fore more information, see
+[http://documentation.openoffice.org/manuals OpenOffice.Org Manuals].
+
+==== Entering values ====
+
+To include a value (number, text or for example a data):
+ 1) Navigate to the cell you want to edit
+ 2) If you want to overwrite the current value, just start typing
+ 3) If you want to edit the current value instead, press >>F2<< to enter the edit field
+ 3) Press >>ENTER<< to confirm
+
+==== Entering a formula ====
+
+A formula can be either a simple mathematical formula (like A1+A2) or a
+function. Each function has one or more arguments. For example, there is a
+function called 'Sum' to sum all the numbers in a given region. It is most
+convenient to know the common functions by their names and be able to type them
+directly. If not, you can also use a guide to create the formula.
+
+*Example how to create a summation formula*:
+   1. Enter for example values 1, 2, 3 into cells B1, B2, B3
+   2. Go to cell B4 and enter the text: '=Sum(B1:B3)'
+   3. Press ENTER
+   4. The cell B4 will display '6'
+   5. To see the underlying formula instead of the result, press F2 while on
+   the cell to enter the edit mode
+
+*Example how to create a formula with the guide*
+   1. Enter for example values 1, 2, 3 into cells B1, B2, B3
+   2. Now we want to display the average of the three cells in cell B5
+      but we do not know the name of the corresponding function
+   3. Go to cell B4
+   4. Use F6 to enter the formula pane
+   5. Use >>Right<< arrow key to find 'Function wizard' and select with ENTER
+   6. From the 'Category' drop down menu choose the family of functions you are
+      interested in (e.g. Mathematical, Logical, Text). Choose 'Statistical'.
+   7. Press >>TAB<< to go to the selection of the concrete function to
+      use. Find 'Average' but do not confirm with >>ENTER<<.
+   8. Use >>TAB<< to find the 'Next' button.
+   9. The next page of the dialog displays functions arguments. You can
+      use numbers, table cells (such as A5) or ranges of cells (such as A1:B1).
+      Type in 'B1:B3' and press >>ENTER<<.
+   10. The cell B5 will now display '2', which is the avarage of numbers
+       1, 2 and 3.
+   11. To see the formula, not the result, press 2. You can also learn the
+       formula and type it without the guide next time.
+
+*Example on automatic recalculation*
+   1. Complete one of the previous examples. You will have
+      numbers 1, 2, 3 in cell tables B1, B2, B3 and their
+      sum (6) in cell B4 and/or average in cell B5 (2).
+   2. Go to cell B1 and type '4', then press ENTER.
+   3. Now go back to tables B4 and/or B5 and see how they changed.
+   4. The sum in B4 now displays 9 and the average in B5 displays 3.
+
+==== Switching sheets ====
+
+Every doccument can have either one or more sheets of data. All sheets form one
+document and they can be interconnected. E.g. results on one sheet can depend
+on data in another one.
+
+In OpenOffice, the sheets are represented as tabs and you can use the standard
+key kombinaces >>Ctrl+PgUp<< and >>Ctrl+PgDown<< to move between them.
+
+==== Shortcuts ====
+
+:>>F2<<: Start editing a cell
+:>>Ctrl+PgUP<<: Move to previous sheet
+:>>Ctrl+PgDown<<: Move to next sheet
+
+Main menu, 'Tools->Customize', card 'Keyboard' (>>Ctrl-PgDown<<)
+contains a list of all available shortcuts as well as a possibility
+to define new ones.
+
+=== Openoffice Impress === openoffice-impress
+
+We are not going to cover work with presentations in this basic guide. It is
+however possible to create presentations without sight and there are special
+ways how to give the presentations (the challenge of course is to access what
+is displayed on the big screen without disturbing the picture for the viewers).
+
+More information can be found here:
+ * [http://ui.openoffice.org/accessibility/]
+ * [http://extensions.services.openoffice.org/project/presenter-screen]
+
+== Virtual Computer == virtual-computer
+
+=== VMWare Player === vmware
+
+VMWare player can be started from the main desktop menu (>>Alt+F1<<) as 'System
+Tools->VMWare Player'.
+
+==== Create a new virtual machine ==== vmware-new-machine
+
+To install another operating system in a virtual machine, follow the bellow
+steps. Please note however that this is an example. Depending on which system
+are you installing, some of the steps might be slightly different:
+
+ 1. Start VMWare Player
+ 2. Press >>F10<< to access the main menu
+ 3. Under 'File', choose 'Create new virtual machine'
+ 4. A dialog window will open where you have to specify some details
+ 5. Choose whether you want to install the new operating system from an ISO
+    file or CD/DVD drive
+ 6. VMWare knows how to install some of the systems and might offer you to do
+    an 'Easy Install'. This means that it will just ask you a few questions at
+    the beginning and then complete the whole installation process without your
+    intervention. This is recommendable. (If you want to go through a normal
+    installation, choose 'I will install operating system later'. Press 'Next'
+    button.
+ 7. Fill in the the name, username and password you want for your user account
+    in the new system. Press 'Next' button.
+ 8. Choose a name of the virtual machine and the directory on your file system
+    where to store it. Press 'Next' button.
+ 9. Choose how much space can the virtual machine use on your disk.
+    Press 'Next' button.
+ 10. The virtual machine will use virtual hardware. There is a step where you
+     can customize the details, such as how much RAM to use, but you can also
+     leave them as they are and change them later if necessary.
+ 11. Press 'Finish' button to start the installation process.
+
+This last step will close the dialog and start booting the machine and
+installing it. Since now, what is running inside the main player window is your
+new virtual computer. Installation will only be accessible if the installer of
+the operating system you have chosen itself is accessible (just as if you are
+installing on a real computer). To see how you can use it, continue to
+[#vmware-using-machine].
+
+==== Starting and stopping virtual machine ==== vmware-start-stop-machine
+
+To *start* a virtual machine:
+ 1. Start VMWare player
+ 2. Use >>Up<< and >>Down<< arrow keys to choose the machine you want to start.
+ 3. Press >>ENTER<< to start it
+ 4. Now see [#vmware-using-machine]. We recommend to wait a minute or two until
+    the machine finishes booting before switching into it, because otherwise
+    you might experience some problems with wrong cursor grabbing.
+
+There are two options to *suspend* the virtual machine. You can either use the
+suspend function in your operating system inside the machine or you can suspend
+the whole machine from VMWare controll menu. We recommend the later method:
+ 1. If inside the machine, use >>Ctrl+Alt<< to leave it
+ 2. Press >>F10<< to enter the VMWare menu
+ 3. Choose 'Virtual Machine->Power->Suspend'
+This is a suspend to disk. The machine will use no resources or power on your
+real computer when it is suspended.
+
+To *shut down* or restart the virtual machine:
+ 1. Enter the machine with >>Ctrl+G<<
+ 2. Shutdown or reboot the system
+ 3. VMWare will recognize when the operating system inside has shut down and
+    will return focus back to your original system.
+See [#vmware-using-machine] .
+
+==== Using virtual machine ==== vmware-using-machine
+
+The VMWare player is like an ordinary application. It has a main menu and some
+other widgets. Unlike in a normal application however, you can also use it to
+enter inside the virtual machine. Once you are inside the virtual machine, you
+can use it just as if it was a computer on itself, but there is a special key
+kombinace to escape from it and come back to your original environment.
+
+To *enter* inside the virtual machine:
+ 1. If the VMWare Player application doesn't have focus yet, use >>Alt+TAB<< to
+ find it.
+ 2. Once you are in VMWare Player, press CTRL+g to enter it
+ 3. All your keyboard and mouse input will now go to the virtual machine
+
+/Note: If you can't enter the machine with Ctrl+g, it might be either because
+the machine is not running (see [#vmware-start-stop-machine]) or because some
+dialog window has appeared but didn't get focus. Use >>Alt+TAB<< to find it./
+
+To *leave* the virtual machine:
+ 1. Press >>Ctrl+Alt<< to leave the machine
+ 2. The machine is still running, but your keyboard and mouse input now goes
+to your original operating system.
+
+Shortcuts:
+:Ctrl+g: Enter virtual machine
+:Ctrl+Alt: Leave virtual machine
+
+==== Copy files to and from machine ==== vmware-copy-files
+
+
+
+== References == references
+
+1. [http://library.gnome.org/devel/hig-book/stable/input-keyboard.html.en Keyboard Interaction in Gnome]

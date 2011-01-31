@@ -1,0 +1,50 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Prostředí na GNU/Linux =
+
+Uvádíme přehled tří velkých oblastí platformy GNU/Linux, které jsou přístupné
+slepcům a zrakově postiženým a mohli by vás zajímat:
+
+== Gnome desktop ==
+
+[http://www.gnome.org/about/ GNOME] nabízí snadno pochopitelné moderní
+desktopové prostředí na bázi GNU/Linux. Tímto uživatelským rozhraním
+lze ovládat téměř všechny dostupné aplikace, nezávisle na tom, zda
+poskytují grafické, textové nebo jiné rozhraní.
+
+Hlavní zpřístupňující technologií pro prostředí Gnome je odečítač
+obrazovky Orca. Orca obsahuje moduly pro řeč, braille i zvětšování.
+
+== Textová konzole ==
+
+Ačkoliv s jistými omezeními, mnoho aplikací a nástrojů může být rovněž ovládáno
+z čistě textového prostředí. Nejsou v něm k dispozici některé důležité věci,
+jako například moderní internetový prohlížeč, ale i přesto se k němu mnoho
+uživatelů rádo obrací, pokud mají nějaký problém s grafickým uživatelským
+rozhraním Gnome.
+
+Textová konzole může být plně zpřístupněna (hlas i braille) s využitím
+následujících pomůcek: BrlTTY, eSpeakup a/nebo YASR.
+
+== Emacs ==
+
+Emacs je velmi zajímavým prostředím, protože dokáže přenášet výhody
+konzistentního plně textového uživatelského rozhraní ovládaného především
+klávesnicí na moderní grafický desktop. Obsahuje pouze svoje vlastní aplikace,
+ale ty pokrývají širokou škálu činností, které s nimi lze provozovat, od
+editování textů, přes správu souborů po vývoj aplikací, čtení mailu a sázení
+notových zápisů. Z tohoto důvodu si jej oblíbilo mnoho uživatelů, nejen
+handikepovaných.
+
+Pokud jej budete chtít využívat, buďte připraveni, že se budete muset neprve
+některé věci naučit a pochopit některé koncepty. Následná vysoká efektivita
+práce by vám za to však měla být dostatečnou odměnou.
+
+Pro Emacs existuje několik zpřístupňujících nástrojů, ale velmi doporučujeme
+použít speechd-el.
+
+== Putting it all together ==
+
+Jak nastavit kompletní zpřístupněný desktop včetně Gnome, textové konzole a
+Emacsu?
+*[ubuntu-desktop GNU/Linux Instalace přístupného desktopu]*
