@@ -1,0 +1,53 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Použití = usage
+
+Obsah: @TOC@
+
+== Zpřístupňující nástroje == accessibility-tools
+
+=== Odečítač obrazovky JAWS === jaws
+
+ * [http://www.freedomscientific.com/PDF/visionloss/manuals/Jaws-Quick-Start-Guide.pdf JAWS Quick Start Guide]
+
+Rychlý průvodce (Quick Start Guide) také popisuje, jak nainstalovat
+další manuály a výukové materiály, které jsou dostupné také jako audio
+knihy ve formátu DAISY.
+
+=== Odečítač obrazovky NVDA === nvda
+
+ * [http://www.nvda-project.org/documentation/nvda_2010.1_userGuide.html
+    Uživatelský manuál NVDA]
+ * [http://www.nvda-project.org/wiki/ApplicationSupport NVDA a aplikace]
+
+== Aplikace == applications
+
+Tento průvodce nepopisuje, jak používat různé nativní MS Windows
+aplikace, protože to je již dostatečně popsáno v jiných
+průvodcích. Zmíníme ale některé Open Source aplikace, které jsou velmi
+dobré a můžete je používat na MS Windows stejně jako na GNU/Linuxu.
+
+=== Firefox === firefox
+
+Firefox je svodobně distribuovatelný internetový prohlížeč. Více
+informací o něm můžete najít na [http://www.mozilla.com/firefox]
+
+Použití Firefoxu s JAWS:
+[http://www.jaws-users.com/text/Internet/firefox.htm]
+
+=== Thunderbird === thunderbird
+
+Thunderbird je volně dostupný emailový klient. Můžete se o něm
+dozvědět více informací na [http://www.mozilla.com/thunderbird]
+
+Použití Thunderbirdu s JAWS:
+[http://www.jaws-users.com/scripts/ThunderBird/Thunderbird.htm]
+
+=== OpenOffice.org === openoffice
+
+OpenOffice.org je volně dostupný kancelářský balík, včetně slovního
+procesoru, tabulkového programu a prezentačního nástroje. Více
+informací najdete na [http://www.openoffice.org]
+
+Jejich použití by mělo být velmi podobné jako použití
+[gnu-usage#creating-documents OpenOffice na GNU/Linux]

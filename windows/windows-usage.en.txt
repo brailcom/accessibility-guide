@@ -41,16 +41,11 @@ information on [http://www.mozilla.com/thunderbird]
 Using Thunderbird with JAWS:
 [http://www.jaws-users.com/scripts/ThunderBird/Thunderbird.htm]
 
-=== OpenOffice Org === openoffice
+=== OpenOffice.org === openoffice
 
-OpenOffice.Org is a freely distributable office suite, including a word
+OpenOffice.org is a freely distributable office suite, including a word
 processor, spreadsheet calculator and a presentation tool. You can find
 more information on [http://www.openoffice.org]
 
-It's usage should be very similar to the one on GNU/Linux:
+Its usage should be very similar to the one on GNU/Linux:
 [gnu-usage#creating-documents OpenOffice on GNU/Linux]
-
-
-
-
-
