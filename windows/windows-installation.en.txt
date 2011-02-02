@@ -7,8 +7,8 @@ Table of Contents: @TOC@
 == JAWS == jaws
 
 JAWS is a proprietary software, you must first buy a license.  You can then
-install JAWS a CD or online. To find more information, please visit the
-distributors website [http://www.freedomscientific.com/] .
+install JAWS from CD or download online. To find more information, please visit the
+vendor's website [http://www.freedomscientific.com/] .
 
 === Voices === jaws-voices
 
