@@ -1,0 +1,95 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Instalace Ubuntu Desktop =
+
+Tato kapitola popisuje, jak nainstalovat Ubuntu na počítač. Pokud se rozhodnete
+pro jinou distribuci, některé informace odsud mohou být pro Vás také užitečné,
+i když se musíte připravit na rozdíly v technických detailech, jako např. cesty
+k souborům nebo nutné kroky.
+
+Obsah: @TOC@
+
+== 1. Nainstalujte Ubuntu Desktop == install
+
+ 1) Stáhněte si instalační obraz ISO pro Ubuntu z [http://www.ubuntu.com]
+ 2) Vypalte jej na CD nebo flash disk
+ 3) Restartujte Váš počítač a nastartujte z toho CD nebo flash disku
+ 4) Projděte instalačním procesem
+
+=== Instalační proces bez zraku === install-without-sight
+
+V poslední verzích Ubuntu je teoreticky možné nainstalovat systém bez pomoci
+vidící osoby. V praxi toto však doporučujeme jen zkušeným uživatelům, protože
+to prezentuje některé významně problémy a požaduje, abyste již uměli ovládat
+odečítač obrazovky Orca. Níže je popsané, jak nainstalovat Ubuntu 10.10 bez
+zraku:
+
+ 1. Nastartujte z instalačního CD (viz obecné [#install instalační instrukce]
+    pro to, jak ho získat).
+ 2. Počkejte nějakou dobu (odhadem 3-5 minut), abyste si byli jistí, že systém
+    naběhnul
+ 3. Pětkrát stiskněte šipku nahoru, abyste vybrali český jazyk, pak stiskněte
+    >>TAB<<, >>ENTER<< pro potvrzení a nastartování živé verze systému z CD
+ 4. Počkejte, až uslyšíte startovací melodii z Vašich reproduktorů
+ 5. Stiskněte >>ALT+F2<< a napište '>>orca<<', abyste spustili odečítač obrazovky
+ 6. Toto ve skutečnosti nastartuje samoozvučený konfigurační dialog, odpovězte
+    na otázky. U volby "Select desired voice", zadejte 5 pro český hlas
+ 7. Odpovězte ``Automatically start Orca when you login - YES'', ``Logout now --
+ YES''
+ 8. Až uslyšíte přihlašovací zvuk, napište '>>ubuntu ENTER ENTER<<', abyste se
+    znovu přihlásili jako uživatel ubuntu s prázdným heslem
+ 9. Opět uslyšíte startovací melodii.
+ 10. Nyní by Vám měl fungovat odečítač obrazovky.
+ 11. >>ALT-F1<< Vás přesune do menu Gnome. Stiskněte šipku doprava, vyberte
+    "Místa", stiskněte opakovaně šipku dolů, abyste vybrali položku "Plocha"
+ 12. Otevře se souborový dialog. Pohybem okolo můžete najít ikonu "Instalovat
+     Ubuntu 10.10, klikněte na ni
+ 13. Toto nastartuje instalátor, který je zpřístupněný pomocí Orcy a Vy byste
+     jím měli být schopni projít a nainstalovat systém. Buďte si však vědomi,
+     že během instalace budou doby ticha, jelikož instalátor nehlásí svůj
+     postup slyšitelným způsobem.
+ 14. Na konci budete požádání o restart. Ujistěte se, že vyndáte CD, než znovu
+     nastartujete.
+
+== 2. Nastartujte do nově nainstalovaného systému ==
+
+Potom, co po úspěšné instalaci restartujete svůj počítač, byste měli uslyšet
+přihlašovací zvuk (bubny). Zde vyberte své přihlašovací jméno, napište >>ENTER<<,
+potom napište své heslo a stiskněte >>ENTER<<. Pokud potom znovu uslyšíte
+přihlašovací zvuk (bubny), zadali jste špatně své jméno nebo heslo, a musíte
+přihlášení opakovat. V případě úspěchu uslyšíte přihlašovací melodii.
+
+Po startovací melodii stiskněte >>ALT-F2 orca ENTER<<. Toto nastartuje
+samoozvučený konfigurační dialog pro odečítač obrazovky Orca. Projděte jím,
+abyste si nastavili Vámi preferovaná nastavení a na konci odsouhlaste
+odhlášení. Opakujte přihlášení a nyní byste měli mít systém, který při startu
+automaticky spouští mluvící odečítač obrazovky -- Orca.
+
+== 3. Nainstalujte dodatečné balíky ==
+
+ * Nainstalujte Speech Dispatcher, Festival, BrlTTY, Orca, Emacs a speechd-el
+pomocí následujícího příkazu:
+
+-----
+sudo apt-get install speechd festival festival-freebsoft-utils emacs speechd-el
+-----
+
+ * [ubuntu-festival Nainstalujte spouštěcí skript pro festival]
+ * [ubuntu-brltty Nainstalujte spouštěcí skript pro BrlTTY]
+
+== 4. Nastavte Orcu ==
+
+Viz [gnu-configuration#orca]
+
+== 5. Nastavte BrlTTY ==
+
+Viz [gnu-configuration#brltty]
+
+== 6. Přístupné přihlášení ==
+
+Přístupné přihlášení na Ubuntu 10.10 Maverick nefunguje.
+[[http://fossplanet.com/f10/possible-bug-maverick-accessible-login-function-surebug-casper-30accessibility-script-57385/ details]]
+
+== 7. Podívejte se, jaké další zpřístupňující nástroje mohou být užitečné ==
+
+Projděte si jiné dostupné programy a nástroje: [gnu-installation]

@@ -1,0 +1,150 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Instalace =
+
+Obsah: @TOC@
+
+== Celý desktop == complete-desktop
+
+Pokud chcete nainstalovat kompletně nový desktop, ať už na opravdovém počítači,
+nebo na virtuálním počítači, nebo pokud se sháníte po postupu, jak učinit svůj
+již nainstalovaný desktop přístupnější, přečtěte si naši příručku, jak
+nainstalovat celé prostředí:
+
+ * [ubuntu-desktop]
+
+Následující oddíly se věnují instalaci všech možných komponent.
+
+== Zpřístupňující nástroje == accessibility-tools
+
+=== Orca === orca
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic] nainstalujte gnome-orca
+:Debian/Ubuntu příkaz: sudo apt-get install gnome-orca
+
+Vyzkoušejte to:
+
+:v Gnome: ALT-F2, pak napište 'orca'
+:v terminálu: orca
+
+=== Emacs + speechd-el === speechd-el
+
+:Uživatelské rozhraní Ubuntu: ve [#synaptic Správci balíků Synaptic], nainstalujte emacs a speechd-el
+:Debian/Ubuntu příkaz: sudo apt-get install emacs speechd-el
+
+Vyzkoušejte to:
+:v Gnome: ALT-F2, napište 'emacs', potom, co nastartuje, ALT-x speechd-speak ENTER
+:v terminálu: emacs, potom, co nastartuje, ALT-x speechd-speak ENTER
+
+===  BrlTTY === brltty
+
+:Ubuntu: [ubuntu-brltty Instalace BrlTTY v Ubuntu]
+:Debian příkaz: sudo apt-get install brltty
+
+
+=== Speech Dispatcher === speech-dispatcher
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic] nainstalujte speech-dispatcher, libspeechd2, python-speechd
+:Debian/Ubuntu Command: sudo apt-get install speech-dispatcher libspeechd2 python-speechd
+
+Vyzkoušejte to:
+
+Type 'spd-say test' in terminal or run [#orca]. If it doesn't
+work, try running 'spd-conf -d' in the terminal to check problems.
+
+==== Nejnovější stabilní verze Speech Dispatchera ==== speechd-dev-version
+
+*V Ubuntu:*
+ 1. sudo add-apt-repository ppa:dusek/spd-test
+ 2. sudo apt-get update
+ 3. sudo apt-get install speech-dispatcher libspeechd2 python-speechd
+ 4. killall speech-dispatcher
+
+=== Festival === festival
+
+:Uživatelské rozhraní Ubuntu: [ubuntu-festival]
+:Debian/Ubuntu příkaz: sudo apt-get install festival festival-freebsoft-utils
+
+Vyzkoušejte to:
+:v Orce: Vyberte nastavení, vyberte Festival jako řečový modul, nastavte Vám
+  preferovaný hlas
+:ve speechd-el: ALT-x speechd-set-output-module ENTER festival ENTER
+
+==== Český hlas ==== czech-voice
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic], nainstalujte festival-czech *a* festival-czech-ph
+:Debian/Ubuntu příkaz: sudo apt-get install festival-czech festvox-czech-ph
+
+==== Jiné hlasy ==== voices
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic]
+vyhledejte 'festvox' a vyberte si hlas, který chcete nainstalovat
+:Debian/Ubuntu příkaz: sudo apt-cache search festvox, then sudo-apt-get install festvox-<hlas>
+
+=== eSpeak ===
+
+:Uživatelské rozhraní Ubuntu: In [#synaptic Synaptic package manager] nainstalujte espeak
+:Debian/Ubuntu příkaz: sudo apt-get install espeak
+
+Vyzkoušejte to:
+:v Gnome: ALT-F2, napište 'espeak test' a stiskněte >>ENTER<<. Měli byste uslyšet "test".
+
+== Aplikace == applications
+
+=== Internetový prohlížeč: Firefox === firefox
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic] nainstalujte firefox
+:Debian/Ubuntu příkaz: sudo apt-get install firefox
+
+Vyzkoušejte to:
+
+:v Gnome: ALT-F2, napište 'firefox'
+
+=== Emailový klient: Thunderbird === thunderbird
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic]
+  nainstalujte Thunderbird
+:Debian/Ubuntu příkaz: sudo apt-get install thunderbird
+
+Vyzkoušejte to:
+
+:in Gnome: ALT-F2, type 'thunderbird'
+
+=== Textový procesor and kancelářský balík: OpenOffice.org === openoffice
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Ubuntu] nainstalujte openoffice.org
+:Debian/Ubuntu příkaz: sudo apt-get install openoffice.org
+
+Vyzkoušejte to:
+
+:v Gnome: ALT-F2, napište 'openoffice.org'
+
+=== Virtual Computer: VMware === vmware
+
+ 1. Přejděte na [http://downloads.vmware.com/d/info/desktop_downloads/vmware_player/3_0]
+ 2. Pod položkou "Product Downloads" najděte "VMware Player" a stiskněte
+    tlačítko "Download" vedle něj
+ 3. Na další stránce se musíte zaregistrovat (hledejte formulář pod nadpisem
+    "New to VMware"
+ 4. Na další stránce vyberte zemi, vyberte si heslo a potvrďte souhlas s
+    licencí, vyberte "Register"
+ 5. V případě úspěchu se Vám zobrazí stránka, která Vás vyzývá, abyste si
+    zkontrolovali svůj email
+ 6. Dostanete email s odkazem "Activate now", který musíte nejprve otevřít a
+    tím aktivovat Váš účet
+ 7. To Vás dostane na stránku, kde můžete program stáhnout. Vyberte správnou
+    verzi (32- nebo 64-bitový linuxový VMware Player) a klikněte na tlačítko
+    "Stáhnout" vedle něj. Uložte jej na disk.
+ 8. Soubor s příponou .bundle je spustitelný, spusťte ho pomocí sudo sh
+    název_souboru. Toto spustí přístupný instalátor, který Vás provede
+    instalačním procesem.
+
+== Poznámky ==
+
+=== Správce balíků Synaptic === synaptic
+
+V Ubuntu/Gnome můžete instalovat balíky s programy pomocí Správce balíků
+Synaptic. Můžete je spustit v Systém -> Správa -> Správce balíků
+Synaptic. Nejjednodušší způsob, jak nainstalovat daný balík, je zadat jeho
+jméno do vyhledávacího okna, potom jej najít v seznamu výsledků a zaškrtnout
+jeho zaškrtávací tlačítko.

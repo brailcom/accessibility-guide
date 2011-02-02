@@ -36,41 +36,45 @@ softwarové komponenty dohromady nějakým rozumným způsobem. Tato příručka
 popisuje především distribuci Ubuntu, ale většina informací v ní obsažených
 platí i pro jiné distribuce.
 
-[overview-gnu-linux More on GNU/Linux]
+[overview-gnu-linux Více o GNU/Linux]
 
 == Mac OS X ==
 
-Mac OS X is a popular UNIX-based desktop operating system.  It is known for its
-intuitive, elegant and easy to use user interface.  Users can search for and
-install applications, both free and paid, from the Mac App Store.  Many well
-known applications are available for Mac OS X, like Microsoft Office, or Steam
-with Valve's games.
+Mac OS X je populární desktopový operační systém založený na UNIXu.  Je znám
+pro své intuitivní, elegantní a snadno použitelné uživatelské rozhraní.
+Uživatelé tohoto systému si pro něj mohou vyhledávat a pořizovat aplikace,
+placené i neplacené, z obchodu Mac App Store.  Pro Mac OS X je dostupné mnoho
+známých aplikací, jako např. Microsoft Office, nebo herní distribuční platforma
+Steam, vč. her firmy Valve jako Half-Life 2 nebo Portal.
 
-From the accessibility point of view, every machine with Mac OS X comes with a
-screen reader called VoiceOver and English voices.  Braille display support for
-selected displays is also included, and magnification support is also provided
-by VoiceOver.  Therefore, blind or visually impaired English-speaking user can
-literally start using the Mac computer right after unboxing it.
+Z pohledu zpřístupnění je každý stroj s Mac OS X dodáván s odečítačem obrazovky
+zvaným VoiceOver a anglickými hlasy.  Systém také již v sobě obsahuje podporu
+pro vybrané Braillské řádky, a VoiceOver podporuje i lupu obrazovky.  Proto
+anglicky mluvící slepý nebo zrakově postižený uživatel může začít používat
+počítač Mac hned po jeho vybalení bez dotatečné instalace podpory
+zpřístupnění.
 
-Situation is much more complicated for non-English users, who have to buy
-voices for their language and get Braille input tables for their language.
+Situace pro neanglicky mluvící uživatele je daleko komplikovanější, protože si
+musí koupit hlasy pro svůj jazyk a nainstalovat Braillské tabulky pro svůj
+jazyk.
 
-Apple tests all its applications so that they work with VoiceOver.  So you can
-use the built-in apps like Mail, Safari (internet browser), Address Book, iCal
-and others and be sure that they provide reasonable experience with VoiceOver.
+Apple testuje funkčnost většiny svých aplikací s VoiceOvereme.  Takže můžete
+používat vestavěné aplikace jako Mail, Safari (internetový prohlížeč), Adresář,
+iCal a další a být si jistí, že budou s VoiceOverem rozumně použitelné.
 
 == iOS ==
 
-iOS is a derivative of the Mac OS X operating system designed specifically for
-touchscreen mobile devices.  It runs on iPhone, iPad and iPod touch.  Users can
-install and update their apps, both free and paid, using the App Store.
+iOS je operační systém odvozený od Mac OS X a navržený speciálně pro mobilní
+zařízení s dotykovou obrazovkou.  Běží na přístrojích iPhone, iPad a iPod
+Touch.  Uživatelé si pro tuto platformu mohou vyhledávat, instalovat a
+aktualizovat své aplikace pomocí App Store.
 
-iOS comes with built-in screen reader VoiceOver, which is the first touchscreen
-screen reader.  It uses touch gestures for navigating in the screen reader.
-iOS also ships with synthetic voices for over 30 languages and supports reading
-different parts of user interface using the appropriate language ("language
-switching").  iOS also ships with out-of-the box support for many bluetooth
-Braille displays and Braille tables for many languages.
+iOS již v sobě obsahuje odečítač obrazovky VoiceOver, který je prvním dotykovým
+odečítačem vůbec.  Pro navigaci a další práci s ním používá uživatel dotyková
+gesta.  iOS je také dodáván s hlasy pro přes 30 jazyků a podporuje čtení
+různých částí textu různými jazyky (tzv. přepínání jazyků).  iOS je také
+dodáván s podporou pro mnoho bezdrátových Bluetooth Braillských řádků a
+Braillských tabulek pro mnoho jazyků.
 
 == Microsoft Windows ==
 
@@ -91,7 +95,7 @@ Někdy je užitečné mít možnost spustit najednou více než jednu z uvedený
 platforem. Například uživatel GNU/Linuxu může někdy chtít spustit Microsoft
 Windows a použít speciální aplikaci, která je dostupná jenom tam (jako
 například Microsoft Word) a poté přesunout výsledný soubor zpět na
-svou pracovní plochu v GNU/Linuxu. Nebo možná uživatel MacOS občas potřebuje
+svou pracovní plochu v GNU/Linuxu. Nebo možná uživatel Mac OS X občas potřebuje
 použít GNU/Linux kvůli nějaké chytré aplikaci, která na Mac OS X chybí nebo
 je příliš drahá.
 
@@ -108,15 +112,15 @@ fungovat složité technologie, ale dnešní nástroje jsou schopny tyto detaily
 před uživatelem skrýt a používají se zcela jednoduše.
 
 Existuje několik takovýchto virtualizačních technologií, jako například Virtual
-Box, Xen, Virtuozzo nebo VMWare. My zde doporučujeme VMWare Player, protože je
+Box, Xen, Virtuozzo nebo VMware. My zde doporučujeme VMware Player, protože je
 zároveň zdarma, dostupný na všech platformách, dobře přístupný, jednoduchý na
 používání a docela výkonný.
 
 Níže naleznete informace, jak jej nainstalovat a používat:
 
- * VMWare Player pro GNU/Linux:
-    * [gnu-installation#vmware Instalace VMWare]
-    * [gnu-usage#vmware Používání VMWare]
+ * VMware Player pro GNU/Linux:
+    * [gnu-installation#vmware Instalace VMware]
+    * [gnu-usage#vmware Používání VMware]
 
 
 

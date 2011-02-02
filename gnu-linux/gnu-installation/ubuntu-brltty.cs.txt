@@ -1,0 +1,36 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Instalace BrlTTY na Ubuntu =
+
+Toto se vztahuje na *Ubuntu Lucid* a *Maverick*. Pokud používáte starší verzi
+Ubuntu, vysoce doporučujeme nejprve povýšit na jednu z výše uvedených novějších
+verzí.
+
+== Krok 1: Instalace balíků ==
+
+Nejprve musíme stáhnout a nainstalovat balík BrlTTY. To můžete udělat v
+grafickém uživatelském rozhraní nebo z příkazové řádky následovně:
+
+:Uživatelské rozhraní Ubuntu: Ve [gnu-installation#synaptic Správci balíků Synaptic] nainstalujte brltty
+:Ubuntu příkaz: sudo apt-get install brltty
+
+== Krok 2: Získejte konfigurační soubor ==
+
+BrlTTY v Ubuntu 10.10 neobsahuje konfigurační soubor
+[[https://its.freebsoft.org/its/issues/3145 bug #3145]]. Obvykle doporučená
+cesta, jak ho vytvořit, by byla spuštění příkazu 'brltty-setup'. Ten však v
+Ubuntu 10.10 nefunguje.
+
+Co musíte udělat je stáhnout si
+[http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf
+konfigurační soubor] a zkopírovat ho do \/etc/brltty.conf. Toho můžete
+dosáhnout následujícími příkazy:
+
+-----
+wget http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf -O /tmp/brltty.conf
+sudo cp /tmp/brltty.conf /etc/brltty.conf
+-----
+
+== Krok 3: Nastavení ==
+
+Nyní musíte [gnu-configuration#brltty nastavit BrlTTY]

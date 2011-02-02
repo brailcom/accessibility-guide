@@ -1,0 +1,47 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Instalace Festivalu na Ubuntu =
+
+Toto se vztahuje na *Ubuntu Lucid* a *Maverick*. Pokud máte starší verzi
+Ubuntu, vysoce doporučujeme ji nejdříve povýšit na výše zmíněné novější verze.
+
+== Krok 1: Instalace balíků ==
+
+Nejdříve musíme stáhnout a nainstalovat potřebné balíky. To je možné provést
+pomocí grafického uživatelského rozhraní nebo z příkazové řádky, jak následuje:
+
+:Uživatelské rozhraní Ubuntu: Ve [gnu-installation#synaptic Správci balíků
+  Synaptic], nainstalujte festival *a* festival-freebsoft-utils
+:Ubuntu příkaz: sudo apt-get install festival festival-freebsoft-utils
+
+== Krok 2: Spouštěcí skripty ==
+
+Balík festivalu v Ubuntu neobsahuje spouštěcí skript
+[[https://its.freebsoft.org/its/issues/3143 bug #3143]]. Pokud Vám nevadí
+ručně spouštět Festival pokaždé, když ho chcete používat, pomocí napsání
+příkazu "festival --server", můžete tento krok přeskočit. Je to ale celkem
+pohodlné, takže Vám doporučujeme:
+
+Stáhnout si
+[http://live.freebsoft.org/installation-ubuntu-festival/attachments/festival
+spouštěcí skript], zkopírovat ho do \/etc/init.d/festival a nastavit mu
+spouštěcí bit. Toho můžete dosáhnout následujícími příkazy.
+
+-----
+wget http://live.freebsoft.org/installation-ubuntu-festival/attachments/festival -O /tmp/festival
+sudo cp /tmp/festival /etc/init.d/festival
+sudo chmod +x /etc/init.d/festival
+-----
+
+Tento skript pak musí být nalinkován do startovacího procesu a nastartován:
+
+-----
+sudo update-rc.d festival defaults
+sudo /etc/init.d/festival start
+-----
+
+== Krok 3: Nainstalujte hlasy a doplňky ==
+
+Váš Festival by nyní měl být nainstalován a běřet. Mohli byste ale chtít si
+přiinstalovat další hlasy nebo zvukové knihovny. Více o tom si můžete přečíst v
+[gnu-installation stránce o instalaci].

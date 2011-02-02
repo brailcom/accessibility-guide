@@ -1,0 +1,245 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Konfigurace =
+
+Obsah: @TOC@
+
+== Zpřístupňující nástroje == accessibility-tools
+
+=== Orca === orca
+
+Nastavení programu Orca jsou dostupná z grafického uživatelského rozhraní
+programu. Tedy abyste změnili nastavení, spusťte Orcu nebo se přepněte do
+jejího okna a najděte tlačítko "Nastavení". Zde můžete najít nastavení pro
+rozložení klávesnice, nastavení řeči, braillského výstupu, lupy atd. Změna
+některých klíčových nastavení vyžaduje restart Orcy.
+
+=== Emacs + speechd-el === emacs
+
+==== Metody konfigurace ==== emacs-conf-methods
+
+Změnit nastavení v Emacsu a speechd-el jde několika způsoby. Nastavení můžete
+změnit dočasně nebo trvale. Můžete mít také různá nastavení pro různé části
+Emacsu.
+
+===== přes příkaz Emacsu =====
+
+Dočasná nastavení, jako např. dočasná změna rychlosti řeči nebo úrovně
+interpunkce, můžou být provedena použití příkazu Emacsu, který můžete zadat
+potom, co stisknete Alt-x, nebo pomocí klávesové zkratky. Zde je několik
+příkladů:
+
+Nastavit hlas: Meta-x speechd-set-voice /nebo/ CTRL-e d v
+Nastavit rychlost hlasu: Meta-x speechd-set-rate /nebo/ CTRL-e d r
+Nastavit mód interpunkce: Meta-x speechd-set-punctuation-mode /or/ CTRL-e d .
+
+Úplný seznam dostupných příkazů speechd-el můžete najít v
+[http://cvs.freebsoft.org/doc/speechd-el/speechd-el_8.html#SEC12 speechd-el
+manuálu, oddělení nastavení]
+
+===== pomocí customize-group =====
+
+Všechna nastavení speechd-el jsou dostupná z Emacsového standardního rozhraní
+pro uživatelská nastavení, ve skupině jménem "speechd-el". Můžete se do ní
+dostat pomocí 'Meta-x customize-group ENTER speechd-el'. Každé nastavení můžete
+změnit pouze pro toto sezení, nebo jej uložit natrvalo. Trvalé nastavení
+znamená zapsat ho do konfiguračního souboru ~/.emacs, který je popsán níže.
+
+Všechna dostupná nastavení a skupiny jsou v tomto rozhraní doprovázena svými
+plnými popisy.
+
+===== přes konfigurační soubor ~/.emacs =====
+
+Trvalá nastavení jsou uložena v konfiguračním souboru ~/.emacs v syntaxi jazyka
+Emacs Lisp. Všechny dostupné volby jsou popsané v
+[http://cvs.freebsoft.org/doc/speechd-el/speechd-el_9.html#SEC15
+dokumentaci speechd-el, oddíl Customization].
+
+==== První nastavení ==== brltty
+
+Aby se Vám speechd-el spouštělo automaticky po startu Emacsu, umístěte na konec
+Vašeho ~/.emacs souboru následující příkazy:
+
+-----
+(autoload 'speechd-speak "speechd-speak" nil t)
+-----
+
+=== BrlTTY === brltty
+
+BrlTTY ukládá svá nastavení v textovém konfiguračním souboru, který je často
+umístěn v '\/etc/brltty.conf', ale může být dostupný v jiném umístění v
+závislosti na Vaší Linuxové distribuci.
+
+Po změně konfiguračních nastavení musíte restartovat BrlTTY:
+
+-----
+/etc/init.d/brltty restart
+-----
+
+==== První nastavení ==== brltty-initial-setup
+
+Obvykle je potřeba nastavit BrlTTY na správné braillské zařízení. Upravte
+konfigurační soubor následovně:
+
+ 1. Vyhledejte několik po sobě jdoucích řádků začínajících "braille-driver" a
+    odkomentujte (odeberte znak křížku "#") z toho, které popisuje Váš ovladač.
+
+ 2. Vyhledejte text "text-table" a odkomentujte ten, který odpovídá Vašemu
+    preferovanému jazyku
+
+ 3. Vyhledejte text "braille-device", odkomentujte správný řádek, a pokud je to
+    nutné, nastavte adresu zařízení v souladu s poskytnutou adresou
+
+Uvažte tento příklad (česká tabulka, USB řádek od firmy Baum). Jediné
+odkomentované řádky (tedy takové, které nezačínají znakem křížku) budou:
+-----
+braille-driver  bm      # Baum
+text-table      cs      # Czech
+braille-device  usb:    # First USB device matching braille driver.
+-----
+
+Pro tabulku britské angličtiny a braillský řádek od firmy Freedom Scientific s
+MAC adresou 12:2F:22:21:A2:11
+-----
+braille-driver  fs      # FreedomScientific
+text-table      en_UK   # British English
+braille-device bluetooth:12:2F:22:21:A2:11 # Specific bluetooth device by address.
+-----
+
+=== Speech Dispatcher === speech-dispatcher
+
+Obvykle nebudete vůbec muset měnit nastavení Speech Dispatchera. Většina
+nastavení, jako hlas nebo rychlost čtení, jde ovlivnit přímo z klientských
+aplikací jako Orca nebo Emacs. Jsou ale některé speciální případy, kdy
+potřebujete změnit nastavení přímo řečového serveru.
+
+Speech Dispatcher ukládá svá nastavení v textovém konfiguračním souboru. Je
+uložen v \/etc/speech-dispatcher/speechd.conf nebo podobném umístění. Pokud
+Vaše distribuce spouští Speech Dispatchera jako uživatelskou službu (např. v
+Ubuntu Maverick a dále je to tak), můžete také předefinovat volby specificky
+pro jednotlivé uživatele v ~/.speech-dispatcher/conf/speechd.conf.
+
+Nejběžnější konfigurační vobly mohou být pohodlně změněny nastavovacím
+nástrojem spd-conf z příkazové řádky
+
+:Uživatelská konfigurace: spd-conf
+:Systémová konfigurace: sudo spd-conf
+
+Po změně těchto nastavení musíte restartovat Speech Dispatcher
+
+-----
+killall speech-dispatcher
+-----
+
+==== První nastavení ==== speech-dispatcher-initial-setup
+
+Následující dva kroky musíte následovat jen tehdy, pokud chcete nastavit jiný
+výstupní modul nebo zvukový systém než ten, který je předdefinovaný. Doporučený
+způsob, jak to provést, je pomocí nástroje "spd-conf" z příkazové řádky.
+
+-----
+spd-conf
+-----
+
+Nejčastěji budete chtít zadat úplně novou konfiguraci jako svou uživatelskou
+konfiguraci.
+
+ * Nastavit výstupní modul
+
+Ne všechny podporované TTS systémy jsou ve výchozím nastavení povolené. Např. v
+Ubuntu jsou v čerstvé instalaci povolené moduly "espeak" a "festival", ale
+abyste povolili moduly jako "flite", "ivona" nebo "ibmtts", musíte odkomentovat
+příslušnou řádku s AddModule v souboru speechd.conf.
+
+V \/etc/speech-dispatcher/speechd.conf hledejte řádku s AddModule, jejímž
+prvním parametrem je jméno modulu, který chcete povolit. Poté smažte znak "#"
+ze začátku řádku, pokud tam je.
+
+ * Nastavit zvukové zařízení
+
+Ve výchozím nastavení bude Speech Dispatcher používat pro zvukový výstup
+zvukový systém Pulse Audio a obvykle je to správná a nejlepší volba. Pokud však
+Váš systém nepoužívá Pulse Audio, neuslyšíte s takto nastaveným Speech
+Dispatcherem žádný zvuk. V takovém případě musíte změnit řádek s
+AudioOutputMethod v souboru \/etc/speech-dispatcher/speechd.conf (a odstranit
+znak "#" ze začátku onoho řádku, pokud tam je).
+
+Např. abyste nastavili zvukový výstup na ALSA, použijte:
+-----
+AudioOutputMethod "alsa"
+-----
+
+=== Festival === festival
+
+Konfigurace festivalu může být upravována v konfiguračním souboru se syntaxí
+jazyka Scheme a umístěném v \/etc/festival.scm nebo podobném umístění. To je
+však zřídka potřeba, s výjimkou instalace nových hlasů nebo pokud potřebujete
+změnit některé výchozí hodnoty procesu řečové syntézy.
+
+=== eSpeak === espeak
+
+Syntetizér eSpeak neposkytuje žádnou možnost trvalé konfigurace a obvykle
+také není vůbec potřeba.
+
+== Applications == applications
+
+=== Firefox === firefox
+
+Jsou dva základní druhy nastavení pro Firefox. Nastavení samotného Firefoxu a
+nastavení odečítače obrazovky Orca. Firefox si dále může pamatovat nastavení
+práv pro určitou stránku.
+
+K *nastavení Firefoxu* se můžete dostat přes hlavní menu, položka Úpravy, pod
+ní položka Nastavení.
+
+*Nastavení Orcy pro Firefox* můžete otevřít pomocí >>Orca+Ctrl+<<Space přímo z
+ Firefoxu, a pak se přesunout na kartu "Firefox" pomocí šipek.
+
+K *nastavení povolení pro stránku* se můžete dostat otevřením dané stránky,
+stisknutím tlačítka Ctrl-I pro vyvolání dialogu "Informace o stránce", potom
+šipkami do karty "Povolení". TAB bude dokola přeskakovat mezi položkami
+(Otevírat vyskakovací okna, Ukládat cookies atd.).
+
+==== Doporučení ==== firefox-recommendation
+
+V nastaveních Orcy pro Firefox (>>Orca+Ctrl+<<Mezerník když jste ve Firefoxu)
+přejděte na kartu Firefox a vypněte "Zachytit zaměření na objektu při navigaci"
+
+=== Thunderbird === thunderbird
+
+K nastavení Thnderbirdu můžete přistupovat přes hlavní menu, položka "Úpravy",
+pod ní položka "Předvolby". Tam najdete obecná nastavení této aplikace.
+
+Nastavení účtu si můžete otevřít pro každý účte, viz hlavní menu "Úpravy", pod
+tím položka "Nastavení účtu".
+
+Výchozí rozložení je kontrolováno z hlavního menu, položka "Zobrazení".
+
+==== Doporučení ==== thunderbird-recommendation
+
+Vypněte oblast zprávy v hlavním menu položka Zobrazit, pod ní položka
+Rozložení, nebo pomocí stisku klávesy F8. Pokud tuto volbu nevypnete, každá
+zpráva, přes kterou projedete v seznamu zpráv pomocí šipek nahoru a dolů, bude
+stažena, zobrazena a označena za přečtenou.
+
+==== OpenOffice.org ==== openoffice
+
+==== OpenOffice Writer Shortcuts ==== openoffice-writer-shortcuts
+
+OpenOffice má velmi užitečný příkaz pro vybrání textu přesně v současném
+odstavci. Tento příkaz, stejně jako pár dalších, jen nemá přiřazenou klávesovou
+zkraktu. Toto můžete napravit z hlavního menu "Nástroje->Přizpůsobit". To
+vyvolá dialog s několika kartami. Klávesové zkratky můžete předefinovat na
+kartě "Klávesnice" (použijte >>Ctrl+PgUp<< a >>Ctrl+PgDown<< pro přepínání mezi
+kartami). Můžete procházet seznam dostupných zkratek i definovat nové.
+
+Abyste definovali klávesovou zkratku pro "Označit odstavec":
+ 1) Přejděte do karty "Klávesnice" v dialogu "Přizpůsobit"
+ 2) Vyberte požadovanou kombinaci kláves (doporučená je >>Ctrl+Shift+s<<)
+ 3) Stiskněte opakovaně >>TAB<<, abyste se dostali do stromu "Kategorie"
+ 4) Vyberte "Upravit" pomocí šipek nahoru a dolů.
+ 5) Stiskněte >>TAB<< pro přesun do stromu "Funkce"
+ 6) Vyberte "Vybrat odstavec" pomocí šipek nahoru a dolů
+ 7) Stiskněte opakovaně >>TAB<<, abyste našli tlačítko "Změnit" a stiskli jej
+ 8) Nyní je >>Ctrl+Shift+s<< zadefinováno jako nová zkratka, zavřete dialog
+    pomocí tlačítka OK

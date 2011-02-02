@@ -50,12 +50,12 @@ K jeho vyvolání přejděte na objekt a stiskněte >>Shift+F10<<.
 
 Příklady:
  * Chcete-li sbalit složku do archivu .zip, najdede si ji v průzkumníku
-   souborů, vyvoláte kontextové menu a vyberete ,,Archivovat...''
+   souborů, vyvoláte kontextové menu a vyberete "Archivovat..."
  * Pro zjištění velikosti obrázku najdete obrázek, otevřete si na něm
-   kontextové menu a vyberete si ,,Vlastnosti''
+   kontextové menu a vyberete si "Vlastnosti"
  * Chcete-li otevřít odkaz na webové stránce v novém okně prohlížeče,
    místo v existujícím okně, najdete tento odkaz a z kontextového menu
-   vyberete akci ,,Otevřít v novém okně''.
+   vyberete akci "Otevřít v novém okně".
 
 Klávesové zkratky:
 :>>Shift+F10<<: Otevřít kontextové menu
@@ -395,659 +395,687 @@ kdy se připojí k internetu. Pokud byste třídili podle 'Datum' a nikoliv podl
 'Doručení', taková zpráva by se vám nezobrazila na vrcholu seznamu, kde byste
 ji mohli čekat, a to ani v případě, že jste ji právě obdrželi.
 
-==== Search for messages ==== thunderbird-search
+==== Vyhledávání zpráv ==== thunderbird-search
 
- 1. In the folder selection pane, choose the folder you want to search in
- 2. Press >>Ctrl-f<< to move focus to the Search input field
- 3. Type the text you want to search for
- 4. By default, the text is searched in the 'From' field. There are buttons
-    bellow this input field to search the text also in the 'To' field, in
-    message text or other parts. They are however not accessible in Ubuntu
-    Maverick. As a possible workaround, we suggest to use the Advanced search.
+ 1. V panelu pro výběr složek vyberte složku, kterou chcete prohledat
+ 2. Zmáčkněte >>Ctrl-f<<, abyste přenesli zaměření do vstupního políčka hledání
+ 3. Napište text, který chcete vyhledat
+ 4. Ve výchozím stavu se zadaný text vyhledává v poli "Od", neboli v
+    odesílateli zpráv.  Pod tímto vstupním polem jsou tlačítka pro vyhledávání
+    i v poli příjemce, celém textu zprávy nebo jiných částech.  Bohožel v Ubuntu
+    Maverick nejsou tato tlačítka přístupná.  Tento problém můžete obejít
+    pomocí použití pokročilého vyhledávání.
 
-For Advanced search, use >>Ctrl-Shift-f<< or use 'Edit->Find->Search messages'
-from the main menu (>>F10<<).
+Abyste použili pokročilé vyhledávání, použijte >>Ctrl-Shift-f<<, nebo použijte
+'Úpravy->Najít->Najít ve zprávě' z hlavního menu (>>F10<<).
 
 === Gnus === gnus
 
-Gnus is a mail reading application inside Emacs. It might require you to study
-how to use it a little bit at first, but then its very powerful and speechd-el
-makes it very accessible too.
+Gnus je program na čtení emailů v Emacsu. Může vyžadovat, abyste nejprve trochu
+nastudovali, jak se používá, ale pak je velmi silný a speechd-el ho také dělá
+velmi přístupným.
 
-You can launch gnus from inside Emacs by typing '>>M-x gnus<<'.
+Gnus můžete spustit z Emacsu pomocí '>>M-x gnus<<'.
 
-For detailed information how to setup accounts and how to use it,
-see [http://www.gnus.org/manual/gnus_toc.html The Gnus Manual].
+Pro detailní informace, jak nastavit poštovní účty a jak je používat, viz
+[http://www.gnus.org/manual/gnus_toc.html The Gnus Manual].
 
-== Browsing web == browsing-web
+== Prohlížení webových stránek == browsing-web
 
 === Firefox === firefox
 
-==== Navigation between pages ==== firefox-navigation-between-pages
+==== Pohyb mezi stránkami ==== firefox-navigation-between-pages
 
-:>>Ctrl+l<<: Enter a new location (URL or search term)
-:>>Alt+Left<<: Go to previous visited page
-:>>Alt+Right<<: Go to next visited page
+:>>Ctrl+l<<: Zadejte nové umístění (adresu URL nebo text k vyhledání)
+:>>Alt+Left<<: Vrátit se na předchozí navštívenou stránku
+:>>Alt+Right<<: Přejít na další navštívenou stránku
 
-To visit a page:
- 1) Press >>Ctrl+l<< (>>location<<) to enter the address bar
- 2) You can either type directly the URL of the page you want to see
-    or just a series of words. If you type only words, Google will
-    search for them and a webpage will display with the search results.
+Abyste navštívili stránku:
+ 1) Stiskněte >>Ctrl+l<< (>>location<<) pro vstup do adresního řádku
+ 2) Můžete napsat buď přímo adresu stránky, kterou chcete vidět, nebo jen
+    několik slov.  Když napíšete pouze slova, Google (nebo jiný Vámi nastavený
+    vyhledávač) prohledá web na Vámi zadaná slova a zobrazí se Vám stránka s
+    výsledky vyhledávání.
 
-If you are interested in having more pages open at the same time and
-switch between them, see [#firefox-tabbed-browsing].
+Pokud byste chtěli mít otevřeno více stránek najednou a přepínat se mezi nimi,
+shlédněte [#firefox-tabbed-browsing].
 
-==== Navigation inside a page ==== firefox-navigation-inside-page
+==== Pohyb ve stránce ==== firefox-navigation-inside-page
 
-You can read a page line by line using the up and down arrow keys. It
-is however often more convenient to read through bigger sections or
-search just for the part that you are interested. Bellow is a list of
-the most common keyboard shortcuts with Orca:
+Stránku si můžete číst řádek po řádku pomocí kláves šipek nahoru a dolů. Je
+však často pohodlnější číst po větších kusech nebo vyhledat jen tu část, která
+Vás zajímá.  Níže je seznam nejčastěji používaných klávesových zkratek Orca:
 
-Basic navigation:
-:Down arrow: Next line (Up arrow previous line)
-:>>Ctrl+Home<< or >>End<<: Go to top or bottom of the document
+Základní navigace:
+:Šipka dolů: Další řádek (nahoru od předchozího řádku)
+:>>Ctrl+Home<< nebo >>End<<: Přejít na začátek nebo konec dokumentu
 
-Landmark navigation:
-:>>m<<: Next landmark (>>Shift+m<< previous)
+Navigace po orientačních bodech:
+:>>m<<: Další orientační bod (>>Shift+m<< předchozí)
 
-Navigation over page items:
-:>>Orca+Right<<: Go to next object (>>Orca+Left<< previous object)
-:>>h<<: Next heading (Shift-1 previous)
-:>>1<< or >>2,3,4,5,6<<: Next heading of the given level (>>Shift+1>> or >>2,3,4,5,6<< previous)
-:>>p<<: Next paragraph (Shift-p previous)
-:>>i<<: Next list item (Shift-i previous)
-:>>r<<: Next live region (Shift-r previous)
-:>>t<<: Next table (Shift-t previous)
-:>>o<<: Next large object (Shift-o previous)
-:>>Ctrl+Right<<: Next word (>>Ctrl+Left<< previous word)
+Navigace po prvcích stránky:
+:>>Orca+<<šipka vpravo: Přejít na další objekt (>>Orca+<<šipka vlevo předchozí
+objekt)
+:>>h<<: Další nadpis (Shift-1 předchozí)
+:>>1<< nebo <2,3,4,5,6<<: Další nadpis dané úrovně (Shift+1<< nebo
+ >>2,3,4,5,6<< předchozí)
+:>>p<<: Další odstavec (Shift-p předchozí)
+:>>i<<: Další položka seznamu (Shift-i předchozí)
+:>>r<<: Další živá oblast (Shift-r předchozí)
+:>>t<<: Další tabulka (Shift-t předchozí)
+:>>o<<: Další velký objekt (Shift-o předchozí)
+:>>Ctrl+Right<<: Další slovo (>>Ctrl+Left<< předchozí slovo)
 
-#>>The following has doubtful usefulness:<<
-# :>>u<< or >>v<<: Next unvisited or visited link (Shift-u or v previous)
+Nastavení módu Orca:
+:>>Orca+z<<: Zapnout/vypnout strukturální navigaci
+:>>Orca+F12<<: Přepnout mezi Orca navigací a Firefox (Gecko) navigací
 
-Orca mode settings:
-:>>Orca+z<<: Toggle structural navigation
-:>>Orca+F12<<: Toggle between orca navigation and Firefox (Gecko) navigation
+==== Tabulky ==== firefox-tables
 
-==== Tables ==== firefox-tables
+:>>t<<: Další tabulka (>>Shift+t<< předchozí)
+:>>Shift+Alt<<+Arrow: Přeskočit na buňku ve směru daném šipkou (nahoru, dolů,
+doleva, doprava)
+:>>Shift+Alt+Home<< or >>End<<: Přeskočit na první nebo poslední buňku v tabulce
 
-:>>t<<: Next table (>>Shift+t<< previous)
-:>>Shift+Alt+Arrow<<: Jump to table cell in given arrow direction (Up, Down, Left, Right)
-:>>Shift+Alt+Home<< or >>End<<: Jump to first or last cell in the table
+==== Formuláře ==== firefox-forms
 
-==== Forms ==== firefox-forms
+:>>e<<: Další vstupní políčko
+:>>b<<: Další tlačítko
+:>>Orca+Tab<<: Jít na další políčko formuláře (>>Shift+Orca+Tab<< předchozí)
+:>>Alt+Down<<: Rozvinout rozbalovací seznam(left >>Alt<<)
 
-:>>e<<: Next input field
-:>>b<<: Next button
-:>>Orca+Tab<<: Go to the next form field (>>Shift+Orca+Tab<< previous)
-:>>Alt+Down<<: Expand combo box(left >>Alt<<)
+==== Přístupové klávesy ==== firefox-access-keys
 
-==== Access keys ==== firefox-access-keys
+Přístupové klávesy často poskytují užitečnou funkci, jako např. skočit na obsah
+stránky nebo skočit do menu.  Neexistuje ale žádná jejich standardní definice,
+a proto mohou být různé v různých webových aplikacích.
 
-Access keys often provide useful functionality, such as jump to page content or
-jump to menu. There is however no standard definition for them and thus they
-might be different in different web applications.
+:>>Shift-Alt-<<klávesa: provést akci přiřazenou ke klávese 'klávesa'
 
-:>>Shift-Alt-<<key: Execute action defined for 'key'
+==== Živé oblasti ==== firefox-live-regions
 
-==== Live regions ==== firefox-live-regions
+:>>r<<: Další živá oblast (>>Shift+r<< předchozí)
+:>>\\<<: Zvýšit úroveň slušnosti pro současnou živou oblast
+:>>Shift+\\<<: nastavit všem živým oblastem úroveň slušnosti 'vypnuta'
+:>>Orca+F1<< or >>F2<< to >>F9<<: Projít dříve oznámené zprávy z živé oblasti
+(>>F1<< nejnovějstí, >>F2<< druhá nejnovější atd.)
 
-:>>r<<: Next live region (>>Shift+r<< previous)
-:>>\\<<: Advance the politeness level for the current live region
-:>>Shift+\\<<: Set all live regions on page to politeness of 'off'
-:>>Orca+F1<< or >>F2<< to >>F9<<: Review previously announced live region messages (>>F1<< most recent, >>F2<< last most recent etc.)
+==== Prohlížení webu s panely ==== firefox-tabbed-browsing
 
-==== Tabbed browsing ==== firefox-tabbed-browsing
+Uvnitř okna Firefoxu je možné mít otevřených několik stránek a přepínat se mezi
+nim dle potřeby. V daný okamžik je vidět jen jedna stránka, ale ostatní také
+zůstávají otevřené, jsou pouze vizuálně skryté a můžete je kdykoliv zobrazit.
 
-It is possible to keep multiple pages open inside the Firefox window and switch
-between them as necessary. Only one of them is visible at once, but the other
-ones also stay open, they are merely hidden visually, and you can bring them up
-at any time.
+Pro následování odkazu na webové stránce máte dvě možnosti.  Stisk >>ENTER<< na
+odkazu nahradí současně zobrazenou stránku za novou.  Naproti tomu stisk
+>>Ctrl+ENTER<< ponechá zobrazenou současnou stránku, ponechá na ní i zaměření a
+novou stránku otevře v jiném panelu, který můžete prohlédnout později.
 
-To follow a link on the webpage, you have two options.  Pressing >>ENTER<< on
-that link will replace the current page with the new page. Pressing
->>Ctrl+ENTER<< however will keep the current page, keep your focus there and
-open your new page in another tab which you can examine later.
+Abyste otevřeli novou stránku, >>Ctrl+l<< Vás přesune do adresního řádku, kde
+můžete napsat novou adresu a ta nahradí stránku, kterou právě čtete.
+Naproti tomu >>Ctrl+t<< ponechá současnou stránku otevřenou, vytvoří nový panel
+a přemístí Vás do adresního řádku tohoto nového panelu. Po zadání a potvrzení
+adresy do nového panelu můžete číst novou stránku bez toho, abyste zavřeli tu
+původní, ke které se můžete později vrátit.
 
-To open a new webpage, >>Ctrl+l<< will take you to the location bar when you
-can type a new address and it will replace the page that you are currently
-reading. >>Ctrl+t<< however will keep your page open, create a new tab and bring
-you to its location bar. You can then read another page without having to
-close to the former one, to which you can return later.
+Pro pohyb mezi paneli použijte >>Ctrl+PgUp<< a >>Ctrl+PgDown<<.
 
-To move between the tabs, use >>Ctrl+PgUp<< and >>Ctrl+PgDown<<.
+Klávesové zkratky:
+:>>Ctrl+ENTER<<: Otevřít odkaz v novém panelu
+:>>Ctrl+t<<: Otevřít nový panel a umístit zaměření do jeho adresního řádku
+:>>Ctrl+w<<: Zavřít současný panel
+:>>Ctrl+PgUp<<: Přejít na předchozí panel
+:>>Ctrl+PgDown<<: Přejít na další panel
+:>>Alt+<<číslo: Přejít do panelu s daným číslem (>>Alt+1<< první panel,
+>>Alt+2<< druhý panel atd.)
 
-Shortcuts:
-:>>Ctrl+ENTER<<: Open link in new tab
-:>>Ctrl+t<<: Open new tab and place focus in its location bar
-:>>Ctrl+w<<: Close the current tab
-:>>Ctrl+PgUp<<: Move to previous tab
-:>>Ctrl+PgDown<<: Move to the next tab
-:>>Alt+<<number: Move to the tab with the given number (>>Alt+1<< first tab, >>Alt+2<< second tab etc.)
+==== Záložky ==== firefox-bookmarks
 
-==== Bookmarks ==== firefox-bookmarks
+Na Vámi často navštěvovaných stránkách můžete vytvořit záložky, abyste je mohli
+příště snadno navštívit.
 
-You can create bookmarks on pages that you visit often or pages that you want
-to visit later.
+Abyste vytvořili záložku na stránce, otevřete stránku, poté stiskněte
+>>Ctrl+D<<. To otevře dialogové okno záložky, kde můžete upravit její název, a
+potom zmáčknou tlačítko Dokončit.
 
-To create a bookmark on a page, open the page, then press >>Ctrl+D<<.  This
-will open the bookmark dialog, where you can edit its title, then press the
-Save button.
+Záložky jsou uloženy v hlavním menu.  Přejděte na ně pomocí >>F10<<, stiskněte
+opakovaně pravou šipku, abyste našli položku "Záložky", a pak procházejte své
+záložky pomocí šipek nahoru a dolů.  Stisk >>ENTER<<u na jakékoliv záložce
+otevře jí přiřazenou stránku v současném okně prohlížeče.
 
-The Bookmarks are stored in the main menu. Access it using >>F10<<, press right
-arrow key repeatedly to find the 'Bookmarks' item and browse your bookmarks
-with up/down arrow keys. Pressing >>ENTER<< on any of them will open the
-associated page in your current window.
+Pokud chcete s označenou záložkou provést nějakou jinou akci, jako
+např. otevřít ji v novém panelu nebo ji smazat, stiskněte >>Shift+F10<<, abyste
+otevřeli kontextové menu a vybrali požadovanou akci pomocí šipek nahoru/dolů.
 
-If you want to do some other action with the selected bookmark, such as open it
-in a new tab or to delete it, press >>Shift+F10<< to open the context menu and
-choose the action you would like with up and down keys.
+Záložky také můžete seskupovat ve složkách, a to pomocí ostatních editačních
+políček a položek menu.
 
-You can also group your bookmarks in folders, just see the other edit fields
-and menu items.
+Klávesové zkratky:
+:>>Ctrl+D<<: Vytvořit záložku pro tuto stránku
 
-Shortcuts:
-:>>Ctrl+D<<: Bookmark this page
+==== Úplná příručka klávesových zkratek pro Firefox ==== firefox-shortcuts-reference
 
-==== Full keyboard shortcuts reference for Firefox ==== firefox-shortcuts-reference
+ * Orca mode pro Firefox: [http://live.gnome.org/Orca/Firefox] (neúplná)
+ * samotný Firefox: [http://www.mozilla.org/support/firefox/keyboard]
 
- * Orca mode for Firefox: [http://live.gnome.org/Orca/Firefox] (incomplete)
- * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
+Úplný seznam klávesových zkratek módu Orca můžete najít v dialogu nastavení
+Orca pro Firefox. Když jste ve Firefoxu, stiskněte >>Orca+Ctrl+<<Space, potom
+použijte >>Alt+PgUp<< nebo >>Alt+PgDown<<, abyste našli panel Klávesové
+zkratky.
 
-The complete list of Orca mode keyboard shortcuts you can find in the Orca
-settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl+Space<<, then
-use >>Alt+PgUP<< or >>Alt+PgDown<< to find the Keyboard shortcuts tab.
+== Správa souborů == managing-files
 
-== Managing files == managing-files
-
-There are two basic methods to manage files and folders. One is using the
-Nautilus application and second is from command line.
+Existují dvě základní metody pro správu souborů a adresářů. První je pomocí
+aplikace Nautilus a druhý je z příkazové řádky.
 
 === Nautilus === nautilus
 
-Nautilus is the default file browser in Gnome. It has a menu, a location bar
-displaying the current address and two panes (areas).
+Nautilus je výchozí prohlížeč souborů v Gnome. Má menu, řádek umístění
+zobrazující současnou adresu, a dvě oblasti.
 
-The left pane, by default, displays Places -- disks on your system, external
-drives, your camera, network folders. It also contains bookmarks to some common
-destinations like your home directory or your Documents directory.  The pane
-can be switched to display other things also, like history of your browsing.
+Levá oblast ve výchozím stavu zobrazuje Místa -- disky na Vašem systému,
+externí mechaniky, Váš fotoaparát, síťové adresáře. Také obsahuje záložky pro
+často používaná míta jako Váš domovský adresář, nebo Vaše složka
+Dokumenty. Oblast může být nastaven, aby také zobrazovala jiné věci, jako
+např. historii Vámi prohlížených webových stránek.
 
-The right pane is used to browse the files and folders and perform
-actions on them.
+Pravá oblast se používá pro prohlížení adresářů a souborů a k provádění akcí s
+nimi.
 
-The location bar is similar to the address field in a web browser.  It shows
-where you currently are in the file system hierarchy but it also allows you to
-write or paste a concrete location on your system.
+Řádek umístění je podobný adresním řádku v internetovém prohlížeči.  Ukazuje,
+kde právě jste v hierarchii souborového systému, ale také Vám umožňuje napsat
+nebo vložit konkrétní umístění ve Vašem systému.
 
-==== Launching Nautilus ==== nautilus-launching
+==== Spuštění Nautilu ==== nautilus-launching
 
- 1) Go to the main menu by pressing >>Alt+F1<< anywhere on the desktop
- 2) Using right arrow, move to the main item 'Places'
- 3) Using down arrow, choose the place (disk, device or bookmark)
- 4) Press >>ENTER<< to launch Nautilus at the selected place
+ 1) Vejděte do hladního menu stiskem >>Alt+F1<<, kdekoliv jste
+ 2) Pomocí šipky vpravo se přesuňte na položku 'Místa'
+ 3) Pomocí šipky dolů vyberte místo (disk, zařízení nebo záložku)
+ 4) Stiskněte >>ENTER<<, abyste spustili Nautilus ve vybraném místě
 
 ==== Browsing files ==== nautilus-browsing-files
 
-The browse pane of Nautilus can work in two modes, Icon view and list view. You
-can switch between them by pressing >>Ctrl+1<< and >>Ctrl+2<< anywhere in the
-application. We recommend to switch to list view (>>Ctrl+2<<). Nautilus will
-remember this and use this view also next time.
+Prohlížecí oblast Nautilu pracuje ve dvou režimech, ikonovém pohledu a
+seznamovém pohledu. Můžete mezi nimi přepínat pomocí >>Ctrl+1<< a >>Ctrl+2<<
+kdekoliv v aplikaci. Doporučujeme se přepnout do seznamového náhledu
+(>>Ctrl+2<<). Nautilus si preferenci tohoto náhledu zapamatuje a použije tento
+náhled i příště.
 
-In list view (>>Ctrl+2<<), you can browse the directory structure like a tree
-menu by Up and Down arrow keys, while you enter deeper into directories or
-return back from them by Right and Left keys.
+V seznamovém náhledu (>>Ctrl+2<<) můžete procházet strukturu adresářů jako
+strom pomocí šipek nahoru a dolů, a holuběji se do adresářů můžete zanořovat
+nebo se z nich vracet pomocí šipek doprava a doleva.
 
-In icon view (>>Ctrl+1<<), you can browse files with all the arrow keys
-and you must press >>Alt-Up<< and >>Alt-Down<< to go up and down in the
-directory hierarchy.
+V ikonovém náhledu (>>Ctrl+2<<) můžete procházet soubory a adresáře pomocí
+všech šipek, a pro přechod nahoru nebo dolů v hierarchii můžete použít
+>>Alt-Up<< a >>Alt-Down<<.
 
-Use the >>F6<< key to cycle between the file list, the location bar and
-the Places pane (or >>Shift+F6<< to cycle backwards).
+Použijte klávesu >>F6<<, abyste postupně dokola přecházeli mezi seznamem
+souborů, řádkem umístění a levou oblastí (pomocí >>Shift+F6<< můžete procházet
+v opačném pořadí).
 
-For example to find a directory 'photo/norwegia' on an external device called
-'Camera':
+Např. abyste našli adresář 'photo/norwegia' na externím zařízení nazvaném
+"Foťák":
 
- 0) Switch to list view using >>Ctrl+2<< if you have not already done so
- 1) Go to the Places pane using >>Shift+F6<<
- 2) Use up/down keys to choose the 'Camera' device
- 3) Press >>F6<< to go back to file browser
- 4) Use up/down keys to find the 'photo' folder, press ENTER on it
- 5) No use up/down keys to find the 'norwegia folder
- 6) You can enter the folder by pressing >>ENTER<< or do some other action
-    with it by opening the context menu using >>Shift+F10<<
+ 0) Přepněte se do seznamového pohledu pomocí >>Ctrl+2<<, poku djste tak ještě neudělali
+ 1) Přejděte do levé oblasti pomocí >>Shift+F6<<
+ 2) Pomocí šipek nahoru/dolů vyberte zařízení "Foťák"
+ 3) Zmáčkněte >>F6<<, abyste se dostali zpět do pravé oblasti se soubory
+ 4) Použijte šipky nahoru dolů, abyste našli adresář 'photo', pak na něm
+    zmáčkněte >>ENTER<<
+ 5) Nyní použijte šipky nahoru/dolů, abyste našli adresář 'norwegia'
+ 6) Do tohoto adresáře můžete vstoupit stiskem >>ENTER<<, nebo s ním provést
+    nějakou jinou otevřením kontektového menu pomocí >>Shift+F10<<
 
-==== Copying files ==== nautilus-copying-files
+==== Kopírování souborů ==== nautilus-copying-files
 
- 1) Find the file or directory you want to copy
- 2) Press >>Ctrl+C<< on it (or >>Ctrl+X<< if you want to move)
- 3) Go into the directory you want to place it in
- 4) Press >>Ctrl+V<<
+ 1) Najděte soubor nebo adresář, který chcete zkopírovat
+ 2) Stiskněte na něm >>Ctrl+C<< (nebo >>Ctrl+X<<, pokud ho chcete přemístit)
+ 3) Přejděte do adresáře, kam ho chcete umístit
+ 4) zmáčkněte >>Ctrl+V<<
 
-==== Operations with files and folders ==== nautilus-operations-files-folders
+==== Akce se soubory a adresáři ==== nautilus-operations-files-folders
 
-If you want to delete, rename or make a '.zip' archive from a file or folder:
+Pokud chcete soubor nebo adresář smazat, přejmenovat, nebo z něj vytvořit
+'.zip' archív:
 
- 1) Find the file or folder you want to do something with
- 2) Launch the context menu using >>Shift+F10<<
- 3) Choose the action which you want to do ('delete', 'rename', 'archive', ...)
+ 1) Najděte soubor nebo adresář, se kterým chcete akci provést
+ 2) Spusťte kontextové menu pomocí >>Shift+F10<<
+ 3) Vyberte akci, kterou chcete provést ("Přesunout do koše", "Přejmenovat", "Komprimovat", ...)
 
-==== Connecting and disconnecting external devices ==== nautilus-connecting-and-disconnecting
+==== Připojení a odpojení externích zařízení ==== nautilus-connecting-and-disconnecting
 
-External devices are usually connected automatically when you plug the
-cables or the card into the reader. When you finish working with them
-however, you can't just plug the cable out as that could result in
-loss of data. Thus you need to tell the system to disconnect the device first:
+Externí zařízení jsou obvykle připojena automaticky, když připojíte kabely nebo
+kartu do čtečky. Ovšem když s nimi ukončíte práci, nemůžete jen tak vytáhnout
+kabel, protože to by mohlo vyústit ve ztrátu dat. Musíte systému nejprve říci,
+že zařízení budete odpojovat:
 
- 1) Go to the 'Places' pane (use >>F6<<)
- 2) Choose the device you want to disconnect
- 3) Open the context menu using >>Shift+F10<<
- 4) From the available actions, select 'Disconnect'
+ 1) Přejděte do levé oblasti (použijte >>F6<<)
+ 2) Vyberte si zařízení, které chcete odpojit
+ 3) Otevřete kontextové menu pomocí >>Shift+F10<<
+ 4) Z dostupných akcí vyberte "Odpojit"???
 
-==== Shortcuts overview ==== nautilus-shortcuts-overview
+==== Přehled klávesových zkratek ==== nautilus-shortcuts-overview
 
-:>>Ctrl+1<<: Icon view
-:>>Ctrl+2<<: List view
-:>>F6<<: Move between locations and directory listing
-:>>Alt+HOME<<: Return to home directory
-:>>Ctrl+H<<: Move cursor to location bar
-:>>Shift+F10<<: Open context menu. If open on files or folders, lists actions available on them (like 'Copy', 'Rename' etc.)
-:>>Ctrl+H<<: Show/hide hidden files
-:>>F2<<: Rename
-:>>DEL<<: Move into trash
-:>>Shift-DEL<<: Delete immediately (irreversible)
+:>>Ctrl+1<<: Ikonový náhled
+:>>Ctrl+2<<: Seznamový náhled
+:>>F6<<: Přecházet dokola mezi umístěními a obsahem adresáře
+:>>Alt+HOME<<: vrátit se do domovského adresáře
+:>>Ctrl+H<<: přesunout kursor do řádku umístění
+:>>Shift+F10<<: Otevřít kontextové menu. Pokud je otevřeno na souborech nebo
+  adresářích, zobrazuje seznam akcí, které je s nimi možno provést
+  (např. "Kopírovat", "Přejmenovat" atd.)
+:>>Ctrl+H<<: Zobrazit/skrýt skryté soubory
+:>>F2<<: přejmenovat
+:>>DEL<<: přesunout do koše
+:>>Shift-DEL<<: okamžitě smazat (nenávratné)
 
-=== Command line === command-line-files-
+=== Příkazová řádka === command-line-files-
 
-Many times, it can be more convenient to use textual commands and manipulate
-files on the command line. One must have a basic knowledge of the commands that
-are available, but for details, he/she can always consult the embedded help. It
-is not even necessary to type much as the shell can complete commands and names
-of files automatically once you type the first few letters.
+Často může být více pohodlné používat textové příkazy a pracovat se soubory z
+příkazové řádky. Je nutné mít základní znalosti dostupných příkazů, ale detaily
+lez vždy zkonzultovat s vestavěnou nápovědou. Není dokonce ani nutné mnoho
+psát, jelikož příkazová řádka umí automaticky doplňovat názvy příkazů a jména
+souborů potom, co napíšete jejich pár prvních písmen
 
-Shortcuts:
-:>>Ctrl+Alt+t<<: Launch terminal
-:>>TAB<<: Complete a command, parameter or filename or list available options if more than one exist
+Zkrakty:
+:>>Ctrl+Alt+t<<: Spustit terminál (příkazovou řádku)
+:>>TAB<<: Doplnit příkaz, parametr nebo jméno souboru nebo seznam dostupných
+  voleb, pokud jich existuje více
 
-==== Basic file manipulation ==== command-line-files-basic
+==== Základní práce se soubory ==== command-line-files-basic
 
-:>>ls: list contents of a folder ('ls -lh' including information on each file)
-:>>cp<< file location: Copy file (also folder) to location (file or folder)
-:>>mv<< file location: Move file (also folder) to location (file or folder)
-:>>rm<< file: Permanently remove a file ('>>rm -rf<< directory' to remove non-empty directories)
-:>>mkdir<< folder_name: Create a folder (it is a shortcut for 'make directory')
+:>>ls: zobrazit obsah adresáře ('ls -lh' včetně informací pro každý soubor)
+:>>cp<< soubor místo: zkopírovat soubor (pomocí 'cp -r' i adresář) do místa
+:>>mv<< soubor místo: přemístit soubor (nebo adresář) na místo (soubor nebo adresář)
+:>>rm<< soubor: trvale odstranit soubor ('>>rm -rf<< adresář' pro ostranění
+  neprázdného adresáře)
+:>>mkdir<< jméno_adresáře: vytvořit adresář s daným jménem ('mkdir' je zkrakta
+  z anglického 'make directory', tedy "vytvořit adresář")
 
-This section is here just to explain the basic idea and show that this way of
-work can be actually quite easy and fast.
+Tento oddíl je zde pouze pro vysvětlení základní myšlenky a k tomu, aby ukázal,
+že tento způsob práce může být celkem jednoduchý a rychlý.
 
-You can obtain a brief help on every commands function and parameters
-if you execute it with the '--help' parameter, e.g. 'cp --help'. To obtain
-more detailed help, type 'man command' (e.g. man cp). 'man' stands for
-manual.
-
-For more complete guides, see:
+Pro podrobnější průvodce viz:
 
  * [http://mally.stanford.edu/~sr/computing/basic-unix.html Basic UNIX Commands]
  * [http://home.eol.ca/~hgibson/UnixCommandLine-HOWTO/UnixCommandLine-HOWTO.html (Advanced) Unix Command line Howto]
 
-==== Example ==== command-line-files-example
+==== Příklad ==== command-line-files-example
 
-To move a file 'ubuntu-accessibility.txt' from folder '/home/joe/' into a new
-folder '/home/joe/notes',
+Pro přesun souboru 'ubuntu-zpristupneni.txt' z adresáře '/home/jan/' do nového
+adresáře '/home/jan/poznamky',
 
- 1. >>cd<< (change directory to the home folder)
- 2. >>ls<< (see the contents of the directory if you wish)
- 3. >>mkdir notes<< (create a new directory 'notes')
+ 1. >>cd<< (přejde do domovského adresáře)
+ 2. >>ls<< (zobrazí obsah adresáře, pokud chcete)
+ 3. >>mkdir notes<< (vytvoří adresář 'poznamky')
  4. >>mv ubun<<
- 5. Press >>TAB<< to complete, you should now see: >>'mv
-    ubuntu-accessibility.txt'<<
- 6. Type >>notes<<
- 7. Now you have '>>mv ubuntu-accessibility.txt notes<<', press >>ENTER<<
- 8. Type '>>ls notes<<' and >>ENTER<< to verify that the file is in there
+ 5. Stistkněte >>TAB<< pro doplnění, nyní byste měli vidět:
+  >>'mv ubuntu-zpristupneni.txt'<<
+ 6. napište >>poznamky<<
+ 7. Nyní máte na vstupu zadáno '>>mv ubuntu-zpristupneni.txt poznamky<<',
+   stiskněte >>ENTER<< 
+ 8. Napište '>>ls poznamky<<' a >>ENTER<<, abyste ověřili, že soubor je
+   skutečně tam
 
-To copy all .txt files into a folder 'documents':
- * >>cp *.txt documents ENTER<<
-or just
+Abyste zkopírovali všechny .txt soubory do adresáře 'dokumenty':
+ * >>cp *.txt dokumenty ENTER<<
+nebo jenom
  * >>cp *.txt docu TAB ENTER<<
 
-== Creating documents == creating-documents
+== Tvorba dokumentů == creating-documents
 
-Various documents (such as papers, letter, spreadsheets or presentation) can be
-created with the Openoffice.Org package.
+S pomocí balíku OpenOffice.org můžete vytvářet různé dokumenty (jako dopisy,
+tabulky nebo prezentace)
 
-To launch OpenOffice, press >>Alt+F2<<, then type '>>openoffice.org<<'
+Pro spuštění OpenOffice, zmáčkněte >>Alt+F2<, potom napiště
+'>>openoffice.org<<' a stiskněte >>ENTER<<.
 
-There are several different components inside OpenOffice that can be used for
-different tasks. These are:
+OpenOffice obsahuje různé součásti, které mohou být používány pro různé
+úkoly. Tyto součásti jsou:
 
-:Openoffice Writer: Word processor (documents, letters etc.)
-:Openoffice Calc: Table calculator (spreadsheets)
-:Openoffice Impress: Conference style presentations
+:OpenOffice Writer: textový procesor (dokumenty, dopisy)
+:OpenOffice Calc: Tabulkový procesor (tabulky)
+:OpenOffice Impress: Prezentace (např. pro konference)
 
-When you launch OpenOffice, it will offer various options what to create, as
-well as the possibility to open a file.  Based on your decision, the
-appropriate application will open.
+=== OpenOffice Writer === openoffice-writer
 
-=== Openoffice Writer === openoffice-writer
+Writer je textový procesor, pomocí kterého je možné číst nebo vytvářet
+dokumenty, dopisy, atd.
 
-Writer is a word processor that can be used to read or create documents,
-letters etc.
+Výchozí náhled obsahuje čtyhři hlavní komponenty, kterými můžete dokola
+procházet pomocí >>F6<< a >>Shift+F6<<:
+ 1. hlavní menu -- jsou z něj dostupné téměř všechny akce
+ 2. standardní nástroje -- nejběžnější nástroje a akce (jako "Uložit",
+  "Otevřít", "Tisk", "Vytvořit tabulku" atd.)
+ 3. formátovací nástroje -- formátování (jako styl textu, font, nebo jeho
+  velikost, zarovnání odstavce, atd.)
+ 4. oblast pro úpravování dokumentu -- obsah dokumentu
 
-The default view includes four main components which you can browse using >>F6<<
-and >>Shift+F6<<:
- 1. the main menu -- near to all actions are available from main menu
- 2. standard tools -- most common tools and actions (such as save, open,
-    print, create table etc.)
- 3. formatting tools -- formatting (such as text style, font, size,
-    paragraph alignment etc.)
- 4. document edit box -- the contents of the document
+==== Tvorba jednoduchého dokumentu ==== openoffice-writer-simple-document
 
-==== Creating a simple document ==== openoffice-writer-simple-document
+Toto je pouze příklad, vytvoříme dokument s nadpisem a jedním odstavcem.
 
-This is just an example, we will create a document with a heading and
-a paragraph.
+ 0. Otevřete OpenOffice.org, vyberte 'Textový dokument'
+ 1. Toto nastartuje aplikaci s prázdným dokumentem a kursorem umístěným do
+  oblasti pro upravování dokumentu
+ 2. Napište text nadpisu, např. "Můj příběh"
+ 3. Stiskněte >>Ctrl+1<<, abyste současnému odstavci (tedy tomu sestávajícího z
+  text "Můj příběh") přiřadili styl "Nadpis 1"
+ 4. Začněte nový řádek (přesuňte se na konec prvního pomocí klávesy >>END<<, a
+  pak stiskněte >>ENTER<<
+ 5. Napište text prvního odstavce Vašeho příběhu, přitom neoddělujte řádky
+  pomocí >>ENTER<<.  Řádky se vytvoří automaticky, >>ENTER<< slouží pouze pro
+  tvorbu nových odstavců.
+ 6. Stistkněte >>Ctrl+S<< pro uložení dokumentu pomocí standardního ukládacího
+  dialogu
 
- 0. Open Openoffice.Org, choose 'Text document'
- 1. This will start the application with an empty document, cursor
-    placed into the edit box
- 2. Write a text for the heading, for example 'My Story'
- 3. Press >>Ctrl+1<< to assign the current paragraph the 'Heading 1' style
- 4. Start a new line (move to end of the first one using >>END<< key and press
-    >>ENTER<<
- 5. Type the text of the first paragraph of your story, do not split lines
-    using >>ENTER<<. Lines are wrapped automatically, >>ENTER<< serves to
-    create new paragraphs.
- 6. Press >>Ctrl-S<< to save the document using the standard 'Save' dialog
+==== Prozkoumání formátu ==== openoffice-writer-review-of-formatting
 
-==== Review of formatting ==== openoffice-writer-review-of-formatting
+Formátování dokumentu můžete prozkoumat v různých místech dokumentu pomocí
+klávesové zkratky >>Orca+f<<. Oznámí Vám rodinu a velikost fontu současného
+písmene, ale také styl pro současné slovo, pokud nějaký je (např. 'Normální
+text', 'Nadpis 2' apod.).
 
-You can review the formatting of the document by using the >>Orca+f<< keyboard
-shortcut in different places in the document. It will announce font family and
-size of the current letter, but also OpenOffice style (if any) for the given
-word (such as 'Normal text' or 'Heading 2').
+==== Pohyb ==== openoffice-writer-movement
 
-==== Movement ==== openoffice-writer-movement
+:šipky doprava, doleva: Pohyb po znacích
+:>>Ctrl-<<doprava, >>Ctrl-<<doleva: Pohyb po slovech
+:šipky nahoru, dolů: Pohyb po řádcích
+:>>Ctrl-<<nahoru, >>Ctrl-<<dolů: Pohyb po odstavcích
 
-:>>Right, Left<<: Move by characters
-:>>Ctrl-Right, Ctrl-Left<<: Move by words
-:>>Up, Down<<: Move by lines
-:>>Ctrl-Up, Ctrl-Down<<: Move by paragraphs
+:>>HOME, END<<: přejít na začátek nebo konec řádku
+:>>Ctrl-HOME, Ctrl-END<<: přejít na začátek nebo konec dokumentu
 
-:>>HOME, END<<: Move to beginning or end of line
-:>>Ctrl-HOME, Ctrl-END<<: Move to beginning or end of document
+==== Výběr ==== openoffice-writer-selections
 
-==== Selections ==== openoffice-writer-selections
+:>>Ctrl-Shift-s<<: vybrat současný odstavec (toto je
+[gnu-configuration#openoffice-writer-shortcuts vlastní zkratka], nejdříve si ji
+musíte nadefinovat)
+:>>Ctrl-Shift-Down<<: vybere text od současné pozice do konce odstavce
+:>>Ctrl-a<<: vybrat vše -- celý dokument
+:>>Shift-END<<: vybrat vše od současné pozice do konce řádku
 
-:>>Ctrl-Shift-s<<: Select current paragraph (Note: This is a [gnu-configuration#openoffice-writer-shortcuts custom shortcut], you need to define it first.)
-:>>Ctrl-Shift-Down<<: Select till the end of paragraph
-:>>Ctrl-a<<: Select all -- everything in the whole document
-:>>Shift-END<<: Select till the end of line
+==== Styl textu, zarovnání odstavce a fonty ==== openoffice-writer-aligment-and-fonts
 
-==== Text style, paragraph alignment and fonts ==== openoffice-writer-aligment-and-fonts
+Jednoduché změny stylu a formátování se nejlépe dají provést pomocí klávesových
+zkratek:
 
-Simple style and formatting changes are best done using shortcuts:
+:>>Ctrl+0<<: změnit současný odstavec na normální text
+:>>Ctrl+1<< to >>Ctrl+5<<: změnit současný odstavec na nadpis 1 (největší) až
+nadpis 5 (nejmenší)
 
-:>>Ctrl+0<<: Change current paragraph to normal text
-:>>Ctrl+1<< to >>Ctrl+5<<: Change current paragraph to heading 1 (biggest) to 5 (smallest)
+:>>Ctrl+l<<: Zarovnat současný odstavec vlevo
+:>>Ctrl+r<<: Zarovnat současný odstavec vpravo
+:>>Ctrl+j<<: Zarovnat současný odstavec do bloku
 
-:>>Ctrl+l<<: Align current paragraph left
-:>>Ctrl+r<<: Align current paragraph right
-:>>Ctrl+j<<: Justify current paragraph into block
+Pro změnu vlastností fontu musíte nejprve vybrat tu část textu, u které chcete
+vlastnosti fontu měnit, viz [#openoffice-writer-selections]. V opačném případě
+změníte vlastnosti veškerého textu, který později napíšete.
 
-To apply font properties, you must first select a piece of text you want to
-apply them to. See [#openoffice-writer-selections]. Otherwise they will get
-applied to all text you will type later.
+:>>Ctrl+b<<: Zapnout/vypnout tučnost vybraného textu
+:>>Ctrl+i<<: Zapnout/vypnout kurzívu vybraného textu
+:>>Ctrl+u<<: Zapnout/vypnout podtržení vybraného textu
 
-:>>Ctrl+b<<: Toggle 'bold' property on selected text on and off
-:>>Ctrl+i<<: Toggle 'italics' property on selected text on and off
-:>>Ctrl+u<<: Toggle 'underline' property on selected text on and off
+Pro přístup ke všem dalším možnostem formátování (jako např. velikost textu,
+meziřádkové mezery nebo rodina fontu), stiskněte >>Shift+F10<< pro zobrazení
+kontextového menu pro vybraný text. Kontextové menu procházejte šipkami nahoru
+a dolů a položku v něm vyberte pomocí >>ENTER<<.
 
-To access all other formatting options (such as size of text, line spacing or
-font family), press Shift-F10 to bring up the context menu on the selected
-text. Browse it using the arrow keys and select with >>ENTER<<.
+==== Tvorba tabulky ==== openoffice-writer-create-table
 
-==== Create a table ==== openoffice-writer-create-table
+Přejděte do hlavního menu (>>F10<<) a vybrat
+'Tabulka->Vložit->Tabulka...'. Toto vyvolá dialog "Vložit tabulku". Vyberte
+jméno a velikost tabulky. Klávesou >>ENTER<< potvrdíte dialog a vložíte celou
+tabulku do dokumentu. Vstoupit do ní můžete pomocí šipek, stejně tak se můžete
+v tabulce pohybovat mezi jejími buňkami.
 
-Go to main menu (>>F10<<) and select 'Table->Insert->Table' . This will bring
-up an 'Insert table' dialog. Choose name for the table and its size. >>ENTER<<
-will confirm the dialog and insert the table in your document. You can enter it
-using arrow keys as well as move among its cells.
+Přidání nebo smazání řádku nebo sloupce použijte kontextové menu
+(>>Shift+F10<<), když jste v některé buňce tabulky.
 
-To include a row or column, or delete a row or column, use the
-context menu (>>Shift+F10<<) while inside one of the tables cells.
+==== Kontrola překlepů ==== openoffice-writer-spell-checking
 
-==== Spell checking ==== openoffice-writer-spell-checking
+Abyste mohli používat kontrolu překlepů, je nezbytné, abyste nejprve nastavili
+pro dokument správný jazyk. Toto můžete udělat v hlavním menu,
+'Nástroje->Jazyk->Pro celý text'
 
-To be able to use spell checking, it is necessary to first set a correct
-language for the document. This can be done in main menu, 'Tools->Language->For
-all text...'
+Kontrolu překlepů pro celý dokument můžete začít stisknutím >>F7<<.
 
-Spell checking for the whole document can be started by pressing >>F7<<.
+Pro každou chybu, kterou nástroj pro kontrolu překlepů najde, se objeví
+dialogové okno. Toto okno zobrazuje část věty, kde byla nalezena chyba, dále
+seznam navrhovaných oprav a několik tlačítek pro akci ('Nahradit', 'Ignorovat',
+'Přidat do slovníku'). Když se dialogové okno zobrazí, je zaměření na tlačítku
+'Nahradit'.
 
-On every error the spell checker finds, a dialog window will appear. The dialog
-displays the part of the sentence where the error was found, a list of
-suggested corrections and several action buttons ('Change, Ignore, Add to
-dictionary'). When the dialog appears, the 'Change' button is focused.
+Pro prozkoumání textu v dialogovém okně, který může obsahovat chybu, včetně
+navrhovaných oprav, použijte >>Shift+TAB<< pro pohyb nahoru, abyste vyděli obě
+oblasti.
 
-To examine the text that is supposed to contain a mistake and the proposed
-variants, use >>Shift+TAB<< to move up to see the two areas.
+ * Pokud je slovo správně v daném jazyce, použijte 'Přidat'
+ * Pokud chcete toto varování ignorovat, použijte tlačítko 'Ignorovat'
+ * Pro opravu pomocí nabýzených oprav, vyberte požadovanou opravu a stiskněte
+   >>ENTER<<
+ * Pro opravu chyby ručně přejděte do hlavního okna, které zobrazuje onen
+   podezřelý text, proveďte potřebné změny, použijte >>TAB<< pro přechod zpět
+   na tlačítko "Změnit" a pak stiskněte >>ENTER<<
 
- * If the word is actually correct in the given language, use Add to add it
-   to the dictionary
- * If you want to ignore this warning, use Ignore button
- * To correct by choosing from the offered alternatives, choose the desired one
-   and press >>ENTER<<
- * To correct the mistake in another way, go to the window that displays the
-   suspicious text, make any changes, use TAB to come back to the Change button
-   and then press >>ENTER<<
+Pokud je nalezena další potencionální chyba, je zobrazeno další okno. Na konci
+se zobrazí okno, které řekne, že je povolena kontrola pravopisu. Zavřete jej
+pomocí tlačítka OK. Toto Vás přenese zpět na oblast úprav dokumentu.
 
-If another possible mistake is found, another window will appear. At the end, a
-window will appear to say that the spell check is complete. Close it by
-pressing the 'OK' button. This will take you back to the document edit box.
+Zkratky:
+:>>F7<<: Kontrola pravopisu a gramatiky
 
-Shortcuts:
-:>>F7<<: Check Spelling and grammar
+=== OpenOffice Calc  === openoffice-calc
 
-=== Openoffice Calc  === openoffice-calc
+OpenOffice Calc je tabulkový procesor. Můžete se v něm pohybovat podobně jako v
+OpenOffice Writeru (použijte F6 pro pohyb dokola mezi hlavními částmi, a
+kurzorové šipky pro pohyb uvnitř částí).
 
-Openoffice Calc is a table calculator. It can be navigated similar to
-OpenOffice Writer (use F6 to cycle between main parts, cursor arrows to move
-around).
+Síla tabulkových procesorů spočívá v tom, že některé buňky v tabulce můžou
+obsahovat automatické vzorce, které zobrazují výsledky akcí provedených nad
+okolními daty (např. součet buňek, podmínka nebo výsledek
+vyhledávání). Pokaždé, když se něco v datech změní, jsou tyto buňky automaticky
+přepočítány. Toto umožňuje vytvořit komplikované interaktivní a propojené
+tabulky dat.
 
-The power of table calculators lies in the fact that some of the cells in the
-table can include automatic formulas which display the result of some action
-performed on the surrounding data (e.g. the sum of cells, a condition or the
-result of a search). Each time something in the data changes, these cells are
-automatically recalculated. Thus complicated interactive and interconnected
-sheets of data can be created.
+Následující sekce Vás nebudou učit práci s tabulkovým procesorem, ale ukážou
+Vám pár příkladů, na kterých si vyzkoušíte to základní. Pro více informací
+zkonzultuje [http://documentation.openoffice.org/manuals Manuály OpenOffice.org].
 
-The bellow sections will not teach you how to work with a table calculator, but
-will offer a few examples to get you started. Fore more information, see
-[http://documentation.openoffice.org/manuals OpenOffice.Org Manuals].
+==== Zadávání hodnot ====
 
-==== Entering values ====
+Pro zadání hodnoty (čísla, textu, nebo např. data):
+ 1) Přesuňte se na buňku, kterou chcete upravit
+ 2) Pokud chcete přepsat stávající hodnotu buňky, jednoduše začněte psát
+ 3) Pokud místo toho chcete pozměnit současnou hodnotu buňky, zmáčkněte >>F2<<
+    pro vstup do editovacího políčka
+ 3) Potvrďte pomocí >>ENTER<<
 
-To include a value (number, text or for example a data):
- 1) Navigate to the cell you want to edit
- 2) If you want to overwrite the current value, just start typing
- 3) If you want to edit the current value instead, press >>F2<< to enter the edit field
- 3) Press >>ENTER<< to confirm
+==== Zadání vzorce ====
 
-==== Entering a formula ====
+Vzorec může být buď jednoduchý matematický vzorec (např. A1+A2) nebo
+funkce. Každá funkce má jeden nebo více argumentů. Např. existuje funkce 'Sum',
+která sečte (vytvoří sumu) všechna čísla v dané oblasti. Nejpohodlnější je znát
+jména běžných funkcí a tato jména zadávat přímo. Pokud ne, můžete pro vytvoření
+vzorce použít průvodce.
 
-A formula can be either a simple mathematical formula (like A1+A2) or a
-function. Each function has one or more arguments. For example, there is a
-function called 'Sum' to sum all the numbers in a given region. It is most
-convenient to know the common functions by their names and be able to type them
-directly. If not, you can also use a guide to create the formula.
+*Příklad, jak vytvořit vzorec pro součet*:
+   1. Zadejte např. hodnoty 1, 2, 3 do buňek B1, B2, B3
+   2. Jděte na buňku B4 a zadejte text '=Sum(B1:B3)'
+   3. Stiskněte >>ENTER<<
+   4. Buňka B4 zobrazí '6'
+   5. Pro zobrazení vzorce stojícího za tímto výsledkem stiskněte F2, vzorec
+      pak můžete i měnit
 
-*Example how to create a summation formula*:
-   1. Enter for example values 1, 2, 3 into cells B1, B2, B3
-   2. Go to cell B4 and enter the text: '=Sum(B1:B3)'
-   3. Press ENTER
-   4. The cell B4 will display '6'
-   5. To see the underlying formula instead of the result, press F2 while on
-   the cell to enter the edit mode
+*Příklad, jak vytvořit vzorec pomocí průvodce*
+   1. Zadejte např. hodnoty 1, 2, 3 do buňek B1, B2, B3
+   2. Nyní chceme zobrazit průměr z těchto 3 buněk v buňce B5,
+      ale neznáme jméno odpovídající funkce
+   3. Přejděte na buňku B5
+   4. Stisknutím F6 vejděte oblasti z názvem "Panel"
+   5. Použijte šipku doprava, abyste našli "Průvodce funkcí"
+   6. Z rozbalovacího menu "Kategorie" si vyberte rodinu funkcí, která Vás
+      zajímá (např. Matematické, Logické, Text). V tomto příkladě si vyberte
+      "Statistické".
+   7. Stiskněte >>TAB<<, abyste přešli na výběr konkrétní funkce, kterou chcete
+      použít. Najděte "AVERAGE", ale ještě nepotvrzujte pomocí >>ENTER<<.
+   8. Pomocí >>TAB<< najděte tlačítko "Další".
+   9. Další stránka dialogu Vám zobrazí argumenty funkcí. Můžete použít čísla,
+      buňky tabulky (např. A5) nebo rozsahy buňek (jako např. A1:B1).
+      Zadejte "B1:B3" a stiskněte >>ENTER<<.
+   10. Buňka B5 nyní zobrazí "2", což je průměr čísel 1, 2 a 3.
+   11. Abyste zobrazili vzorec, a ne jeho výsledek, stiskněte >>F2<<. Můžete se
+       vzorec také naučit a příště ho zadat přímo bez použití průvodce.
 
-*Example how to create a formula with the guide*
-   1. Enter for example values 1, 2, 3 into cells B1, B2, B3
-   2. Now we want to display the average of the three cells in cell B5
-      but we do not know the name of the corresponding function
-   3. Go to cell B4
-   4. Use F6 to enter the formula pane
-   5. Use >>Right<< arrow key to find 'Function wizard' and select with ENTER
-   6. From the 'Category' drop down menu choose the family of functions you are
-      interested in (e.g. Mathematical, Logical, Text). Choose 'Statistical'.
-   7. Press >>TAB<< to go to the selection of the concrete function to
-      use. Find 'Average' but do not confirm with >>ENTER<<.
-   8. Use >>TAB<< to find the 'Next' button.
-   9. The next page of the dialog displays functions arguments. You can
-      use numbers, table cells (such as A5) or ranges of cells (such as A1:B1).
-      Type in 'B1:B3' and press >>ENTER<<.
-   10. The cell B5 will now display '2', which is the avarage of numbers
-       1, 2 and 3.
-   11. To see the formula, not the result, press 2. You can also learn the
-       formula and type it without the guide next time.
+*Příklad na automatické přepočítávání*
+   1. Dokončete jeden z předchozích příkladů. Budete mít čísla 1, 2, 3 v
+      buňkách tabulky B1, B2, B3 a jejich součet (6) v buňce B4 a/nebo průměr v
+      buňce B5 (2).
+   2. Přejděte na buňku B1 a napiště "4", poté stiskněte >>ENTER<<.
+   3. Nyní přejděte zpět na buňky B4 a/nebo B5 a přesvědčte se, že se změnily.
+   4. Součet v B4 nyní ukazuje 9 a přůměr v B5 ukazuje 3.
 
-*Example on automatic recalculation*
-   1. Complete one of the previous examples. You will have
-      numbers 1, 2, 3 in cell tables B1, B2, B3 and their
-      sum (6) in cell B4 and/or average in cell B5 (2).
-   2. Go to cell B1 and type '4', then press ENTER.
-   3. Now go back to tables B4 and/or B5 and see how they changed.
-   4. The sum in B4 now displays 9 and the average in B5 displays 3.
+==== Přepínání mezi listy ====
 
-==== Switching sheets ====
+Každý dokument může mít jeden a více listů dat. Všechny listy z jednoho
+dokumentu mohou být propojeny. Např. výsledky v jednom listu mohou záviset na
+datech v jiném listu.
 
-Every doccument can have either one or more sheets of data. All sheets form one
-document and they can be interconnected. E.g. results on one sheet can depend
-on data in another one.
+V OpenOffice jsou listy reprezentovány jako panely a Vy na nich můžete používat
+standardní klávesové zkrakty >>Ctrl+PgUp<< a >>Ctrl+PgDown<< pro přepínání se
+mezi nimi.
 
-In OpenOffice, the sheets are represented as tabs and you can use the standard
-key kombinaces >>Ctrl+PgUp<< and >>Ctrl+PgDown<< to move between them.
+==== Zkratky ====
 
-==== Shortcuts ====
+:>>F2<<: začít měnit obsah buňky
+:>>Ctrl+PgUp<<: přejít na předchozí list
+:>>Ctrl+PgDown<<: přejít na následující list
 
-:>>F2<<: Start editing a cell
-:>>Ctrl+PgUP<<: Move to previous sheet
-:>>Ctrl+PgDown<<: Move to next sheet
-
-Main menu, 'Tools->Customize', card 'Keyboard' (>>Ctrl-PgDown<<)
-contains a list of all available shortcuts as well as a possibility
-to define new ones.
+Hlavní menu, 'Nástroje->Přizpůsobit', panel 'Klávesnice' (>>Ctrl-PgDown<<)
+obsahuje seznam všech dostupných klávesových zkratek tak jako možnost si
+definovat nové.
 
 === Openoffice Impress === openoffice-impress
 
-We are not going to cover work with presentations in this basic guide. It is
-however possible to create presentations without sight and there are special
-ways how to give the presentations (the challenge of course is to access what
-is displayed on the big screen without disturbing the picture for the viewers).
+V tomto základním průvodci se nebudeme věnovat práci s prezentacemi. Zmíníme
+jen to, že je možné vytvářet prezentace bez zraku a že jsou speciální způsoby,
+jakými prezentovat (největší problém je samozřejmě, jak přistupovat to, co je
+zobrazené na projektoru bez rušivých vlivů na zobrazovaný obsah, který pozorují
+Vaše publikum.
 
-More information can be found here:
+
  * [http://ui.openoffice.org/accessibility/]
  * [http://extensions.services.openoffice.org/project/presenter-screen]
 
-== Virtual Computer == virtual-computer
+== Virtuální počítač == virtual-computer
 
-=== VMWare Player === vmware
+=== VMware Player === vmware
 
-VMWare player can be started from the main desktop menu (>>Alt+F1<<) as 'System
-Tools->VMWare Player'.
+VMware Player můžete spustit z hlavního menu desktopu (>>Alt+F1<<) z
+"Aplikace->Systémové nástroje->VMware Player".
 
-==== Create a new virtual machine ==== vmware-new-machine
+==== Vytvoření nového virtuálního počítače ==== vmware-new-machine
 
-To install another operating system in a virtual machine, follow the bellow
-steps. Please note however that this is an example. Depending on which system
-are you installing, some of the steps might be slightly different:
+Abyste nainstalovali jiný operační systém do virtuálního počítače, následujte
+kroky níže. Mějte však prosím na paměti, že toto je jen příklad. V závislosti
+na tom, který systém instalujete, se některé kroky mohou lišit:
 
- 1. Start VMWare Player
- 2. Press >>F10<< to access the main menu
- 3. Under 'File', choose 'Create new virtual machine'
- 4. A dialog window will open where you have to specify some details
- 5. Choose whether you want to install the new operating system from an ISO
-    file or CD/DVD drive
- 6. VMWare knows how to install some of the systems and might offer you to do
-    an 'Easy Install'. This means that it will just ask you a few questions at
-    the beginning and then complete the whole installation process without your
-    intervention. This is recommendable. (If you want to go through a normal
-    installation, choose 'I will install operating system later'. Press 'Next'
-    button.
- 7. Fill in the the name, username and password you want for your user account
-    in the new system. Press 'Next' button.
- 8. Choose a name of the virtual machine and the directory on your file system
-    where to store it. Press 'Next' button.
- 9. Choose how much space can the virtual machine use on your disk.
-    Press 'Next' button.
- 10. The virtual machine will use virtual hardware. There is a step where you
-     can customize the details, such as how much RAM to use, but you can also
-     leave them as they are and change them later if necessary.
- 11. Press 'Finish' button to start the installation process.
+ 0. Spusťte VMware Player
+ 1. Pokud jej spouštítě poprvé, objeví se okno s licencí, kterou odsouhlaste
+ 2. Stiskněte >>F10<< pro přístup do hlavního menu
+ 3. Pod položkou "File" vyberte "Vytvořit nový virtuální stroj".
+ 4. Otevře se dialogové okno, ve kterém můžete upřesnit některé detaily
+ 5. Vyberte, jestli chcete instalovat nový operační systém z ISO souboru na
+    Vašem pevném disku, nebo z fyzického CD/DVD vloženého do Vaší mechaniky
+ 6. VMware umí sám nainstalovat některé operační systémy (např. Windows) a v
+    tom případě Vám nabídne "Easy Install". To znamená, že se Vám VMware Player
+    na začátku zeptá na pár otázek, a pak provede a dokončí celou instalaci sám
+    bez toho, abyste do ní museli jakkoliv zasahovat / na cokoliv odpovídat. Tuto
+    volbu doporučujeme. (Pokud však chcete projít normálním ručním procesem
+    instalace, vyberte "I will install operating system later". Stiskněte tlačítko
+    "Next".
+ 7. Vyplňte jméno, uživatelské jméno a heslo, které chcete pro uživatelský účet
+    v novém systému. Stiskněte "Next".
+ 8. Vyberte jméno Vašeho nového virtuálního počítače a adresáře, ve kterém jej
+    chcete uložit. Stiskněte tlačítko "Next".
+ 9. Zvolte maximální množství místa, které virtuální počítač může zabrat na
+    Vašem disku
+ 10. Virtuální stroj bude používat virtuální hardware. Je krok, ve kterém
+     můžete upravit jeho detaily, např. kolik paměti RAM bude používat. Tato
+     nastavení můžete ponechat a změnit je později.
+ 11. Stisknutím tlačítka "Finish" zahajte instalační proces.
 
-This last step will close the dialog and start booting the machine and
-installing it. Since now, what is running inside the main player window is your
-new virtual computer. Installation will only be accessible if the installer of
-the operating system you have chosen itself is accessible (just as if you are
-installing on a real computer). To see how you can use it, continue to
-[#vmware-using-machine].
+Tento poslední krok zavže dialogové okno a začne startovat virtuální stroj a
+instalovat jej. Nyní to, co běží uvnitř hlavního přehrávacího okna, je Váš nový
+virtuální počítač. Proces instalace operačního systému na tento virtuální
+počítač bude přístupný pouze tehdy, pokud je přístupný samotný instalátor
+operačního systému (úplně stejně, jako na opravdovém počítači). Jak můžete
+virtuální počítač používat se dozvíte v oddílu [#vmware-using-machine].
 
-==== Starting and stopping virtual machine ==== vmware-start-stop-machine
+==== Spuštění a vypnutí virtuálního počítače ==== vmware-start-stop-machine
 
-To *start* a virtual machine:
- 1. Start VMWare player
- 2. Use >>Up<< and >>Down<< arrow keys to choose the machine you want to start.
- 3. Press >>ENTER<< to start it
- 4. Now see [#vmware-using-machine]. We recommend to wait a minute or two until
-    the machine finishes booting before switching into it, because otherwise
-    you might experience some problems with wrong cursor grabbing.
+Pro *spuštění* virtuálního počítače:
+ 1. Spusťte VMware Player
+ 2. Použijte šipky nahoru a dolů pro výběr virtuálního stroje, který chcete
+    nastartovat
+ 3. Nastartujte jej stiskem >>ENTER<< 
+ 4. Nyní se řiďte oddílem [#vmware-using-machine]. Doporučujeme, abyste počkali
+    jednu nebo dvě minuty, než se virtuální počítač nastartuje předtím, než se do
+    něj přepnete, protože jinak můžete mít problémy se špatným odchytáváním
+    kurzoru.
 
-There are two options to *suspend* the virtual machine. You can either use the
-suspend function in your operating system inside the machine or you can suspend
-the whole machine from VMWare controll menu. We recommend the later method:
- 1. If inside the machine, use >>Ctrl+Alt<< to leave it
- 2. Press >>F10<< to enter the VMWare menu
- 3. Choose 'Virtual Machine->Power->Suspend'
-This is a suspend to disk. The machine will use no resources or power on your
-real computer when it is suspended.
+Jsou dva způsoby, jak virtuální počítač *uspat*. Můžete buď použít funkci
+uspání v operačním systému nainstalovaném uvnitř virtuálního počítače, nebo
+můžete uspat celý virtuální počítač z menu VMware Playeru. Doporučujeme druhou
+možnost:
+ 1. Pokud jste uvnitř virtuálního počítače, opusťte jej pomocí >>Ctrl+Alt<<
+ 2. Vejděte do menu VMware Playeru stiskem >>F10<<
+ 3. Vyberte "Virtual Machine->Power->Suspend"
+Toto uloží celý současný stav virtuálního počítače na disk. Virtuální počítač
+tak nebude po svém uspání používat žádné zdroje na Vašem fyzickém počítači.
 
-To *shut down* or restart the virtual machine:
- 1. Enter the machine with >>Ctrl+G<<
- 2. Shutdown or reboot the system
- 3. VMWare will recognize when the operating system inside has shut down and
-    will return focus back to your original system.
-See [#vmware-using-machine] .
+Pro *vypnutí* nebo restartování virtuálního počítače:
+ 1. Vstupte do virtuálního počítače pomocí >>Ctrl+G<<
+ 2. Vypněte nebo restartujte systém
+ 3. VMware rozpozná dobu, kdy už je operační systém z virtuálního počítače
+    vypnutý, a vrátí zaměření kursoru do Vašeho hlavního operačního systému.
+Viz [#vmware-using-machine].
 
-==== Using virtual machine ==== vmware-using-machine
+==== Používání virtuálního počítače ==== vmware-using-machine
 
-The VMWare player is like an ordinary application. It has a main menu and some
-other widgets. Unlike in a normal application however, you can also use it to
-enter inside the virtual machine. Once you are inside the virtual machine, you
-can use it just as if it was a computer on itself, but there is a special key
-kombinace to escape from it and come back to your original environment.
+VMware Player se chová jako obyčejná aplikace. Má hlavní menu a další
+okna. Narozdíl od normální aplikace ji však můžete použít pro vstup do
+virtuálního počítače. Jakmile jste již uvnitř virtuálního počítače, můžete ho
+používat, jako kdyby to byl samostatný počítač, ale je speciální klávesová
+kombinace, pomocí které z něj vystoupíte a vrátíte se zpět do Vašeho původního
+prostředí.
 
-To *enter* inside the virtual machine:
- 1. If the VMWare Player application doesn't have focus yet, use >>Alt+TAB<< to
- find it.
- 2. Once you are in VMWare Player, press CTRL+g to enter it
- 3. All your keyboard and mouse input will now go to the virtual machine
+Pro *vstup* do virtuálního počítače:
+ 1. Pokud aplikace VMware Player není zaměřená, použijte >>Alt+TAB<< a najděte ji.
+ 2. Jakmile jste ve VMware Playeru, vstupte do virtuálního počítače pomocí
+    >>Ctrl+g<<
+ 3. Veškerý vstup z klávesnice a myši nyní bude směřován do virtuálního
+    počítače
 
-/Note: If you can't enter the machine with Ctrl+g, it might be either because
-the machine is not running (see [#vmware-start-stop-machine]) or because some
-dialog window has appeared but didn't get focus. Use >>Alt+TAB<< to find it./
+/Pozn.: Pokud se Vám nedaří pomocí >>Ctrl+g<< vstoupit do virtuálního počítače,
+může to být buď proto, že jste virtuální počítač nespustili (viz
+[#vmware-start-stop-machine]) nebo proto, že se objevilo jiné dialogové okno,
+ale nedostalo zaměření. Použijte >>Alt+TAB<<, abyste ho našli./
 
-To *leave* the virtual machine:
- 1. Press >>Ctrl+Alt<< to leave the machine
- 2. The machine is still running, but your keyboard and mouse input now goes
-to your original operating system.
+Abyste *vystoupili* z virtuálního počítače:
+ 1. Stistkněte >>Ctrl+Alt<<, abyste vystoupili z virtuálního počítače
+ 2. Virtuální počítač stále běží, ale vstup z klávesnice a myši nyní jde do
+    Vašeho původního operačního systému.
 
-Shortcuts:
-:Ctrl+g: Enter virtual machine
-:Ctrl+Alt: Leave virtual machine
+Klávesové zkratky:
+:Ctrl+g: Vstoupit do virtuálního počítače
+:Ctrl+Alt: Vystoupit z virtuálního počítače
 
-==== Copy files to and from machine ==== vmware-copy-files
+==== Kopírování souborů z a do virtuálního počítače ==== vmware-copy-files
 
 
 
-== References == references
+== Odkazy == references
 
-1. [http://library.gnome.org/devel/hig-book/stable/input-keyboard.html.en Keyboard Interaction in Gnome]
+1. [http://library.gnome.org/devel/hig-book/stable/input-keyboard.html.en
+Ovládání GNOME pomocí klávesnice (pouze v angličtině)]
