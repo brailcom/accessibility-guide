@@ -1,0 +1,11 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Konfigurace =
+
+Obsah: @TOC@
+
+== Zpřístupňující nástroje ==
+
+=== JAWS ===
+
+TODO: Jak nastavit JAWS pro použití hlasů RealSpeak

@@ -1,0 +1,36 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Instalace =
+
+Obsah: @TOC@
+
+== JAWS == jaws
+
+JAWS je proprietární software, musíte si k němu nejdřív koupit
+licenci. Potom JAWS můžete nainstalovat z CD, nebo si ho stáhnout. Pro
+více informací navštivte stránku výrobce [http://www.freedomscientific.com/].
+
+=== Hlasy === jaws-voices
+
+Online instalace JAWSu v sobě zahrnuje výchozí anglický hlas
+'Eloquent'. Pro instalaci jiných hlasů a hlasů pro jiné jazyky
+doporučuje JAWS používat hlasy RealSpeak.
+
+ * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/ RealSpeak Solo Direct Voices]
+
+Potom budete muset nastavit hlasový výstup v JAWSu na RealSpeak.
+
+== NVDA == nvda
+
+NVDA můžete stáhnout a používat bez poplatku.
+
+ 1. Navštivte [http://www.nvda-project.org/wiki/Download]
+ 2. Pokud jej chcete používat pro vlastní počítač, doporučujeme
+    stáhnout 'Installer' verzi ze 'Stable releases'
+
+Po stažení povolte svému systému instalovat soubor a projděte
+instalačním procesem.
+
+=== Hlasy ===
+
+TODO:
