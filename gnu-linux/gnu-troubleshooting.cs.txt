@@ -1,0 +1,38 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Řešení problémů =
+
+== Restartovat Orcu a spol. v GNOME ==
+
+Pokud máte s Orcou problémy jako např. zamrznutí, je nejlepší restartovat celou
+zpřístupňující infrastrukturu GNOME. Pro tento účet poskytujeme skript
+'a11y-restart', který to za Vás udělá. Můžete si ho ručně stáhnout z
+[a11y-restart a11y-restart] a umístit jej jako spustitelný soubor do
+příslušného umístění (např. \/usr/local/bin), pomocí
+následujících příkazů:
+
+-----
+wget http://live.freebsoft.org/troubleshooting/attachments/a11y-restart -O /tmp/a11y-restart
+sudo cp /tmp/a11y-restart /usr/local/bin/a11y-restart
+sudo chmod +x /usr/local/bin/a11y-restart
+-----
+
+Pro usnadnění spuštění skriptu si vytvořte pro jeho spuštění klávesovou
+zkraktu: jděte na Systém > Předvolby > Klávesové zkratky, v tomto dialogu
+klikněte na tlačíko "Přidat" a v dialogu, který se potom objeví, zadejte jako
+název např. "Restartovat Orcu" a jako příkaz zadejte "a11y-restart" (bez
+uvozovek). Potom stiskněte tlačítko "Použít" a najděte právě zadanou zkraktu
+podle jména, které jste právě zadali, ve sloupci "Akce". Když tam jste, změňte
+jeho zkratku kliknutím na sloupec "Zkratka" a pak zadejte Vámi zvolenou zkratku
+pro restartování Orcy a další zpřístupňující infrastruktury. Nakonec zavřete
+dialog.
+
+Nyní můžete vyzkoušet právě vytvořenou klávesovou zkratku. Restartuje Orcu a
+její podpůrnou infrastrukturu, kdykoliv tuto klávesovou zkratku stisknete.
+
+Pokud u Vás dojde k velmi tvrdému zamrznutí, které úplně zruší reakci prostředí
+tak, že nezaznamenává ani Vaše klávesové zkratky, přejděte na konzoli
+stisknutím CTRL+ALT+F1, a tam se přihlašte a spusťte skript ručně tak, že
+napíšete a11y-restart (rada: obvykle stačí napsat první dvě písmena "a1" a pak
+zmáčknout klávesu TAB a pak stisknout ENTER). Poté se vraťte do grafického
+prostředí a stiskněte klávesovou zkratku pro restart Orcy.

@@ -1,0 +1,35 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Troubleshooting =
+
+== Restart Orca et al in GNOME ==
+
+If you experience a problem with Orca like freezing, it's best to restart the
+whole GNOME accessibility infrastructure. We provide a script 'a11y-restart'
+which can do that for you. You can manually download [a11y-restart
+a11y-restart] and place it as an executable into an appropriate location
+(e.g. \/usr/local/bin), using the following commands:
+
+-----
+wget http://live.freebsoft.org/troubleshooting/attachments/a11y-restart -O /tmp/a11y-restart
+sudo cp /tmp/a11y-restart /usr/local/bin/a11y-restart
+sudo chmod +x /usr/local/bin/a11y-restart
+-----
+
+To make it easier to launch the script, create a keyboard shortcut: go to
+System > Preferences > Keyboard shortcut, in that dialog click the "Add" button
+and in the dialog that appears, enter e.g. "Restart Orca" as Name and
+a11y-restart as Command. Then click Apply and find the just added shortcut by
+name in the table of Actions. When you are there, edit its shortcut by clicking
+the "Shortcut" column and then entering a keyboard shortcut of your choice by
+pressing it. Finally close the dialog.
+
+Now you can try the shortcut you entered. It will restart Orca and its support
+infrastructure whenever you press the shortcut.
+
+If you experience a very hard freeze that makes the graphical interface
+unresponsive to the point that even the keyboard shortcut you registered cannot
+be pressed, go to the text console by CTRL+ALT+F1, and there login and start
+the script manually by typing a11y-restart (hint: it usually suffices to type
+the 2 letters "a1" and then hit TAB and then ENTER). Then, get back to the
+graphical desktop and press the keyboard shortcut to restart Orca.
