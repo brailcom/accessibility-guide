@@ -54,5 +54,3 @@ Note that, as per Cecimac's installer's instructions, you should not
 change the settings "Use dots 7 and 8 to indicate cursor" when using
 other table than Apple American English, otherwise you will experience
 stability problems.
-
-TODO: bluetooth braille radek musi byt zapnuty!
