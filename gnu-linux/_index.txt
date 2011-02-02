@@ -1,3 +1,4 @@
 gnu-installation
 gnu-configuration
 gnu-usage
+gnu-troubleshooting
