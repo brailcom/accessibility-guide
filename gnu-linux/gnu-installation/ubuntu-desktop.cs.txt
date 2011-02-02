@@ -88,7 +88,7 @@ Viz [gnu-configuration#brltty]
 == 6. Přístupné přihlášení ==
 
 Přístupné přihlášení na Ubuntu 10.10 Maverick nefunguje.
-[[http://fossplanet.com/f10/possible-bug-maverick-accessible-login-function-surebug-casper-30accessibility-script-57385/ details]]
+[[http://fossplanet.com/f10/possible-bug-maverick-accessible-login-function-surebug-casper-30accessibility-script-57385/ detaily]]
 
 == 7. Podívejte se, jaké další zpřístupňující nástroje mohou být užitečné ==
 

@@ -108,7 +108,7 @@ Vyzkoušejte to:
 
 Vyzkoušejte to:
 
-:in Gnome: ALT-F2, type 'thunderbird'
+:in Gnome: ALT-F2, napište 'thunderbird'
 
 === Textový procesor and kancelářský balík: OpenOffice.org === openoffice
 
@@ -119,7 +119,7 @@ Vyzkoušejte to:
 
 :v Gnome: ALT-F2, napište 'openoffice.org'
 
-=== Virtual Computer: VMware === vmware
+=== Virtuální počítač: VMware === vmware
 
  1. Přejděte na [http://downloads.vmware.com/d/info/desktop_downloads/vmware_player/3_0]
  2. Pod položkou "Product Downloads" najděte "VMware Player" a stiskněte
@@ -134,7 +134,7 @@ Vyzkoušejte to:
     tím aktivovat Váš účet
  7. To Vás dostane na stránku, kde můžete program stáhnout. Vyberte správnou
     verzi (32- nebo 64-bitový linuxový VMware Player) a klikněte na tlačítko
-    "Stáhnout" vedle něj. Uložte jej na disk.
+    "Download" vedle něj. Uložte jej na disk.
  8. Soubor s příponou .bundle je spustitelný, spusťte ho pomocí sudo sh
     název_souboru. Toto spustí přístupný instalátor, který Vás provede
     instalačním procesem.
