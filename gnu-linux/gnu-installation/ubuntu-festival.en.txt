@@ -39,7 +39,7 @@ sudo update-rc.d festival defaults
 sudo /etc/init.d/festival start
 -----
 
-== Step 2: Install voices and add-ons ==
+== Step 3: Install voices and add-ons ==
 
 Your Festival should be installed and running by now. You might
 however want to install some additional voices or sound libraries.

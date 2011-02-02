@@ -163,7 +163,7 @@ Shortcuts:
 
 === Applications === applications
 
-Bellow you can find a list of common keyboard shortcuts that can be found
+Below you can find a list of common keyboard shortcuts that can be found
 across different applications. Not all of them might work or have sense for a
 particular application.
 
@@ -347,7 +347,7 @@ To write a new message:
 
 ==== Unread folders and messages ==== thunderbird-unread
 
-# >>The bellow shortcuts using Alt need to be translated as
+# >>The below shortcuts using Alt need to be translated as
 # they are different in different localizations<<
 
 Messages:
@@ -381,7 +381,7 @@ even if you have just received it.
  2. Press >>Ctrl-f<< to move focus to the Search input field
  3. Type the text you want to search for
  4. By default, the text is searched in the 'From' field. There are buttons
-    bellow this input field to search the text also in the 'To' field, in
+    below this input field to search the text also in the 'To' field, in
     message text or other parts. They are however not accessible in Ubuntu
     Maverick. As a possible workaround, we suggest to use the Advanced search.
 
@@ -422,7 +422,7 @@ switch between them, see [#firefox-tabbed-browsing].
 
 You can read a page line by line using the up and down arrow keys. It
 is however often more convenient to read through bigger sections or
-search just for the part that you are interested. Bellow is a list of
+search just for the part that you are interested. Below is a list of
 the most common keyboard shortcuts with Orca:
 
 Basic navigation:
@@ -433,9 +433,9 @@ Landmark navigation:
 :>>m<<: Next landmark (>>Shift+m<< previous)
 
 Navigation over page items:
-:>>Orca+Right<<: Go to next object (>>Orca+Left<< previous object)
+:>>Orca+<<Right: Go to next object (>>Orca+<<Left previous object)
 :>>h<<: Next heading (Shift-1 previous)
-:>>1<< or >>2,3,4,5,6<<: Next heading of the given level (>>Shift+1>> or >>2,3,4,5,6<< previous)
+:>>1<< or >>2,3,4,5,6<<: Next heading of the given level (>>Shift+1<< or >>2,3,4,5,6<< previous)
 :>>p<<: Next paragraph (Shift-p previous)
 :>>i<<: Next list item (Shift-i previous)
 :>>r<<: Next live region (Shift-r previous)
@@ -453,7 +453,7 @@ Orca mode settings:
 ==== Tables ==== firefox-tables
 
 :>>t<<: Next table (>>Shift+t<< previous)
-:>>Shift+Alt+Arrow<<: Jump to table cell in given arrow direction (Up, Down, Left, Right)
+:>>Shift+Alt+<<Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
 :>>Shift+Alt+Home<< or >>End<<: Jump to first or last cell in the table
 
 ==== Forms ==== firefox-forms
@@ -490,7 +490,7 @@ that link will replace the current page with the new page. Pressing
 >>Ctrl+ENTER<< however will keep the current page, keep your focus there and
 open your new page in another tab which you can examine later.
 
-To open a new webpage, >>Ctrl+l<< will take you to the location bar when you
+To open a new webpage, >>Ctrl+l<< will take you to the location bar where you
 can type a new address and it will replace the page that you are currently
 reading. >>Ctrl+t<< however will keep your page open, create a new tab and bring
 you to its location bar. You can then read another page without having to
@@ -536,8 +536,8 @@ Shortcuts:
  * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
 
 The complete list of Orca mode keyboard shortcuts you can find in the Orca
-settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl+Space<<, then
-use >>Alt+PgUP<< or >>Alt+PgDown<< to find the Keyboard shortcuts tab.
+settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl+<<Space, then
+use >>Alt+PgUp<< or >>Alt+PgDown<< to find the Keyboard shortcuts tab.
 
 == Managing files == managing-files
 
@@ -593,8 +593,8 @@ For example to find a directory 'photo/norwegia' on an external device called
  1) Go to the Places pane using >>Shift+F6<<
  2) Use up/down keys to choose the 'Camera' device
  3) Press >>F6<< to go back to file browser
- 4) Use up/down keys to find the 'photo' folder, press ENTER on it
- 5) No use up/down keys to find the 'norwegia folder
+ 4) Use up/down keys to find the 'photo' folder, press >>ENTER<< on it
+ 5) Now use up/down keys to find the 'norwegia folder
  6) You can enter the folder by pressing >>ENTER<< or do some other action
     with it by opening the context menu using >>Shift+F10<<
 
@@ -647,7 +647,7 @@ is not even necessary to type much as the shell can complete commands and names
 of files automatically once you type the first few letters.
 
 Shortcuts:
-:>>Ctrl+Alt+t<<: Launch terminal
+:>>Ctrl+Alt+t<<: Launch terminal (command line)
 :>>TAB<<: Complete a command, parameter or filename or list available options if more than one exist
 
 ==== Basic file manipulation ==== command-line-files-basic
@@ -694,22 +694,23 @@ or just
 == Creating documents == creating-documents
 
 Various documents (such as papers, letter, spreadsheets or presentation) can be
-created with the Openoffice.Org package.
+created with the OpenOffice.org package.
 
-To launch OpenOffice, press >>Alt+F2<<, then type '>>openoffice.org<<'
+To launch OpenOffice, press >>Alt+F2<<, then type '>>openoffice.org<<' and
+press >>ENTER<<.
 
 There are several different components inside OpenOffice that can be used for
 different tasks. These are:
 
-:Openoffice Writer: Word processor (documents, letters etc.)
-:Openoffice Calc: Table calculator (spreadsheets)
-:Openoffice Impress: Conference style presentations
+:OpenOffice Writer: Word processor (documents, letters etc.)
+:OpenOffice Calc: Table calculator (spreadsheets)
+:OpenOffice Impress: Conference style presentations
 
 When you launch OpenOffice, it will offer various options what to create, as
 well as the possibility to open a file.  Based on your decision, the
 appropriate application will open.
 
-=== Openoffice Writer === openoffice-writer
+=== OpenOffice Writer === openoffice-writer
 
 Writer is a word processor that can be used to read or create documents,
 letters etc.
@@ -749,10 +750,10 @@ word (such as 'Normal text' or 'Heading 2').
 
 ==== Movement ==== openoffice-writer-movement
 
-:>>Right, Left<<: Move by characters
-:>>Ctrl-Right, Ctrl-Left<<: Move by words
-:>>Up, Down<<: Move by lines
-:>>Ctrl-Up, Ctrl-Down<<: Move by paragraphs
+:Right, Left: Move by characters
+:>>Ctrl-<<Right, >>Ctrl-<<Left: Move by words
+:Up, Down: Move by lines
+:>>Ctrl-<<Up, >>Ctrl-<<Down: Move by paragraphs
 
 :>>HOME, END<<: Move to beginning or end of line
 :>>Ctrl-HOME, Ctrl-END<<: Move to beginning or end of document
@@ -775,6 +776,7 @@ Simple style and formatting changes are best done using shortcuts:
 :>>Ctrl+r<<: Align current paragraph right
 :>>Ctrl+j<<: Justify current paragraph into block
 
+
 To apply font properties, you must first select a piece of text you want to
 apply them to. See [#openoffice-writer-selections]. Otherwise they will get
 applied to all text you will type later.
@@ -784,7 +786,7 @@ applied to all text you will type later.
 :>>Ctrl+u<<: Toggle 'underline' property on selected text on and off
 
 To access all other formatting options (such as size of text, line spacing or
-font family), press Shift-F10 to bring up the context menu on the selected
+font family), press >>Shift-F10<< to bring up the context menu on the selected
 text. Browse it using the arrow keys and select with >>ENTER<<.
 
 ==== Create a table ==== openoffice-writer-create-table
@@ -842,9 +844,9 @@ result of a search). Each time something in the data changes, these cells are
 automatically recalculated. Thus complicated interactive and interconnected
 sheets of data can be created.
 
-The bellow sections will not teach you how to work with a table calculator, but
-will offer a few examples to get you started. Fore more information, see
-[http://documentation.openoffice.org/manuals OpenOffice.Org Manuals].
+The below sections will not teach you how to work with a table calculator, but
+will offer a few examples to get you started. For more information, see
+[http://documentation.openoffice.org/manuals OpenOffice.org Manuals].
 
 ==== Entering values ====
 
@@ -865,7 +867,7 @@ directly. If not, you can also use a guide to create the formula.
 *Example how to create a summation formula*:
    1. Enter for example values 1, 2, 3 into cells B1, B2, B3
    2. Go to cell B4 and enter the text: '=Sum(B1:B3)'
-   3. Press ENTER
+   3. Press >>ENTER<<
    4. The cell B4 will display '6'
    5. To see the underlying formula instead of the result, press F2 while on
    the cell to enter the edit mode
@@ -874,9 +876,9 @@ directly. If not, you can also use a guide to create the formula.
    1. Enter for example values 1, 2, 3 into cells B1, B2, B3
    2. Now we want to display the average of the three cells in cell B5
       but we do not know the name of the corresponding function
-   3. Go to cell B4
+   3. Go to cell B5
    4. Use F6 to enter the formula pane
-   5. Use >>Right<< arrow key to find 'Function wizard' and select with ENTER
+   5. Use Right arrow key to find 'Function wizard' and select with ENTER
    6. From the 'Category' drop down menu choose the family of functions you are
       interested in (e.g. Mathematical, Logical, Text). Choose 'Statistical'.
    7. Press >>TAB<< to go to the selection of the concrete function to
@@ -885,22 +887,22 @@ directly. If not, you can also use a guide to create the formula.
    9. The next page of the dialog displays functions arguments. You can
       use numbers, table cells (such as A5) or ranges of cells (such as A1:B1).
       Type in 'B1:B3' and press >>ENTER<<.
-   10. The cell B5 will now display '2', which is the avarage of numbers
+   10. The cell B5 will now display '2', which is the avarege of numbers
        1, 2 and 3.
-   11. To see the formula, not the result, press 2. You can also learn the
+   11. To see the formula, not the result, press >>F2<<. You can also learn the
        formula and type it without the guide next time.
 
 *Example on automatic recalculation*
    1. Complete one of the previous examples. You will have
-      numbers 1, 2, 3 in cell tables B1, B2, B3 and their
+      numbers 1, 2, 3 in table cells B1, B2, B3 and their
       sum (6) in cell B4 and/or average in cell B5 (2).
-   2. Go to cell B1 and type '4', then press ENTER.
-   3. Now go back to tables B4 and/or B5 and see how they changed.
+   2. Go to cell B1 and type '4', then press >>ENTER<<.
+   3. Now go back to cells B4 and/or B5 and see how they changed.
    4. The sum in B4 now displays 9 and the average in B5 displays 3.
 
 ==== Switching sheets ====
 
-Every doccument can have either one or more sheets of data. All sheets form one
+Every document can have either one or more sheets of data. All sheets from one
 document and they can be interconnected. E.g. results on one sheet can depend
 on data in another one.
 
@@ -910,7 +912,7 @@ key combinations >>Ctrl+PgUp<< and >>Ctrl+PgDown<< to move between them.
 ==== Shortcuts ====
 
 :>>F2<<: Start editing a cell
-:>>Ctrl+PgUP<<: Move to previous sheet
+:>>Ctrl+PgUp<<: Move to previous sheet
 :>>Ctrl+PgDown<<: Move to next sheet
 
 Main menu, 'Tools->Customize', card 'Keyboard' (>>Ctrl-PgDown<<)
@@ -930,30 +932,32 @@ More information can be found here:
 
 == Virtual Computer == virtual-computer
 
-=== VMWare Player === vmware
+=== VMmare Player === vmware
 
-VMWare player can be started from the main desktop menu (>>Alt+F1<<) as 'System
-Tools->VMWare Player'.
+VMware Player can be started from the main desktop menu (>>Alt+F1<<) as 'System
+Tools->VMware Player'.
 
 ==== Create a new virtual machine ==== vmware-new-machine
 
-To install another operating system in a virtual machine, follow the bellow
+To install another operating system in a virtual machine, follow the below
 steps. Please note however that this is an example. Depending on which system
 are you installing, some of the steps might be slightly different:
 
- 1. Start VMWare Player
+ 0. Start VMware Player
+ 1. If you are launching VMware Player for the first time, licence dialog
+    appears, agree to it to continue
  2. Press >>F10<< to access the main menu
  3. Under 'File', choose 'Create new virtual machine'
  4. A dialog window will open where you have to specify some details
  5. Choose whether you want to install the new operating system from an ISO
     file or CD/DVD drive
- 6. VMWare knows how to install some of the systems and might offer you to do
+ 6. VMware knows how to install some of the systems and might offer you to do
     an 'Easy Install'. This means that it will just ask you a few questions at
     the beginning and then complete the whole installation process without your
     intervention. This is recommendable. (If you want to go through a normal
     installation, choose 'I will install operating system later'. Press 'Next'
     button.
- 7. Fill in the the name, username and password you want for your user account
+ 7. Fill in the name, username and password you want for your user account
     in the new system. Press 'Next' button.
  8. Choose a name of the virtual machine and the directory on your file system
     where to store it. Press 'Next' button.
@@ -974,8 +978,8 @@ installing on a real computer). To see how you can use it, continue to
 ==== Starting and stopping virtual machine ==== vmware-start-stop-machine
 
 To *start* a virtual machine:
- 1. Start VMWare player
- 2. Use >>Up<< and >>Down<< arrow keys to choose the machine you want to start.
+ 1. Start VMware player
+ 2. Use Up and Down arrow keys to choose the machine you want to start.
  3. Press >>ENTER<< to start it
  4. Now see [#vmware-using-machine]. We recommend to wait a minute or two until
     the machine finishes booting before switching into it, because otherwise
@@ -983,9 +987,9 @@ To *start* a virtual machine:
 
 There are two options to *suspend* the virtual machine. You can either use the
 suspend function in your operating system inside the machine or you can suspend
-the whole machine from VMWare controll menu. We recommend the later method:
+the whole machine from VMware control menu. We recommend the later method:
  1. If inside the machine, use >>Ctrl+Alt<< to leave it
- 2. Press >>F10<< to enter the VMWare menu
+ 2. Press >>F10<< to enter the VMware menu
  3. Choose 'Virtual Machine->Power->Suspend'
 This is a suspend to disk. The machine will use no resources or power on your
 real computer when it is suspended.
@@ -993,25 +997,25 @@ real computer when it is suspended.
 To *shut down* or restart the virtual machine:
  1. Enter the machine with >>Ctrl+G<<
  2. Shutdown or reboot the system
- 3. VMWare will recognize when the operating system inside has shut down and
+ 3. VMware will recognize when the operating system inside has shut down and
     will return focus back to your original system.
-See [#vmware-using-machine] .
+See [#vmware-using-machine].
 
 ==== Using virtual machine ==== vmware-using-machine
 
-The VMWare player is like an ordinary application. It has a main menu and some
+The VMware Player is like an ordinary application. It has a main menu and some
 other widgets. Unlike in a normal application however, you can also use it to
 enter inside the virtual machine. Once you are inside the virtual machine, you
 can use it just as if it was a computer on itself, but there is a special key
 combination to escape from it and come back to your original environment.
 
 To *enter* inside the virtual machine:
- 1. If the VMWare Player application doesn't have focus yet, use >>Alt+TAB<< to
+ 1. If the VMware Player application doesn't have focus yet, use >>Alt+TAB<< to
  find it.
- 2. Once you are in VMWare Player, press CTRL+g to enter it
+ 2. Once you are in VMware Player, press >>CTRL+g<< to enter it
  3. All your keyboard and mouse input will now go to the virtual machine
 
-/Note: If you can't enter the machine with Ctrl+g, it might be either because
+/Note: If you can't enter the machine with >>Ctrl+g<<, it might be either because
 the machine is not running (see [#vmware-start-stop-machine]) or because some
 dialog window has appeared but didn't get focus. Use >>Alt+TAB<< to find it./
 

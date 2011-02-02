@@ -110,15 +110,15 @@ pretty heavy logic beneath to make this possible, but today technologies spare
 the user these details and are very easy to use.
 
 There are several virtualization technologies available, such as Virtual Box,
-Xen, Virtuozzo or VMWare. We recommend VMWare Player, because it is at the same
+Xen, Virtuozzo or VMware. We recommend VMware Player, because it is at the same
 time free of charge, cross platform, well accessible, easy to use and quite
 powerful.
 
 Bellow you can find information about how to install and use it:
 
- * VMWare Player on GNU/Linux:
-    * [gnu-installation#vmware Installation of VMWare]
-    * [gnu-usage#vmware Usage of VMWare]
+ * VMware Player on GNU/Linux:
+    * [gnu-installation#vmware Installation of VMware]
+    * [gnu-usage#vmware Usage of VMware]
 
 
 

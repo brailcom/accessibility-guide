@@ -12,7 +12,7 @@ desktop accessible, read our guide how to install the whole environment:
 
  * [ubuntu-desktop]
 
-The bellow chapters on this page deal with installation of the
+The below chapters on this page deal with installation of the
 various components.
 
 == Accessibility Tools == accessibility-tools
@@ -52,7 +52,7 @@ Try it:
 Type 'spd-say test' in terminal or run [#orca]. If it doesn't
 work, try running 'spd-conf -d' in the terminal to check problems.
 
-==== Latest development version of Speech Dispatcher ==== speechd-dev-version
+==== Latest stable version of Speech Dispatcher ==== speechd-dev-version
 
 *In Ubuntu:*
  1. sudo add-apt-repository ppa:dusek/spd-test
@@ -66,7 +66,7 @@ work, try running 'spd-conf -d' in the terminal to check problems.
 :Debian/Ubuntu Command: sudo apt-get install festival festival-freebsoft-utils
 
 Try it:
-:in Orca: Select Settings, select Festival as a device driver, select your prefered voice
+:in Orca: Select Settings, select Festival as a speech module, select your prefered voice
 :in speechd-el: ALT-x speechd-set-output-module ENTER festival ENTER
 
 ==== Czech Voice ==== czech-voice
@@ -107,7 +107,7 @@ Try it:
 
 :in Gnome: ALT-F2, type 'thunderbird'
 
-=== Word processor and Office suite: OpenOffice.Org === openoffice
+=== Word processor and Office suite: OpenOffice.org === openoffice
 
 :Ubuntu UI: In [#synaptic Synaptic package manager], install openoffice.org
 :Debian/Ubuntu Command: sudo apt-get install openoffice.org
@@ -116,20 +116,20 @@ Try it:
 
 :in Gnome: ALT-F2, type 'openoffice.org'
 
-=== Virtual Computer: VMWare === vmware
+=== Virtual Computer: VMware === vmware
 
  1. Go to [http://downloads.vmware.com/d/info/desktop_downloads/vmware_player/3_0]
- 2. Under 'Product Downloads', find 'VMWare Player' and press the 'Download'
+ 2. Under 'Product Downloads', find 'VMware Player' and press the 'Download'
     button next to it
- 3. On next page, you will have to register (search for form bellow the 'New to
-    VMWare' heading'), choose 'Continue'
+ 3. On next page, you will have to register (search for form below the 'New to
+    VMware' heading'), choose 'Continue'
  4. On next page, select country, choose a password and confirm agreement with
     the license, choose 'Register'
  5. If successful, there is a page informing you that you need to see your email
  6. You get an email with a link 'Activate now' which you need to first visit
     to activate your account. Type in your password.
  7. This will bring you onto a page where you can download. Select an
-    appropriate version (32 or 64 bit Linux VMWare Player) and click the
+    appropriate version (32 or 64 bit Linux VMware Player) and click the
     'Download' button next to it. Save it on disk.
  8. The .bundle file is executable, execute it. It will launch an accessible
     installer which will take you through the installation process.

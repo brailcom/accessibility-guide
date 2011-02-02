@@ -11,7 +11,7 @@ Table of Contents: @TOC@
 
 == 1. Install the Ubuntu Desktop == install
 
- 1) Download the Ubuntu installation ISO image at http://www.ubuntu.com/ . 
+ 1) Download the Ubuntu installation ISO image at [http://www.ubuntu.com/]. 
  2) Burn it onto a CD or flash disk
  3) Restart your computer and boot from the CD or flash disk
  4) Go through the installation process
@@ -21,11 +21,11 @@ Table of Contents: @TOC@
 In recent versions of Ubuntu, it is theoretically possible to install the
 system without sighted help. In practice however it is only recommendable
 to a skilled user, because it brings some significant challenges and requires
-that you are already able to operate the Orca screen reader. Bellow is described
+that you are already able to operate the Orca screen reader. Below is described
 how to install Ubuntu 10.10 without sight:
 
  1. Boot from the installation CD (see the general [#install installation
- instructions] for how to get it.
+ instructions] for how to get it).
  2. Wait for some time (like 3-5 minutes) to be sure the system has loaded
  3. Press >>TAB<<, >>ENTER<< to select English as the default language and
  start a live version of the system from CD
@@ -39,7 +39,7 @@ how to install Ubuntu 10.10 without sight:
  back as user ubuntu with an empty password.
  9. You will once again hear the startup melody.
  10. Now you should be setup with the screen reader.
- 11. >>ALT-F1<< will bring you to the main Gnome menu. Press >>Rigtht<<, select
+ 11. >>ALT-F1<< will bring you to the main Gnome menu. Press Right, select
  'Places', press down key repeatedly to select 'Desktop'
  12. A file browser dialog opens. By moving around with your cursor, you can
  find the 'Install Ubuntu 10.10' icon, click it
@@ -53,12 +53,13 @@ how to install Ubuntu 10.10 without sight:
 == 2. Boot into the newly installed system ==
 
 After you reboot your computer after successful installation, you should hear
-the login prompt sound (drums). Here select your user name, type ENTER, then
-input your passowrd and type enter. If you then hear the login prompt again
+the login prompt sound (drums). Here select your user name, type >>ENTER<<, then
+input your passowrd and type >>ENTER<<. If you then hear the login prompt again
 (drums), there was something wrong with the username and password you have
-given, and you need to repeat. Otherwise you will hear a startup melody.
+given, and you need to repeat. Otherwise (in case of success) you will hear a
+startup melody.
 
-After hearing the startup melody, type ALT-F2 orca ENTER. This will start a
+After hearing the startup melody, type >>ALT-F2<< orca >>ENTER<<. This will start a
 self-voicing configuration dialog for the Orca screen reader. Go through it to
 set your prefered settings and at the end agree to logout. Repeat the login and
 you should have a system now which automatically starts with a talking screen

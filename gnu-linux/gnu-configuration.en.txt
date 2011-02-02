@@ -25,11 +25,11 @@ settings for different parts of Emacs.
 
 Temporary settings, such as a momentary change of voice rate or punctuation
 level can be done using an Emacs command, which you can insert after pressing
-Meta-X, or using a keyboard shortcut. Bellow is a couple of examples
+Meta-x, or using a keyboard shortcut. Below are a couple of examples
 
-Set voice: Meta-X speechd-set-voice /or/ CTRL-e d v
-Set voice rate: Meta-X speechd-set-rate /or/ CTRL-e d r
-Set punctuation mode: Meta-X speechd-set-punctuation-mode /or/ CTRL-e d .
+Set voice: Meta-x speechd-set-voice /or/ CTRL-e d v
+Set voice rate: Meta-x speechd-set-rate /or/ CTRL-e d r
+Set punctuation mode: Meta-x speechd-set-punctuation-mode /or/ CTRL-e d .
 
 You can find a complete list of available speechd-el commands
 in the [http://cvs.freebsoft.org/doc/speechd-el/speechd-el_8.html#SEC12 speechd-el manual, section settings]
@@ -38,9 +38,9 @@ in the [http://cvs.freebsoft.org/doc/speechd-el/speechd-el_8.html#SEC12 speechd-
 
 All speechd-el settings are available from the Emacs customization
 interface under the group name 'speechd-el'. You can access it by pressing
-'Meta-X customize-group ENTER speechd-el'. Each setting can be changed
+'Meta-x customize-group ENTER speechd-el'. Each setting can be changed
 either just for the given session, or saved permanently. Permanent setting
-means write it into the ~/.emacs configuration file, which is described bellow.
+means write it into the ~/.emacs configuration file, which is described below.
 
 All available options and groups of options are accompanied by their
 full descriptions.
@@ -95,7 +95,7 @@ text-table      cs      # Czech
 braille-device  usb:    # First USB device matching braille driver.
 -----
 
-For British English table, Freedom Scientific device with Mac address
+For British English table, Freedom Scientific device with MAC address
 12:2F:22:21:A2:11
 -----
 braille-driver  fs      # FreedomScientific
@@ -129,7 +129,7 @@ After changing the configuration settings, you must reload or restart Speech
 Dispatcher
 
 -----
-/etc/init.d/speech-dispatcher restart
+killall speech-dispatcher
 -----
 
 ==== Initial setup ==== speech-dispatcher-initial-setup
@@ -196,17 +196,17 @@ Firefox can also remember permission settings specific for a given webpage.
 *Firefox settings* can be accessed from the main menu, item Edit, subitem
  Settings.
 
-*Orca settings for Firefox* can be open with >>Orca+Ctrl+Space<< from
+*Orca settings for Firefox* can be open with >>Orca+Ctrl+<<Space from
 inside Firefox, then move to card 'Firefox' using arrow keys.
 
-*Permission settings for a page* can be accessed by openning the given
+*Permission settings for a page* can be accessed by opening the given
 page, pressing Ctrl-I to bring up the 'Information about page' dialog,
 then arrow keys to get to the 'Permissions' card. TAB will cycle
 between the items (Allow popup window, Save cookies etc.).
 
 ==== Recommendation ==== firefox-recommendation
 
-In Orca settings for Firefox (>>Orca+Ctrl+Space<< while in Firefox), got
+In Orca settings for Firefox (>>Orca+Ctrl+<<Space while in Firefox), get
 to card Firefox and set 'Grab focus on object when navigating' to off.
 
 === Thunderbird === thunderbird
@@ -227,24 +227,24 @@ pressing F8. If not, every message you go through when navigating through the
 list of messages by pressing up and down keys will be downloaded, displayed and
 marked as read.
 
-==== Openoffice.Org ==== openoffice
+==== OpenOffice.org ==== openoffice
 
-==== Openoffice Writer Shortcuts ==== openoffice-writer-shortcuts
+==== OpenOffice Writer Shortcuts ==== openoffice-writer-shortcuts
 
 OpenOffice has a very useful command to select the text in the current
 paragraph (exactly). This command, like quite a few others, is just not mapped
 to any keyboard shortcut. This can be done from main menu
 'Tools->Customize'. This will bring up a dialog with several cards
 (tabs). Keyboard shortcuts can be re-defined on card 'Keyboard' (use
->>Ctrl+PgUP<< and >>Ctrl+PgDown<< to browse them). You can browse the list of
+>>Ctrl+PgUp<< and >>Ctrl+PgDown<< to browse them). You can browse the list of
 available keyboard shortcuts as well as define new ones.
 
 To define the keyboard shortcut for 'Select paragraph':
  1) Go to the 'Keyboard' card in the Customize dialog
  2) Select the desired key combination (recommended is >>Ctrl+Shift+s<<)
  3) Press >>TAB<< repeatedly to get into the 'Category' tree
- 4) Select 'Edit' with >>Up<< and >>Down<< arrow keys
- 5) Press TAB to go to the 'Function' tree
- 6) Select 'Select paragraph' using >>Up<< and >>Down<< keys
+ 4) Select 'Edit' with Up and Down arrow keys
+ 5) Press >>TAB<< to go to the 'Function' tree
+ 6) Select 'Select paragraph' using Up and Down keys
  7) Press >>TAB<< repeatedly to find the 'Modify' button and press it
  8) Now >>Ctrl+Shift+s<< is defined as a new shortcut, close the dialog with the OK button
