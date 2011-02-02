@@ -652,7 +652,7 @@ kabel, protože to by mohlo vyústit ve ztrátu dat. Musíte systému nejprve ř
  1) Přejděte do levé oblasti (použijte >>F6<<)
  2) Vyberte si zařízení, které chcete odpojit
  3) Otevřete kontextové menu pomocí >>Shift+F10<<
- 4) Z dostupných akcí vyberte "Odpojit"???
+ 4) Z dostupných akcí vyberte "Odpojit"
 
 ==== Přehled klávesových zkratek ==== nautilus-shortcuts-overview
 
