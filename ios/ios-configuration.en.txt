@@ -38,7 +38,7 @@ unpack and setup the device without assistance of a sighted person.
 
 You can turn VoiceOver on and off using iTunes during any sync. So if
 you forget to turn it on during the first sync (and it did not turn on
-by autodetection of Windows or Mac screenreader), you can turn
+by auto-detection of Windows or Mac screenreader), you can turn
 VoiceOver on during next sync.
 ==== Turning VoiceOver on manually on the device ====
 If you forgot to turn VoiceOver on using iTunes and do not want to use
@@ -103,7 +103,7 @@ To have VoiceOver speak faster or slower:
    is in effect immediately
 
 You might also prefer to be able to set the speaking rate directly in
-the currenctly used app without having to go to VoiceOver settings to
+the currently used app without having to go to VoiceOver settings to
 change it back and forth.  To be able to do that,  navigate to the
 "Include in Rotor" preference next to the "Speaking Rate" preference
 and turn it on.  See TODO to learn how to use rotor to adjust

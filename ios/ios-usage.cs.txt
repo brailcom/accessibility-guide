@@ -45,7 +45,7 @@ Interakce s položkou může také měnit číselnou hodnotu, v tom případě p
 gesta "švihnutí nahoru", resp. "švihnutí dolu" pro zvýšení, resp. snížení
 hodnoty.  Toho využijete např. v těchto situacích:
  * nastavení "Rychlost čtení" v nastavení VoiceOveru
- * jméno dnu, nebo měsíce v prvku pro zadání datumu
+ * jméno dnu, nebo měsíce v prvku pro zadání data
 
 == Pokročilé použití == advanced
 
@@ -116,7 +116,7 @@ Jsou 2 způsoby, pomocí kterých můžete vkládat text: standardní psaní a d
 psaní.
 
 ===== Standardní psaní ===== tasks-keyboard-mode-standard
-Jakmile jste na písmenu, které chcete zadata, aktivujte ho buď poklepáním
+Jakmile jste na písmenu, které chcete zadat, aktivujte ho buď poklepáním
 kdekoliv na obrazovce, nebo klepnutím kamkoliv na obrazovku jiným prstem,
 zatímco původní prst držíte na písmenu.  Všimněte si, že ta druhá možnost Vám
 umožňuje přistoupit k zadávání delšího textu následovně:  vyberte si prst,
@@ -147,7 +147,7 @@ poskytovateli vyhledávání, kterého jste si nastavili).
 
 ==== Zadávání jiných symbolů ==== tasks-keyboard-nonletter
 Jsou také jiné znaky, které můžete chtít zadat přes klávesnici, jako
-čísla, interpunkce (např. čárka, pomlčka).  Tyto nejsou v počátačním stavu
+čísla, interpunkce (např. čárka, pomlčka).  Tyto nejsou v počátečním stavu
 klávesnice zobrazeny.  Klávesnice ve skutečnosti obsahuje stránky.  Hlavní
 stránka, která je zobrazena na začátku práce s klávesnicí, se nazývá
 "písmena".  Další dostupné stránky se nazývají "čísla" a "symboly".  Když jste

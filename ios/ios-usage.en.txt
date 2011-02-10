@@ -20,7 +20,7 @@ To navigate using VoiceOver, you use touch gestures. The basic
 navigation gestures are:
 
  * flick left: navigate to the previous item
- * flick right: naviaget to the next item
+ * flick right: navigate to the next item
 
 To be able to interact with the selected item, like open it, see next
 section.
@@ -89,7 +89,7 @@ rectangularly with 5 rows, each having 4 apps.  You can navigate
 through the applications by moving your finger around the screen,  or
 by flicking left and right.  You open an app by double-tapping it.
 
-In order to accomodate for having many apps,  the home screen is
+In order to accommodate for having many apps,  the home screen is
 paged.  That means that it has several pages and you are displaying
 only one at a time.  To have VoiceOver tell you which page of home
 screen you are currently displaying, tap the screen with three
@@ -140,7 +140,7 @@ touch.  Repeat until you have entered the whole text.
 When you have input the text,  you can usually finish the input by
 pressing a key on the keyboard in the right low corner.  E.g. when you
 enter address of web page in Safari,  when you are done, the button in
-the lower right corner reads "Go".  Thas is because if you press it,
+the lower right corner reads "Go".  That is because if you press it,
 Safari will "go" to the address you input.  Similarly in Safari, if
 you input some text to the search bar,  then the button in the lower
 right corner reads "Search".  That is because if you press it, Safari
@@ -149,7 +149,7 @@ provider you have configured).
 
 ==== Entering non-letter characters ==== tasks-keyboard-nonletter
 There are other characters you might want to input on the keyboard,
-like numbers, interpunction (like comma, dash).  These are not
+like numbers, punctuation (like comma, dash).  These are not
 displayed on the keyboard by default.  In fact, the keyboard is
 "paged" (similarly like the home screen).  The main page that is
 displayed by default is called "letters".  The additional two pages

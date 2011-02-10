@@ -36,14 +36,14 @@ editování textů, přes správu souborů po vývoj aplikací, čtení mailu a 
 notových zápisů. Z tohoto důvodu si jej oblíbilo mnoho uživatelů, nejen
 handikepovaných.
 
-Pokud jej budete chtít využívat, buďte připraveni, že se budete muset neprve
+Pokud jej budete chtít využívat, buďte připraveni, že se budete muset nejprve
 některé věci naučit a pochopit některé koncepty. Následná vysoká efektivita
 práce by vám za to však měla být dostatečnou odměnou.
 
 Pro Emacs existuje několik zpřístupňujících nástrojů, ale velmi doporučujeme
 použít speechd-el.
 
-== Putting it all together ==
+== Poskládejme to dohromady ==
 
 Jak nastavit kompletní zpřístupněný desktop včetně Gnome, textové konzole a
 Emacsu?

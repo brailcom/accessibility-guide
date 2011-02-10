@@ -18,10 +18,10 @@ sudo chmod +x /usr/local/bin/a11y-restart
 -----
 
 Pro usnadnění spuštění skriptu si vytvořte pro jeho spuštění klávesovou
-zkraktu: jděte na Systém > Předvolby > Klávesové zkratky, v tomto dialogu
-klikněte na tlačíko "Přidat" a v dialogu, který se potom objeví, zadejte jako
+zkratku: jděte na Systém > Předvolby > Klávesové zkratky, v tomto dialogu
+klikněte na tlačítko "Přidat" a v dialogu, který se potom objeví, zadejte jako
 název např. "Restartovat Orcu" a jako příkaz zadejte "a11y-restart" (bez
-uvozovek). Potom stiskněte tlačítko "Použít" a najděte právě zadanou zkraktu
+uvozovek). Potom stiskněte tlačítko "Použít" a najděte právě zadanou zkratku
 podle jména, které jste právě zadali, ve sloupci "Akce". Když tam jste, změňte
 jeho zkratku kliknutím na sloupec "Zkratka" a pak zadejte Vámi zvolenou zkratku
 pro restartování Orcy a další zpřístupňující infrastruktury. Nakonec zavřete

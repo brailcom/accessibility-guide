@@ -35,7 +35,7 @@ Shortcuts:
 
 Context menu is not associated with the application as such, but with
 a particular object in the application. Object can be a file, an edit
-field, a piece of text or a contact in an instant messanger. Context
+field, a piece of text or a contact in an instant messenger. Context
 menu is opened on the given object and it offers actions that can be
 done with it.
 
@@ -72,8 +72,8 @@ Accessing menus, applications and windows:
 
 Navigation among widget inside the application:
 
-:>>Tab<<: Move to the next widget/controll (>>Shift+Tab<< moves to previous widget/controll)
-:>>Ctrl+Tab<<: Move to the next widget/controll in editable fields or where >>Tab<< alone has another function (reverse is >>Shift+Ctrl+Tab<<)
+:>>Tab<<: Move to the next widget/control (>>Shift+Tab<< moves to previous widget/control)
+:>>Ctrl+Tab<<: Move to the next widget/control in editable fields or where >>Tab<< alone has another function (reverse is >>Shift+Ctrl+Tab<<)
 :>>F6<<: Switch to next pane -- usually between most important sections in the contents of current window (>>Shift+F6<< previous pane)
 :>>Ctrl+F1<<: Show/hide tooltip (if any) for the current element
 :>>Ctrl+Alt-PgUp<<: Switch between tabs in the application (opposite direction >>Ctrl+Alt+PgDown<<)
@@ -586,7 +586,7 @@ directory hierarchy.
 Use the >>F6<< key to cycle between the file list, the location bar and
 the Places pane (or >>Shift+F6<< to cycle backwards).
 
-For example to find a directory 'photo/norwegia' on an external device called
+For example to find a directory 'photo/norway' on an external device called
 'Camera':
 
  0) Switch to list view using >>Ctrl+2<< if you have not already done so
@@ -594,7 +594,7 @@ For example to find a directory 'photo/norwegia' on an external device called
  2) Use up/down keys to choose the 'Camera' device
  3) Press >>F6<< to go back to file browser
  4) Use up/down keys to find the 'photo' folder, press >>ENTER<< on it
- 5) Now use up/down keys to find the 'norwegia folder
+ 5) Now use up/down keys to find the 'norway folder
  6) You can enter the folder by pressing >>ENTER<< or do some other action
     with it by opening the context menu using >>Shift+F10<<
 
@@ -887,7 +887,7 @@ directly. If not, you can also use a guide to create the formula.
    9. The next page of the dialog displays functions arguments. You can
       use numbers, table cells (such as A5) or ranges of cells (such as A1:B1).
       Type in 'B1:B3' and press >>ENTER<<.
-   10. The cell B5 will now display '2', which is the avarege of numbers
+   10. The cell B5 will now display '2', which is the average of numbers
        1, 2 and 3.
    11. To see the formula, not the result, press >>F2<<. You can also learn the
        formula and type it without the guide next time.
@@ -919,7 +919,7 @@ Main menu, 'Tools->Customize', card 'Keyboard' (>>Ctrl-PgDown<<)
 contains a list of all available shortcuts as well as a possibility
 to define new ones.
 
-=== Openoffice Impress === openoffice-impress
+=== OpenOffice Impress === openoffice-impress
 
 We are not going to cover work with presentations in this basic guide. It is
 however possible to create presentations without sight and there are special
@@ -944,7 +944,7 @@ steps. Please note however that this is an example. Depending on which system
 are you installing, some of the steps might be slightly different:
 
  0. Start VMware Player
- 1. If you are launching VMware Player for the first time, licence dialog
+ 1. If you are launching VMware Player for the first time, license dialog
     appears, agree to it to continue
  2. Press >>F10<< to access the main menu
  3. Under 'File', choose 'Create new virtual machine'

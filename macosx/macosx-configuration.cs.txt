@@ -6,7 +6,7 @@ Obsah: @TOC@
 == VoiceOver == voiceover
 
 === Zapnutí a vypnutí VoiceOveru === voiceover-start
-Když Váš počítač Mac beží, můžete VoiceOver zapnout a vypnout současným
+Když Váš počítač Mac běží, můžete VoiceOver zapnout a vypnout současným
 stisknutím kláves Cmd a F5.  Cmd je tlačítko s logem Apple (jablko)
 bezprostředně vlevo od mezerníku.  F5 je šestá klávesa na vrchní řadě kláves.
 

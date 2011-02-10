@@ -45,12 +45,12 @@ Vyzkoušejte to:
 === Speech Dispatcher === speech-dispatcher
 
 :Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic] nainstalujte speech-dispatcher, libspeechd2, python-speechd
-:Debian/Ubuntu Command: sudo apt-get install speech-dispatcher libspeechd2 python-speechd
+:Debian/Ubuntu příkaz: sudo apt-get install speech-dispatcher libspeechd2 python-speechd
 
 Vyzkoušejte to:
 
-Type 'spd-say test' in terminal or run [#orca]. If it doesn't
-work, try running 'spd-conf -d' in the terminal to check problems.
+Napište v terminálu 'spd-say test' nebo spusťte odečítač [#orca]. Pokud nefunguje,
+zkuste spustit 'spd-conf -d' pro kontrolu problémů.
 
 ==== Nejnovější stabilní verze Speech Dispatchera ==== speechd-dev-version
 
@@ -110,7 +110,7 @@ Vyzkoušejte to:
 
 :in Gnome: ALT-F2, napište 'thunderbird'
 
-=== Textový procesor and kancelářský balík: OpenOffice.org === openoffice
+=== Textový procesor a kancelářský balík: OpenOffice.org === openoffice
 
 :Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Ubuntu] nainstalujte openoffice.org
 :Debian/Ubuntu příkaz: sudo apt-get install openoffice.org

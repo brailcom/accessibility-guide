@@ -51,14 +51,14 @@ Z pohledu zpřístupnění je každý stroj s Mac OS X dodáván s odečítačem
 zvaným VoiceOver a anglickými hlasy.  Systém také již v sobě obsahuje podporu
 pro vybrané Braillské řádky, a VoiceOver podporuje i lupu obrazovky.  Proto
 anglicky mluvící slepý nebo zrakově postižený uživatel může začít používat
-počítač Mac hned po jeho vybalení bez dotatečné instalace podpory
+počítač Mac hned po jeho vybalení bez dodatečné instalace podpory
 zpřístupnění.
 
 Situace pro neanglicky mluvící uživatele je daleko komplikovanější, protože si
 musí koupit hlasy pro svůj jazyk a nainstalovat Braillské tabulky pro svůj
 jazyk.
 
-Apple testuje funkčnost většiny svých aplikací s VoiceOvereme.  Takže můžete
+Apple testuje funkčnost většiny svých aplikací s VoiceOverem.  Takže můžete
 používat vestavěné aplikace jako Mail, Safari (internetový prohlížeč), Adresář,
 iCal a další a být si jistí, že budou s VoiceOverem rozumně použitelné.
 
@@ -99,7 +99,7 @@ svou pracovní plochu v GNU/Linuxu. Nebo možná uživatel Mac OS X občas potř
 použít GNU/Linux kvůli nějaké chytré aplikaci, která na Mac OS X chybí nebo
 je příliš drahá.
 
-Na většině dnešních počítačů je běžně možné spoustit jiný operační systém
+Na většině dnešních počítačů je běžně možné spustit jiný operační systém
 nebo jinou platformu způsobem, který se jeví jako obyčejné další okno
 v jeho pracovním prostředí. Tímto způsobem můžete spustit až několik
 tzv. virtuálních počítačů a dělat si s nimi, co se vám líbí. Mají všechny

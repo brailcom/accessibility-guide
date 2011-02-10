@@ -42,6 +42,6 @@ sudo /etc/init.d/festival start
 
 == Krok 3: Nainstalujte hlasy a doplňky ==
 
-Váš Festival by nyní měl být nainstalován a běřet. Mohli byste ale chtít si
+Váš Festival by nyní měl být nainstalován a běžet. Mohli byste ale chtít si
 přiinstalovat další hlasy nebo zvukové knihovny. Více o tom si můžete přečíst v
 [gnu-installation stránce o instalaci].

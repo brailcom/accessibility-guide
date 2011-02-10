@@ -66,7 +66,7 @@ work, try running 'spd-conf -d' in the terminal to check problems.
 :Debian/Ubuntu Command: sudo apt-get install festival festival-freebsoft-utils
 
 Try it:
-:in Orca: Select Settings, select Festival as a speech module, select your prefered voice
+:in Orca: Select Settings, select Festival as a speech module, select your preferred voice
 :in speechd-el: ALT-x speechd-set-output-module ENTER festival ENTER
 
 ==== Czech Voice ==== czech-voice
@@ -142,4 +142,4 @@ In Ubuntu/Gnome, you can install packages using the Synaptic Package
 Manager. You can find it in the main menu as System -> Administration
 -> Synaptic package Manager. The easiest way to install a given
 package is to first type it's name in the search window, then find it
-in the list of results and check its toogle button.
+in the list of results and check its toggle button.

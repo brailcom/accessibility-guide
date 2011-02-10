@@ -20,7 +20,7 @@ v podmenu (například 'Otevřít', 'Uložit', 'Uložit jako', 'Zavřít').
 
 Někdy má položka podmenu ještě další vlastní podmenu. V tom případě
 jej dále rozbalí stisk šipky vpravo a opět se v něm můžete pohybovat
-šipakmi nahoru a dolů. Šipka vlevo takové podmeny uzavře, zatímco
+šipkami nahoru a dolů. Šipka vlevo takové podmenu uzavře, zatímco
 opakovaný stisk šipky vpravo vás přenese na další položku hlavního
 menu.
 
@@ -49,7 +49,7 @@ z více možností.
 K jeho vyvolání přejděte na objekt a stiskněte >>Shift+F10<<.
 
 Příklady:
- * Chcete-li sbalit složku do archivu .zip, najdede si ji v průzkumníku
+ * Chcete-li sbalit složku do archivu .zip, najdete si ji v průzkumníku
    souborů, vyvoláte kontextové menu a vyberete "Archivovat..."
  * Pro zjištění velikosti obrázku najdete obrázek, otevřete si na něm
    kontextové menu a vyberete si "Vlastnosti"
@@ -79,8 +79,8 @@ Navigace mezi prvky (widgety) uvnitř aplikace:
 :>>Tab<<: Přesun na další prvek (>>Shift+Tab<< na předchozí prvek)
 :>>Ctrl+Tab<<: Přechod na další prvek z vnitřku editačních políček nebo všude jinde, kde má klávesa >>Tab<< samotná jinou funkci (opak je >>Shift+Ctrl+Tab<<)
 :>>F6<<: Přechod na další panel -- obyčejně přesouvá mezi důležitými částmi aktuálního okna (>>Shift+F6<< předchozí panel)
-:>>Ctrl+F1<<: Zobraz/skryj doplňující informaci (tooltip) pro objekt pod kurzorem (pokud objekt nějakou poskytuje)
-:>>Ctrl+Alt-PgUp<<: Přepínání mezi kartami (tabs) v okně (opačný směr >>Ctrl+Alt+PgDown<<)
+:>>Ctrl+F1<<: Zobraz/skryj doplňující informaci pro objekt pod kurzorem (pokud objekt nějakou poskytuje)
+:>>Ctrl+Alt-PgUp<<: Přepínání mezi kartami (taby) v okně (opačný směr >>Ctrl+Alt+PgDown<<)
 :>>Space<<: Přepni stav zaškrtávacího políčka
 :>>ENTER<<: Vyber položku menu nebo stiskni tlačítko
 
@@ -132,9 +132,9 @@ přehledu uvádíme vždy obě varianty:
 :>>Numpad-6 (Orca+L)<<: Následující slovo -- Přesunout kurzor plošného náhledu na následující slovo
 
 Čtení po znacích:
-:>>Numpad-1 (Orca+M)<<: Předchozí znak -- Move the flat review cursor to the previous character and read it.
+:>>Numpad-1 (Orca+M)<<: Předchozí znak -- Přesunout kurzor plošného náhledu na předchozí znak a přečíst ho.
 :>>Numpad-2 (Orca+coma)<<: Tento znak -- Přečíst aktuální znak.
-:>>Numpad-3 (Orca+period)<<: Následující znak -- Přesunout kurzor plošného náhledu na následujcí znak.
+:>>Numpad-3 (Orca+period)<<: Následující znak -- Přesunout kurzor plošného náhledu na následující znak.
 
 Kliknutí myší na pozici kurzoru plošného náhledu:
 :>>Numpad-slash (Orca+7)<<: Kliknutí levým tlačítkem myši
@@ -164,7 +164,7 @@ Klávesové zkratky:
 :>>Orca+H<<: Vstoupit do výukového režimu Orca
 :>>ESC<<: Opustit výukový režim
 
-==== Advanced ==== orca-advanced
+==== Pokročilé ==== orca-advanced
 
 :>>Orca+F<<: Oznámit font a atributy aktuálního znaku
 
@@ -194,12 +194,12 @@ Vrátit zpět a opakovat (undo a redo):
 :>>Shift+Ctrl+Z<<: Redo -- Opakovat
 
 Kopírovat a vložit ze schránky:
-:>>Ctrl+X<<: Vyřízkout -- Vyříznout zvolený objekt nebo oblast a uložit je do schránky
+:>>Ctrl+X<<: Vyříznout -- Vyříznout zvolený objekt nebo oblast a uložit je do schránky
 :>>Ctrl+C<<: Kopírovat -- Kopírovat zvolený objekt nebo oblast do schránky
 :>>Ctrl+V<<: Vložit -- Vložit obsah schránky na pozici kurzoru
 
 Výběr:
-:>>Ctrl+A<<: Vyber vše -- Vyber vše v rámci zaměřeního ovládacího prvku nebo aktivního okna
+:>>Ctrl+A<<: Vyber vše -- Vyber vše v rámci zaměření ovládacího prvku nebo aktivního okna
 :>>Ctrl+I<<: Obrať výběr -- Vyber vše, co vybráno nebylo, a zruš výběr na tom, co vybráno bylo
 :>>Delete<<: Vymaž vybrané objekty
 
@@ -224,9 +224,9 @@ které zvětšují nejen text, ale i všechny ovládací prvky aplikace./
 Pro nastartování počítače a přihlášení:
  1) Zapněte počítač
  2) Počkejte jednu až dvě minuty dokud neuslyšíte zvuk bubnů
- 3) Stiskněte >>ENTER<<, čímž vyberete posledního zalogovaného uživatele,
+ 3) Stiskněte >>ENTER<<, čímž vyberete posledního přihlášeného uživatele,
     následně napište své heslo a znovu potvrďte >>ENTER<<.
- 4) Pokud je vaše přihlášení úspěšné, uslišíte přihlašovací melodii. Pokud ne,
+ 4) Pokud je vaše přihlášení úspěšné, uslyšíte přihlašovací melodii. Pokud ne,
     postup opakujte.
 
 Pokud máte v systému definovaných více než jednoho uživatele a opakovaně vám
@@ -249,7 +249,7 @@ Klávesové zkratky:
 === Hlavní menu pracovní plochy === desktop-main-menu
 
 Z hlavního menu pracovní plochy můžete spouštět aplikace, přistupovat k
-adresářím na disku i k systémovým nastavením. Pro přechod do tohoto menu
+adresářům na disku i k systémovým nastavením. Pro přechod do tohoto menu
 stiskněte >>Alt+F1<<. Pohybovat se v něm můžete s použitím klávesových šipek.
 
 Klávesové zkratky:
@@ -290,12 +290,12 @@ si nejprve přihlásit všechny složky, které chcete dostávat.
     a s ním související seznam složek v daném účtu
  4) U každé složky je zaškrtávací políčko, které udává, zda je složka
     aktuálně přihlášena nebo ne. V Ubuntu Maverick a možná jinde však
-    tento checkbox není přístupný
+    toto zaškrtávací políčko není přístupné
     [[https://its.freebsoft.org/its/issues/3149 bug #3149]].
  5) I bez pomoci zraku však můžete tento rozbalovací strom složek procházet a
-    stiskem tlačítka 'Subscribe' a 'Unsubscribe' si složky přihlašovat nebo
+    stiskem tlačítka 'Odebírat' a 'Odhlásit' si složky přihlašovat nebo
     odhlašovat. Nemůžete pouze zjistit aktuální stav.
- 6) Chcete-li přihlásit všechny složky, stiskněte tlačítko Subscribe
+ 6) Chcete-li přihlásit všechny složky, stiskněte tlačítko Odebírat
     na položce nejvyšší úrovni (ta je často 'INBOX' nebo nějak podobně).
 
 ==== Čtení zpráv ==== thunderbird-read
@@ -316,7 +316,7 @@ zpět na seznam složek.
 
 Každou zprávu lze jednoduše otevřít na samostatné kartě tím, že na
 ní stisknete >>ENTER<<. Pro čtení obsahu zprávy řádek po řádku můžete
-používat kurzorové šipky nahoru a dolů. Flat review zde nefunguje.
+používat kurzorové šipky nahoru a dolů. Plošný náhled zde nefunguje.
 Když se čtením skončíte, můžete kartu zavřít pomocí >>Ctrl+w<<.
 
 >>Ctrl+R<< vytvoří novou zprávu jako odpověď odesílateli,
@@ -357,9 +357,9 @@ Pro vytvoření nové zprávy:
  5. Poté stiskněte znovu >>F6<<, čímž přejde do textového pole. Zde můžete
     napsat text zprávy.
  6. Chcete-li přidat přílohu, lze to snadno učinit z hlavního menu (>>F10<<).
-    Pod položkou 'Soubor' najděte 'Přiložit', pravou šipkou otevřete submeny a
+    Pod položkou 'Soubor' najděte 'Přiložit', pravou šipkou otevřete submenu a
     vyberte 'Soubor'.
- 7. Správu odešlete stisknem >>Ctrl+ENTER<<
+ 7. Správu odešlete stiskem >>Ctrl+ENTER<<
  8. Chcete-li zprávu místo toho uložit jako koncept, jděte do hlavního menu,
     pod 'Soubor' vyberte 'Uložit jako', poté 'Koncept'.
 
@@ -386,8 +386,8 @@ polí ('Datum', 'Předmět', 'Doručeno'...) a potvrdit stiskem >>ENTER<<. Chcet
 změnit i pořadí položek, navštivte totéž menu ještě jednou a na konci výběru
 naleznete rovněž položky 'Sestupně' nebo 'Vzestupně'.
 
-Rada: 'Datum' je datumem, kdy byl email sepsán. Chcete-li řadit poštu podle
-datumu přijetí, abyste měli vždy nejnovější zprávy nahoře, vyberte si řazení
+Rada: 'Datum' je datem, kdy byl email sepsán. Chcete-li řadit poštu podle
+data přijetí, abyste měli vždy nejnovější zprávy nahoře, vyberte si řazení
 podle sloupce 'Doručeno'. Mezi oběma položkami může být několik hodin, nebo
 dokonce i dní rozdíl. Někteří lidé rádi vyřizují poštu třeba ve vlaku a na
 jiných místech bez připojení k internetu, ale emaily se rozešlou až později,
@@ -402,7 +402,7 @@ ji mohli čekat, a to ani v případě, že jste ji právě obdrželi.
  3. Napište text, který chcete vyhledat
  4. Ve výchozím stavu se zadaný text vyhledává v poli "Od", neboli v
     odesílateli zpráv.  Pod tímto vstupním polem jsou tlačítka pro vyhledávání
-    i v poli příjemce, celém textu zprávy nebo jiných částech.  Bohožel v Ubuntu
+    i v poli příjemce, celém textu zprávy nebo jiných částech.  Bohužel v Ubuntu
     Maverick nejsou tato tlačítka přístupná.  Tento problém můžete obejít
     pomocí použití pokročilého vyhledávání.
 
@@ -475,14 +475,14 @@ Nastavení módu Orca:
 :>>t<<: Další tabulka (>>Shift+t<< předchozí)
 :>>Shift+Alt<<+Arrow: Přeskočit na buňku ve směru daném šipkou (nahoru, dolů,
 doleva, doprava)
-:>>Shift+Alt+Home<< or >>End<<: Přeskočit na první nebo poslední buňku v tabulce
+:>>Shift+Alt+Home<< nebo >>End<<: Přeskočit na první nebo poslední buňku v tabulce
 
 ==== Formuláře ==== firefox-forms
 
 :>>e<<: Další vstupní políčko
 :>>b<<: Další tlačítko
 :>>Orca+Tab<<: Jít na další políčko formuláře (>>Shift+Orca+Tab<< předchozí)
-:>>Alt+Down<<: Rozvinout rozbalovací seznam(left >>Alt<<)
+:>>Alt+Down<<: Rozvinout rozbalovací seznam(levý >>Alt<<)
 
 ==== Přístupové klávesy ==== firefox-access-keys
 
@@ -497,8 +497,8 @@ a proto mohou být různé v různých webových aplikacích.
 :>>r<<: Další živá oblast (>>Shift+r<< předchozí)
 :>>\\<<: Zvýšit úroveň slušnosti pro současnou živou oblast
 :>>Shift+\\<<: nastavit všem živým oblastem úroveň slušnosti 'vypnuta'
-:>>Orca+F1<< or >>F2<< to >>F9<<: Projít dříve oznámené zprávy z živé oblasti
-(>>F1<< nejnovějstí, >>F2<< druhá nejnovější atd.)
+:>>Orca+F1<< nebo >>F2<< to >>F9<<: Projít dříve oznámené zprávy z živé oblasti
+(>>F1<< nejnovější, >>F2<< druhá nejnovější atd.)
 
 ==== Prohlížení webu s panely ==== firefox-tabbed-browsing
 
@@ -518,7 +518,7 @@ a přemístí Vás do adresního řádku tohoto nového panelu. Po zadání a po
 adresy do nového panelu můžete číst novou stránku bez toho, abyste zavřeli tu
 původní, ke které se můžete později vrátit.
 
-Pro pohyb mezi paneli použijte >>Ctrl+PgUp<< a >>Ctrl+PgDown<<.
+Pro pohyb mezi panely použijte >>Ctrl+PgUp<< a >>Ctrl+PgDown<<.
 
 Klávesové zkratky:
 :>>Ctrl+ENTER<<: Otevřít odkaz v novém panelu
@@ -575,7 +575,7 @@ zobrazující současnou adresu, a dvě oblasti.
 
 Levá oblast ve výchozím stavu zobrazuje Místa -- disky na Vašem systému,
 externí mechaniky, Váš fotoaparát, síťové adresáře. Také obsahuje záložky pro
-často používaná míta jako Váš domovský adresář, nebo Vaše složka
+často používaná místa jako Váš domovský adresář, nebo Vaše složka
 Dokumenty. Oblast může být nastaven, aby také zobrazovala jiné věci, jako
 např. historii Vámi prohlížených webových stránek.
 
@@ -588,12 +588,12 @@ nebo vložit konkrétní umístění ve Vašem systému.
 
 ==== Spuštění Nautilu ==== nautilus-launching
 
- 1) Vejděte do hladního menu stiskem >>Alt+F1<<, kdekoliv jste
+ 1) Vejděte do hlavního menu stiskem >>Alt+F1<<, kdekoliv jste
  2) Pomocí šipky vpravo se přesuňte na položku 'Místa'
  3) Pomocí šipky dolů vyberte místo (disk, zařízení nebo záložku)
  4) Stiskněte >>ENTER<<, abyste spustili Nautilus ve vybraném místě
 
-==== Browsing files ==== nautilus-browsing-files
+==== Prohlížení souborů ==== nautilus-browsing-files
 
 Prohlížecí oblast Nautilu pracuje ve dvou režimech, ikonovém pohledu a
 seznamovém pohledu. Můžete mezi nimi přepínat pomocí >>Ctrl+1<< a >>Ctrl+2<<
@@ -602,7 +602,7 @@ kdekoliv v aplikaci. Doporučujeme se přepnout do seznamového náhledu
 náhled i příště.
 
 V seznamovém náhledu (>>Ctrl+2<<) můžete procházet strukturu adresářů jako
-strom pomocí šipek nahoru a dolů, a holuběji se do adresářů můžete zanořovat
+strom pomocí šipek nahoru a dolů, a hlouběji se do adresářů můžete zanořovat
 nebo se z nich vracet pomocí šipek doprava a doleva.
 
 V ikonovém náhledu (>>Ctrl+2<<) můžete procházet soubory a adresáře pomocí
@@ -613,16 +613,16 @@ Použijte klávesu >>F6<<, abyste postupně dokola přecházeli mezi seznamem
 souborů, řádkem umístění a levou oblastí (pomocí >>Shift+F6<< můžete procházet
 v opačném pořadí).
 
-Např. abyste našli adresář 'photo/norwegia' na externím zařízení nazvaném
+Např. abyste našli adresář 'fotky/norsko' na externím zařízení nazvaném
 "Foťák":
 
- 0) Přepněte se do seznamového pohledu pomocí >>Ctrl+2<<, poku djste tak ještě neudělali
+ 0) Přepněte se do seznamového pohledu pomocí >>Ctrl+2<<, pokud jste tak ještě neudělali
  1) Přejděte do levé oblasti pomocí >>Shift+F6<<
  2) Pomocí šipek nahoru/dolů vyberte zařízení "Foťák"
  3) Zmáčkněte >>F6<<, abyste se dostali zpět do pravé oblasti se soubory
- 4) Použijte šipky nahoru dolů, abyste našli adresář 'photo', pak na něm
+ 4) Použijte šipky nahoru dolů, abyste našli adresář 'fotky', pak na něm
     zmáčkněte >>ENTER<<
- 5) Nyní použijte šipky nahoru/dolů, abyste našli adresář 'norwegia'
+ 5) Nyní použijte šipky nahoru/dolů, abyste našli adresář 'norsko'
  6) Do tohoto adresáře můžete vstoupit stiskem >>ENTER<<, nebo s ním provést
     nějakou jinou otevřením kontektového menu pomocí >>Shift+F10<<
 
@@ -677,7 +677,7 @@ lez vždy zkonzultovat s vestavěnou nápovědou. Není dokonce ani nutné mnoho
 psát, jelikož příkazová řádka umí automaticky doplňovat názvy příkazů a jména
 souborů potom, co napíšete jejich pár prvních písmen
 
-Zkrakty:
+Zkratky:
 :>>Ctrl+Alt+t<<: Spustit terminál (příkazovou řádku)
 :>>TAB<<: Doplnit příkaz, parametr nebo jméno souboru nebo seznam dostupných
   voleb, pokud jich existuje více
@@ -687,9 +687,9 @@ Zkrakty:
 :>>ls: zobrazit obsah adresáře ('ls -lh' včetně informací pro každý soubor)
 :>>cp<< soubor místo: zkopírovat soubor (pomocí 'cp -r' i adresář) do místa
 :>>mv<< soubor místo: přemístit soubor (nebo adresář) na místo (soubor nebo adresář)
-:>>rm<< soubor: trvale odstranit soubor ('>>rm -rf<< adresář' pro ostranění
+:>>rm<< soubor: trvale odstranit soubor ('>>rm -rf<< adresář' pro odstranění
   neprázdného adresáře)
-:>>mkdir<< jméno_adresáře: vytvořit adresář s daným jménem ('mkdir' je zkrakta
+:>>mkdir<< jméno_adresáře: vytvořit adresář s daným jménem ('mkdir' je zkratka
   z anglického 'make directory', tedy "vytvořit adresář")
 
 Tento oddíl je zde pouze pro vysvětlení základní myšlenky a k tomu, aby ukázal,
@@ -742,14 +742,14 @@ OpenOffice obsahuje různé součásti, které mohou být používány pro různ
 Writer je textový procesor, pomocí kterého je možné číst nebo vytvářet
 dokumenty, dopisy, atd.
 
-Výchozí náhled obsahuje čtyhři hlavní komponenty, kterými můžete dokola
+Výchozí náhled obsahuje čtyři hlavní komponenty, kterými můžete dokola
 procházet pomocí >>F6<< a >>Shift+F6<<:
  1. hlavní menu -- jsou z něj dostupné téměř všechny akce
  2. standardní nástroje -- nejběžnější nástroje a akce (jako "Uložit",
   "Otevřít", "Tisk", "Vytvořit tabulku" atd.)
  3. formátovací nástroje -- formátování (jako styl textu, font, nebo jeho
   velikost, zarovnání odstavce, atd.)
- 4. oblast pro úpravování dokumentu -- obsah dokumentu
+ 4. oblast pro upravování dokumentu -- obsah dokumentu
 
 ==== Tvorba jednoduchého dokumentu ==== openoffice-writer-simple-document
 
@@ -766,7 +766,7 @@ Toto je pouze příklad, vytvoříme dokument s nadpisem a jedním odstavcem.
  5. Napište text prvního odstavce Vašeho příběhu, přitom neoddělujte řádky
   pomocí >>ENTER<<.  Řádky se vytvoří automaticky, >>ENTER<< slouží pouze pro
   tvorbu nových odstavců.
- 6. Stistkněte >>Ctrl+S<< pro uložení dokumentu pomocí standardního ukládacího
+ 6. Stiskněte >>Ctrl+S<< pro uložení dokumentu pomocí standardního ukládacího
   dialogu
 
 ==== Prozkoumání formátu ==== openoffice-writer-review-of-formatting
@@ -847,12 +847,12 @@ seznam navrhovaných oprav a několik tlačítek pro akci ('Nahradit', 'Ignorova
 'Nahradit'.
 
 Pro prozkoumání textu v dialogovém okně, který může obsahovat chybu, včetně
-navrhovaných oprav, použijte >>Shift+TAB<< pro pohyb nahoru, abyste vyděli obě
+navrhovaných oprav, použijte >>Shift+TAB<< pro pohyb nahoru, abyste viděli obě
 oblasti.
 
  * Pokud je slovo správně v daném jazyce, použijte 'Přidat'
  * Pokud chcete toto varování ignorovat, použijte tlačítko 'Ignorovat'
- * Pro opravu pomocí nabýzených oprav, vyberte požadovanou opravu a stiskněte
+ * Pro opravu pomocí nabízených oprav, vyberte požadovanou opravu a stiskněte
    >>ENTER<<
  * Pro opravu chyby ručně přejděte do hlavního okna, které zobrazuje onen
    podezřelý text, proveďte potřebné změny, použijte >>TAB<< pro přechod zpět
@@ -873,7 +873,7 @@ kurzorové šipky pro pohyb uvnitř částí).
 
 Síla tabulkových procesorů spočívá v tom, že některé buňky v tabulce můžou
 obsahovat automatické vzorce, které zobrazují výsledky akcí provedených nad
-okolními daty (např. součet buňek, podmínka nebo výsledek
+okolními daty (např. součet buněk, podmínka nebo výsledek
 vyhledávání). Pokaždé, když se něco v datech změní, jsou tyto buňky automaticky
 přepočítány. Toto umožňuje vytvořit komplikované interaktivní a propojené
 tabulky dat.
@@ -900,7 +900,7 @@ jména běžných funkcí a tato jména zadávat přímo. Pokud ne, můžete pro
 vzorce použít průvodce.
 
 *Příklad, jak vytvořit vzorec pro součet*:
-   1. Zadejte např. hodnoty 1, 2, 3 do buňek B1, B2, B3
+   1. Zadejte např. hodnoty 1, 2, 3 do buněk B1, B2, B3
    2. Jděte na buňku B4 a zadejte text '=Sum(B1:B3)'
    3. Stiskněte >>ENTER<<
    4. Buňka B4 zobrazí '6'
@@ -931,7 +931,7 @@ vzorce použít průvodce.
    1. Dokončete jeden z předchozích příkladů. Budete mít čísla 1, 2, 3 v
       buňkách tabulky B1, B2, B3 a jejich součet (6) v buňce B4 a/nebo průměr v
       buňce B5 (2).
-   2. Přejděte na buňku B1 a napiště "4", poté stiskněte >>ENTER<<.
+   2. Přejděte na buňku B1 a napište "4", poté stiskněte >>ENTER<<.
    3. Nyní přejděte zpět na buňky B4 a/nebo B5 a přesvědčte se, že se změnily.
    4. Součet v B4 nyní ukazuje 9 a přůměr v B5 ukazuje 3.
 
@@ -942,7 +942,7 @@ dokumentu mohou být propojeny. Např. výsledky v jednom listu mohou záviset n
 datech v jiném listu.
 
 V OpenOffice jsou listy reprezentovány jako panely a Vy na nich můžete používat
-standardní klávesové zkrakty >>Ctrl+PgUp<< a >>Ctrl+PgDown<< pro přepínání se
+standardní klávesové zkratky >>Ctrl+PgUp<< a >>Ctrl+PgDown<< pro přepínání se
 mezi nimi.
 
 ==== Zkratky ====
@@ -1005,7 +1005,7 @@ na tom, který systém instalujete, se některé kroky mohou lišit:
      nastavení můžete ponechat a změnit je později.
  11. Stisknutím tlačítka "Finish" zahajte instalační proces.
 
-Tento poslední krok zavže dialogové okno a začne startovat virtuální stroj a
+Tento poslední krok zavře dialogové okno a začne startovat virtuální stroj a
 instalovat jej. Nyní to, co běží uvnitř hlavního přehrávacího okna, je Váš nový
 virtuální počítač. Proces instalace operačního systému na tento virtuální
 počítač bude přístupný pouze tehdy, pokud je přístupný samotný instalátor

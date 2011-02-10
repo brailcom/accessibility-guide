@@ -119,7 +119,7 @@ Vaše distribuce spouští Speech Dispatchera jako uživatelskou službu (např.
 Ubuntu Maverick a dále je to tak), můžete také předefinovat volby specificky
 pro jednotlivé uživatele v ~/.speech-dispatcher/conf/speechd.conf.
 
-Nejběžnější konfigurační vobly mohou být pohodlně změněny nastavovacím
+Nejběžnější konfigurační volby mohou být pohodlně změněny nastavovacím
 nástrojem spd-conf z příkazové řádky
 
 :Uživatelská konfigurace: spd-conf
@@ -181,7 +181,7 @@ změnit některé výchozí hodnoty procesu řečové syntézy.
 Syntetizér eSpeak neposkytuje žádnou možnost trvalé konfigurace a obvykle
 také není vůbec potřeba.
 
-== Applications == applications
+== Aplikace == applications
 
 === Firefox === firefox
 
@@ -224,11 +224,11 @@ stažena, zobrazena a označena za přečtenou.
 
 ==== OpenOffice.org ==== openoffice
 
-==== OpenOffice Writer Shortcuts ==== openoffice-writer-shortcuts
+==== OpenOffice klávesové zkratky ==== openoffice-writer-shortcuts
 
 OpenOffice má velmi užitečný příkaz pro vybrání textu přesně v současném
 odstavci. Tento příkaz, stejně jako pár dalších, jen nemá přiřazenou klávesovou
-zkraktu. Toto můžete napravit z hlavního menu "Nástroje->Přizpůsobit". To
+zkratku. Toto můžete napravit z hlavního menu "Nástroje->Přizpůsobit". To
 vyvolá dialog s několika kartami. Klávesové zkratky můžete předefinovat na
 kartě "Klávesnice" (použijte >>Ctrl+PgUp<< a >>Ctrl+PgDown<< pro přepínání mezi
 kartami). Můžete procházet seznam dostupných zkratek i definovat nové.

@@ -16,7 +16,7 @@ as follows:
 == Step 2: Get configuration file ==
 
 In Ubuntu 10.10, the BrlTTY package does not contain a configuration file [[https://its.freebsoft.org/its/issues/3145 bug #3145]].
-Normally, the prefered way to create it would be by running the 'brltty-setup'
+Normally, the preferred way to create it would be by running the 'brltty-setup'
 command. This however doesn't work in Ubuntu 10.10.
 
 What needs to be done is to download the [ http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf conf file]

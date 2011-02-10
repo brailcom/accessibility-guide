@@ -19,7 +19,7 @@ Mac OS X ships only with American English Braille tables (see bug
 [https://boss.brailcom.org/its/issues/3439 #3439]). So if you
 are not an English speaker, you need to install Braille tables that
 ensure the text in your language is properly displayed on your Braille
-display.  Cecimac provides Braile tables for many languages.  You can
+display.  Cecimac provides Braille tables for many languages.  You can
 download the installer [http://www.cecimac.org/CeciMacBraille.dmg
 here]. After installation is finished, you have to restart your
 computer. After the restart, select the proper Braille table in
