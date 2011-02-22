@@ -1,0 +1,16 @@
+#!/bin/sh
+safe_kill () {
+    pid="$1"
+    if [ -n "$pid" ]; then
+        kill -9 "$pid"
+    fi
+}
+
+orca_pid="`ps ax | grep python | grep orca | awk '{print $1;}'`"
+at_spi_pid="`ps ax | grep at-spi | grep -v grep | awk '{print $1;}'`"
+
+safe_kill "$orca_pid"
+safe_kill "$at_spi_pid"
+if [ -n "$DISPLAY" ]; then
+    orca --no-setup >/dev/null 2>&1 &
+fi
