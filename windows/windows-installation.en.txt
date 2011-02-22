@@ -16,7 +16,7 @@ The online installation of JAWS comes with the default English 'Eloquent'
 voice. To install other voices and voices for other languages, JAWS recommends
 to use the RealSpeak voices:
 
- * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/ RealSpeak Solo Direct Voices]
+ * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/RealSpeak-Solo-Direct-Downloads.asp RealSpeak Solo Direct Voices]
 
 You will then have to set voice output to RealSpeak in JAWS settings.
 

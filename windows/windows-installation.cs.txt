@@ -16,7 +16,7 @@ Online instalace JAWSu v sobě zahrnuje výchozí anglický hlas
 'Eloquent'. Pro instalaci jiných hlasů a hlasů pro jiné jazyky
 doporučuje JAWS používat hlasy RealSpeak.
 
- * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/ RealSpeak Solo Direct Voices]
+ * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/RealSpeak-Solo-Direct-Downloads.asp RealSpeak Solo Direct Voices]
 
 Potom budete muset nastavit hlasový výstup v JAWSu na RealSpeak.
 
