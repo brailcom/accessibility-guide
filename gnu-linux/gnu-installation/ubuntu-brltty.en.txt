@@ -19,12 +19,12 @@ In Ubuntu 10.10, the BrlTTY package does not contain a configuration file [[http
 Normally, the preferred way to create it would be by running the 'brltty-setup'
 command. This however doesn't work in Ubuntu 10.10.
 
-What needs to be done is to download the [ http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf conf file]
+What needs to be done is to download the [brltty.conf brltty.conf configuration file]
 and copy it into \/etc/brltty.conf . It can be accomplished by the
 following commands:
 
 -----
-wget http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf -O /tmp/brltty.conf
+wget http://live.freebsoft.org/ubuntu-brltty/attachments/brltty.conf -O /tmp/brltty.conf
 sudo cp /tmp/brltty.conf /etc/brltty.conf
 -----
 

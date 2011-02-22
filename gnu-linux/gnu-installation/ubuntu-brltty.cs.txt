@@ -21,13 +21,12 @@ BrlTTY v Ubuntu 10.10 neobsahuje konfigurační soubor
 cesta, jak ho vytvořit, by byla spuštění příkazu 'brltty-setup'. Ten však v
 Ubuntu 10.10 nefunguje.
 
-Co musíte udělat je stáhnout si
-[http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf
-konfigurační soubor] a zkopírovat ho do \/etc/brltty.conf. Toho můžete
+Co musíte udělat je stáhnout si [brltty.conf konfigurační soubor brltty.conf]
+a zkopírovat ho do \/etc/brltty.conf. Toho můžete
 dosáhnout následujícími příkazy:
 
 -----
-wget http://live.freebsoft.org/installation-ubuntu-brltty/attachments/brltty.conf -O /tmp/brltty.conf
+wget http://live.freebsoft.org/ubuntu-brltty/attachments/brltty.conf -O /tmp/brltty.conf
 sudo cp /tmp/brltty.conf /etc/brltty.conf
 -----
 
