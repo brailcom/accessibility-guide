@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Usage =
+
+Apple provides a [http://www.apple.com/voiceover/info/guide/ very
+detailed manual] on using VoiceOver with Mac OS X.
