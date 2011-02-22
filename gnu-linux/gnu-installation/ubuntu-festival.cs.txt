@@ -23,17 +23,25 @@ příkazu "festival --server", můžete tento krok přeskočit. Je to ale celkem
 pohodlné, takže Vám doporučujeme:
 
 Stáhnout si
-[http://live.freebsoft.org/installation-ubuntu-festival/attachments/festival
+[festival.init
 spouštěcí skript], zkopírovat ho do \/etc/init.d/festival a nastavit mu
 spouštěcí bit. Toho můžete dosáhnout následujícími příkazy.
 
 -----
-wget http://live.freebsoft.org/installation-ubuntu-festival/attachments/festival -O /tmp/festival
-sudo cp /tmp/festival /etc/init.d/festival
+wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.init -O /tmp/festival.init
+sudo mv /tmp/festival.init /etc/init.d/festival
 sudo chmod +x /etc/init.d/festival
 -----
 
-Tento skript pak musí být nalinkován do startovacího procesu a nastartován:
+Skript je potřeba povolit pomocí [festival.default souboru default] takto:
+
+-----
+wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /tmp/festival.default
+sudo mv /tmp/festival.default /etc/default/festival
+-----
+
+Nakonec je třeba startovací skript nalinkovat do startovacího procesu a
+nastartovat ho:
 
 -----
 sudo update-rc.d festival defaults

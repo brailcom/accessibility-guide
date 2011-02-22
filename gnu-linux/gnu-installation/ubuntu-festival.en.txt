@@ -22,17 +22,24 @@ are happy to launch Festival manually each time you want to use it by
 typing the 'festival --server' command, you can skip this step. This
 is however quite inconvenient, so we suggest to:
 
-Download the [http://live.freebsoft.org/installation-ubuntu-festival/attachments/festival init script],
+Download the [festival.init init script],
 copy it into \/etc/init.d/festival and make it executable. It can be accomplished by the
 following commands.
 
 -----
-wget http://live.freebsoft.org/installation-ubuntu-festival/attachments/festival -O /tmp/festival
-sudo cp /tmp/festival /etc/init.d/festival
+wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.init -O /tmp/festival.init
+sudo mv /tmp/festival.init /etc/init.d/festival
 sudo chmod +x /etc/init.d/festival
 -----
 
-This script then needs to be linked to the startup process and started:
+The script needs to be enabled using a [festival.default default file] this way:
+
+-----
+wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /tmp/festival.default
+sudo mv /tmp/festival.default /etc/default/festival
+-----
+
+Finally the script then needs to be linked to the startup process and started:
 
 -----
 sudo update-rc.d festival defaults
