@@ -60,6 +60,11 @@ work, try running 'spd-conf -d' in the terminal to check problems.
  3. sudo apt-get install speech-dispatcher libspeechd2 python-speechd
  4. killall speech-dispatcher
 
+== Sound Icons == sound-icons
+
+:Ubuntu UI: In [#synaptic Synaptic package manager], install sound-icons
+:Debian/Ubuntu Command: sudo apt-get install sound-icons
+
 === Festival === festival
 
 :Ubuntu UI: [ubuntu-festival]

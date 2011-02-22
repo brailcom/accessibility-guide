@@ -60,6 +60,11 @@ zkuste spustit 'spd-conf -d' pro kontrolu problémů.
  3. sudo apt-get install speech-dispatcher libspeechd2 python-speechd
  4. killall speech-dispatcher
 
+== Zvukové ikony == sound-icons
+
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic] nainstaluje sound-icons
+:Debian/Ubuntu příkaz: sudo apt-get install sound-icons
+
 === Festival === festival
 
 :Uživatelské rozhraní Ubuntu: [ubuntu-festival]
