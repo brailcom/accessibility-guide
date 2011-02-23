@@ -20,32 +20,30 @@ In Ubuntu, the Festival package does not contain a launch script
 [[https://its.freebsoft.org/its/issues/3143 bug #3143]]. Thus if you
 are happy to launch Festival manually each time you want to use it by
 typing the 'festival --server' command, you can skip this step. This
-is however quite inconvenient, so we suggest to:
-
-Download the [festival.init init script],
-copy it into \/etc/init.d/festival and make it executable. It can be accomplished by the
-following commands.
+is however quite inconvenient, so we suggest to copy the script into
+\/etc/init.d/festival and make it executable. It can be accomplished by the
+following command:
 
 -----
-wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.init -O /tmp/festival.init
-sudo mv /tmp/festival.init /etc/init.d/festival
-sudo chmod +x /etc/init.d/festival
+sudo install /usr/share/doc/festival/examples/festival.init /etc/init.d/festival
 -----
 
 The script needs to be enabled using a [festival.default default file] this way:
 
 -----
-wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /tmp/festival.default
-sudo mv /tmp/festival.default /etc/default/festival
+sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /etc/default/festival
 -----
 
-Then you have to obtain a Festival configuration file:
+Then you have to obtain a Festival configuration file. See section
+[#configuration-scm] to learn how to create/modify the file. If you do not want
+to learn it now, you can download our pre-made file this way:
 
 -----
 sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.scm -O /etc/festival.scm
 -----
 
-Finally the script then needs to be linked to the startup process and started:
+Finally the init script then needs to be linked to the startup process and
+started:
 
 -----
 sudo update-rc.d festival defaults
@@ -57,3 +55,27 @@ sudo /etc/init.d/festival start
 Your Festival should be installed and running by now. You might
 however want to install some additional voices or sound libraries.
 Go back to the [gnu-installation Installation page] to read more.
+
+== Step 4 (optional): Create your Festival configuration file ==
+
+Start with the contents of the \/usr/share/doc/festival/examples/festival.scm
+file. When you are ready with it, copy it to the \/etc/festival.scm file.
+You can use these elements to customize the configuration file:
+
+ * event mappings: using event mappings, you can set e.g. how left arrow is
+   spoken, or even that a sound is played instead of it. In general, you can
+   map an input (word, keyboard key, or character) to its form of aural
+   representation you prefer for it. Example:
+   (set! word-mapping '(
+         (")" sound "right-round-bracket")
+         ("°" text "degree")
+                       )
+   )
+
+   The example is setting up how 2 words are to be spoken. It sets up the word
+   ")" (i.e. the left bracket) to be played as a pre-recorded sound with
+   identifier "right-round-bracket". It also sets up the word "°" (the degree
+   symbol) to be spoken as text "degree".
+
+   Note that the pre-recorded sounds are usually not human speech, but rather
+   short easily recognizable melody.

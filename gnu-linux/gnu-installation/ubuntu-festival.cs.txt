@@ -20,27 +20,22 @@ Balík festivalu v Ubuntu neobsahuje spouštěcí skript
 [[https://its.freebsoft.org/its/issues/3143 bug #3143]]. Pokud Vám nevadí
 ručně spouštět Festival pokaždé, když ho chcete používat, pomocí napsání
 příkazu "festival --server", můžete tento krok přeskočit. Je to ale celkem
-pohodlné, takže Vám doporučujeme:
-
-Stáhnout si
-[festival.init
-spouštěcí skript], zkopírovat ho do \/etc/init.d/festival a nastavit mu
-spouštěcí bit. Toho můžete dosáhnout následujícími příkazy.
+pohodlné, takže Vám doporučujeme zkopírovat si skript do \/etc/init.d/festival
+a nastavit mu spouštěcí bit. Toho můžete dosáhnout následujícím příkazem:
 
 -----
-wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.init -O /tmp/festival.init
-sudo mv /tmp/festival.init /etc/init.d/festival
-sudo chmod +x /etc/init.d/festival
+sudo install /usr/share/doc/festival/examples/festival.init /etc/init.d/festival
 -----
 
 Skript je potřeba povolit pomocí [festival.default souboru default] takto:
 
 -----
-wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /tmp/festival.default
-sudo mv /tmp/festival.default /etc/default/festival
+sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /etc/default/festival
 -----
 
-Potom si musíte obstarat konfigurační soubor Festivalu:
+Potom si musíte obstarat konfigurační soubor Festivalu. Naučte se ho
+vytvořit/upravovat v sekci [#configuration-scm]. Pokud se to nechcete učit teď,
+můžete si stáhnout a nainstalovat námi předpřipravený soubor takto:
 
 -----
 sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.scm -O /etc/festival.scm
@@ -59,3 +54,29 @@ sudo /etc/init.d/festival start
 Váš Festival by nyní měl být nainstalován a běžet. Mohli byste ale chtít si
 přiinstalovat další hlasy nebo zvukové knihovny. Více o tom si můžete přečíst v
 [gnu-installation stránce o instalaci].
+
+== Krok 4 (volitelně): Vytvoření vlastního konfiguračního souboru Festivalu ==
+
+Začněte obsahem souboru \/usr/share/doc/festival/examples/festival.scm, popř
+námi nabízeným souborem [festival.scm festival.scm]. Až budete hotoví,
+zkopírujte hotový obsah do souboru \/etc/festival.scm. Pro nastavení
+konfiguračního souboru můžete používat následující konstrukce:
+
+ * zpracování událostí: pomocí zpracování událostí můžete např. nastavit, jak
+   se Vám vysloví znak levé závorky, nebo dokonce že se nevysloví a místo něj
+   bude přehrán zvuk. Obecně můžete vstupní události (slovo, klávesa, znak)
+   přiřadit zvukovou reprezentaci, která se Vám zamlouvá. Např.:
+
+   (set! word-mapping '(
+         (")" sound "right-round-bracket")
+         ("°" text "stupeň")
+                       )
+   )
+
+   Tento příklad nastavuje výslovnost 2 slov. Nejprve nastaví slovo ")" (tedy
+   pravou závorku), aby byla zahrána jako předem natočený zvuk s
+   identifikátorem "right-round-bracket"). Také nastaví slovo "°" (symbol
+   stupně) tak, aby byl vysloven jako slovo "stupeň".
+
+   Uvědomte si, že předem natočené zvuky obvykle neobsahují člověkem namluvenou
+   řeč, ale spíše krátkou snadno rozeznatelnou melodii.
