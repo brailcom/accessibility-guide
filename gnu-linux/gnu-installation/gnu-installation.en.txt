@@ -19,6 +19,8 @@ various components.
 
 === Orca === orca
 
+/Screen reader/
+
 :Ubuntu UI: In [#synaptic Synaptic package manager], install gnome-orca
 :Debian/Ubuntu Command: sudo apt-get install gnome-orca
 
@@ -29,6 +31,8 @@ Try it:
 
 === Emacs + speechd-el === speechd-el
 
+/Emacs environment ([http://live.freebsoft.org/desktop#speechd-el Read more])/
+
 :Ubuntu UI: In [#synaptic Synaptic package manager], install emacs and speechd-el
 :Debian/Ubuntu Command: sudo apt-get install emacs speechd-el
 
@@ -38,11 +42,16 @@ Try it:
 
 ===  BrlTTY === brltty
 
+/Interface to Braille displays/
+
 :Ubuntu: [ubuntu-brltty Installation of BrlTTY in Ubuntu]
 :Debian Command: sudo apt-get install brltty
 
 
 === Speech Dispatcher === speech-dispatcher
+
+/Interface to speech synthesis ([http://live.freebsoft.org/desktop#speech-dispatcher Read more])/
+
 
 :Ubuntu UI: In [#synaptic Synaptic package manager], install speech-dispatcher, libspeechd2, python-speechd
 :Debian/Ubuntu Command: sudo apt-get install speech-dispatcher libspeechd2 python-speechd
@@ -62,10 +71,14 @@ work, try running 'spd-conf -d' in the terminal to check problems.
 
 == Sound Icons == sound-icons
 
+/Sound representation of characters and events as a complement of speech synthesis ([http://live.freebsoft.org/desktop#sound-icons Read more])/
+
 :Ubuntu UI: In [#synaptic Synaptic package manager], install sound-icons
 :Debian/Ubuntu Command: sudo apt-get install sound-icons
 
 === Festival === festival
+
+/High quality multi-lingual speech synthesizer/
 
 :Ubuntu UI: [ubuntu-festival]
 :Debian/Ubuntu Command: sudo apt-get install festival festival-freebsoft-utils
@@ -86,6 +99,8 @@ Try it:
 
 === eSpeak ===
 
+/Fast and versatile multi-lingual synthesizer/
+
 :Ubuntu UI: In [#synaptic Synaptic package manager], install espeak
 :Debian/Ubuntu Command: sudo apt-get install espeak
 
@@ -94,7 +109,9 @@ Try it:
 
 == Applications == applications
 
-=== Web broser: Firefox === firefox
+=== Firefox === firefox
+
+/Web browser/
 
 :Ubuntu UI: In [#synaptic Synaptic package manager], install firefox
 :Debian/Ubuntu Command: sudo apt-get install firefox
@@ -103,7 +120,9 @@ Try it:
 
 :in Gnome: ALT-F2, type 'firefox'
 
-=== Email client: Thunderbird === thunderbird
+=== Thunderbird === thunderbird
+
+/Email client/
 
 :Ubuntu UI: In [#synaptic Synaptic package manager], install thunderbird
 :Debian/Ubuntu Command: sudo apt-get install thunderbird
@@ -112,7 +131,9 @@ Try it:
 
 :in Gnome: ALT-F2, type 'thunderbird'
 
-=== Word processor and Office suite: OpenOffice.org === openoffice
+=== OpenOffice.org === openoffice
+
+/Word processor and Office suite/
 
 :Ubuntu UI: In [#synaptic Synaptic package manager], install openoffice.org
 :Debian/Ubuntu Command: sudo apt-get install openoffice.org
@@ -121,7 +142,9 @@ Try it:
 
 :in Gnome: ALT-F2, type 'openoffice.org'
 
-=== Virtual Computer: VMware === vmware
+=== VMware === vmware
+
+/Virtual computers/
 
  1. Go to [http://downloads.vmware.com/d/info/desktop_downloads/vmware_player/3_0]
  2. Under 'Product Downloads', find 'VMware Player' and press the 'Download'
