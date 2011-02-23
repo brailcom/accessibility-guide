@@ -40,6 +40,12 @@ wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /
 sudo mv /tmp/festival.default /etc/default/festival
 -----
 
+Potom si musíte obstarat konfigurační soubor Festivalu:
+
+-----
+sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.scm -O /etc/festival.scm
+-----
+
 Nakonec je třeba startovací skript nalinkovat do startovacího procesu a
 nastartovat ho:
 

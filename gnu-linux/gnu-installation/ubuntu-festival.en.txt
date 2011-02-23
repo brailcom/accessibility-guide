@@ -39,6 +39,12 @@ wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default -O /
 sudo mv /tmp/festival.default /etc/default/festival
 -----
 
+Then you have to obtain a Festival configuration file:
+
+-----
+sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.scm -O /etc/festival.scm
+-----
+
 Finally the script then needs to be linked to the startup process and started:
 
 -----
