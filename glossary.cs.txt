@@ -1,0 +1,14 @@
+# -*- coding: utf-8; mode: structured-text -*-
+# Please maintain alphabetical order of items
+
+= Slovníček pojmů =
+
+Obsah: @TOC@
+
+== chmod == chmod
+
+/chmod/ je příkaz GNU/Linuxu využívaný ke změnám nastavení
+přístupových práv k souborům. 'chmod +x' se v kontextu této
+příručky často používá k tomu, aby se ze souboru staženého
+z internetu udělal spustitelný soubor. Více informací naleznete
+na [http://en.wikipedia.org/wiki/chmod].

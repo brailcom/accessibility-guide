@@ -3,3 +3,4 @@ gnu-linux
 windows
 macosx
 ios
+glossary
