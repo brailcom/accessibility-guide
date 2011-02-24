@@ -1032,7 +1032,7 @@ Because >>Ctrl+Alt<< escapes the machine, it might sometimes be a problem that
 it is not possible to use key combinations containing Ctrl+Alt inside the
 virtual machine itself. If this is your case, we recommend to change the
 escape combination to >>Ctrl+Alt+Shift<<. See
-[gnu-configuration#wmvare-player-scape the Configuration chapter, section VMWare] 
+[gnu-configuration#vmware-player-escape the Configuration chapter, section VMWare]
 
 Shortcuts:
 :Ctrl+g: Enter virtual machine
@@ -1048,7 +1048,7 @@ into the clipboard (>>Ctrl+c<<) inside the virtual machine, leave the virtual
 machine using >>Ctrl+Alt<< and paste the file into a directory in your home
 system using >>Ctrl+v<<.
 
-Additionally, in [virtual machine preferences gnu-configuration#vmware-player-machine],
+Additionally, in [gnu-configuration#vmware-player-machines virtual machine preferences],
 you can setup shared directories between your host system and the system in your
 virtual machine.
 

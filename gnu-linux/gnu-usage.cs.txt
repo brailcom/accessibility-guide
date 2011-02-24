@@ -1079,7 +1079,7 @@ Protože stisk kombinace >>Ctrl+Alt<< způsobí opuštění virtuálního stroje
 někdy nastávat problém, pokud potřebujete uvnitř stroje použít klávesové
 zkratky obsahující >>Ctrl+Alt<<. V tom případě doporučujeme změnit klávesouvou
 kombinaci na >>Ctrl+Alt+Shift<<, viz
-[gnu-configuration#wmvare-player-scape kapitola Konfigurace, sekce VMWare].
+[gnu-configuration#vmware-player-escape kapitola Konfigurace, sekce VMWare].
 
 Klávesové zkratky:
 :Ctrl+g: Vstoupit do virtuálního počítače
@@ -1097,7 +1097,7 @@ a vložit pak soubor ze schránky do libovolného adresáře na vašem původní
 systému pomocí >>Ctrl+v<<.
 
 Mimo to je rovněž možné nastavit mezi virtuálním strojem a vaším původním
-systémem sdílené adresáře v [nastavení virtálního stroje gnu-configuration#vmware-player-machine].
+systémem sdílené adresáře v [nastavení virtálního stroje gnu-configuration#vmware-player-machines].
 
 == Odkazy == references
 
