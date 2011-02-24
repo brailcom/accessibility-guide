@@ -80,7 +80,7 @@ protože ty mají příkazovou řádku dobře propracovanou.
 
 == sudo == sudo
 
-/sudo/ je příkaz GNU/Linuxu využívaný k tomu, aby bylo možné pod obyčejným
+/sudo/ je [#unix Unixový] příkaz využívaný k tomu, aby bylo možné pod obyčejným
 uživatelským účtem spustit akci vyžadující práva superuživatele. Například
 změnit soubor v místě, které by vaším běžným uživatelským účtem nebylo
 dostupné.  Sudo lze používat pouze z těch uživatelských účtů, kterým byla pro
