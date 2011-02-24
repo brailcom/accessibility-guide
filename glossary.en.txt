@@ -11,3 +11,11 @@ Table of Contents: @TOC@
 permissions. 'chmod +x' is often used in the context of this guide to
 make a file executable after it was downloaded from the internet. See
 [http://en.wikipedia.org/wiki/chmod] for more details.
+
+== sudo == sudo
+
+/sudo/ is a GNU/Linux command used to, from a normal user account, execute an
+action with superuser rights. For example to modify a file in a location which
+otherwise is not accessible to your ordinary user accounts. Sudo can only be
+used from user accounts with explicitly assigned rights for such administrative
+tasks. See [http://en.wikipedia.org/wiki/sudo] for more details.
