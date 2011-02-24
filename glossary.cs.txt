@@ -34,15 +34,6 @@ příručky často používá k tomu, aby se ze souboru staženého
 z internetu udělal spustitelný soubor. Více informací naleznete
 na [http://en.wikipedia.org/wiki/chmod].
 
-== sudo == sudo
-
-/sudo/ je příkaz GNU/Linuxu využívaný k tomu, aby bylo možné pod obyčejným
-uživatelským účtem spustit akci vyžadující práva superuživatele. Například
-změnit soubor v místě, které by vaším běžným uživatelským účtem nebylo
-dostupné.  Sudo lze používat pouze z těch uživatelských účtů, kterým byla pro
-takové administrativní úkony explicitně přiřazena práva. Více informací
-naleznete na [http://en.wikipedia.org/wiki/sudo].
-
 == GNU/Linux == gnu-linux
 
 GNU/Linux je volně dostupný [#unix Unixový] [#os operační systém]. Pro více
@@ -86,6 +77,15 @@ protože ty mají příkazovou řádku dobře propracovanou.
 == Řečová syntéza == speech-synthesis
 
 Řečová syntéza je proces počítačového vytvoření lidské řeči z textu.
+
+== sudo == sudo
+
+/sudo/ je příkaz GNU/Linuxu využívaný k tomu, aby bylo možné pod obyčejným
+uživatelským účtem spustit akci vyžadující práva superuživatele. Například
+změnit soubor v místě, které by vaším běžným uživatelským účtem nebylo
+dostupné.  Sudo lze používat pouze z těch uživatelských účtů, kterým byla pro
+takové administrativní úkony explicitně přiřazena práva. Více informací
+naleznete na [http://en.wikipedia.org/wiki/sudo].
 
 == Unix == unix
 
