@@ -84,7 +84,8 @@ např. [#windows], [#gnu-linux], [#macosx], [#android] nebo [#ios].
 
 == Orca == orca
 
-Orca je [#screen-reader screen reader] používaný v prostředí [#gnome GNOME].
+Orca je [#screen-reader odečítač obrazovky] používaný v prostředí [#gnome
+GNOME].
 
 == Příkazová řádka ==
 
