@@ -7,7 +7,7 @@ Obsah: @TOC@
 
 == chmod == chmod
 
-/chmod/ je příkaz GNU/Linuxu využívaný ke změnám nastavení
+/chmod/ je [#unix Unixový] příkaz využívaný ke změnám nastavení
 přístupových práv k souborům. 'chmod +x' se v kontextu této
 příručky často používá k tomu, aby se ze souboru staženého
 z internetu udělal spustitelný soubor. Více informací naleznete
@@ -21,3 +21,9 @@ změnit soubor v místě, které by vaším běžným uživatelským účtem neb
 dostupné.  Sudo lze používat pouze z těch uživatelských účtů, kterým byla pro
 takové administrativní úkony explicitně přiřazena práva. Více informací
 naleznete na [http://en.wikipedia.org/wiki/sudo].
+
+== Unix == unix
+
+Unix je kategorie operačních systémů, které sdílí společné charakteristiky,
+především pak způsob, jakým se ovládají z příkazové řádky. Mezi Unixové
+operační systémy patří např. GNU/Linux nebo Mac OS X.

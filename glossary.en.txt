@@ -7,7 +7,7 @@ Table of Contents: @TOC@
 
 == chmod == chmod
 
-/chmod/ is a GNU/Linux command used to change settings of file
+/chmod/ is a [#unix] command used to change settings of file
 permissions. 'chmod +x' is often used in the context of this guide to
 make a file executable after it was downloaded from the internet. See
 [http://en.wikipedia.org/wiki/chmod] for more details.
@@ -19,3 +19,9 @@ action with superuser rights. For example to modify a file in a location which
 otherwise is not accessible to your ordinary user accounts. Sudo can only be
 used from user accounts with explicitly assigned rights for such administrative
 tasks. See [http://en.wikipedia.org/wiki/sudo] for more details.
+
+== Unix == unix
+
+Unix is a category of operating systems that share common characteristics,
+especially the way they can be operated from the command-line. Unix operating
+systems include e.g. GNU/Linux, Mac OS X, and others.
