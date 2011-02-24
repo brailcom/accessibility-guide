@@ -8,7 +8,7 @@ Obsah: @TOC@
 == Android == android
 
 Android je mobilní [#os operační systém] od Googlu. Je používán v mobilních
-telefonech a tabletech různých výrobců.
+telefonech a [#tablet tabletech] různých výrobců.
 
 == Braillská abeceda == braille-alphabet
 
@@ -33,6 +33,20 @@ přístupových práv k souborům. 'chmod +x' se v kontextu této
 příručky často používá k tomu, aby se ze souboru staženého
 z internetu udělal spustitelný soubor. Více informací naleznete
 na [http://en.wikipedia.org/wiki/chmod].
+
+== Desktop == desktop
+
+Desktop je běžná kategorie počítačů. Desktop se dělí na stolní počítače, které
+mají obvykle podobu nepřemisťovaných krabic, nebo notebooků, které si může
+člověk vzít s sebou na cesty. Nedesktopové počítače jsou pak např. [#tablet
+tablety] nebo mobilní telefony.
+
+== GNOME == gnome
+
+GNOME je grafické prostředí používané na [#gnu-linux GNU/Linuxu] a většině
+dalších [#unix Unixů]. V rámci GNOME běží mnoho důležitých programů jak
+intenetový prohlížeč Firefox, emailový klient Thunderbird, kancelářský balík
+OpenOffice.org atd.
 
 == GNU/Linux == gnu-linux
 
@@ -68,6 +82,10 @@ programů naráz. Do operačního systému si můžete doinstalovat další prog
 abyste počítači přidali potřebnou funkcionalitu. Operačními systémy jsou
 např. [#windows], [#gnu-linux], [#macosx], [#android] nebo [#ios].
 
+== Orca == orca
+
+Orca je [#screen-reader screen reader] používaný v prostředí [#gnome GNOME].
+
 == Příkazová řádka ==
 
 Příkazová řádka je způsob interakce s počítačem, ve kterém se používá pouze
@@ -86,6 +104,11 @@ změnit soubor v místě, které by vaším běžným uživatelským účtem neb
 dostupné.  Sudo lze používat pouze z těch uživatelských účtů, kterým byla pro
 takové administrativní úkony explicitně přiřazena práva. Více informací
 naleznete na [http://en.wikipedia.org/wiki/sudo].
+
+== Tablet == tablet
+
+Tablet je lehký dotykový mobilní počítač, který má velkou obrazovku (obvykle
+7-10 palců).
 
 == Unix == unix
 

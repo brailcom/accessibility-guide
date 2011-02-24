@@ -16,7 +16,7 @@ impairments, especially blindness.
 == Android == android
 
 Android is a mobile [#os operating system] made by Google. It is used on mobile
-phones and tablet computers by various manufacturers.
+phones and [#tablet tablet computers] by various manufacturers.
 
 == Braille alphabet == braille-alphabet
 
@@ -46,6 +46,19 @@ make a file executable after it was downloaded from the internet. See
 Command line is a way of interacting with computer which uses only text. It is
 popular mainly on [#unix Unix] [#os operating systems], because these have a
 well designed command line.
+
+== Desktop == desktop
+
+Desktop denotes the usual category of computers. They can either be stationary
+box that is usually not moved, or in a form of notebook which you can carry
+around. Non-desktop computers are for example [#tablet tablets] or mobile
+phones.
+
+== GNOME == gnome
+
+GNOME is a graphical environment used on [#gnu-linux GNU/Linux] and most other
+[#unix Unixes]. Inside GNOME run many important programs like the Firefox
+internet browser, Thunderbird email client, OpenOffice.org office suite etc.
 
 == GNU/Linux == gnu-linux
 
@@ -78,6 +91,11 @@ programs at once etc. You can install additional programs on top of your
 operating system to add functionality to your computer. Examples of an
 operating system are [#windows], [#gnu-linux], [#macosx], [#android] or [#ios].
 
+== Orca == orca
+
+Orca is a [#screen-reader screen reader] used in the [#gnome GNOME] desktop
+environment.
+
 == Screen reader == screen-reader
 
 Screen reader is a program that makes computer accessible to blind people or
@@ -100,6 +118,11 @@ action with superuser rights. For example to modify a file in a location which
 otherwise is not accessible to your ordinary user accounts. Sudo can only be
 used from user accounts with explicitly assigned rights for such administrative
 tasks. See [http://en.wikipedia.org/wiki/sudo] for more details.
+
+== Tablet == tablet
+
+Tablet is a light touchscreen mobile computer device that has a big screen
+(usually 7-10 inches).
 
 == Unix == unix
 
