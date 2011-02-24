@@ -17,7 +17,7 @@ platforem, interoperabilitou a virtualizací.
 
 Obsah: @TOC@
 
-== GNU/Linux ==
+== GNU/Linux == gnu-linux
 
 Platforma GNU/Linux je založená převážně na vývojovém modelu
 [http://www.gnu.org Svobodného software].  Je všestranná, bezpečná a
@@ -38,7 +38,7 @@ platí i pro jiné distribuce.
 
 [overview-gnu-linux Více o GNU/Linux]
 
-== Mac OS X ==
+== Mac OS X == macosx
 
 Mac OS X je populární desktopový operační systém založený na UNIXu.  Je znám
 pro své intuitivní, elegantní a snadno použitelné uživatelské rozhraní.
@@ -62,7 +62,7 @@ Apple testuje funkčnost většiny svých aplikací s VoiceOverem.  Takže můž
 používat vestavěné aplikace jako Mail, Safari (internetový prohlížeč), Adresář,
 iCal a další a být si jistí, že budou s VoiceOverem rozumně použitelné.
 
-== iOS ==
+== iOS == ios
 
 iOS je operační systém odvozený od Mac OS X a navržený speciálně pro mobilní
 zařízení s dotykovou obrazovkou.  Běží na přístrojích iPhone, iPad a iPod
@@ -76,7 +76,7 @@ různých částí textu různými jazyky (tzv. přepínání jazyků).  iOS je 
 dodáván s podporou pro mnoho bezdrátových Bluetooth Braillských řádků a
 Braillských tabulek pro mnoho jazyků.
 
-== Microsoft Windows ==
+== Microsoft Windows == ios
 
 Microsoft Windows je momentálně nejrozšířenějším operačním systémem. Je pro něj
 dostupná široká škála aplikací a v porovnání s jinými platformami je často tou,

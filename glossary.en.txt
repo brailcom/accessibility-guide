@@ -5,9 +5,38 @@
 
 Table of Contents: @TOC@
 
+== Accessibility == accessibility
+
+Accessibility is a property of an object that enables it to be operated by
+people with physical impairment. The impairments can be visual
+(e.g. blindness), aural (e.g. deafness), or motor (e.g. unability to use one's
+hands). This guide focuses mainly on accessibility with respect to visual
+impairments, especially blindness.
+
+== Android == android
+
+Android is a mobile [#os operating system] made by Google. It is used on mobile
+phones and tablet computers by various manufacturers.
+
+== Braille alphabet == braille-alphabet
+
+Braille alphabet is a system for physical representation of text accessible for
+the blind people. Each letter in this system is displayed in a separate
+cell. Each cell has 8 dots. Each of these dots is either raised or not
+raised. Different letters are then represented by raising a different
+combination of dots within a cell.
+
+== Braille display == braille-display
+
+Braille display is an external computer device that displays information using
+the [#braille-alphabet Braille alphabet]. The display is done by physical
+dots on the braille display. The users then use their fingers to touch the
+display and recognize the dots raised, and thus recognize the letters
+displayed.
+
 == chmod == chmod
 
-/chmod/ is a [#unix] command used to change settings of file
+/chmod/ is a [#unix Unix] command used to change settings of file
 permissions. 'chmod +x' is often used in the context of this guide to
 make a file executable after it was downloaded from the internet. See
 [http://en.wikipedia.org/wiki/chmod] for more details.
@@ -20,8 +49,68 @@ otherwise is not accessible to your ordinary user accounts. Sudo can only be
 used from user accounts with explicitly assigned rights for such administrative
 tasks. See [http://en.wikipedia.org/wiki/sudo] for more details.
 
+== Command line == command-line
+
+Command line is a way of interacting with computer which uses only text. It is
+popular mainly on [#unix Unix] [#os operating systems], because these have a
+well designed command line.
+
+== GNU/Linux == gnu-linux
+
+GNU/Linux is a freely available [#unix Unix] [#os operating system]. For more
+information on GNU/Linux, see [overview#gnu-linux its section in Overview].
+
+== iOS == ios
+
+iOS is a touchscreen mobile [#os operating system] made by Apple. For more
+information on iOS, see [overview#ios its section in Overview].
+
+== Mac OS X == macosx
+
+Mac OS X is a [#unix Unix] [#os operating system] made by Apple. It can only be
+used on Apple's computers. For more information on Mac OS X, see
+[overview#macosx its section in Overview].
+
+== Magnifier == magnifier
+
+Magnifier is a program that makes computer accessible to people with non-severe
+visual impairments, i.e. those who can see but not well. It makes objects on
+the computer screen larger so that the user has no longer a problem to
+recognize the object and its parts and interact with them.
+
+== Operating system == os
+
+Operating system is the basic software that is responsible for the elementary
+functionality of your computer like start up, screen display, running several
+programs at once etc. You can install additional programs on top of your
+operating system to add functionality to your computer. Examples of an
+operating system are [#windows], [#gnu-linux], [#macosx], [#android] or [#ios].
+
+== Screen reader == screen-reader
+
+Screen reader is a program that makes computer accessible to blind people or
+people with severe visual impairments. It enables the user to navigate around
+elements of program and reads the descriptions of elements using
+[#speech-synthesis speech synthesis]. It can also display the description on a
+[#braille-display Braille display]. Once the user navigates to the desired
+element, he/she can interact with the element (e.g. press it, write text into
+it, or examine its textual content).
+
+== Speech synthesis == speech-synthesis
+
+Speech synthesis is a process of computer generation of human-like speech from
+text.
+
 == Unix == unix
 
-Unix is a category of operating systems that share common characteristics,
-especially the way they can be operated from the command-line. Unix operating
-systems include e.g. GNU/Linux, Mac OS X, and others.
+Unix is a category of [#os operating systems] that share common
+characteristics, especially the way they can be operated from the
+command-line. Unix operating systems include e.g. [#gnu-linux GNU/Linux],
+[#macosx Mac OS X], and others.
+
+== Windows == windows
+
+Windows is a desktop [#os operating system] made by Microsoft. It is the most
+widely used desktop operating system. For more information on Windows, see
+[overview#windows its section in Overview].
+

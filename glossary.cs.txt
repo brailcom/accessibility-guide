@@ -5,6 +5,27 @@
 
 Obsah: @TOC@
 
+== Android == android
+
+Android je mobilní [#os operační systém] od Googlu. Je používán v mobilních
+telefonech a tabletech různých výrobců.
+
+== Braillská abeceda == braille-alphabet
+
+Braillská abeceda je systém pro fyzickou reprezentaci textu přístupnou pro
+slepé lidi. Každé písmeno je v tomto systému zobrazeno v samostatné
+buňce. Každá buňka má 8 bodů. Tyto body mohou být buď zdvihnuté nebo ne. Různá
+písmena jsou pak reprezentována pomocí zdvihnutí správné kombinace bodů v
+buňce.
+
+== Braillský řádek == braille-display
+
+Braillský řádek (též braillský zobrazovač, braillský displej) je vnější
+počítačové zařízení, které zobrazuje informace pomocí [#braille-alphabet]
+braillské abecedy. Zobrazení se děje pomocí bodů na braillském řádku. Uživatel
+pak používá své prsty, aby hmatem na řádku rozeznal zdvižené body, a tím i
+zobrazená písmena.
+
 == chmod == chmod
 
 /chmod/ je [#unix Unixový] příkaz využívaný ke změnám nastavení
@@ -22,8 +43,72 @@ dostupné.  Sudo lze používat pouze z těch uživatelských účtů, kterým b
 takové administrativní úkony explicitně přiřazena práva. Více informací
 naleznete na [http://en.wikipedia.org/wiki/sudo].
 
+== GNU/Linux == gnu-linux
+
+GNU/Linux je volně dostupný [#unix Unixový] [#os operační systém]. Pro více
+informací o GNU/Linuxu viz [overview#gnu-linux příslušnou sekci Přehledu].
+
+== iOS == ios
+
+iOS je dotykový mobilní [#os operační systém] od firmy Apple. Pro více
+informací o iOS viz [overview#ios příslušnou sekci v Přehledu].
+
+== Mac OS X == macosx
+
+Mac OS X je desktopov7 [#unix Unixový] [#os operační systém] of firmy
+Apple. Může být používán pouze na počítačích od firmy Apple. Pro více informací
+o Mac OS X viz [overview#macosx příslušnou sekci v Přehledu].
+
+== Odečítač obrazovky == screen-reader
+
+Odečítač obrazovky je program, který zpřístupňuje počítač slepým lidem nebo
+lidem se závažným zrakovým postižením. Umožňuje uživateli pohybovat se po
+prvcích programu, přitom uživateli čte popisy těchto prvků pomocí
+[#speech-synthesis řečové syntézy]. Tyto popisy může také navíc zobrazovat na
+[#braille-display braillském řádku]. Potom, co se uživatel dostane na jím
+hledaný prvek, může s ním interagovat (např. ho stisknout,  napsat do něj
+text, nebo zkoumat jeho textový obsah).
+
+== Operační systém == os
+
+Operační systém je základní program, který zajišťuje základní funkce počítače,
+jako např. start počítače, zobrazování na obrazovce, nebo spouštění a běh více
+programů naráz. Do operačního systému si můžete doinstalovat další programy,
+abyste počítači přidali potřebnou funkcionalitu. Operačními systémy jsou
+např. [#windows], [#gnu-linux], [#macosx], [#android] nebo [#ios].
+
+== Příkazová řádka ==
+
+Příkazová řádka je způsob interakce s počítačem, ve kterém se používá pouze
+text. Je populární především na [#unix Unixových] [#os operačních systémech],
+protože ty mají příkazovou řádku dobře propracovanou.
+
+== Řečová syntéza == speech-synthesis
+
+Řečová syntéza je proces počítačového vytvoření lidské řeči z textu.
+
 == Unix == unix
 
 Unix je kategorie operačních systémů, které sdílí společné charakteristiky,
 především pak způsob, jakým se ovládají z příkazové řádky. Mezi Unixové
 operační systémy patří např. GNU/Linux nebo Mac OS X.
+
+== Windows == windows
+
+Windows je desktopový operační systém od firmy Microsoft. Je to nejvíce
+používaný desktopový operační systém. Pro více informací o Windows viz
+[overview#windows příslušná sekce v Přehledu].
+
+== Zpřístupnění == accessibility
+
+Zpřístupnění je vlastnost objektu, která umožňuje, aby byl používán lidmi s
+fyzickým handicapem. Tento handicap může být zrakový (např. slepota), zvukový
+(např. hluchota), nebo pohybový (např. nemožnost hýbat rukama). Tato příručka
+se zaměřuje hlavně na zpřístupnění z hlediska zrakových vad, především pak
+slepoty.
+
+== Zvětšovač (lupa) ==
+
+Zvětšovač (též lupa) je program, který zpřístupňuje počítač lidem, kteří špatně
+vidí. Zvětšuje zobrazené věci na obrazovce tak, aby uživatel neměl problém je
+rozpoznat včetně jejich částí.
