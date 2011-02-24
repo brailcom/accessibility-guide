@@ -1,4 +1,4 @@
-# -*- coding: utf-8; mode: structured-text -*-
+># -*- coding: utf-8; mode: structured-text -*-
 
 = Konfigurace =
 
@@ -243,3 +243,49 @@ Abyste definovali klávesovou zkratku pro "Označit odstavec":
  7) Stiskněte opakovaně >>TAB<<, abyste našli tlačítko "Změnit" a stiskli jej
  8) Nyní je >>Ctrl+Shift+s<< zadefinováno jako nová zkratka, zavřete dialog
     pomocí tlačítka OK
+
+=== VMWare Player === vmware-player
+
+==== Konfigurace přehrávače ==== vmware-player-as-such
+
+K nastavením přehrávače jako takového (ne virtuálních strojů) lze přistupovat
+pomocí položky hlavního menu 'File->Player preferences'.  V tomto konfiguračním
+dialogu je však pouze několik málo možností.  Ostatní nastavení lze změnit v
+konfiguračním souboru '~/.vmware/preferences'.  Někdy bývá potřebné změnit
+výstupní klávesovou zkratku, což podrobněji popíšeme níže.
+
+==== Konfigurace virtuálních strojů ==== vmware-player-machines
+
+Chcete-li změnit konfiguraci virtuálního stroje (například velikost diskového
+prostoru, RAM nebo přístup k síti), je důležité, zda je stroj momentálně
+spuštěný. Mnoho nastavení lze změnit pouze ve vypnutém stavu, proto vám
+doporučujeme stroj nejprve vypnout.
+
+K nastavením virtálního stroje ('Virtual Machine Preferences') se pak dostanate
+přes hlavní menu (F10) pod položkou 'Virtual Machine'. Máte-li více než
+jeden virtuální stroj, musíte si nejprve vybrat, který z nich chcete nastavovat.
+
+==== Změna výstupní klávesové zkratky ==== vmware-player-escape
+
+Výchozí klávesovou kombinací pro opuštění virtuálního stroje (předání
+vstupu klávesnice, myši a dalších zařízení zpět vašemu původnímu systému)
+je >>Ctrl+Alt<<. To však znamená, že jakékoliv další klávesové kombinace
+obsahující >>Ctrl+Alt<< pak nelze uvnitř virtuálního stroje použít.
+
+Klávesovou kombinaci >>Ctrl+Alt<< můžete změnit na >>Ctrl+Alt+Shift<<
+následujícím způsobem:
+ 1) Zastavte všechny vaše virtuální stroje a uzavřete VMWare Player. To je
+velmi důležité, jinak se vám vaše další změny brzy přepíšou nazpět.
+ 2) Otevřete soubor '.vmware/preferences' ve vašem domovském adresáři.
+ 3) To je textový konfigurační soubor, jedné volbě odpovídá jeden řádek.
+Změňte jej tak, aby obsahoval následující tři volby:
+-----
+pref.hotkey.ctrl = "true"
+pref.hotkey.alt = "true"
+pref.hotkey.shift = "true"
+-----
+
+Pokud ještě žádné takové v souboru 'preferences' nejsou, můžete je jednoduše
+přidat na jeho konec.
+
+Nyní můžete virtuální stroj opět nastartovat.

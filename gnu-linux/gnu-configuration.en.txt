@@ -248,3 +248,50 @@ To define the keyboard shortcut for 'Select paragraph':
  6) Select 'Select paragraph' using Up and Down keys
  7) Press >>TAB<< repeatedly to find the 'Modify' button and press it
  8) Now >>Ctrl+Shift+s<< is defined as a new shortcut, close the dialog with the OK button
+
+=== VMWare Player === vmware-player
+
+==== Player configuration ==== vmware-player-as-such
+
+Configuration for the player as such (not for virtual machines) can be accessed
+via the main menu as 'File->Player preferences'.  Only few options are however
+visible in the configuration dialog.  More options can be changed via the
+'~/.vmware/preferences' configuration file. Of particular interest might be
+changing the escape key combination, as described bellow.
+
+==== Configuration of virtual machine ==== vmware-player-machines
+
+When changing the virtual machine settings (such as amount of disk space, RAM,
+network access etc.), it is important whether the machine is off or whether it
+is already running. Many settings can only be changed only if it is not
+running, so we recommend to power it off first.
+
+Virtual machine settings are then accessible from main menu (F10) under
+top-level item 'Virtual Machine'. If you have more than one virtual machines,
+you must first select the one you want to see.
+
+==== Changing escape key combination ==== vmware-player-escape
+
+The default key combination to escape a virtual machine (handle input from your
+keyboard, mouse and other devices back to your host system) is Ctrl-Alt. This
+means that inside the virtual machine, it is not possible to use keyboard
+combinations that start with Ctrl-Alt.
+
+You can change the escape sequence from Ctrl-Alt to be Ctrl-Alt-Shift
+as follows:
+
+ 1) Stop all your virtual machines and close the VMWare Player program. This is
+ very important, otherwise your settings will be overriten soon.
+ 2) Open the file '.vmware/preferences' in your home folder
+ 3) It is a textual configuration file with one option per line. Adjust
+it so that it contains the following three lines:
+-----
+pref.hotkey.ctrl = "true"
+pref.hotkey.alt = "true"
+pref.hotkey.shift = "true"
+-----
+
+If the 'preferences' file doesn't contain these lines yet, you can just add
+them at the end of the file.
+
+Now you can start your virtual machines again.

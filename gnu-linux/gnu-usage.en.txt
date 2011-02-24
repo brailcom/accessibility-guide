@@ -12,6 +12,7 @@ Each application has a main menu. The main menu usually gives access to most
 functions that can be used in the application, as well as to the application
 settings and help.
 
+
 You can access the menu with >>F10<<, move in the menu with arrow keys and
 select with >>ENTER<<. The left and right keys select among the items in the
 top level menu (such as 'File', 'Edit', 'Tools', 'Help'). Up and Down arrow
@@ -710,6 +711,9 @@ When you launch OpenOffice, it will offer various options what to create, as
 well as the possibility to open a file.  Based on your decision, the
 appropriate application will open.
 
+You can later close the document without closing OpenOffice by accessing
+the 'File->Close' function or by pressing Alt-f c.
+
 === OpenOffice Writer === openoffice-writer
 
 Writer is a word processor that can be used to read or create documents,
@@ -1024,13 +1028,29 @@ To *leave* the virtual machine:
  2. The machine is still running, but your keyboard and mouse input now goes
 to your original operating system.
 
+Because >>Ctrl+Alt<< escapes the machine, it might sometimes be a problem that
+it is not possible to use key combinations containing Ctrl+Alt inside the
+virtual machine itself. If this is your case, we recommend to change the
+escape combination to >>Ctrl+Alt+Shift<<. See
+[gnu-configuration#wmvare-player-scape the Configuration chapter, section VMWare] 
+
 Shortcuts:
 :Ctrl+g: Enter virtual machine
 :Ctrl+Alt: Leave virtual machine
 
 ==== Copy files to and from machine ==== vmware-copy-files
 
+Copying files from and to virtual machine is very easy provided you have VMWare
+Tools installed inside the machine, which is usually offered to you during
+setup of any new virtual machine. Then the clipboard is shared between the
+virtual machine and your host system, so you can just move a file or directory
+into the clipboard (>>Ctrl+c<<) inside the virtual machine, leave the virtual
+machine using >>Ctrl+Alt<< and paste the file into a directory in your home
+system using >>Ctrl+v<<.
 
+Additionally, in [virtual machine preferences gnu-configuration#vmware-player-machine],
+you can setup shared directories between your host system and the system in your
+virtual machine.
 
 == References == references
 

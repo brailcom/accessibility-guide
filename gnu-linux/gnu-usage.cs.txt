@@ -737,6 +737,14 @@ OpenOffice obsahuje různé součásti, které mohou být používány pro různ
 :OpenOffice Calc: Tabulkový procesor (tabulky)
 :OpenOffice Impress: Prezentace (např. pro konference)
 
+Když OpenOffice spustíte, nabídne vám několik možných typů dokumentů,
+které můžete vytvářet, stejně jako možnost otevřít existující soubor.
+Na základě vašeho rozhodnutí pak otevře tomu odpovídající aplikaci.
+
+Jednotlivý dokument můžete později zavřít, aniž byste ukončili celé
+OpenOffice, pomocí položky hlavního menu 'File->Close' nebo stisknutím
+Alt-s z.
+
 === OpenOffice Writer === openoffice-writer
 
 Writer je textový procesor, pomocí kterého je možné číst nebo vytvářet
@@ -1067,13 +1075,29 @@ Abyste *vystoupili* z virtuálního počítače:
  2. Virtuální počítač stále běží, ale vstup z klávesnice a myši nyní jde do
     Vašeho původního operačního systému.
 
+Protože stisk kombinace >>Ctrl+Alt<< způsobí opuštění virtuálního stroje, může
+někdy nastávat problém, pokud potřebujete uvnitř stroje použít klávesové
+zkratky obsahující >>Ctrl+Alt<<. V tom případě doporučujeme změnit klávesouvou
+kombinaci na >>Ctrl+Alt+Shift<<, viz
+[gnu-configuration#wmvare-player-scape kapitola Konfigurace, sekce VMWare].
+
 Klávesové zkratky:
 :Ctrl+g: Vstoupit do virtuálního počítače
 :Ctrl+Alt: Vystoupit z virtuálního počítače
 
 ==== Kopírování souborů z a do virtuálního počítače ==== vmware-copy-files
 
+Kopírování souborů do a z virtuálního počítače je velmi jednoduché, pokud
+máte nainstalované VMWare Tools, které jsou většinou nabízeny během
+instalace jakéhokoliv nového virtuálního stroje. Ty pak zajistí, že
+vaše schránka je sdílena mezi virtuálním počítačem a vašim původním
+systémem. Můžete tedy prostě soubor nebo adresář uvnitř virtuálního
+stroje vložit do schránky (>>Ctrl+c<<), opustit stroj pomocí >>Ctrl+Alt<<
+a vložit pak soubor ze schránky do libovolného adresáře na vašem původním
+systému pomocí >>Ctrl+v<<.
 
+Mimo to je rovněž možné nastavit mezi virtuálním strojem a vaším původním
+systémem sdílené adresáře v [nastavení virtálního stroje gnu-configuration#vmware-player-machine].
 
 == Odkazy == references
 
