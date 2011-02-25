@@ -21,8 +21,8 @@ buňce.
 == Braillský řádek == braille-display
 
 Braillský řádek (též braillský zobrazovač, braillský displej) je vnější
-počítačové zařízení, které zobrazuje informace pomocí [#braille-alphabet]
-braillské abecedy. Zobrazení se děje pomocí bodů na braillském řádku. Uživatel
+počítačové zařízení, které zobrazuje informace pomocí [#braille-alphabet
+braillské abecedy]. Zobrazení se děje pomocí bodů na braillském řádku. Uživatel
 pak používá své prsty, aby hmatem na řádku rozeznal zdvižené body, a tím i
 zobrazená písmena.
 
