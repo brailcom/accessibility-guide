@@ -12,7 +12,7 @@ příslušného umístění (např. \/usr/local/bin), pomocí
 následujících příkazů:
 
 -----
-wget http://live.freebsoft.org/troubleshooting/attachments/a11y-restart -O /tmp/a11y-restart
+wget http://live.freebsoft.org/gnu-troubleshooting/attachments/a11y-restart -O /tmp/a11y-restart
 sudo cp /tmp/a11y-restart /usr/local/bin/a11y-restart
 sudo chmod +x /usr/local/bin/a11y-restart
 -----

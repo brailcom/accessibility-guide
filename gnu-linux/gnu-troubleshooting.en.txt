@@ -11,7 +11,7 @@ a11y-restart] and place it as an executable into an appropriate location
 (e.g. \/usr/local/bin), using the following commands:
 
 -----
-wget http://live.freebsoft.org/troubleshooting/attachments/a11y-restart -O /tmp/a11y-restart
+wget http://live.freebsoft.org/gnu-troubleshooting/attachments/a11y-restart -O /tmp/a11y-restart
 sudo cp /tmp/a11y-restart /usr/local/bin/a11y-restart
 sudo chmod +x /usr/local/bin/a11y-restart
 -----
