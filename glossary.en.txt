@@ -34,6 +34,11 @@ dots on the braille display. The users then use their fingers to touch the
 display and recognize the dots raised, and thus recognize the letters
 displayed.
 
+== Browser == browser
+
+Program that displays a specific type of content. Most common type of browser
+is [#internet-browser Internet browser].
+
 == chmod == chmod
 
 /chmod/ is a [#unix Unix] command used to change settings of file
@@ -58,12 +63,20 @@ phones.
 
 GNOME is a graphical environment used on [#gnu-linux GNU/Linux] and most other
 [#unix Unixes]. Inside GNOME run many important programs like the Firefox
-internet browser, Thunderbird email client, OpenOffice.org office suite etc.
+[#internet-browser internet browser], Thunderbird email client, OpenOffice.org
+office suite etc.
 
 == GNU/Linux == gnu-linux
 
 GNU/Linux is a freely available [#unix Unix] [#os operating system]. For more
 information on GNU/Linux, see [overview#gnu-linux its section in Overview].
+
+== Internet browser == internet-browser
+
+Program that displays web pages from the Internet. You first type the address
+of the webpage (e.g. www.google.com) and the browser then displays the web page
+at that address. Examples of internet browsers are Internet Explorer, Firefox,
+Google Chrome, Safari, Opera.
 
 == iOS == ios
 
@@ -95,6 +108,10 @@ operating system are [#windows], [#gnu-linux], [#macosx], [#android] or [#ios].
 
 Orca is a [#screen-reader screen reader] used in the [#gnome GNOME] desktop
 environment.
+
+== Platform == platform
+
+Often synonymously with [#os operating system].
 
 == Screen reader == screen-reader
 

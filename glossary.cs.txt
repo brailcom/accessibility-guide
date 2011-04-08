@@ -45,13 +45,20 @@ tablety] nebo mobilní telefony.
 
 GNOME je grafické prostředí používané na [#gnu-linux GNU/Linuxu] a většině
 dalších [#unix Unixů]. V rámci GNOME běží mnoho důležitých programů jak
-intenetový prohlížeč Firefox, emailový klient Thunderbird, kancelářský balík
-OpenOffice.org atd.
+[#internet-browser intenetový prohlížeč] Firefox, emailový klient Thunderbird,
+kancelářský balík OpenOffice.org atd.
 
 == GNU/Linux == gnu-linux
 
 GNU/Linux je volně dostupný [#unix Unixový] [#os operační systém]. Pro více
 informací o GNU/Linuxu viz [overview#gnu-linux příslušnou sekci Přehledu].
+
+== Internetový prohlížeč == internet-browser
+
+Program, který zobrazuje webové stránky z Internetu. Nejprve do něj napíšete
+adresu webové stránky (např. www.seznam.cz), a internetový prohlížeč pak tuto
+stránku zobrazí. Příklady internetových prohlížečů jsou Internet Explorer,
+Firefox, Google Chrome, Opera, Safari.
 
 == iOS == ios
 
@@ -86,6 +93,15 @@ např. [#windows], [#gnu-linux], [#macosx], [#android] nebo [#ios].
 
 Orca je [#screen-reader odečítač obrazovky] používaný v prostředí [#gnome
 GNOME].
+
+== Platforma == platform
+
+Často používáno jako synonymum pro [#os].
+
+== Prohlížeč == browser
+
+Program, který zobrazuje určitý druh obsahu. Nejčastějším druhem prohlížeče je
+[#internet-browser Internetový prohlížeč].
 
 == Příkazová řádka ==
 
