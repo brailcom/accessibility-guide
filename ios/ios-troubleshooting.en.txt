@@ -1,0 +1,13 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Troubleshooting =
+
+Table of Contents: @TOC@
+
+== Device suddenly appears turned off and cannot be turned on == dead
+
+This rarely happens from time to time. It was experienced both on a 4th
+generation iPod Touch and on iPhone 4. The solution is to hold the home button
+and the lock button simultaneously for approximately 10 seconds. The device
+will then start booting and after a few seconds, it will work. If it does not,
+then the cause of the problem is probably more severe and you should contact
+authorized service.

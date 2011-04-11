@@ -1,0 +1,12 @@
+# -*- coding: utf-8; mode: structured-text -*-
+= Řešení problémů =
+
+Obsah: @TOC@
+
+== Zařízení najednou vypadá jako vypnuté a nejde zapnout == done
+
+Toto se zřídka stane. Tento problém byl pozorován na iPodu Touch 4. generace i
+na iPhone 4. Řešení je podržet současně domácí tlačítko a zamykací tlačítko po
+dobu asi 10 sekund. Zařízení pak začne startovat a během pár sekund začne
+pracovat. Pokud ne, problém je pravděpodobně vážnější a měli byste kontaktovat
+servis.
