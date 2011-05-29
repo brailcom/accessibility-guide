@@ -87,10 +87,15 @@ Try it:
 :in Orca: Select Settings, select Festival as a speech module, select your preferred voice
 :in speechd-el: ALT-x speechd-set-output-module ENTER festival ENTER
 
-==== Czech Voice ==== czech-voice
+==== Czech Voices ==== czech-voice
 
-:Ubuntu UI: In [#synaptic Synaptic package manager], install festival-czech *and* festival-czech-ph
-:Debian/Ubuntu Command: sudo apt-get install festival-czech festvox-czech-ph
+===== In Ubuntu Oneiric (11.10) and later: =====
+:Ubuntu UI: In [#synaptic Synaptic package manager], install festival-czech-ph, festvox-czech-krb, festvox-czech-dita and festvox-czech-machac
+:Debian/Ubuntu Command: sudo apt-get install festvox-czech-{ph,krb,dita,machac}
+
+===== In Ubuntu Natty (11.04) and before: =====
+:Ubuntu UI: In System > Administration > Software Sources > Other Software, click "Add" and type in ppa:dusek/voice-czech and confirm. Then in [#synaptic Synaptic package manager] festival-czech-ph, festvox-czech-krb, festvox-czech-dita and festvox-czech-machac
+:Debian/Ubuntu Command: sudo add-apt-repository ppa:dusek/voice-czech, then sudo apt-get install festvox-czech-{ph,krb,dita,machac}
 
 ==== Other Voices ==== voices
 

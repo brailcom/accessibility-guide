@@ -87,10 +87,16 @@ Vyzkoušejte to:
   preferovaný hlas
 :ve speechd-el: ALT-x speechd-set-output-module ENTER festival ENTER
 
-==== Český hlas ==== czech-voice
+==== České hlasy ==== czech-voice
 
-:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic], nainstalujte festival-czech *a* festival-czech-ph
-:Debian/Ubuntu příkaz: sudo apt-get install festival-czech festvox-czech-ph
+===== pro Ubuntu Oneiric (11.10) a pozdější =====
+:Uživatelské rozhraní Ubuntu: Ve [#synaptic Správci balíků Synaptic], nainstalujte festival-czech-ph, festvox-czech-krb, festvox-czech-dita a festvox-czech-machac
+:Debian/Ubuntu příkaz: sudo apt-get install festvox-czech-{ph,krb,dita,machac}
+
+===== pro Ubuntu Natty (11.04) a dřívější =====
+:Uživatelské rozhraní Ubuntu: V Systém > Administrace > Zdroje softwaru > Jiný software stiskněte přidat a zadejte ppa:dusek/voice-czech a potvrďte. Pak v [#synaptic Správci balíků Synaptic], nainstalujte festival-czech-ph, festvox-czech-krb, festvox-czech-dita a festvox-czech-machac
+:Debian/Ubuntu příkaz: sudo apt-get install festvox-czech-{ph,krb,dita,machac}
+
 
 ==== Jiné hlasy ==== voices
 
