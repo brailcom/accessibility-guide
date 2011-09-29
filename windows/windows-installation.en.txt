@@ -6,23 +6,29 @@ Table of Contents: @TOC@
 
 == JAWS == jaws
 
-JAWS is a proprietary software, you must first buy a license.  You can then
-install JAWS from CD or download online. To find more information, please visit the
-vendor's website [http://www.freedomscientific.com/] .
+A demoversion of JAWS can be downloaded from http://www.freedomscientific.com/
+.  The demoversion is fully functional in the first 40 minutes after you start
+it, then it deactivates itself and will work again only after you restart your
+computer. JAWS is a proprietary software and if you would like to use it for
+your daily work, you have to buy a license.
+
+For more information visit the manufacturers website
+http://www.freedomscientific.com/ .
 
 === Voices === jaws-voices
 
 The online installation of JAWS comes with the default English 'Eloquent'
-voice. To install other voices and voices for other languages, JAWS recommends
-to use the RealSpeak voices:
+voice. To install other voices and voices for other languages, we recommend
+to use JAWS with RealSpeak voices:
 
  * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/RealSpeak-Solo-Direct-Downloads.asp RealSpeak Solo Direct Voices]
 
-You will then have to set voice output to RealSpeak in JAWS settings.
+After you download your voices, you will set voice output to RealSpeak in JAWS
+settings.
 
 == NVDA == nvda
 
-NVDA can be downloaded and used free of charge.
+NVDA is open software and additionally, you can use it free of charge.
 
  1. Visit [http://www.nvda-project.org/wiki/Download]
  2. If you intend to use it for your own computer, we recommend to download the
@@ -31,6 +37,23 @@ NVDA can be downloaded and used free of charge.
 After download, allow your system to execute the install file and follow the
 installation process.
 
-=== Voices ===
+=== Voices === nvda-voices
 
-TODO:
+NVDA is by default installed with the eSpeak synthesizer and with support for
+synthesizers supporting the Sapi 4 and 5 interfaces. The advantage of eSpeak is
+its support for a wide variety of languages, the disadvantage is a low quality
+of the voices.
+
+NVDA can also be used with the Festival free speech synthesizer. Festival
+offers high quality voices for some languages. A description of how to install
+Festival with high quality Czech voices can be found in the Czech version of
+this handbook.
+
+== COBRA == cobra
+
+A demo version of the COBRA screen reader, fully functional for a one
+month period, can be downloaded from the internet. If you would like to
+work with it after this period expires, you need to buy a license.
+
+The demo version is available from the Website of the BAUM company:
+http://www.baum.de/cms/en/cobra/

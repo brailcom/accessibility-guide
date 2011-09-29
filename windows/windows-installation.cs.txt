@@ -6,23 +6,28 @@ Obsah: @TOC@
 
 == JAWS == jaws
 
-JAWS je proprietární software, musíte si k němu nejdřív koupit
-licenci. Potom JAWS můžete nainstalovat z CD, nebo si ho stáhnout. Pro
-více informací navštivte stránku výrobce [http://www.freedomscientific.com/].
+JAWS si můžete stáhnout v demoverzi ze stránek
+http://www.freedomscientific.com/.  Ta běžně funguje jen prvních 40 minut po
+spuštění, pak přestane, a znovu funguje až po restartu počítače. JAWS je
+proprietární software a pokud byste jej chtěli používat pro běžnou práci,
+musíte si k tomu zakoupit licenci.
+
+Pro více informací navštivte stránku výrobce [http://www.freedomscientific.com/]
 
 === Hlasy === jaws-voices
 
 Online instalace JAWSu v sobě zahrnuje výchozí anglický hlas
 'Eloquent'. Pro instalaci jiných hlasů a hlasů pro jiné jazyky
-doporučuje JAWS používat hlasy RealSpeak.
+doporučujeme s JAWS používat hlasy RealSpeak.
 
  * [http://www.freedomscientific.com/downloads/RealSpeak-Solo-Direct-Voices/RealSpeak-Solo-Direct-Downloads.asp RealSpeak Solo Direct Voices]
 
-Potom budete muset nastavit hlasový výstup v JAWSu na RealSpeak.
+Poté, co si hlasy stáhnete, nastavíte hlasový výstup v JAWSu na RealSpeak.
 
 == NVDA == nvda
 
-NVDA můžete stáhnout a používat bez poplatku.
+NVDA je otevřeným software a navíc jej můžete stáhnout a používat
+bez poplatku.
 
  1. Navštivte [http://www.nvda-project.org/wiki/Download]
  2. Pokud jej chcete používat pro vlastní počítač, doporučujeme
@@ -31,6 +36,49 @@ NVDA můžete stáhnout a používat bez poplatku.
 Po stažení povolte svému systému instalovat soubor a projděte
 instalačním procesem.
 
-=== Hlasy ===
+=== Hlasy === nvda-voices
 
-TODO:
+NVDA je ve výchozím stavu nainstalováno s hlasovým syntetizérem eSpeak a
+podporou pro syntetizéry poskytující rozhraní Sapi 4 a 5.  Výhodou eSpeaku je
+široká škála dostupných jazyků, nevýhodou nízká kvalita hlasu.
+
+4 velmi kvalitní české hlasy (a 2 anglické) jsou dostupné
+pomocí řečové syntézy Festival, kterou doporučujeme doinstalovat.
+
+Na stránce [http://nvda.venik.org/2011/06/festivalsynth-driver-2011-nove-ceske-hlasy-i-pro-screen-reader-nvda/]
+zvolte Stáhnout festival synth driver. Soubory je podle instrukcí uvedených
+na stránkách nutno umístit do 'c:/users/uzivatel/AppData/nvda/synthDrivers/'
+nebo do 'c:/users/uzivatel/AppData/Roaming/nvda/synthDrivers/' podle toho,
+které na vašem počítači existuje. Řetězec 'uzivatel' je nutno nahradit
+za skutečné jméno vašeho uživatelského účtu.
+
+Adresář 'c:/users/uzivatel/AppData' však není v základní konfiguraci
+Windows 7 v průzkumníku snadné nalézt, neboť je systémový a skrytý.
+Proto doporučujeme spustit příkazovou řádku a napsat
+-----
+      cd /users
+      dir
+-----
+
+Na základě výpisu 'dir' zvolit správný uživatelský adresár:
+-----
+      cd uzivatel
+      cd AppData
+      explorer .
+-----
+Poslední příkaz otevře v daném místě nové okno průzkumníka,
+kde již můžete správný adresář pohodlně dohledat a soubory
+Festivalu do něj umístit.
+
+Nové hlasy by měly být v NVDA viditelné okamžitě, není potřeba nic
+restartovat. V nabídce Hlasové výstupy zvolte 'Festival' a v nabídce Nastavení
+hlasu si následně zvolte vhodný hlas, požadovanou rychlost (tempo) a tak dále.
+
+== COBRA == cobra
+
+Zkušební verzi odečítače COBRA můžete stáhnout z internetu na jeden
+měsíc. Pokud byste s ní chtěli pracovat i po uplynutí této doby, je
+nutné zakoupit si licenci.
+
+Zkušební verzi naleznete na stránkách společnosti BAUM:
+http://www.baum.de/cms/en/cobra/
