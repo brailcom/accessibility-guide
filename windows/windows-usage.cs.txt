@@ -20,6 +20,33 @@ knihy ve formátu DAISY.
     Uživatelský manuál NVDA]
  * [http://www.nvda-project.org/wiki/ApplicationSupport NVDA a aplikace]
 
+=== Zvětšovač obrazovky ZoomText === zoomtext
+
+==== Zvětšení ====
+
+:>>Alt+Insert/Delete<<: Zapnout nebo vypnout zvětšení
+:>>Ctrl<< + kolečko myši: Přiblížit nebo oddálit
+:>>Ctrl+Shift+V<<: Režim náhledu
+
+==== Čtení ====
+
+:>>Alt+Shif+S<<: Zapnout/vypnout řeč
+:>>Alt+Shift+M<<: Zapnout/vypnout odezvu myši
+:>>Ctrl+Alt+S<<: Přečíst vybraný text
+:>>Ctrl+Num5<<: Přečíst aktuální řádku
+:>>Ctrl+Shift+Num5<<: Přečíst aktuální odstavec
+:>>Ctrl+Alt+k/r<<: Oznámit nadpis sloupce/řádku tabulky
+
+==== Přesuny ====
+
+:>>Alt+Home/End/PgUp/PgDown<<: Přesunout se na obrazovce zcela vlevo, vpravo, nahoru, dolů
+
+==== Ostatní ====
+
+:>>Alt+Pause<<: Propouštěcí klávesa (následující zkratka bude předána přímo aplikaci)
+:>>Ctrl+Alt+Shift+U<<: Aktualizovat obrazovku
+:>>Ctrl+Alt+Shift+T<<: Zapnout sledování obrazovky
+
 == Aplikace == applications
 
 Tento průvodce nepopisuje, jak používat různé nativní MS Windows

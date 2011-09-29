@@ -18,6 +18,33 @@ training materials, which are available as audio-books in the DAISY format.
  * [http://www.nvda-project.org/documentation/nvda_2010.1_userGuide.html NVDA user guide]
  * [http://www.nvda-project.org/wiki/ApplicationSupport NVDA and various applications]
 
+=== ZoomText Screen Magnifier === zoomtext
+
+==== Magnification ====
+
+:>>Alt+Insert/Delete<<: Toogle magnification on/off
+:>>Ctrl<< + kolečko myši: Increase/decrease magnification
+:>>Ctrl+Shift+V<<: Quick overview of the screen
+
+==== Reading ====
+
+:>>Alt+Shif+S<<: Toogle speech on/off
+:>>Alt+Shift+M<<: Toogle mouse echo on/off
+:>>Ctrl+Alt+S<<: Read selected text
+:>>Ctrl+Num5<<: Read current line
+:>>Ctrl+Shift+Num5<<: Read current paragraph
+:>>Ctrl+Alt+k/r<<: Announce the heading for column/row of table
+
+==== Movements ====
+
+:>>Alt+Home/End/PgUp/PgDown<<: Move to the left, right, up and down
+
+==== Others ====
+
+:>>Alt+Pause<<: Pass through key (the next key will be passed directly to application)
+:>>Ctrl+Alt+Shift+U<<: Update screen
+:>>Ctrl+Alt+Shift+T<<: Toogle cursor tracking on/off
+
 == Applications == applications
 
 This guide does not describe how to use the various native MS Windows
