@@ -13,6 +13,27 @@ application. So to change settings, start Orca or switch to its window and find
 the "Settings" button. Here you can find settings for keyboard layout, speech,
 braille magnification etc. Some key settings might require a restart of Orca.
 
+=== Enhanced Zoom Desktop === enhanced-zoom-desktop
+
+Enhanced Zoom Desktop settings can be accessed via the Compiz Configuration
+Settings Manager. You can launch it by its command name 'ccsm' via Alt+F2 or
+from the System Settings menu. On some systems, ccsm is not installed by
+default, so you might need to install the 'ccsm' package first.
+
+From the settings manager, choose Enhanced Zoom Desktop and activate it. Inside
+its settings, it is most important to assign control combinations for the Zoom
+In and Zoom Out actions. We recommend to use the mouse-controlled Zoom In /
+Zoom Out actions and set them to Super+Button4 and Super+Button5 respectively.
+Super is the key commonly found between left-side Ctrl and Alt keys, also known
+as the Windows key. Button4 and Button5 stand for scroll wheel up and down
+respectively.
+
+On the other cards of the configuration dialog, we recommend to set Scale mouse
+pointer on, Dynamic pointer scale off and to choose a suitable value for the
+size of the mouse pointer. Set Hide original mouse pointer On. Choose either
+Sync Mouse or Mouse Panning for one of the two possible mouse cursor tracking
+modes, their meaning is described in [gnu-usage#enhanced-zoom-desktop].
+
 === Emacs + speechd-el === emacs
 
 ==== Configuration methods ==== emacs-conf-methods

@@ -14,6 +14,28 @@ jejího okna a najděte tlačítko "Nastavení". Zde můžete najít nastavení 
 rozložení klávesnice, nastavení řeči, braillského výstupu, lupy atd. Změna
 některých klíčových nastavení vyžaduje restart Orcy.
 
+=== Enhanced Zoom Desktop === enhanced-zoom-desktop
+
+Nastavení pro Enhanced Zoom Desktop naleznete v Konfiguračním manažeru
+nastavení Compizu. Můžete jej spustit napsáním příkazu ccsm přes Alt+F2
+nebo z menu Nasavení systému. Na některých systémech není manažer
+ve výchozím stavu nainstalován, proto budete muset možná nejprve balíček
+'ccsm' doinstalovat.
+
+Z manažeru nastavení vyberte položku Enhanced Zoom Desktop a aktivujte ji.
+Poté je nejdůležitější nastavit ovládací klávesové kombinace pro zvětšení
+a zmenšení zvětšení. Doporučujeme zvolit pro akce Zoom In / Zoom Out
+ovládání myší a nastavit jim kombinace Super+Button4 a Super+Button5.
+Super je klávesa nalézající se mezi levými klávesami Ctrl a Alt, často
+též nazývaná klávesa windows. Button4 a Button5 znamenají akci scrollování
+kolečka myši nahoru a dolů.
+
+Na ostatních kartách konfiguračního dialogu doporučujeme nastavit Scale mouse
+pointer na ano, Dynamic pointer scale na ne a následně vybrat vhodnou velikost
+zvětšení kurzoru myši. Nastavte Hide original mouse pointer na ano. Vyberte
+si mód sledování kurzoru myši Sync Mouse nebo Mouse Panning, jejich chování
+je popsáno v části [gnu-usage#enhanced-zoom-desktop].
+
 === Emacs + speechd-el === emacs
 
 ==== Metody konfigurace ==== emacs-conf-methods

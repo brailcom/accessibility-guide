@@ -162,6 +162,43 @@ Shortcuts:
 
 :>>Orca+F<<: Speak font and attribute information for the current character.
 
+=== Enhanced Zoom Desktop Magnifier === enhanced-zoom-desktop
+
+Enhanced Zoom Desktop is a magnifier embedded directly into the Compiz window
+manager, and thus part of every standard Ubuntu Natty installation. It also
+includes focus tracking and mouse cursor enhancements.
+
+For instructions on how to set it up, please see
+[gnu-configuration#enhanced-zoom-dekstop] .
+
+==== Zooming ====
+
+The most convenient way to zoom in and out is using the Super (also Windows)
+button and the mouse scroll wheel. This makes it easy to adjust the zoom level
+quickly to every situation, so that the user can have both a good overview of
+the screen and the necessary detail.
+
+It is also possible to define three specific fixed zoom levels and assign
+shortcuts to them so that when pressed, these shortcuts bring the exact
+predefined value of zoom.
+
+==== Mouse tracking  ====
+
+There are two modes for mouse tracking: Sync Mouse and Pan Area. The Sync Mouse
+method tries to always keep the mouse pointer in the middle of the screen, thus
+each movement of the mouse also moves the screen picture.  In the Pan Area
+mode, the screen picture is moved only when the mouse cursor reaches the edge
+of the display.
+
+=== Orca Magnifier === orca-magnifier
+
+The authors of this handbook were not able to get Orca Magnifier to work
+properly on Ubuntu Natty, perhaps due to our hardware, drivers, or other
+circumstances. We definitely encourage you to try it, but if the magnified
+image gets distorted soon, this is a similar behavior as on our computers, and
+we are not aware of any easy fix. In such case, plase see
+[enhanced-zoom-desktop].
+
 === Applications === applications
 
 Below you can find a list of common keyboard shortcuts that can be found

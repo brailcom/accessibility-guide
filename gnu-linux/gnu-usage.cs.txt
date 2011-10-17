@@ -168,6 +168,44 @@ Klávesové zkratky:
 
 :>>Orca+F<<: Oznámit font a atributy aktuálního znaku
 
+=== Lupa Enhanced Zoom Desktop === enhanced-zoom-desktop
+
+Enhanced Zoom Desktop je zvětšovač obrazovky přímo vestavěný
+v manažeru oken Compiz, a tudíž je součástí každé standardní
+instalace Ubuntu. Obsahuje i sledování zaměření a zvýraznění
+kurzoru myši.
+
+Instrukce, jak jej pro ten účel nastavit, naleznete zde:
+[gnu-configuration#enhanced-zoom-dekstop] .
+
+==== Zvětšování ====
+
+Nejsnadnější cesta, jak zvětšovat a zmenšovat přiblížení je pomocí klávesy
+Super (také nazývaná Windows) a scrollovacího kolečka myši.  Tímto způsobem lze
+úroveň zvětšení snadno tak, aby mohl mít uživatel v každé situaci jak rychlý
+přehled o situaci, tak přístup k potřebným detailům.
+
+Je také možné definovat si tři specifické dané úrovně zvětšení a navázat je na
+určité klávesové zkratky. Stisk těchto zkratek vždy nastaví přesnou
+předdefinovanou úroveň zvětšení.
+
+==== Sledování myši  ====
+
+Pro sledování ukazatele myši jsou dostupné dva módy: Sync Mouse a Pan Area.
+SyncMouse se snaží vždy držet ukazatel myši uprostřed obrazovky tím,
+že jakýkoliv pohyb myši zároveň způsobí pohyb obrazu. V módu Pan Area
+se obraz pohne pouze tehdy, když ukazatel myši narazí na okraj zvětšené
+plochy.
+
+=== Lupa Orca === orca-magnifier
+
+Autorům této příručky se nepodařilo zvětšovač obrazovky Orca na Ubuntu Natty
+zprovoznit. To může být dáno i hardwarem, ovladači a dalšími okolnostmi.
+Doporučujeme vyzkoušet jej, ale pokud se stane, že se zvětšený obraz velmi
+rychle začíná kazit, je to podobné chování, jaké jsme pozorovali na našich
+počítačích, a neznáme pro něj žádné snadné řešení. V tom případě se prosím
+podívejte na [enhanced-zoom-desktop].
+
 === Applications === applications
 
 Níže uvádíme přehled běžně používaných klávesových zkratek, které
