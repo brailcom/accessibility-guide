@@ -1,0 +1,28 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+== Brailchem ==
+
+Obsah: @TOC@
+
+=== Instalace ===
+
+1) Brailchem se instaluje do internetového prohlížeče Firefox a tak je pro instalaci Brailchemu nutné mít tuto stránku otevřenu v prohlížeči Firefox. Firefox je volně dostupný na internetu, a tak pokud jej ještě na svém počítači nemáte, můžete si jej stáhnout z internetové adresy http://www.mozilla.com .
+
+2) Brailchem pak snadno nainstalujete kliknutím na následující odkaz:\\ [http://www.freebsoft.org/pub/projects/brailchem/brailchem.xpi]
+
+3) Instalační proces si vyžádá potvrzení, zda povolujete, aby se program nainstaloval na váš počítač.
+
+4) Po skončení instalace musíte internetový prohlížeč Firefox restartovat. Tato možnost vám bude nabídnuta.
+
+5) Brailchem spustíte z hlavní nabídky Firefox jako Nástroje->Brailchem. Novější verze Firefox mají ale hlavní nabídku skrytou, takže v ní položku Nástroje ze začátku vůbec neuvidíte. Místo toho se zobrazuje pouze minimalistická nabídka obsahující jen nejčastěji používané akce. V takovém případě je ještě nejprve potřeba zvolit Možnosti->Zobrazení->Hlavní menu.  Tím se zobrazí celé hlavní menu a Brailchem tedy naleznete pod jeho hlavní položkou Nástroje.
+
+=== Nastavení ===
+
+Veškeré nastavení Brailchemu je k dispozici z jeho hlavního menu jako Soubor->Nastavení.
+
+V nastavení je důležité zvolit si správný jazyk, který pak neurčuje jen jazyk chemického názvosloví, ale jazyk celé aplikace.
+
+=== Použití ===
+
+Brailchem obsahuje kvalitní návod v češtině pro obě své součásti -- periodickou tabulku i prohlížeč molekul. Naleznete jej v jeho hlavním menu pod položkou Nápověda.
+

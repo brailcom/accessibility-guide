@@ -3,4 +3,5 @@ gnu-linux
 windows
 macosx
 ios
+edu
 glossary
