@@ -4,15 +4,206 @@
 
 Obsah: @TOC@
 
+== Navigace == navigation-basics
+
+=== Spouštění aplikací ===
+
+Abyste mohli na počítači dělat nějakou konkrétní činnost, například napsat
+dokument, přečíst poštu nebo prohlížet internet, musíte si nejprve spustit k
+tomu určenou aplikaci.
+
+Ke spouštění aplikací slouží hlavní nabídka systému, na Windows je známá také
+jako nabídka Start. Tuto nabídku nejsnadněji vyvoláte stiskem klávesy Windows
+(často leží mezi levým Ctrl a Alt) nebo kombinací Alt+F1. Nabídka zobrazuje
+několik nejpoužívanějších aplikací přímo a dále všechny další aplikace seřazené
+do složek podle toho, k čemu se vztahují.
+
+Znáte-li však jméno aplikace, je nejrychlejší cestou k jejímu spouštění použití
+vyhledávacího políčka, které bývá součástí této nabídky. Stačí napsat několik
+prvních písmen názvu programu a v nabídce se objeví právě ty položky, které
+odpovídají vámi zadanému výrazu.
+
+Příklad: Chcete-li spustit aplikaci Firefox pro prohlížení internetu, stiskněte
+klávesu Windows pro přechod do hlavního menu systému a napište písmena
+'fire'. Na vrcholu nabídky se zobrazí položka Firefox a stiskem klávesy Enter
+ji můžete okamžitě aktivovat.
+
+=== Nabídky v aplikacích === menus
+
+K tomu, abyste se v aplikacích dobře vyznali a ovládli všechny jejich funkce,
+není třeba učit se mnoho postupů a klávesových zkratek, ale spíš je užitečné
+naučit se zorientovat v jejich základních nabídkách, protože z nich se dá
+dosáhnout téměř všeho. Klávesové zkratky vám pak mohou pomoci dělat některé
+věci rychleji, ale můžete se je učit postupně.
+
+Ať již chcete udělat cokoliv, máte většinou v aplikaci k dispozici 2 nabídky:
+
+ :Hlavní nabídka: Každá aplikace, kterou spustíte, jako například textový
+ editor nebo internetový prohlížeč, nabízí vlastní nabídku všech funkcí, které
+ poskytuje. Pokud jste například v aplikaci textový editor, bude nabídka
+ aplikace obsahovat především funkce pro práci s textem, pokud jste v
+ prohlížeči obrázků, bude obsahovat možnosti práce s obrázky, a tak
+ dále. Nabídka se většinou nachází v horní části okna aplikace a snadno do ní
+ lze přejít stiskem klávesy F10.
+
+ :Kontextová nabídka: Kontextová nabídka k jakémukoliv právě vybranému objektu
+ na obrazovce. Takovým objektem může být třeba ikona na ploše nebo kus
+ označeného textu. Kontextová nabídka vám pak v každé situaci nabídne přesně ty
+ akce, které s daným objektem lze provádět. Vyvolat jej můžete tak, že si
+ vyberete objekt, se kterým chcete něco provést, například ikonu na ploše, a
+ klepnete na něj pravým tlačítkem myši nebo stisknete klávesu kontextového menu
+ (obyčejně umístěnou vlevo od pravého CTRL) nebo klávesovou kombinaci
+ Shift-F10. Na daném místě se rozvine nabídka. Pokud jste ji vyvolali na ikoně
+ na ploše, bude obsahovat takové akce jako je ,,smazat'', ,,přejmenovat'' nebo
+ ,,změnit ikonu'. Pokud jste ji vyvolali nad kusem označeného textu v textovém
+ procesoru, bude zase obsahovat možnost změnit danému textu písmo, styl,
+ zarovnání nebo jej z textu vyjmout. Takové akce jsou často dostupné i jiným,
+ komplikovanějším způsobem, ale naučíte-li se často používat kontextové menu,
+ ušetří vám to spoustu práce.
+
+:F10: Hlavní nabídka aplikace
+:Klávesa Kontextové menu nebo Shift-F10: Kontextová nabídka
+
+=== Klávesové zkratky aplikací === keyboard-shortcuts
+
+Při procházení hlavní nabídkou aplikace si můžete u mnoha položek všimnout, že
+je u jejich jména zároveň uvedena klávesová zkratka. Stisknete-li tuto
+klávesovou kombinaci kdekoliv v aplikaci, je to stejné jako kdybyste vyvolali
+příslušnou položku z menu.
+
+Projdete-li si například nabídku aplikace Firefox, zjistíte, že pro přechod na
+novou stránku můžete použít klávesovou zkratku Ctrl+L, pro přechod na
+předcházející internetovou stránku Alt a šipku vlevo a na následující Alt+Šipku
+vpravo. Uložení stránky je Ctrl+S a tisk Ctrl+P. Nemusíte se tedy tyto zkratky
+učit nazpaměť, protože si je kdykoliv snadno osvěžíte v hlavní nabídce.
+
+Kromě zkratek uvedených v hlavní nabídce poskytuje aplikace občas i další
+užitečné zkratky. Jejich seznam většinou naleznete v její nápovědě. Některé
+vybrané jsou uvedeny i v této příručce.
+
+=== Navigace v textu === navigation-in-text
+
+K navigaci v textu vám v zásadě postačí pohyb pomocí obyčejných klávesových
+šipek. Protože je to ale jedna z nejčastějších činností, použití následujících
+kláves vám pohyb velmi usnadní.
+
+:Šipka doprava / doleva: Další / předchozí znak
+:Ctrl+šipka doprava / doleva: Dalšího / předchozího slovo
+:Home / End: Začátek / konec řádky
+
+:Šipka nahoru / dolů: Další / předchozí řádek
+:PgUp / PgDown: Další / předchozí strana
+:Ctrl+Home / Ctrl+End: Začátek / konec dokumentu
+
+=== Přepínání a zavírání oken === changing-windows
+
+Máte-li spuštěnu více než jednu aplikaci lze se mezi nimi snadno přepínat
+pomocí kláves Alt+Tab. Stisknete-li nejprve klávesu levý Alt a držíte ji,
+můžete se klávesami Tab a Shift+Tab pohybovat v seznamu dopředu a dozadu v
+seznamu aktuálně otevřených oken podle jejich titulku a náhledu. Jakmile
+klávesu Alt pustíte, jste přepnuti do vybraného okna.
+
+:Alt+Tab: Přepnout na následující spuštěnou aplikaci (Shift+Alt+Tab na předchozí)
+:Alt+F4: Zavřít aplikaci nebo okno
+
 == Zpřístupňující nástroje == accessibility-tools
+
+=== Navigace s odečítači === screen-readers-navigation
+
+==== Základní navigace ==== screen-readers-navigation-basic
+
+V aplikaci se dá obyčejně pohybovat po jednotlivých položkách, prvcích, nebo po
+větších skupinách prvků, jakými jsou panely či karty. Při prvním otevření
+neznámé aplikace nelze žel nijak přesně říci, jak v ní bude navigace pomocí
+odečítače obrazovky fungovat, proto i následující popis je nepřesný a je třeba
+se nebát v aplikaci vše prozkoumat a prakticky vyzkoušet.
+
+Nejjemnější je pohyb klávesovými šipkami, obyčejně po znacích, po řádcích, po
+jednotlivých položkách formulářového prvku, ale v jiných situacích i po
+položkách menu nebo dokonce i po tlačítkách a celých kusech textu.
+
+O něco hrubší je pohyb pomocí klávesy tabulátor (Tab). Její pomocí se lze
+pohybovat po jednotlivých ovládacích prvcích, tedy například tlačítkách v
+aplikaci, vstupních polích ve formuláři a podobně. Klávesa Tab slouží k pohybu
+vpřed. Chceme-li se pohybovat vzad, stiskneme klávesu Tab ještě společně s
+klávesou Shift.
+
+Ovládací prvky na aktuální obrazovce se v aplikacích často člení do
+panelů. Panely označují významné části aplikace. Například v aplikaci pro čtení
+pošty najdeme panel složek, panel zpráv a panel obsahu aktuální zprávy. Klávesa
+F6 (a v opačném směru Shift-F6) umožní snadno se mezi nimi přepínat.
+
+Pokud je v aplikacích více obsahu nebo prvků než kolik se vejde na aktuální
+obrazovku, člení se obyčejně ještě do tzv. karet. Karty se používají například
+v internetovém prohlížeči pro zobrazení několika stránek zároveň, v dialogových
+oknech s mnoha možnostmi (např. nastavení vlastností písma) nebo např. pro
+zobrazení různých listů v tabulkovém dokumentu.
+
+:>>Klávesové šipky<<: Navigace po položkách
+:>>Tab<<: Další prvek (>>Shift+Tab<< na předchozí prvek)
+:>>F6<<: Další panel -- obyčejně přesouvá mezi důležitými částmi aktuálního okna (>>Shift+F6<< předchozí panel)
+:>>Ctrl+Alt+PgUp<<: Další karta (opačný směr >>Ctrl+Alt+PgDown<<)
+
+Ocitnete-li se v neznámé situaci (například spustíte novou aplikaci nebo
+vyvoláte neznámý dialog), je obecně dobré udělat si obrázek tak, že budete
+postupovat od hrubšího k detailnějšímu. Nejprve vyzkoušíte, zda-li nemá
+aktuální okno více karet. Jinak by totiž hrozilo, že si jich vůbec nevšimnete.
+Dále vyzkoušíte, zda nejsou prvky rozčleněny do panelů. Pokud ano, pomůže vám
+to lépe se v nich vyznat. Teprve zatřetí se pokusíte prozkoumat jaké jsou zde
+ovládací prvky pomocí klávesy TAB, a případně i jaké jsou v nich na výběr
+možnosti pomocí kurzorových šipek.
+
+Jedná-li se o novou aplikaci, neměli byste také zapomenout prozkoumat její
+[#menus | hlavní nabídku].
+
+=== Čtení internetových stránek === screen-readers-navigation-internet
+
+Po internetových stránkách se lze pohybovat přesně tak, jako v
+[#navigation-in-text obyčejném textu]. Tedy kurzorovými šipkami,
+po slovech, stránkách, přeskočit na začátek či na konec.
+
+Mimo to zde existují speciální ovládací klávesy, které umožňují
+snadno přecházet po různých prvcích obsahu stránky.
+
+:>>h<<: Nadpis (heading)
+:>>1<< nebo >>2,3,4,5,6<<: Nadpis dané úrovně
+:>>p<<: Odstavec (paragraph)
+:>>l<<: Seznam (list)
+:>>i<<: Další položka seznamu (item)
+:>>t<<: Další tabulka (table)
+:>>;<<: Orientační bod
+
+Uvedené klávesy vždy hledají další prvek. Chcete-li se vracet, stiskněte je
+spolu s klávesou Shift. Tedy například předchozí nadpis je Shift+h.
+
+==== Pohyb v tabulkách ==== screen-readers-navigation-tables
+
+:Ctrl+Alt+klávesové šipky: Přechod na sousední buňku tabulky v daném směru
 
 === Odečítač obrazovky JAWS === jaws
 
+==== JAWS a internet ====
+
+Kromě standardního ovládání internetových stránek pomocí odečítačů
+([screen-readers-internet-pages]) má JAWS následující specifika:
+
+:; / Shift+;: Další / předchozí orientační body
+:JAWS+F7: Seznam všech nadpisů
+:JAWS+F8: Seznam všech odkazů
+
+Nepříjemné je, že v internetových prohlížečích nefunguje standardní zkratka pro
+vyhledávání Ctrl+F, neboť JAWS ji používá pro své vlastní
+vyhledávání. Prohledávání stránky internetovým prohlížečem, které je jinak
+velmi užitečné, lze vyvolat pomocí propouštěcí klávesy postupným stiskem
+>>JAWS+3 Ctrl+F<<.
+
+==== Příručka od výrobce ====
+
  * [http://www.freedomscientific.com/PDF/visionloss/manuals/Jaws-Quick-Start-Guide.pdf JAWS Quick Start Guide]
 
-Rychlý průvodce (Quick Start Guide) také popisuje, jak nainstalovat
-další manuály a výukové materiály, které jsou dostupné také jako audio
-knihy ve formátu DAISY.
+Rychlý průvodce (Quick Start Guide) také popisuje, jak nainstalovat další
+manuály a výukové materiály, které jsou dostupné také jako audio knihy ve
+formátu DAISY. Návod je bohužel dostupný pouze v angličtině.
 
 === Odečítač obrazovky NVDA === nvda
 
@@ -56,7 +247,7 @@ dobré a můžete je používat na MS Windows stejně jako na GNU/Linuxu.
 
 === Firefox === firefox
 
-Firefox je svodobně distribuovatelný internetový prohlížeč. Více
+Firefox je volně distribuovatelný internetový prohlížeč. Více
 informací o něm můžete najít na [http://www.mozilla.com/firefox]
 
 Použití Firefoxu s JAWS:
@@ -78,3 +269,5 @@ informací najdete na [http://www.openoffice.org]
 
 Jejich použití by mělo být velmi podobné jako použití
 [gnu-usage#creating-documents OpenOffice na GNU/Linux]
+
+ LocalWords:  Firefoxu JAWS
