@@ -38,28 +38,8 @@ věci rychleji, ale můžete se je učit postupně.
 
 Ať již chcete udělat cokoliv, máte většinou v aplikaci k dispozici 2 nabídky:
 
- :Hlavní nabídka: Každá aplikace, kterou spustíte, jako například textový
- editor nebo internetový prohlížeč, nabízí vlastní nabídku všech funkcí, které
- poskytuje. Pokud jste například v aplikaci textový editor, bude nabídka
- aplikace obsahovat především funkce pro práci s textem, pokud jste v
- prohlížeči obrázků, bude obsahovat možnosti práce s obrázky, a tak
- dále. Nabídka se většinou nachází v horní části okna aplikace a snadno do ní
- lze přejít stiskem klávesy F10.
-
- :Kontextová nabídka: Kontextová nabídka k jakémukoliv právě vybranému objektu
- na obrazovce. Takovým objektem může být třeba ikona na ploše nebo kus
- označeného textu. Kontextová nabídka vám pak v každé situaci nabídne přesně ty
- akce, které s daným objektem lze provádět. Vyvolat jej můžete tak, že si
- vyberete objekt, se kterým chcete něco provést, například ikonu na ploše, a
- klepnete na něj pravým tlačítkem myši nebo stisknete klávesu kontextového menu
- (obyčejně umístěnou vlevo od pravého CTRL) nebo klávesovou kombinaci
- Shift-F10. Na daném místě se rozvine nabídka. Pokud jste ji vyvolali na ikoně
- na ploše, bude obsahovat takové akce jako je ,,smazat'', ,,přejmenovat'' nebo
- ,,změnit ikonu'. Pokud jste ji vyvolali nad kusem označeného textu v textovém
- procesoru, bude zase obsahovat možnost změnit danému textu písmo, styl,
- zarovnání nebo jej z textu vyjmout. Takové akce jsou často dostupné i jiným,
- komplikovanějším způsobem, ale naučíte-li se často používat kontextové menu,
- ušetří vám to spoustu práce.
+:Hlavní nabídka: Každá aplikace, kterou spustíte, jako například textový editor nebo internetový prohlížeč, nabízí vlastní nabídku všech funkcí, které poskytuje. Pokud jste například v aplikaci textový editor, bude nabídka aplikace obsahovat především funkce pro práci s textem, pokud jste v prohlížeči obrázků, bude obsahovat možnosti práce s obrázky, a tak dále. Nabídka se většinou nachází v horní části okna aplikace a snadno do ní lze přejít stiskem klávesy F10.
+:Kontextová nabídka: Kontextová nabídka k jakémukoliv právě vybranému objektu na obrazovce. Takovým objektem může být třeba ikona na ploše nebo kus označeného textu. Kontextová nabídka vám pak v každé situaci nabídne přesně ty akce, které s daným objektem lze provádět. Vyvolat jej můžete tak, že si vyberete objekt, se kterým chcete něco provést, například ikonu na ploše, a klepnete na něj pravým tlačítkem myši nebo stisknete klávesu kontextového menu (obyčejně umístěnou vlevo od pravého CTRL) nebo klávesovou kombinaci Shift-F10. Na daném místě se rozvine nabídka. Pokud jste ji vyvolali na ikoně na ploše, bude obsahovat takové akce jako je ,,smazat'', ,,přejmenovat'' nebo ,,změnit ikonu'. Pokud jste ji vyvolali nad kusem označeného textu v textovém procesoru, bude zase obsahovat možnost změnit danému textu písmo, styl, zarovnání nebo jej z textu vyjmout. Takové akce jsou často dostupné i jiným, komplikovanějším způsobem, ale naučíte-li se často používat kontextové menu, ušetří vám to spoustu práce.
 
 :F10: Hlavní nabídka aplikace
 :Klávesa Kontextové menu nebo Shift-F10: Kontextová nabídka
@@ -156,7 +136,7 @@ možnosti pomocí kurzorových šipek.
 Jedná-li se o novou aplikaci, neměli byste také zapomenout prozkoumat její
 [#menus | hlavní nabídku].
 
-=== Čtení internetových stránek === screen-readers-navigation-internet
+==== Čtení internetových stránek ==== screen-readers-navigation-internet
 
 Po internetových stránkách se lze pohybovat přesně tak, jako v
 [#navigation-in-text obyčejném textu]. Tedy kurzorovými šipkami,
