@@ -8,3 +8,8 @@ Licence a autorská práva viz [copyright zde].
 == Obsah ==
 
 @NodeIndex(2)@
+
+//
+//
+
+[OPVK_hor_zakladni_logolink_CMYK_eng.png]

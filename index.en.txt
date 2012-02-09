@@ -8,3 +8,8 @@ For license and copyright see [copyright here].
 == Table of Contents ==
 
 @NodeIndex(2)@
+
+//
+//
+
+[OPVK_hor_zakladni_logolink_CMYK_eng.png]
