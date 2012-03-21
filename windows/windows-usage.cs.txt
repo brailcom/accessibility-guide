@@ -250,4 +250,89 @@ informací najdete na [http://www.openoffice.org]
 Jejich použití by mělo být velmi podobné jako použití
 [gnu-usage#creating-documents OpenOffice na GNU/Linux]
 
- LocalWords:  Firefoxu JAWS
+== GTypist -- psaní všemi deseti pro slabozraké ==
+
+Většina programů pro výuku psaní všemi deseti prsty neumí dobře spolupracovat
+se zvětšovači obrazovky, a tak při procvičování psaní buď nevidíte předlohu,
+nebo se obraz nehýbe spolu s tím, co píšete. Možným řešením je volně šiřitelný
+program GTypist spolu se zvětšovačem ZoomText. Ačkoliv má GTypist mírně
+komplikovanou instalaci a poněkud strohé rozhraní, je kompletně v češtině,
+obsahuje výuku české klávesnice včetně názorných instrukcí a jde dobře
+zvětšovat. Druhá část tohoto řešení, ZoomText, je placený program pro
+zvětšování obrazovky, ale i pokud jej nevlastníte, můžete si zdarma
+nainstalovat jeho demoverzi, která funguje měsíc zdarma. A vám celý jeden měsíc
+k tomu, abyste se naučili psát všemi deseti prsty, bohatě postačí.
+
+=== Instalace GTypist ===
+
+ * [windows-installation#gtypist Instalace GTypist]
+ * [windows-installation#zoomtext Instalace ZoomText] (pouze pokud ZoomText ještě nemáte)
+
+=== Spuštění GTypist ===
+
+Program GTypist spustíte pomocí ikony na ploše. Objeví se vám uvítací okno s
+textovou obrazovkou. Ta je vyplněna nabídkou, instrukcemi nebo cvičením. V
+nejspodnějším řádku se pak objevuje nápověda o tom, jak postupovat dále.
+
+=== Nastavení Zoomtext === gtypist-zoomtext-tracking-area
+
+Vždy, když si spustíte GTypist, je nutné nastavit v ZoomTextu oblast
+sledování. V pravém dolním rohu GTypistu se totiž zejména ve cvičeních objevuje
+blikající kurzor, který by jinak způsobil odskakování obrazu.
+
+Otevřete si ZoomText, přejděte do jeho hlavní nabídky a vyvolejte položku:
+Sledování->Oblast sledování. Zde nastavíte přepínač na Vnější oblast a
+tlačítkem Vybrat oblast sledování nastavíte červený čtverec kolem pravého
+dolního rohu obrazovky GTypistu (viz obrázek) a potvrdíte klávesou escape.  Tím
+říkáte ZoomTextu, aby sledoval pohyb kurzoru po celé obrazovce mimo tuto
+problémovou oblast.
+
+[gtypist-zoomtext-tracking-settings.png gtypist-zoomtext-tracking-settings.png]
+
+S tímto nastavením byste již dále neměli mít se sledováním kurzoru v GTypistu
+žádné problémy. Pokud používáte ZoomText i pro svou jinou práci, nezapomeňte si
+po skončení práce s GTypist změnit nastavení zpět na Celá obrazovka.
+
+=== Nabídky ===
+
+Pozor: V důsledku chyby v programu je k pohybu v nabídkách, například při
+výběru lekcí, nutné používat klávesy 'h' (nahoru) a 'j' (dolů), nikoliv
+kurzorové šipky. Stisk kurzorových šipek vede k ukončení programu.
+
+Jste-li úplní začátečníci, vyberte si pomocí písmen h a j sérii lekcí T a
+potvrďte ENTER. Dále si vyberte první lekci, T1, a potvrďte ENTER.
+
+=== Lekce ===
+
+První lekce začíná několika obrazovkami vysvětlujícími základy psaní všemi
+deseti prsty. Než se dostanete k prvnímu cvičení, pozorně si je přečtěte a vždy
+potvrďte ENTER.
+
+Každé cvičení pak obsahuje na první řádce velmi stručnou instrukci, pod ní
+předlohu a řádek, do kterého můžete psát vy. Jak píšete, program vám bude
+zvýrazňovat vaše chyby.
+
+(Pokud vám v této chvíli při psaní neustále odskakuje obraz někam pryč, máte
+špatně nastavenu oblast sledování ZoomText, viz gtypist-zoomtext-tracking-area)
+
+Když cvičení dokončíte napsáním posledního písmena a stiskem ENTER, zobrazí se
+vám v nejspodnějším řádku informace o dalším postupu. Někdy vám bude povolen
+postup na další cvičení, někdy budete muset současné cvičení opakovat. Vždy
+sledujte instrukce ve spodním řádku.
+
+=== Stručný přehled ovládacích kláves ===
+
+:ENTER: Přechod na další obrazovku
+:ESC: Ukončení nebo návrat do nabídky
+:h, j: Pohyb v menu nahoru a dolů
+:d: Další cvičení
+:o: Opakovat cvičení
+
+=== Zvětšování ===
+
+Nejpohodlnější způsob zvětšování programem ZoomText je přidržet klávesu CTRL a
+zatočit kolečkem myši. To vám umožní snadno si text přiblížit na pohodlnou
+velikost i rychle se oddálit a získat přehled o tom, jak jsou části programu na
+obrazovce zorganizovány.
+
+

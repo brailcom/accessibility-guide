@@ -1,0 +1,37 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+== Výuka psaní všemi deseti prsty ==
+
+Pro ovládání počítače a pro téměř všechny činnosti, které na počítači
+děláme, je velmi důležité umět dobře ovládat klávesnici. To znamená
+umět na ní pohodlně a jednoduše psát, nedělat při tom moc chyb a
+nemuset na to nijak moc myslet. Pokud se musíme při psaní na
+klávesnici soustředit na to, jak stisknout to či ono písmeno, nebo
+musíme očima neustále odbíhat od monitoru a dívat se na klávesy,
+odvádí to neustále naši pozornost od činnosti, kterou v tu chvíli
+chceme s počítačem dělat, a každá úloha se pak stává podstatně
+komplikovanější. Je to jako by vás neustále něco vyrušovalo a vy jste
+nemohli pořádně sledovat, co to vlastně děláte.  Naučíte-li se dobře
+ovládat klávesnici, brzy zjistíte, že je pro vás mnohem jednodušší
+ovládat i celý počítač.
+
+K tomu slouží tzv. psaní všemi deseti prsty. Po nějaké době nejspíš
+zjistíte, že je to i rychlejší než jiné způsoby psaní. Psaní vás tak
+méně unaví a budete moci věnovat více času přemýšlení o tom, co
+vlastně chcete napsat. Rychlost se ale dostaví postupně a sama,
+rozhodně není cílem samotné výuky psaní všemi deseti prsty a ani není
+tím hlavním, co touto metodou získáte. Tím je snadnější ovládání
+počítače.
+
+Psaní všemi deseti prsty se nejlépe naučíte pomocí výukového programu,
+který vám vysvětlí techniku a zároveň vám poskytne dostatek
+příležitostí k procvičování. Začíná se prvními několika písmeny, a jak
+postupujete na vyšší a vyšší úroveň, přidávají se k nim další a
+další. Je to vlastně taková hra.
+
+Samotná výuka by vám neměla zabrat příliš mnoho času. Budete-li cvičit
+pravidelně, například půl hodiny denně, budete za měsíc celou
+klávesnici umět. Pustíte-li se do toho po hlavě, měli byste se naučit
+psát i během několika odpolední.
+
+:Pro slabozraké: [windows-usage#gtypist Gtypist]
