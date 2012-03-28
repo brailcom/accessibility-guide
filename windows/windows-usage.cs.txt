@@ -185,6 +185,18 @@ Rychlý průvodce (Quick Start Guide) také popisuje, jak nainstalovat další
 manuály a výukové materiály, které jsou dostupné také jako audio knihy ve
 formátu DAISY. Návod je bohužel dostupný pouze v angličtině.
 
+==== Virtuální menu ==== virtual-ribbon
+
+V některých nových aplikacích je klasické menu nahrazeno tzv. pásem karet
+(angl. "ribbon"), což je elegantní grafické menu, nicméně hůře přístupné pro
+uživatele odečítačů.
+
+JAWS od verze 12 poskytuje funkci tzv. "virtuální menu" (angl. "virtual
+ribbon"), která umožňuje uživateli s pásem karet pracovat stejně jako s
+klasickým menu, tedy pomocí kláves Alt a šipek. Virtuální menu se dá zapnout v
+dialogu "Upravit volby pro JAWS" vyvolatelným zkratkou >>INSERT+V<<, a
+nastavením volby "Virtuální menu" na "Zapnuto".
+
 === Odečítač obrazovky NVDA === nvda
 
  * [http://www.nvda-project.org/documentation/nvda_2010.1_userGuide.html
@@ -249,6 +261,41 @@ informací najdete na [http://www.openoffice.org]
 
 Jejich použití by mělo být velmi podobné jako použití
 [gnu-usage#creating-documents OpenOffice na GNU/Linux]
+
+=== MS Office === ms-office
+
+MS Office je široce používaný placený kancelářský balík od firmy Microsoft.
+
+Verze 2007 a novější nahrazují klasické menu tzv. ribbonem, což je graficky
+elegantní menu, které ale není pro nevidomé dobře přístupné. Pokud používáte
+JAWS, je proto vhodné v těchto verzích použít funkci JAWS zvanou "virtuální
+menu" (angl. "virtual ribbon") -- více viz v sekci [#virtual-ribbon].
+
+==== Excel ==== ms-office-excel
+
+===== Přejmenování listu =====
+
+JAWS při přepínání mezi listy čte jejich názvy. Ty výchozí ("List 1", "List 2"
+atd. však uživateli moc informací neposkytují. Pro využití této funkce je tedy
+vhodné si listy přejmenovat tak, aby odpovídaly obsahu konkrétního dokumentu.
+
+Přejmenovat aktuální list je ve verzi 2007 možné v menu Domů > Buňky > Formát >
+Přejmenovat list.
+
+===== Čtení záhlaví řádků a sloupců s JAWS =====
+
+JAWS umožňuje nastavit u tabulek určité oblasti jako záhlaví řádků a/nebo
+sloupců a při pohybu tabulkou tato záhlaví čte podobně, jako čte záhlaví
+tabulky při prohlížení internetu.
+
+Více o tom je možné si přečíst v nápovědě pro JAWS v sekci o Excelu, tam
+"Užitečné tipy pro aplikaci Excel" > "Čtení názvů řádků a sloupců v aplikaci
+Excel".
+
+Je dobré ze dvou tam navržených způsobů používat možnost, která vyžaduje
+definici názvu buňky, protože je tato informace uložená přímo v daném souboru a
+takto označená záhlaví pak může využít i jiný nevidomý uživatel JAWS bez toho,
+aby něco upravoval či nastavoval.
 
 == GTypist -- psaní všemi deseti pro slabozraké ==
 
