@@ -1,0 +1,87 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+== Knihovna a tiskárna pro nevidomé (KTN) / Biblio == ktn
+
+Knihovna a tiskárna pro nevidomé Karla Emanuela Macana (http://www.ktn.cz)
+provozuje digitální katalog Biblio, který umožňuje čtenářům poslouchat vybrané
+tituly v namluvené podobě přímo po internetu bez nutnosti cokoliv objednávat
+nebo na cokoliv čekat. Mimo to umožňuje knihovna také objednávat zápůjčky a
+tisk knih v braillském písmu a v dalších podobách. Pro knihy v textové
+elektronické podobě viz [kdd].
+
+Adresa knihovny: http://biblio.brailcom.org
+
+=== Registrace do knihovny ===
+
+Pro přihlášení do knihovny je potřeba na adresu knihovny (uvedena v hlavičce
+přihlášky) zaslat následující 3 dokumenty:
+
+1. Vyplněnou a podepsanou [přihlášku do knihovny http://www.ktn.cz/pub/attachments/ktn-p%C5%99ihl%C3%A1%C5%A1ka-nov%C3%A1.doc]
+2. [Prohlášení čtenáře http://www.ktn.cz/pub/attachments/ktn-prohlaseni.doc] s úředně ověřeným podpisem čtenáře (za čtenáře ml. 15 let zákonný zástupce)
+3. Kopii průkazu ZTP nebo ZTP/P
+
+Poté, co knihovna vaši přihlášku schválí, obdržíte průkazku a číslo čtenáře. Na
+základě přiděleného čísla čtenáře knihovny se pak můžete zaregistrovat i do
+zmíněné digitální knihovny. Použijte k tomu odkaz Registrace jejích stránkách
+http://biblio.brailcom.org.
+
+=== Používání katalogu a poslech titulů ===
+
+Podrobný návod k používání digitálního katalogu je k dispozici na adrese
+https://biblio.brailcom.org/_doc/biblio/help .
+
+Forma knih k přímému poslechu se v nápovědě i v samotném katalogu označuje jako
+MP3.
+
+== Knihovna digitálních dokumentů (KDD) == kdd
+
+Knihovna digitálních dokumentů obsahuje knihy převážně v elektronické textové
+podobě, vhodné pro čtení pomocí braillského a hlasového výstupu odečítače
+obrazovky. Pro mluvené knihy a tištěné knihy v braillském písmu viz [ktn].
+
+Adresa knihovny: http://www.kdd.cz
+
+== Trafika == trafika
+
+Trafika poskytuje ke čtení a poslechu tituly denního tisku a další
+periodika. Lze zde nalézt všechny velké noviny vydávané v ČR a mnohé časopisy,
+obsah se aktualizuje každý den.
+
+V titulech lze rovněž vyhledávat podle klíčových slov. Trafika dokonce
+poskytuje i možnost tzv. sledování, kdy si zadáte slovo, které chcete sledovat,
+a systém vám zašle email vždy, když se tento termín někde v tisku objeví.
+
+Periodika jsou k dispozici jako HTML stránky, ZIP archiv a některé i jako
+zvukové soubory načtené syntetickým hlasem, aby bylo možné nahrát si je do
+multimediálního přehrávače.
+
+Adresa Trafiky: http://trafika.brailcom.cz
+
+=== Registrace do trafiky ===
+
+Registrace do Trafiky probíhá vyplněním registračního formuláře přímo na
+stránkách Trafiky. Po registraci okamžitě získáte z velké části funkční
+přístup, který je ale omezen časovou lhůtou 30 dní. Pro plný trvalý přístup je
+nutné vytisknout a podepsat písemnou přihlášku, kterou obdržíte při registraci
+emailem, a spolu s kopií ZTP nebo ZTP/P ji odeslat poštou na adresu společnosti
+Brailcom, o.p.s.
+
+Přesný postup pro registraci do Trafiky: https://trafika.brailcom.cz/register
+
+== Bookshare.org == bookshare
+
+Bookshare.org je mezinárodní knihovnou s velmi velkým fondem digitálních knih
+dostupných v anglickém jazyce. Knihovna poskytuje přes 130 000 titulů
+dostupných jako digitalizovaný text (TXT, HTML, Daisy, BRF).
+
+Členství v knihovně je přístupné z celého světa a to osobám s hendikepem, který
+jim brání efektivně číst klasické knihy, tedy mimo jiné pro nevidomé a
+slabozraké. Za roční členství se platí čtenářský poplatek 50 USD.
+
+Katalog je přístupný bez registrace a zdarma. Můžete si tak předem vyzkoušet,
+zda zde naleznete knihy, které vás zajímají.
+
+Nevidomí a slabozrací musí k přihlášce doložit potvrzení o svém hendikepu,
+které může podepsat ošetřující lékař, očníh lékař nebo speciální pedagog.
+
+Podrobnosti k podání přihlášky: https://www.bookshare.org/_/membership/international

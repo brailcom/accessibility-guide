@@ -1,0 +1,133 @@
+
+== Wikipedie ==
+
+Wikipedie je otevřená a volně přístupná encyklopedie. Patří mezi jednu
+z největších encyklopedií na světě a jednu z nejnavštěvovanějších
+stránek celého internetu. Se svými 21 miliony článků, 280 jazyky a
+více než stem tisíc autorů patří mezi nejrozsáhlejší dnes dostupné
+zdroje znalostí.
+
+Encyklopedie je dostupná na následujících adresách:
+
+:česká verze: http://www.wikipedia.cz
+:anglická verze: http://www.wikipedia.org
+
+Velmi doporučujeme používat anglickou verzi, která je podstatně
+obsáhlejší, aktuálnější a přesnější.
+
+=== Wikipedie pro nevidomé ===
+
+Wikipedia je poměrně dobře přístupná, nicméně práce s ní vyžaduje
+znalost několika triků a nastavení popsaných níže.
+
+==== Navigace na stránce ====
+
+===== Vyhledávání =====
+
+Vyhledávání je na většině stránek encyklopedie jediným editačním
+formulářovým políčkem, bezpečně se na něj tedy lze přesunout
+odkudkoliv stiskem klávesy 'e'.
+
+Pokud napíšete přímo jméno nějakého článku, zobrazí se vám článek.
+Pokud se ale netrefíte přímo do jména článku, zobrazí se vám nabídka z
+výsledků vyhledávání podobných článků.
+
+===== Přechod na začátek článku =====
+
+Článek vždy začíná nadpisem úrovně 1. Jsme-li tedy na stránce s
+článkem, dostaneme se zpět na jeho začátek obyčejně stiskem klávesy
+'1' nebo 'Shift+1'.
+
+U mnoha článků je však prvním objektem pod nadpisem poměrně rozsáhlá
+tabulka souhrnných informací, nikoliv přímo definice hledaného
+hesla. Abychom se dostali na skutečný začátek článku s definicí hesla,
+je potřeba umět tento objekt přeskočit. Např. v odečítači JAWS to lze
+učinit stiskem klávesové zkratky pro skok na konec objektu
+Ctrl+Shift+tečka (tečkou se rozumí klávesa pod písmenem l) ve chvíli,
+kdy jste na začátku tabulky.
+
+Někdy je také na začátku článku nejprve několik ilustračních
+obrázků. V této situaci je potřeba použít opakovaně funkci přeskoku na
+další odstavec, obyčejně klávesou 'p'.
+
+Odstavec se skutečným začátkem článku (definicí encyklopedického
+hesla) poznáte tak, že tímto heslem vždy začíná. Hledáte-li například
+článek o Africe, chcete najít odstavec začínající ,,Afrika je...''.
+
+Zmíněná tabulka doplňujících informací je však také velmi užitečná.
+Například v článcích popisujících státy jsou zde uvedeny všechny
+základní informace, jako je hlavní město, rozloha, počet obyvatel,
+politický systém, náboženství. Tuto souhrnnou tabulku nejlépe najdete
+pokud se vrátíte na začátek článku klávesou Shift-1.
+
+===== Navigace pomocí nadpisů a odstavců =====
+
+Většina článků v encyklopedii je poměrně rozsáhlých. Pokud v nich
+hledáme nějakou konkrétní informaci, je potřeba umět se v nich dobře
+vyznat tak, abychom si mohli snadno najít a přečíst právě tu část,
+která obsahuje nám užitečné informace. K tomu dobře poslouží přeskoky
+po nadpisech a odstavcích.
+
+Stránka s článkem je strukturována pomocí nadpisů úrovně 2 a nižší.
+Přeskakováním po nadpisech úrovně 2 (často klávesa 2 a opačně shift+2)
+si můžete vybrat sekci, která vás zajímá , pokračujte prohledáváním
+podnadpisů, tedy úrovně 3 (klávesa 3 a shift+3). Pokud vám odečítač
+již hlásí, že v této části nejsou žádné nadpisy dané úrovně, přejděte
+na čtení textu.
+
+Čtete-li např. článek o Německu a chcete-li vědět, jaké jím tečou
+řeky, opakovaným stiskem klávesy 2 si vyberete část Fyzická geografie,
+dále stiskem klávesy 3 si vyberete sekci Vodstvo.
+
+I v rámci samotného textu je často potřeba umět si dohledat část,
+která se zaobírá tím, co nás zajímá. K tomu lze s výhodou využít
+navigace po odstavcích (p a shift+p), kdy již ze začátku odstavce si
+můžeme udělat představu o jeho celkovém obsahu. Pokud rozebírá něco,
+co nás v tuto chvíli nezajímá, přeskočíme na další odstavec.
+
+==== Nastavení odečítačů pro čtení Wikipedie ====
+
+Články v encyklopedii obsahují velké množství odkazů na ostatní
+encyklopedická hesla, která se v textu článku objevují. Pokud váš
+odečítač i při plynulém čtení oznamuje každý odkaz slovem 'odkaz',
+budete od samotného čtení neustále vyrušováni. Proto je nutné odečítač
+nastavit tak, aby odkazy indikoval například pouze jemným zvukem, a
+aby kvůli nim nepřerušoval čtení celé věty.
+
+===== JAWS =====
+
+V JAWS lze nastavit indikaci odkazů pomocí zvuku (jemné ťuknutí v
+průběhu čtení slova) od verze 12 pomocí tzv. Schémat řeči.
+
+1. V nabídce JAWS vybrat Nástroje->Centrum nastavení.
+
+2. V centru nastavení, ve stromovém menu, vybrat Plynulé čtení -> Schéma plynulého čtení.
+
+3. Pomocí klávesy mezerník změnit hodnotu na Text+Zvuky.
+
+==== Nastavení Wikipedie ====
+
+Kromě nastavení odečítače je také vhodné nastavit si některé věci na
+samotné Wikipedii. To můžete udělat, pokud si na Wikipedii založíte
+vlastní účet a budete se do něj přihlašovat.
+
+K přihlašování a registraci se dostanete pomocí odkazu na začátku
+stránky. Při přihlašování je vhodné zaškrnout, aby si Wikipedia vaše
+přihlášení pamatovala.
+
+Po přihlášení se k osobnímu nastavení dostanate pomocí odkazu
+Nastavení.
+
+1. Veškeré nadpisy uvnitř článků i některá další místa na Wikipedii
+začínají textem [editovat], který zabraňuje jejich rychlému a
+pohodlnému procházení. Jeho obrazování lze vypnout v nastavení na
+kartě Editace položkou ,,Zapnout možnost editace části článku pomocí
+odkazu [editovat].
+
+2. Na začátku článků se často objevují odkazy uvozené ,,Skočit na:''
+zamýšlené pro zlepšení přístupnosti stránek. Pro pokročilejšího
+uživatele, který si již našel způsob, jakým se v článcích orientovat
+ale mohou být spíše na obtíž. V takovém případě lze jejich zobrazování
+vypnout na kartě Vzhled položkou ,,Používat odkazy „skočit na“ pro
+vyšší přístupnost''.
+
