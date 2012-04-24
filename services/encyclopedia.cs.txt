@@ -5,7 +5,11 @@ Wikipedie je otevřená a volně přístupná encyklopedie. Patří mezi jednu
 z největších encyklopedií na světě a jednu z nejnavštěvovanějších
 stránek celého internetu. Se svými 21 miliony článků, 280 jazyky a
 více než stem tisíc autorů patří mezi nejrozsáhlejší dnes dostupné
-zdroje znalostí.
+zdroje znalostí. Pro nevidomé či slabozraké je to také cesta, jak
+snadno vyhledávat informace, které jinak nejsou dobře
+přístupné. Například v zeměpise se často studují mapy, ale na
+Wikipedii lze většinu podstatných zeměpisných informací dohledat v
+textové podobě.
 
 Encyklopedie je dostupná na následujících adresách:
 
