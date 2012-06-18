@@ -1,5 +1,7 @@
 # -*- coding: utf-8; mode: structured-text -*-
 
+Obsah: @TOC@
+
 == Knihovna a tiskárna pro nevidomé (KTN) / Biblio == ktn
 
 Knihovna a tiskárna pro nevidomé Karla Emanuela Macana (http://www.ktn.cz)
@@ -7,17 +9,17 @@ provozuje digitální katalog Biblio, který umožňuje čtenářům poslouchat 
 tituly v namluvené podobě přímo po internetu bez nutnosti cokoliv objednávat
 nebo na cokoliv čekat. Mimo to umožňuje knihovna také objednávat zápůjčky a
 tisk knih v braillském písmu a v dalších podobách. Pro knihy v textové
-elektronické podobě viz [kdd].
+elektronické podobě viz [#kdd].
 
 Adresa knihovny: http://biblio.brailcom.org
 
-=== Registrace do knihovny ===
+=== Registrace do knihovny KTN a katalogu Biblio ===
 
 Pro přihlášení do knihovny je potřeba na adresu knihovny (uvedena v hlavičce
 přihlášky) zaslat následující 3 dokumenty:
 
-1. Vyplněnou a podepsanou [přihlášku do knihovny http://www.ktn.cz/pub/attachments/ktn-p%C5%99ihl%C3%A1%C5%A1ka-nov%C3%A1.doc]
-2. [Prohlášení čtenáře http://www.ktn.cz/pub/attachments/ktn-prohlaseni.doc] s úředně ověřeným podpisem čtenáře (za čtenáře ml. 15 let zákonný zástupce)
+1. Vyplněnou a podepsanou [http://www.ktn.cz/pub/attachments/ktn-p%C5%99ihl%C3%A1%C5%A1ka-nov%C3%A1.doc přihlášku do knihovny]
+2. [http://www.ktn.cz/pub/attachments/ktn-prohlaseni.doc Prohlášení čtenáře] s úředně ověřeným podpisem čtenáře (za čtenáře ml. 15 let zákonný zástupce)
 3. Kopii průkazu ZTP nebo ZTP/P
 
 Poté, co knihovna vaši přihlášku schválí, obdržíte průkazku a číslo čtenáře. Na
@@ -37,9 +39,15 @@ MP3.
 
 Knihovna digitálních dokumentů obsahuje knihy převážně v elektronické textové
 podobě, vhodné pro čtení pomocí braillského a hlasového výstupu odečítače
-obrazovky. Pro mluvené knihy a tištěné knihy v braillském písmu viz [ktn].
+obrazovky. Pro mluvené knihy a tištěné knihy v braillském písmu viz [#ktn].
 
 Adresa knihovny: http://www.kdd.cz
+
+=== Registrace do knihovny KDD ===
+
+Postup registrace je uveden na stránkách knihovny. Do knihovny se mohou
+registrovat i čtenáři mladší 15 let. V takovém případě za ně čestné prohlášení
+o přístupu do knihovny musí podepsat jejich zákonný zástupce.
 
 == Trafika == trafika
 
@@ -82,6 +90,6 @@ Katalog je přístupný bez registrace a zdarma. Můžete si tak předem vyzkou�
 zda zde naleznete knihy, které vás zajímají.
 
 Nevidomí a slabozrací musí k přihlášce doložit potvrzení o svém hendikepu,
-které může podepsat ošetřující lékař, očníh lékař nebo speciální pedagog.
+které může podepsat ošetřující lékař, oční lékař nebo speciální pedagog.
 
 Podrobnosti k podání přihlášky: https://www.bookshare.org/_/membership/international
