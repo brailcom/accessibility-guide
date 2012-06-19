@@ -1,0 +1,91 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+Obsah: @TOC@
+
+== Odečítače obrazovky ==
+
+=== JAWS === jaws
+
+Široce používaným odečítačem obrazovky je JAWS, vyvíjený americkou firmou
+Freedom Scientific.  Má širokou škálu schopností a obsahuje speciální úpravy
+pro mnoho prorgamů. To jej ale zároveň činí poměrně komplexním, nepřehledným a
+komplikuje to jeho ovládání.
+
+=== NVDA === nvda
+
+NVDA je volně dostupný odečítač obrazovky, lze jej tedy nainstalovat a používat
+zdarma. Vyvíjí jej australská nezisková organizace NV Access na základě podpory
+řady sponzorů, nejvýznamněji firmy Mozilla a Adobe. Má jednu z nejlepších
+podpor pro internetové technologie a je kompatibilní se širokou škálou
+aplikací, může tedy být i překvapivě dobrou náhradou za Jaws.
+
+=== Přenosné NVDA === nvda-portable
+
+[#nvda NVDA] rovněž poskytuje velmi zajímavou možnost instalace tzv. přenosné
+verze.  Tu lze instalovat například na flash disk a následně používat na
+jakýchkoliv počítačích (například ve škole, v kanceláři, v internetové kavárně,
+u kamaráda doma). Není třeba žádné instalace, nastavování a nemusíte k tomu mít
+administrátorská práva. Prostě zasunete Flash disk do zcela cizího počítače,
+spustíte příslušný soubor a naběhne plnohodnotný odečítač obrazovky včetně
+vašich vlastních hlasů a nastavení. Pakliže máte přenosný braillský řádek,
+můžete použít kromě hlasu i braill.  Protože navíc nemá NVDA žádné licenční
+omezení, můžete jej takto využít kdykoliv a kdekoliv.
+
+To je podstatně odlišné od jiných proprietárních odečítačů obrazovky, které
+musí většinou být na systém napevno nainstalovány a případné přenosné zařízení
+obsahuje pouze licenční klíč. V takovém případě pak nelze běžně odečítačem
+zpřístupnit cizí počítač.
+
+=== Cobra === cobra-screen-reader
+
+Cobra je méně známým, ale funkčním a poměrně všestranným odečítačem obrazovky
+vyvíjeným německou firmou BAUM Retec. Její hlavní výhoda tkví v modulárním
+designu a pokročilých možnostech nastavení a skriptování, které umožňují
+přizpůsobit odečítač konkrétním potřebám, aplikacím a specifikům pracovního
+prostředí konkrétního uživatele.  Cobra může rovněž obsahovat zvětšovač
+obrazovky, který lze s hlasovým a braillským výstupem kombinovat.
+
+=== Další odečítače === other-screen-readers
+
+Existují samozřejmě i další odečítače obrazovky, jako je například SuperNova,
+WinMonitor nebo WindowEyes.
+
+== Zvětšovače obrazovky ==
+
+=== Vestavěná lupa Windows === windows-magnifier
+
+Microsoft Windows standardně obsahují jednoduchý zvětšovač obrazovky nazvaný
+Lupa.  Umožňuje zvětšit obsah maximálně 3x a obsahuje základní podporu pro
+sledování kurzoru, neumožňuje však jednoduchou pohotovou změnu úrovně
+přiblížení a nemá ani další funkce pokročilejších lup.
+
+Pro lehčí zrakové vady a pro určité situace může postačit, rozhodně ale
+slabozrakému nenahradí specializované softwarové lupy popsané níže.
+
+=== ZoomText === zoomtext
+
+Kvalitní softwarová lupa vyráběná britskou firmou AI Squared, která vyniká
+především jednoduchostí uživatelského rozhraní a vysokou kvalitou zvětšených
+textů. Rovněž jsou v něm dobře zpracovány technologie sledování kurzoru (a
+naopak zamezení nežádoucích odskoků). Ve verzi Zvětšovač+Odečítač obsahuje i
+základní podporu hlasového výstupu.
+
+=== Magic === magic
+
+Softwarová lupa vyráběná americkou firmou Freedom Scientific. Kvalita
+zvětšených písmen je nižší, pro některé zrakově postižené uživatele však toto
+nemá praktický význam. Jeho nevýhodou je poněkud složitější ovládání a
+nemožnost pohotové změny úrovně přiblížení kolečkem myši.
+
+=== Cobra === cobra-magnifier
+
+Cobra je zvětšovač obrazovky vyráběný německou firmou BAUM Retec. Vyniká
+především možnostmi přizpůsobení konkrétním programům a situacím. Ty ale nejsou
+přístupné uživateli a musí je provádět technik. Neumožňuje pohotovou změnu
+přiblížení kolečkem myši. Může obsahovat rovněž plnohodnotný odečítač obrazovky
+s podporou hlasového i braillského výstupu.
+
+=== Další zvětšovače === other
+
+Existují samozřejmě i další zvětšovače, jako je například SuperNova.
+
