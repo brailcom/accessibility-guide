@@ -1,0 +1,3 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Learning touch typing =

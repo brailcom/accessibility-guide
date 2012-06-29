@@ -165,7 +165,7 @@ spolu s klávesou Shift. Tedy například předchozí nadpis je Shift+h.
 ==== JAWS a internet ====
 
 Kromě standardního ovládání internetových stránek pomocí odečítačů
-([screen-readers-internet-pages]) má JAWS následující specifika:
+([#screen-readers-navigation-internet]) má JAWS následující specifika:
 
 :; / Shift+;: Další / předchozí orientační body
 :JAWS+F7: Seznam všech nadpisů

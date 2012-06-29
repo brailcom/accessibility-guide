@@ -123,10 +123,10 @@ Po přihlášení se k osobnímu nastavení dostanate pomocí odkazu
 Nastavení.
 
 1. Veškeré nadpisy uvnitř článků i některá další místa na Wikipedii
-začínají textem [editovat], který zabraňuje jejich rychlému a
+začínají textem 'editovat', který zabraňuje jejich rychlému a
 pohodlnému procházení. Jeho obrazování lze vypnout v nastavení na
 kartě Editace položkou ,,Zapnout možnost editace části článku pomocí
-odkazu [editovat].
+odkazu 'editovat'.
 
 2. Na začátku článků se často objevují odkazy uvozené ,,Skočit na:''
 zamýšlené pro zlepšení přístupnosti stránek. Pro pokročilejšího

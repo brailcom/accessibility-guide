@@ -1,5 +1,7 @@
 # -*- coding: utf-8; mode: structured-text -*-
 
+= Přehled =
+
 Obsah: @TOC@
 
 == Odečítače obrazovky ==

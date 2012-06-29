@@ -1135,7 +1135,7 @@ a vložit pak soubor ze schránky do libovolného adresáře na vašem původní
 systému pomocí >>Ctrl+v<<.
 
 Mimo to je rovněž možné nastavit mezi virtuálním strojem a vaším původním
-systémem sdílené adresáře v [nastavení virtálního stroje gnu-configuration#vmware-player-machines].
+systémem sdílené adresáře v [gnu-configuration#vmware-player-machines nastavení virtálního stroje].
 
 == Odkazy == references
 
