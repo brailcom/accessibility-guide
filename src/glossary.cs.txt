@@ -137,7 +137,7 @@ operační systémy patří např. GNU/Linux nebo Mac OS X.
 
 Windows je desktopový operační systém od firmy Microsoft. Je to nejvíce
 používaný desktopový operační systém. Pro více informací o Windows viz
-[overview#windows příslušná sekce v Přehledu].
+[overview#ms-windows příslušná sekce v Přehledu].
 
 == Zpřístupnění == accessibility
 

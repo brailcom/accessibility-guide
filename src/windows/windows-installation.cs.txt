@@ -89,8 +89,7 @@ http://www.baum.de/cms/en/cobra/
 0. *Do stejné složky* si stáhněte soubor cgsetup.bat ([cgsetup.bat])
 0. Soubor cgsetup.bat spusťte, počkejte až proběhne instalace, případné otázky potvrďte
 0. Ve volném místě na ploše stiskněte pravé tlačítko myši a z kontextového menu vyberte Nový->Zástupce.
-0. Do dialogu vytváření zástupce do pole Položka ke spuštění zkopírujte následující text: \\
- =cmd.exe /C c:\cygwin\bin\bash.exe -c "LC_ALL=cs_CZ /usr/bin/gtypist.exe cs.typ"=
+0. Do dialogu vytváření zástupce do pole Položka ke spuštění zkopírujte následující text: // cmd.exe /C c:\cygwin\bin\bash.exe -c "LC_ALL=cs_CZ /usr/bin/gtypist.exe cs.typ"
 0. Jako Název vyplňte: GTypist
 0. Po potvrzení se na ploše objeví nová ikonka GTypist
 0. Na nově vytvořenou ikonu klepněte pravým tlačítkem a z kontextového menu vyberte Vlastnosti

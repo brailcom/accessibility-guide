@@ -76,7 +76,7 @@ různých částí textu různými jazyky (tzv. přepínání jazyků).  iOS je 
 dodáván s podporou pro mnoho bezdrátových Bluetooth Braillských řádků a
 Braillských tabulek pro mnoho jazyků.
 
-== Microsoft Windows == ios
+== Microsoft Windows == ms-windows
 
 Microsoft Windows je momentálně nejrozšířenějším operačním systémem. Je pro něj
 dostupná široká škála aplikací a v porovnání s jinými platformami je často tou,

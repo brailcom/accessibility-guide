@@ -297,7 +297,7 @@ definici názvu buňky, protože je tato informace uložená přímo v daném so
 takto označená záhlaví pak může využít i jiný nevidomý uživatel JAWS bez toho,
 aby něco upravoval či nastavoval.
 
-== GTypist -- psaní všemi deseti pro slabozraké ==
+== GTypist -- psaní všemi deseti pro slabozraké == gtypist
 
 Většina programů pro výuku psaní všemi deseti prsty neumí dobře spolupracovat
 se zvětšovači obrazovky, a tak při procvičování psaní buď nevidíte předlohu,

@@ -59,9 +59,9 @@ Shortcuts:
 
 === Keyboard shortcuts logic === keyboard-shortcuts-logic
 
-:>>Ctrl+<<combination: Combinations with >>Ctrl<< key trigger various actions (e.g. >>Ctrl+u<< undo)
-:>>Alt+<<combination: Combinations with >>Alt<< key are used for menu access and manipulating with application windows
-:>>Shift+<<combination: >>Shift<< is often used to reverse an action (e.g. >>Ctrl+u<< -- Undo, >>Shift+Ctrl+u<< -- Redo)
+:>>Ctrl<<+combination: Combinations with >>Ctrl<< key trigger various actions (e.g. >>Ctrl+u<< undo)
+:>>Alt<<+combination: Combinations with >>Alt<< key are used for menu access and manipulating with application windows
+:>>Shift<<+combination: >>Shift<< is often used to reverse an action (e.g. >>Ctrl+u<< -- Undo, >>Shift+Ctrl+u<< -- Redo)
 
 === Navigation === navigation
 
@@ -122,20 +122,24 @@ Reading by lines:
 :>>Numpad-9 (Orca+O)<<: Next line -- Move the flat review cursor to the next line and read it.
 
 Reading by words:
+
 :>>Numpad-4 (Orca+J)<<: Previous word -- Move the flat review cursor to the previous word and read it.
 :>>Numpad-5 (Orca+K)<<: This word -- Read the current word.
 :>>Numpad-6 (Orca+L)<<: Next word -- Move the flat review cursor to the next word and read it.
 
 Reading by characters:
+
 :>>Numpad-1 (Orca+M)<<: Previous character -- Move the flat review cursor to the previous character and read it.
 :>>Numpad-2 (Orca+coma)<<: This character -- Read the current character.
 :>>Numpad-3 (Orca+period)<<: Next character -- Move the flat review cursor to the next character and read it.
 
 Mouse clicks at location of the flat-review cursor:
+
 :>>Numpad-slash (Orca+7)<<: Left mouse click
 :>>Numpad-star (Orca+8)<<: Right mouse click
 
 Other:
+
 :>>Numpad-Plus<<: Read all -- reads from the current position of the caret to the end of the document.
 :>>Numpad-Enter<<: Where am I -- Speaks information such as the title of the current application window, as well as the name of the control that currently has focus.
 
@@ -156,6 +160,7 @@ that belong to it. Many useful combinations are provided by the application
 itself and you can't discover them this way.
 
 Shortcuts:
+
 :>>Orca+H<<: Enter into Orca's ``learn mode''
 :>>ESC<<: Exit from ``learn mode''
 
@@ -170,7 +175,7 @@ manager, and thus part of every standard Ubuntu Natty installation. It also
 includes focus tracking and mouse cursor enhancements.
 
 For instructions on how to set it up, please see
-[gnu-configuration#enhanced-zoom-dekstop] .
+[gnu-configuration#enhanced-zoom-desktop] .
 
 ==== Zooming ====
 
@@ -207,12 +212,14 @@ across different applications. Not all of them might work or have sense for a
 particular application.
 
 General:
+
 :>>F10<<: Go to application menu
 :>>Shift-F10<<: Open context menu on the selected object
 :>>Alt+F4<<: Close -- Close the focused window
 :>>Alt+Space<<: Go to window menu (maximize, minimize, resize, close etc.)
 
 Actions from File menu:
+
 :>>Ctrl+N<<: New -- Create a new document
 :>>Ctrl+O<<: Open -- Open a document
 :>>Ctrl+S<<: Save -- Save the current document
@@ -221,20 +228,24 @@ Actions from File menu:
 :>>Ctrl+Q<<: Quit -- Quit the application
 
 Undo and Redo:
+
 :>>Ctrl+Z<<: Undo -- Undo the last operation
 :>>Shift+Ctrl+Z<<: Redo -- Redo the last operation
 
 Copy and paste:
+
 :>>Ctrl+X<<: Cut -- Cut the selected area and store it in the clipboard
 :>>Ctrl+C<<: Copy -- Copy the selected area into the clipboard
 :>>Ctrl+V<<: Paste -- Paste contents of clipboard at cursor position
 
 Selecting:
+
 :>>Ctrl+A<<: Select all -- Select everything in focused control or window
 :>>Ctrl+I<<: Invert Selection -- Select everything in focused control or window that was previously unselected, and deselect everything that was previously selected
 :>>Delete<<: Delete selection
 
 Searching:
+
 :>>Ctrl+F<<: Find -- Find matches in the current document
 :>>Ctrl+G<<: Find next -- Find the next match
 :>>Ctrl+H<<: Replace -- Find and replace matches
@@ -254,8 +265,7 @@ sizes, they have no relation with magnifying glass technologies./
 To start your computer and login:
  1) Power the computer on.
  2) Wait a minute or two until you hear the sound of drums.
- 3) Press >>ENTER<< to choose the last logged in user, then type your password,
- confirm with >>ENTER<<.
+ 3) Press >>ENTER<< to choose the last logged in user, then type your password, confirm with >>ENTER<<.
  4) If your login is successful you will hear the login melody. If not, repeat.
 
 Be aware that repeated failures to login, if you have more users defined in the
@@ -265,12 +275,11 @@ pressing the first >>ENTER<<. In such a case, you might need sighted help.
 To shut down the computer:
  1) Press >>Ctrl+Alt_Delete<<
  2) A new 'Shutdown computer' dialog will appear in a  separate window.
- 2) In case the dialog doesn't have focus, cycle through the available windows
-    with >>Alt+TAB<< to find it.
- 3) Choose whether you want to shutdown the computer, hibernate, put in sleep
-    mode or restart.
+ 2) In case the dialog doesn't have focus, cycle through the available windows with >>Alt+TAB<< to find it.
+ 3) Choose whether you want to shutdown the computer, hibernate, put in sleep mode or restart.
 
 Shortcuts:
+
 :Ctrl-Alt-Delete: Bring up the 'Shutdown computer' dialog
 
 === Desktop main menu === desktop-main-menu
@@ -280,6 +289,7 @@ your disk or system settings.  To get to the menu, press >>Alt+F1<<. To move
 between the items, use the arrow keys.
 
 Shortcuts:
+
 :>>Alt+F1<<: Go to desktop main menu
 
 == Reading mail == reading-mail
@@ -294,15 +304,15 @@ To setup a new mail account:
  2) Under the menu item File, select New, press right arrow to open the submenu
  3) Select 'Mail account'
  4) Fill in your full name, email address and password for the account, press
- 'Continue' button
+    'Continue' button
  5) Thunderbird will try to guess the other details. This however often doesn't
- work, so it is perhaps a good idea to go find the 'Manual settings...' button
- and check the details in the account settings dialog. (Note that this button
- will only appear after the auto-discovery finishes, so you may have to wait a
- little).
+    work, so it is perhaps a good idea to go find the 'Manual settings...' button
+    and check the details in the account settings dialog. (Note that this button
+    will only appear after the auto-discovery finishes, so you may have to wait a
+    little).
  6) The settings for your outgoing (SMTP) mail server can be found in the same
- dialog window, but under different card. Move back to the list of available
- cards by pressing >>F6<< and move in it using up and down arrows.
+    dialog window, but under different card. Move back to the list of available
+    cards by pressing >>F6<< and move in it using up and down arrows.
 
 ==== Subscribe IMAP folders ==== thunderbird-subscribe-imap-folders
 
@@ -351,6 +361,7 @@ you can find in the 'Message' item of the main menu (access it through >>F10<<
 and down arrow, then use right arrow key to find it)
 
 Shortcuts:
+
 :>>F6<<: Move between panes (Shift-F6 backwards)
 :>>ENTER<<: Open message in different tab (in list of messages)
 :>>Ctrl+w<<: Close tab
@@ -390,12 +401,13 @@ To write a new message:
 # they are different in different localizations<<
 
 Messages:
+
 :Display unread messages only: Alt-v e u or 'menu->View->Threads->Unread'
 :Display all messages: Alt-v e a or 'menu->View->Threads->All'
 
 Folders:
-:Display folders with unread messages only: Alt-v f u or
-'menu->View->Folders->Unread'
+
+:Display folders with unread messages only: Alt-v f u or 'menu->View->Folders->Unread'
 :Display all folders: Alt-v f a or 'menu->View->Folders->All'
 
 ==== Sort messages ==== thunderbird-sort
@@ -465,14 +477,16 @@ search just for the part that you are interested. Below is a list of
 the most common keyboard shortcuts with Orca:
 
 Basic navigation:
+
 :Down arrow: Next line (Up arrow previous line)
 :>>Ctrl+Home<< or >>End<<: Go to top or bottom of the document
 
 Landmark navigation:
+
 :>>m<<: Next landmark (>>Shift+m<< previous)
 
 Navigation over page items:
-:>>Orca+<<Right: Go to next object (>>Orca+<<Left previous object)
+:>>Orca<<+Right: Go to next object (>>Orca<<+Left previous object)
 :>>h<<: Next heading (Shift-1 previous)
 :>>1<< or >>2,3,4,5,6<<: Next heading of the given level (>>Shift+1<< or >>2,3,4,5,6<< previous)
 :>>p<<: Next paragraph (Shift-p previous)
@@ -492,7 +506,7 @@ Orca mode settings:
 ==== Tables ==== firefox-tables
 
 :>>t<<: Next table (>>Shift+t<< previous)
-:>>Shift+Alt+<<Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
+:>>Shift+Alt<<+Arrow: Jump to table cell in given arrow direction (Up, Down, Left, Right)
 :>>Shift+Alt+Home<< or >>End<<: Jump to first or last cell in the table
 
 ==== Forms ==== firefox-forms
@@ -508,7 +522,7 @@ Access keys often provide useful functionality, such as jump to page content or
 jump to menu. There is however no standard definition for them and thus they
 might be different in different web applications.
 
-:>>Shift-Alt-<<key: Execute action defined for 'key'
+:>>Shift-Alt<<-key: Execute action defined for 'key'
 
 ==== Live regions ==== firefox-live-regions
 
@@ -538,12 +552,13 @@ close to the former one, to which you can return later.
 To move between the tabs, use >>Ctrl+PgUp<< and >>Ctrl+PgDown<<.
 
 Shortcuts:
+
 :>>Ctrl+ENTER<<: Open link in new tab
 :>>Ctrl+t<<: Open new tab and place focus in its location bar
 :>>Ctrl+w<<: Close the current tab
 :>>Ctrl+PgUp<<: Move to previous tab
 :>>Ctrl+PgDown<<: Move to the next tab
-:>>Alt+<<number: Move to the tab with the given number (>>Alt+1<< first tab, >>Alt+2<< second tab etc.)
+:>>Alt<<+number: Move to the tab with the given number (>>Alt+1<< first tab, >>Alt+2<< second tab etc.)
 
 ==== Bookmarks ==== firefox-bookmarks
 
@@ -567,6 +582,7 @@ You can also group your bookmarks in folders, just see the other edit fields
 and menu items.
 
 Shortcuts:
+
 :>>Ctrl+D<<: Bookmark this page
 
 ==== Full keyboard shortcuts reference for Firefox ==== firefox-shortcuts-reference
@@ -575,7 +591,7 @@ Shortcuts:
  * Firefox itself: [http://www.mozilla.org/support/firefox/keyboard]
 
 The complete list of Orca mode keyboard shortcuts you can find in the Orca
-settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl+<<Space, then
+settings dialog for Firefox. While in Firefox, press >>Orca+Ctrl<<+Space, then
 use >>Alt+PgUp<< or >>Alt+PgDown<< to find the Keyboard shortcuts tab.
 
 == Managing files == managing-files
@@ -686,6 +702,7 @@ is not even necessary to type much as the shell can complete commands and names
 of files automatically once you type the first few letters.
 
 Shortcuts:
+
 :>>Ctrl+Alt+t<<: Launch terminal (command line)
 :>>TAB<<: Complete a command, parameter or filename or list available options if more than one exist
 
@@ -726,9 +743,9 @@ folder '/home/joe/notes',
  8. Type '>>ls notes<<' and >>ENTER<< to verify that the file is in there
 
 To copy all .txt files into a folder 'documents':
- * >>cp *.txt documents ENTER<<
+ * >>cp \*.txt documents ENTER<<
 or just
- * >>cp *.txt docu TAB ENTER<<
+ * >>cp \*.txt docu TAB ENTER<<
 
 == Creating documents == creating-documents
 
@@ -793,9 +810,9 @@ word (such as 'Normal text' or 'Heading 2').
 ==== Movement ==== openoffice-writer-movement
 
 :Right, Left: Move by characters
-:>>Ctrl-<<Right, >>Ctrl-<<Left: Move by words
+:>>Ctrl<<-Right, >>Ctrl<<-Left: Move by words
 :Up, Down: Move by lines
-:>>Ctrl-<<Up, >>Ctrl-<<Down: Move by paragraphs
+:>>Ctrl<<-Up, >>Ctrl<<-Down: Move by paragraphs
 
 :>>HOME, END<<: Move to beginning or end of line
 :>>Ctrl-HOME, Ctrl-END<<: Move to beginning or end of document
@@ -871,6 +888,7 @@ window will appear to say that the spell check is complete. Close it by
 pressing the 'OK' button. This will take you back to the document edit box.
 
 Shortcuts:
+
 :>>F7<<: Check Spelling and grammar
 
 === Openoffice Calc  === openoffice-calc
@@ -1057,9 +1075,9 @@ To *enter* inside the virtual machine:
  2. Once you are in VMware Player, press >>CTRL+g<< to enter it
  3. All your keyboard and mouse input will now go to the virtual machine
 
-/Note: If you can't enter the machine with >>Ctrl+g<<, it might be either because
+Note: If you can't enter the machine with >>Ctrl+g<<, it might be either because
 the machine is not running (see [#vmware-start-stop-machine]) or because some
-dialog window has appeared but didn't get focus. Use >>Alt+TAB<< to find it./
+dialog window has appeared but didn't get focus. Use >>Alt+TAB<< to find it.
 
 To *leave* the virtual machine:
  1. Press >>Ctrl+Alt<< to leave the machine
@@ -1073,6 +1091,7 @@ escape combination to >>Ctrl+Alt+Shift<<. See
 [gnu-configuration#vmware-player-escape the Configuration chapter, section VMWare]
 
 Shortcuts:
+
 :Ctrl+g: Enter virtual machine
 :Ctrl+Alt: Leave virtual machine
 

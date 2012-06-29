@@ -35,7 +35,7 @@ sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default
 -----
 
 Then you have to obtain a Festival configuration file. See section
-[#configuration-scm] to learn how to create/modify the file. If you do not want
+[#festival-scm] to learn how to create/modify the file. If you do not want
 to learn it now, you can download our pre-made file this way:
 
 -----
@@ -56,7 +56,7 @@ Your Festival should be installed and running by now. You might
 however want to install some additional voices or sound libraries.
 Go back to the [gnu-installation Installation page] to read more.
 
-== Step 4 (optional): Create your Festival configuration file ==
+== Step 4 (optional): Create your Festival configuration file == festival-scm
 
 Start with the contents of the \/usr/share/doc/festival/examples/festival.scm
 file. When you are ready with it, copy it to the \/etc/festival.scm file.

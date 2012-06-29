@@ -34,7 +34,7 @@ sudo wget http://live.freebsoft.org/ubuntu-festival/attachments/festival.default
 -----
 
 Potom si musíte obstarat konfigurační soubor Festivalu. Naučte se ho
-vytvořit/upravovat v sekci [#configuration-scm]. Pokud se to nechcete učit teď,
+vytvořit/upravovat v sekci [#festival-scm]. Pokud se to nechcete učit teď,
 můžete si stáhnout a nainstalovat námi předpřipravený soubor takto:
 
 -----
@@ -55,7 +55,7 @@ Váš Festival by nyní měl být nainstalován a běžet. Mohli byste ale chtí
 přiinstalovat další hlasy nebo zvukové knihovny. Více o tom si můžete přečíst v
 [gnu-installation stránce o instalaci].
 
-== Krok 4 (volitelně): Vytvoření vlastního konfiguračního souboru Festivalu ==
+== Krok 4 (volitelně): Vytvoření vlastního konfiguračního souboru Festivalu == festival-scm
 
 Začněte obsahem souboru \/usr/share/doc/festival/examples/festival.scm, popř
 námi nabízeným souborem [festival.scm festival.scm]. Až budete hotoví,

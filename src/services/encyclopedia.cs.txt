@@ -104,9 +104,7 @@ V JAWS lze nastavit indikaci odkazů pomocí zvuku (jemné ťuknutí v
 průběhu čtení slova) od verze 12 pomocí tzv. Schémat řeči.
 
 1. V nabídce JAWS vybrat Nástroje->Centrum nastavení.
-
 2. V centru nastavení, ve stromovém menu, vybrat Plynulé čtení -> Schéma plynulého čtení.
-
 3. Pomocí klávesy mezerník změnit hodnotu na Text+Zvuky.
 
 ==== Nastavení Wikipedie ====
@@ -123,15 +121,15 @@ Po přihlášení se k osobnímu nastavení dostanate pomocí odkazu
 Nastavení.
 
 1. Veškeré nadpisy uvnitř článků i některá další místa na Wikipedii
-začínají textem 'editovat', který zabraňuje jejich rychlému a
-pohodlnému procházení. Jeho obrazování lze vypnout v nastavení na
-kartě Editace položkou ,,Zapnout možnost editace části článku pomocí
-odkazu 'editovat'.
+   začínají textem 'editovat', který zabraňuje jejich rychlému a
+   pohodlnému procházení. Jeho obrazování lze vypnout v nastavení na
+   kartě Editace položkou ,,Zapnout možnost editace části článku pomocí
+   odkazu 'editovat'.
 
 2. Na začátku článků se často objevují odkazy uvozené ,,Skočit na:''
-zamýšlené pro zlepšení přístupnosti stránek. Pro pokročilejšího
-uživatele, který si již našel způsob, jakým se v článcích orientovat
-ale mohou být spíše na obtíž. V takovém případě lze jejich zobrazování
-vypnout na kartě Vzhled položkou ,,Používat odkazy „skočit na“ pro
-vyšší přístupnost''.
+   zamýšlené pro zlepšení přístupnosti stránek. Pro pokročilejšího
+   uživatele, který si již našel způsob, jakým se v článcích orientovat
+   ale mohou být spíše na obtíž. V takovém případě lze jejich zobrazování
+   vypnout na kartě Vzhled položkou ,,Používat odkazy „skočit na“ pro
+   vyšší přístupnost''.
 

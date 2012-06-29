@@ -29,6 +29,7 @@ otevírání položek podmenu a k pohybu mezi hlavními položkami menu
 používat vždy pouze šipku vlevo.
 
 Klávesové zkratky:
+
 :>>F10<<: Přejdi do hlavního menu aplikace
 :Nahoru a Dolů: Vybírej z podmenu
 :Vpravo: Další položka v top-level menu nebo otevření podmenu
@@ -62,9 +63,9 @@ Klávesové zkratky:
 
 === Logika klávesových zkratek === keyboard-shortcuts-logic
 
-:>>Ctrl+<<kombinace: Kombinace s klávesou >>Ctrl<< vyvolávají různé akce (např. >>Ctrl+u<< Undo -- Vrátit zpět)
-:>>Alt+<<kombinace: Kombinace s klávesou >>Alt<< jsou určeny k přístupu do menu a k manipulaci s okny
-:>>Shift+<<kombinace: >>Shift<< je často využíván k obrácení nějaké akce (např.  >>Ctrl+u<< Undo -- Vrátit, >>Shift+Ctrl+u<< Redo -- Opakovat)
+:>>Ctrl<<+kombinace: Kombinace s klávesou >>Ctrl<< vyvolávají různé akce (např. >>Ctrl+u<< Undo -- Vrátit zpět)
+:>>Alt<<+kombinace: Kombinace s klávesou >>Alt<< jsou určeny k přístupu do menu a k manipulaci s okny
+:>>Shift<<+kombinace: >>Shift<< je často využíván k obrácení nějaké akce (např.  >>Ctrl+u<< Undo -- Vrátit, >>Shift+Ctrl+u<< Redo -- Opakovat)
 
 === Navigace === navigation
 
@@ -91,8 +92,8 @@ nastartovaná, můžete ji nastartovat pomocí '>>Alt-F2 orca<<'. Nastartuje
 v samostatném okně s tlačítky 'Nastavení', 'Nápověda' a 'Konec'. Pomocí
 klávesových zkratek ji ale lze kontrolovat i z okna jakékoliv jiné aplikace.
 
-Orca poskytuje dvě předdefinované rozložení kláves.  *Rozložení pro stolní
-počítač* využívá numerického bloku na klávesnici, ale *Rozložení pro laptop* se
+Orca poskytuje dvě předdefinované rozložení kláves.  /Rozložení pro stolní počítač/
+využívá numerického bloku na klávesnici, ale /Rozložení pro laptop/ se
 musí vyrovnat s tím, že většina přenosných počítačů na klávesnici nemá
 samostatný numerický blok.
 
@@ -122,25 +123,30 @@ přehledu uvádíme vždy obě varianty:
 :>>Numpad-minus<< (>>Orca+P<<): Zapnout a vypnout plošný náhled
 
 Čtení po řádcích:
+
 :>>Numpad-7 (Orca+U)<<: Předchozí řádek -- Přesunout kurzor plošného náhledu na předchozí řádek
 :>>Numpad-8 (Orca+I)<<: Tento řádek -- Přečíst aktuální řádek
 :>>Numpad-9 (Orca+O)<<: Následující řádek -- Přesunout kurzor plošného náhledu na další řádek
 
 Čtení po slovech:
+
 :>>Numpad-4 (Orca+J)<<: Předchozí slovo -- Přesunout kurzor plošného náhledu na předchozí slovo
 :>>Numpad-5 (Orca+K)<<: Toto slovo -- Přečíst aktuální slovo
 :>>Numpad-6 (Orca+L)<<: Následující slovo -- Přesunout kurzor plošného náhledu na následující slovo
 
 Čtení po znacích:
+
 :>>Numpad-1 (Orca+M)<<: Předchozí znak -- Přesunout kurzor plošného náhledu na předchozí znak a přečíst ho.
 :>>Numpad-2 (Orca+coma)<<: Tento znak -- Přečíst aktuální znak.
 :>>Numpad-3 (Orca+period)<<: Následující znak -- Přesunout kurzor plošného náhledu na následující znak.
 
 Kliknutí myší na pozici kurzoru plošného náhledu:
+
 :>>Numpad-slash (Orca+7)<<: Kliknutí levým tlačítkem myši
 :>>Numpad-star (Orca+8)<<: Kliknutí pravým tlačítkem myši
 
 Další:
+
 :>>Numpad-Plus<<: Přečíst vše -- Čte od aktuální pozice kurzoru až do konce dokumentu
 :>>Numpad-Enter<<: Kde se nacházím -- Přemluví informaci zahrnující titulek okna aktuální aplikace, stejně jako název ovládacího prvku, na němž je aktuálně kurzor
 
@@ -161,6 +167,7 @@ zkratek, které patří jí. Mnoho dalších užitečných klávesových zkratek
 je obyčejně poskytováno aplikací samotnou a ty se takto odhalit nedají.
 
 Klávesové zkratky:
+
 :>>Orca+H<<: Vstoupit do výukového režimu Orca
 :>>ESC<<: Opustit výukový režim
 
@@ -176,7 +183,7 @@ instalace Ubuntu. Obsahuje i sledování zaměření a zvýraznění
 kurzoru myši.
 
 Instrukce, jak jej pro ten účel nastavit, naleznete zde:
-[gnu-configuration#enhanced-zoom-dekstop] .
+[gnu-configuration#enhanced-zoom-desktop] .
 
 ==== Zvětšování ====
 
@@ -206,20 +213,22 @@ rychle začíná kazit, je to podobné chování, jaké jsme pozorovali na naši
 počítačích, a neznáme pro něj žádné snadné řešení. V tom případě se prosím
 podívejte na [#enhanced-zoom-desktop].
 
-=== Applications === applications
+=== Aplikace === applications
 
 Níže uvádíme přehled běžně používaných klávesových zkratek, které
 se využívají napříč nejrůznějšími aplikacemi. Protože je ale
 každá aplikace trošku jiná, ne všechny níže uvedené zkratky
 v ní musí mít smysl.
 
-General:
+Obecné:
+
 :>>F10<<: Přejdi do hlavního menu aplikace
 :>>Shift-F10<<: Otevři kontextové menu na zvoleném objektu
 :>>Alt+F4<<: Zavři aktuální okno
 :>>Alt+Space<<: Přejdi do menu okna (maximalizovat, minimalizovat, změnit velikost, zrušit okno)
 
 Akce položky menu Soubor:
+
 :>>Ctrl+N<<: Nový -- Vytvoř dokument
 :>>Ctrl+O<<: Otevřít -- Otevři dokument
 :>>Ctrl+S<<: Uložit -- Ulož aktuální dokument
@@ -228,20 +237,24 @@ Akce položky menu Soubor:
 :>>Ctrl+Q<<: Ukončit -- Ukonči aplikaci
 
 Vrátit zpět a opakovat (undo a redo):
+
 :>>Ctrl+Z<<: Undo -- Vrátit zpět
 :>>Shift+Ctrl+Z<<: Redo -- Opakovat
 
 Kopírovat a vložit ze schránky:
+
 :>>Ctrl+X<<: Vyříznout -- Vyříznout zvolený objekt nebo oblast a uložit je do schránky
 :>>Ctrl+C<<: Kopírovat -- Kopírovat zvolený objekt nebo oblast do schránky
 :>>Ctrl+V<<: Vložit -- Vložit obsah schránky na pozici kurzoru
 
 Výběr:
+
 :>>Ctrl+A<<: Vyber vše -- Vyber vše v rámci zaměření ovládacího prvku nebo aktivního okna
 :>>Ctrl+I<<: Obrať výběr -- Vyber vše, co vybráno nebylo, a zruš výběr na tom, co vybráno bylo
 :>>Delete<<: Vymaž vybrané objekty
 
 Vyhledávání:
+
 :>>Ctrl+F<<: Najdi -- Najdi výskyty hledaného textu v aktuálním dokumentu
 :>>Ctrl+G<<: Najdi další -- Najdi další výskyt téhož
 :>>Ctrl+H<<: Najdi a změň -- Najdi a změň všechny výskyty daného textu na text jiný
@@ -282,6 +295,7 @@ Pro vypnutí počítače
     spánku nebo restartovat.
 
 Klávesové zkratky:
+
 :Ctrl-Alt-Delete: Vyvolej dialog 'Vypnout počítač'
 
 === Hlavní menu pracovní plochy === desktop-main-menu
@@ -291,6 +305,7 @@ adresářům na disku i k systémovým nastavením. Pro přechod do tohoto menu
 stiskněte >>Alt+F1<<. Pohybovat se v něm můžete s použitím klávesových šipek.
 
 Klávesové zkratky:
+
 :>>Alt+F1<<: Přejdi do hlavního menu pracovní plochy
 
 == Čtení pošty == reading-mail
@@ -365,6 +380,7 @@ najdete pod položkou menu 'Zpráva' (dostanete se k ní pomocí >>F10<<
 a následně opakovaným stiskem šipky vlevo).
 
 Klávesové zkratky:
+
 :>>F6<<: Přechod mezi panely (Shift-F6 opačným směrem)
 :>>ENTER<<: Otevři zprávu v nové kartě (pouze v seznamu zpráv)
 :>>Ctrl+w<<: Zavři kartu
@@ -407,10 +423,12 @@ Pro vytvoření nové zprávy:
 # they are different in different localizations<<
 
 Zprávy:
+
 :Zobraz pouze nepřečtené zprávy: Alt-z v Vpravo n nebo 'menu->Zobrazení->Vlákna->Nepřečtené'
 :Zobraz všechny zprávy: Alt-z v Vpravo v nebo 'menu->Zobrazení->Vlákna->Všechny'
 
 Složky:
+
 :Zobraz pouze složky s nepřečtenými zprávami: Alt-z s s Vpravo n nebo
 'menu->Zobrazení->Složky->Nepřečtené'
 :Zobraz všechny složky: Alt-z s s Vpravo v nebo 'menu->Zobrazení->Složky->Všechny'
@@ -485,18 +503,19 @@ však často pohodlnější číst po větších kusech nebo vyhledat jen tu č�
 Vás zajímá.  Níže je seznam nejčastěji používaných klávesových zkratek Orca:
 
 Základní navigace:
+
 :Šipka dolů: Další řádek (nahoru od předchozího řádku)
 :>>Ctrl+Home<< nebo >>End<<: Přejít na začátek nebo konec dokumentu
 
 Navigace po orientačních bodech:
+
 :>>m<<: Další orientační bod (>>Shift+m<< předchozí)
 
 Navigace po prvcích stránky:
-:>>Orca+<<šipka vpravo: Přejít na další objekt (>>Orca+<<šipka vlevo předchozí
-objekt)
+
+:>>Orca<<+šipka vpravo: Přejít na další objekt (>>Orca<<+šipka vlevo předchozí objekt)
 :>>h<<: Další nadpis (Shift-1 předchozí)
-:>>1<< nebo <2,3,4,5,6<<: Další nadpis dané úrovně (Shift+1<< nebo
- >>2,3,4,5,6<< předchozí)
+:>>1<< nebo >>2,3,4,5,6<<: Další nadpis dané úrovně (>>Shift+1<< nebo >>2,3,4,5,6<< předchozí)
 :>>p<<: Další odstavec (Shift-p předchozí)
 :>>i<<: Další položka seznamu (Shift-i předchozí)
 :>>r<<: Další živá oblast (Shift-r předchozí)
@@ -505,14 +524,14 @@ objekt)
 :>>Ctrl+Right<<: Další slovo (>>Ctrl+Left<< předchozí slovo)
 
 Nastavení módu Orca:
+
 :>>Orca+z<<: Zapnout/vypnout strukturální navigaci
 :>>Orca+F12<<: Přepnout mezi Orca navigací a Firefox (Gecko) navigací
 
 ==== Tabulky ==== firefox-tables
 
 :>>t<<: Další tabulka (>>Shift+t<< předchozí)
-:>>Shift+Alt<<+Arrow: Přeskočit na buňku ve směru daném šipkou (nahoru, dolů,
-doleva, doprava)
+:>>Shift+Alt<<+Arrow: Přeskočit na buňku ve směru daném šipkou (nahoru, dolů, doleva, doprava)
 :>>Shift+Alt+Home<< nebo >>End<<: Přeskočit na první nebo poslední buňku v tabulce
 
 ==== Formuláře ==== firefox-forms
@@ -528,15 +547,14 @@ Přístupové klávesy často poskytují užitečnou funkci, jako např. skočit
 stránky nebo skočit do menu.  Neexistuje ale žádná jejich standardní definice,
 a proto mohou být různé v různých webových aplikacích.
 
-:>>Shift-Alt-<<klávesa: provést akci přiřazenou ke klávese 'klávesa'
+:>>Shift-Alt<<-klávesa: provést akci přiřazenou ke klávese 'klávesa'
 
 ==== Živé oblasti ==== firefox-live-regions
 
 :>>r<<: Další živá oblast (>>Shift+r<< předchozí)
 :>>\\<<: Zvýšit úroveň slušnosti pro současnou živou oblast
 :>>Shift+\\<<: nastavit všem živým oblastem úroveň slušnosti 'vypnuta'
-:>>Orca+F1<< nebo >>F2<< to >>F9<<: Projít dříve oznámené zprávy z živé oblasti
-(>>F1<< nejnovější, >>F2<< druhá nejnovější atd.)
+:>>Orca+F1<< nebo >>F2<< to >>F9<<: Projít dříve oznámené zprávy z živé oblasti (>>F1<< nejnovější, >>F2<< druhá nejnovější atd.)
 
 ==== Prohlížení webu s panely ==== firefox-tabbed-browsing
 
@@ -559,13 +577,13 @@ původní, ke které se můžete později vrátit.
 Pro pohyb mezi panely použijte >>Ctrl+PgUp<< a >>Ctrl+PgDown<<.
 
 Klávesové zkratky:
+
 :>>Ctrl+ENTER<<: Otevřít odkaz v novém panelu
 :>>Ctrl+t<<: Otevřít nový panel a umístit zaměření do jeho adresního řádku
 :>>Ctrl+w<<: Zavřít současný panel
 :>>Ctrl+PgUp<<: Přejít na předchozí panel
 :>>Ctrl+PgDown<<: Přejít na další panel
-:>>Alt+<<číslo: Přejít do panelu s daným číslem (>>Alt+1<< první panel,
->>Alt+2<< druhý panel atd.)
+:>>Alt<<+číslo: Přejít do panelu s daným číslem (>>Alt+1<< první panel, >>Alt+2<< druhý panel atd.)
 
 ==== Záložky ==== firefox-bookmarks
 
@@ -578,7 +596,7 @@ potom zmáčknou tlačítko Dokončit.
 
 Záložky jsou uloženy v hlavním menu.  Přejděte na ně pomocí >>F10<<, stiskněte
 opakovaně pravou šipku, abyste našli položku "Záložky", a pak procházejte své
-záložky pomocí šipek nahoru a dolů.  Stisk >>ENTER<<u na jakékoliv záložce
+záložky pomocí šipek nahoru a dolů.  Stisk >>ENTER<< na jakékoliv záložce
 otevře jí přiřazenou stránku v současném okně prohlížeče.
 
 Pokud chcete s označenou záložkou provést nějakou jinou akci, jako
@@ -589,6 +607,7 @@ Záložky také můžete seskupovat ve složkách, a to pomocí ostatních edita
 políček a položek menu.
 
 Klávesové zkratky:
+
 :>>Ctrl+D<<: Vytvořit záložku pro tuto stránku
 
 ==== Úplná příručka klávesových zkratek pro Firefox ==== firefox-shortcuts-reference
@@ -597,7 +616,7 @@ Klávesové zkratky:
  * samotný Firefox: [http://www.mozilla.org/support/firefox/keyboard]
 
 Úplný seznam klávesových zkratek módu Orca můžete najít v dialogu nastavení
-Orca pro Firefox. Když jste ve Firefoxu, stiskněte >>Orca+Ctrl+<<Space, potom
+Orca pro Firefox. Když jste ve Firefoxu, stiskněte >>Orca+Ctrl<<+Space, potom
 použijte >>Alt+PgUp<< nebo >>Alt+PgDown<<, abyste našli panel Klávesové
 zkratky.
 
@@ -699,9 +718,7 @@ kabel, protože to by mohlo vyústit ve ztrátu dat. Musíte systému nejprve ř
 :>>F6<<: Přecházet dokola mezi umístěními a obsahem adresáře
 :>>Alt+HOME<<: vrátit se do domovského adresáře
 :>>Ctrl+H<<: přesunout kursor do řádku umístění
-:>>Shift+F10<<: Otevřít kontextové menu. Pokud je otevřeno na souborech nebo
-  adresářích, zobrazuje seznam akcí, které je s nimi možno provést
-  (např. "Kopírovat", "Přejmenovat" atd.)
+:>>Shift+F10<<: Otevřít kontextové menu. Pokud je otevřeno na souborech nebo adresářích, zobrazuje seznam akcí, které je s nimi možno provést (např. "Kopírovat", "Přejmenovat" atd.)
 :>>Ctrl+H<<: Zobrazit/skrýt skryté soubory
 :>>F2<<: přejmenovat
 :>>DEL<<: přesunout do koše
@@ -716,19 +733,17 @@ psát, jelikož příkazová řádka umí automaticky doplňovat názvy příkaz
 souborů potom, co napíšete jejich pár prvních písmen
 
 Zkratky:
+
 :>>Ctrl+Alt+t<<: Spustit terminál (příkazovou řádku)
-:>>TAB<<: Doplnit příkaz, parametr nebo jméno souboru nebo seznam dostupných
-  voleb, pokud jich existuje více
+:>>TAB<<: Doplnit příkaz, parametr nebo jméno souboru nebo seznam dostupných voleb, pokud jich existuje více
 
 ==== Základní práce se soubory ==== command-line-files-basic
 
 :>>ls: zobrazit obsah adresáře ('ls -lh' včetně informací pro každý soubor)
 :>>cp<< soubor místo: zkopírovat soubor (pomocí 'cp -r' i adresář) do místa
 :>>mv<< soubor místo: přemístit soubor (nebo adresář) na místo (soubor nebo adresář)
-:>>rm<< soubor: trvale odstranit soubor ('>>rm -rf<< adresář' pro odstranění
-  neprázdného adresáře)
-:>>mkdir<< jméno_adresáře: vytvořit adresář s daným jménem ('mkdir' je zkratka
-  z anglického 'make directory', tedy "vytvořit adresář")
+:>>rm<< soubor: trvale odstranit soubor ('>>rm -rf<< adresář' pro odstranění neprázdného adresáře)
+:>>mkdir<< jméno_adresáře: vytvořit adresář s daným jménem ('mkdir' je zkratka z anglického 'make directory', tedy "vytvořit adresář")
 
 Tento oddíl je zde pouze pro vysvětlení základní myšlenky a k tomu, aby ukázal,
 že tento způsob práce může být celkem jednoduchý a rychlý.
@@ -748,24 +763,24 @@ adresáře '/home/jan/poznamky',
  3. >>mkdir notes<< (vytvoří adresář 'poznamky')
  4. >>mv ubun<<
  5. Stistkněte >>TAB<< pro doplnění, nyní byste měli vidět:
-  >>'mv ubuntu-zpristupneni.txt'<<
+    >>'mv ubuntu-zpristupneni.txt'<<
  6. napište >>poznamky<<
  7. Nyní máte na vstupu zadáno '>>mv ubuntu-zpristupneni.txt poznamky<<',
-   stiskněte >>ENTER<< 
+    stiskněte >>ENTER<<
  8. Napište '>>ls poznamky<<' a >>ENTER<<, abyste ověřili, že soubor je
-   skutečně tam
+    skutečně tam
 
 Abyste zkopírovali všechny .txt soubory do adresáře 'dokumenty':
- * >>cp *.txt dokumenty ENTER<<
+ * >>cp \*.txt dokumenty ENTER<<
 nebo jenom
- * >>cp *.txt docu TAB ENTER<<
+ * >>cp \*.txt docu TAB ENTER<<
 
 == Tvorba dokumentů == creating-documents
 
 S pomocí balíku OpenOffice.org můžete vytvářet různé dokumenty (jako dopisy,
 tabulky nebo prezentace)
 
-Pro spuštění OpenOffice, zmáčkněte >>Alt+F2<, potom napiště
+Pro spuštění OpenOffice, zmáčkněte >>Alt+F2<<, potom napiště
 '>>openoffice.org<<' a stiskněte >>ENTER<<.
 
 OpenOffice obsahuje různé součásti, které mohou být používány pro různé
@@ -792,9 +807,9 @@ Výchozí náhled obsahuje čtyři hlavní komponenty, kterými můžete dokola
 procházet pomocí >>F6<< a >>Shift+F6<<:
  1. hlavní menu -- jsou z něj dostupné téměř všechny akce
  2. standardní nástroje -- nejběžnější nástroje a akce (jako "Uložit",
-  "Otevřít", "Tisk", "Vytvořit tabulku" atd.)
+    "Otevřít", "Tisk", "Vytvořit tabulku" atd.)
  3. formátovací nástroje -- formátování (jako styl textu, font, nebo jeho
-  velikost, zarovnání odstavce, atd.)
+    velikost, zarovnání odstavce, atd.)
  4. oblast pro upravování dokumentu -- obsah dokumentu
 
 ==== Tvorba jednoduchého dokumentu ==== openoffice-writer-simple-document
@@ -803,17 +818,17 @@ Toto je pouze příklad, vytvoříme dokument s nadpisem a jedním odstavcem.
 
  0. Otevřete OpenOffice.org, vyberte 'Textový dokument'
  1. Toto nastartuje aplikaci s prázdným dokumentem a kursorem umístěným do
-  oblasti pro upravování dokumentu
+    oblasti pro upravování dokumentu
  2. Napište text nadpisu, např. "Můj příběh"
  3. Stiskněte >>Ctrl+1<<, abyste současnému odstavci (tedy tomu sestávajícího z
-  text "Můj příběh") přiřadili styl "Nadpis 1"
+    text "Můj příběh") přiřadili styl "Nadpis 1"
  4. Začněte nový řádek (přesuňte se na konec prvního pomocí klávesy >>END<<, a
-  pak stiskněte >>ENTER<<
+    pak stiskněte >>ENTER<<
  5. Napište text prvního odstavce Vašeho příběhu, přitom neoddělujte řádky
-  pomocí >>ENTER<<.  Řádky se vytvoří automaticky, >>ENTER<< slouží pouze pro
-  tvorbu nových odstavců.
+    pomocí >>ENTER<<.  Řádky se vytvoří automaticky, >>ENTER<< slouží pouze pro
+    tvorbu nových odstavců.
  6. Stiskněte >>Ctrl+S<< pro uložení dokumentu pomocí standardního ukládacího
-  dialogu
+    dialogu
 
 ==== Prozkoumání formátu ==== openoffice-writer-review-of-formatting
 
@@ -825,21 +840,19 @@ text', 'Nadpis 2' apod.).
 ==== Pohyb ==== openoffice-writer-movement
 
 :šipky doprava, doleva: Pohyb po znacích
-:>>Ctrl-<<doprava, >>Ctrl-<<doleva: Pohyb po slovech
+:>>Ctrl<<+doprava, >>Ctrl<<+doleva: Pohyb po slovech
 :šipky nahoru, dolů: Pohyb po řádcích
-:>>Ctrl-<<nahoru, >>Ctrl-<<dolů: Pohyb po odstavcích
+:>>Ctrl<<+nahoru, >>Ctrl<<+dolů: Pohyb po odstavcích
 
 :>>HOME, END<<: přejít na začátek nebo konec řádku
-:>>Ctrl-HOME, Ctrl-END<<: přejít na začátek nebo konec dokumentu
+:>>Ctrl+HOME, Ctrl+END<<: přejít na začátek nebo konec dokumentu
 
 ==== Výběr ==== openoffice-writer-selections
 
-:>>Ctrl-Shift-s<<: vybrat současný odstavec (toto je
-[gnu-configuration#openoffice-writer-shortcuts vlastní zkratka], nejdříve si ji
-musíte nadefinovat)
-:>>Ctrl-Shift-Down<<: vybere text od současné pozice do konce odstavce
-:>>Ctrl-a<<: vybrat vše -- celý dokument
-:>>Shift-END<<: vybrat vše od současné pozice do konce řádku
+:>>Ctrl+Shift+s<<: vybrat současný odstavec (toto je [gnu-configuration#openoffice-writer-shortcuts vlastní zkratka], nejdříve si ji musíte nadefinovat)
+:>>Ctrl+Shift+Down<<: vybere text od současné pozice do konce odstavce
+:>>Ctrl+a<<: vybrat vše -- celý dokument
+:>>Shift+END<<: vybrat vše od současné pozice do konce řádku
 
 ==== Styl textu, zarovnání odstavce a fonty ==== openoffice-writer-aligment-and-fonts
 
@@ -847,8 +860,7 @@ Jednoduché změny stylu a formátování se nejlépe dají provést pomocí kl�
 zkratek:
 
 :>>Ctrl+0<<: změnit současný odstavec na normální text
-:>>Ctrl+1<< to >>Ctrl+5<<: změnit současný odstavec na nadpis 1 (největší) až
-nadpis 5 (nejmenší)
+:>>Ctrl+1<< to >>Ctrl+5<<: změnit současný odstavec na nadpis 1 (největší) až nadpis 5 (nejmenší)
 
 :>>Ctrl+l<<: Zarovnat současný odstavec vlevo
 :>>Ctrl+r<<: Zarovnat současný odstavec vpravo
@@ -909,6 +921,7 @@ se zobrazí okno, které řekne, že je povolena kontrola pravopisu. Zavřete je
 pomocí tlačítka OK. Toto Vás přenese zpět na oblast úprav dokumentu.
 
 Zkratky:
+
 :>>F7<<: Kontrola pravopisu a gramatiky
 
 === OpenOffice Calc  === openoffice-calc
@@ -1064,7 +1077,7 @@ Pro *spuštění* virtuálního počítače:
  1. Spusťte VMware Player
  2. Použijte šipky nahoru a dolů pro výběr virtuálního stroje, který chcete
     nastartovat
- 3. Nastartujte jej stiskem >>ENTER<< 
+ 3. Nastartujte jej stiskem >>ENTER<<
  4. Nyní se řiďte oddílem [#vmware-using-machine]. Doporučujeme, abyste počkali
     jednu nebo dvě minuty, než se virtuální počítač nastartuje předtím, než se do
     něj přepnete, protože jinak můžete mít problémy se špatným odchytáváním
@@ -1103,10 +1116,10 @@ Pro *vstup* do virtuálního počítače:
  3. Veškerý vstup z klávesnice a myši nyní bude směřován do virtuálního
     počítače
 
-/Pozn.: Pokud se Vám nedaří pomocí >>Ctrl+g<< vstoupit do virtuálního počítače,
+Pozn.: Pokud se Vám nedaří pomocí >>Ctrl+g<< vstoupit do virtuálního počítače,
 může to být buď proto, že jste virtuální počítač nespustili (viz
 [#vmware-start-stop-machine]) nebo proto, že se objevilo jiné dialogové okno,
-ale nedostalo zaměření. Použijte >>Alt+TAB<<, abyste ho našli./
+ale nedostalo zaměření. Použijte >>Alt+TAB<<, abyste ho našli.
 
 Abyste *vystoupili* z virtuálního počítače:
  1. Stistkněte >>Ctrl+Alt<<, abyste vystoupili z virtuálního počítače
@@ -1120,6 +1133,7 @@ kombinaci na >>Ctrl+Alt+Shift<<, viz
 [gnu-configuration#vmware-player-escape kapitola Konfigurace, sekce VMWare].
 
 Klávesové zkratky:
+
 :Ctrl+g: Vstoupit do virtuálního počítače
 :Ctrl+Alt: Vystoupit z virtuálního počítače
 
