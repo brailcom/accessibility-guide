@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: structured-text -*-
+
+= Desktop and laptop computers =
+
+@NodeIndex(1)@

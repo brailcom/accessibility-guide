@@ -1,7 +1,4 @@
-overview
-gnu-linux
-windows
-macosx
+desktops-and-laptops
 ios
 edu
 services
