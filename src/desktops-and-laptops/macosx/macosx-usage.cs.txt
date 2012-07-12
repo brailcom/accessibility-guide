@@ -1,6 +1,162 @@
 # -*- coding: utf-8; mode: structured-text -*-
 = Používání =
 
-Apple poskytuje [http://www.apple.com/voiceover/info/guide/ velmi
-detailní manuál] vysvětlující použití VoiceOver na Mac OS X (pouze v
-anglickém jazyce).
+Obsah: @TOC@
+
+== VoiceOver jako odečítač obrazovky (pro nevidomé) == voiceover
+
+=== Základy používání ===
+
+Základem pro ovládání počítače je pohyb dopředu, dozadu, dovnitř a ven.  Při
+pohybu dopředu a dozadu uslyšíte, a na braillském řádku se vám zobrazí, vždy
+následující nebo předchozí položka v aktuální situaci. To může být tlačítko,
+kousek textu ale i celá skupina prvků, oblast nebo tabulka. V případě, že se
+jako aktuální položka ohlásí například celá tabulka, a vy si chcete prohlédnout
+její obsah, použijete povel pro vstup dovnitř.
+
+Jednotlivé informace na obrazovce tedy nejsou prostě jen seřazeny za sebou v
+jedné dlouhé nudli, ale jsou zorganizovány do různých skupin a podskupin, mezi
+kterými se pohybujete dopředu či dozadu, a do kterých se vnořujete dovnitř a
+zase z nich vynořujete ven několika jednoduchými povely.
+
+Pro většinu základních povelů můžete používat buď kombinace kláves na
+klávesnici nebo gesta (dohodnuté pohyby prstů) na dotykové destičce zvané
+Trackpad. U notebooků je Trackpad již zabudován, ke stolním počítačům jej lze
+dokoupit.
+
+Protože oba přístupy (pomocí klávesnice i pomocí gest) mají různé výhody,
+doporučujeme je při práci kombinovat tak, jak je vám pohodlné. Pokud již máte
+zkušenost s mobilními zařízeními firmy Apple (iPhone, iPad, iPod) a s ovládáním
+pomocí dotykových gest jste se již setkali, velmi doporučujeme začít právě s
+nimi.
+
+Odečítač obrazovky VoiceOver zapnete či vypnete pomocí klávesové kombinace
+CMD+F5.
+
+=== Základní gesta (dotykové ovládání) === basic-gestures
+
+Dotyková gesta se provádí na dotykové destičce, trackpadu. Pokud není uvedeno
+jinak, lze je provádět na jejím libovolném místě. Pokud tedy například
+potvrzení aktuální položky je poklepání jedním prstem, je zcela jedno, ve
+kterém místě dotykové destičky poklepete.
+
+==== Pohyb a potvrzení ==== gestures-movement
+
+Gesta pro základní pohyb mezi prvky na obrazovce jsou:
+
+:švihnutí jedním prstem doprava/doleva: dopředu/dozadu (gesto jako když byste chtěli z destičky smést smítko)
+:švihnutí dvěma prsty doprava/doleva: dovnitř/ven (také začít práci s položkou/ukončit práci s položkou)
+:poklepání jedním prstem: potvrzení (gesto dva krátké doteky rychle za sebou)
+
+Potvrzuje se například tlačítko, položka menu nebo hypertextový odkaz.
+
+==== Vyvolání nabídek ==== gestures-menus
+
+Nabídkou, jejíž pomocí můžete přejít do jiné aplikace, například do prohlížeče
+internetu Safari, emailového klientu Mail nebo do správce souborů Finder je
+takzvaný Dock. Vyvoláte jej poklepáním dvěma prsty u dolního okraje trackpadu a
+následně se v něm můžete pohybovat šviháním doleva a doprava. Vybranou položku
+potvrdíte poklepáním.
+
+:poklepání dvěma prsty u dolního okraje: vstup do docku (spouštění aplikací)
+:poklepání dvěma prsty u horního okraje: vstup do menu (nabídka akcí aplikace, např. Soubor, Uložit, Tisk...)
+
+:poklepání dvěma prsty u levého okraje: výběr aplikace z právě spuštěných
+:poklepání dvěma prsty u pravého okraje: výběr okna z aktuálních
+
+==== Pohyb pomocí rotoru ==== gestures-rotor
+
+Často je vhodné mít možnost ovlivnit, mezi jakými typy položek na aktuální
+obrazovce se chceme pohybovat. Například na internetové stránce se často chceme
+pohybovat pouze mezi nadpisy, mezi odkazy nebo pouze mezi formulářovými
+prvky. Jindy zase například nalezneme cizí slovo a chceme si jej dobře
+prohlédnout, chtěli bychom naopak mít možnost zvolit si pohyb kurzoru pouze
+mezi písmeny daného slova. To nám umožňuje tzv. rotor.
+
+V rotoru si nejprve navolíte, jaké typy položek chcete sledovat, a poté
+šviháním nahoru a dolů se mezi nimi přesouváte.
+
+:pootočení dvěma prsty (po/proti směru hodinových ručiček): volba typu položky (gesto bříšky palce a ukazováčku, jako když byste chtěli pootočit kolečkem)
+:švihnutí jedním prstem nahoru/dolů: přechod na předchozí / následující položku zvoleného typu (gesto jako když byste chtěli smést smítko)
+
+=== Základy ovládání z klávesnice === basic-keyboard
+
+Klávesové příkazy MacOS X často používají klávesu CMD. Naleznete ji nalevo či
+napravo od mezerníku.
+
+Klávesové příkazy VoiceOver začínají tzv. klávesou /VO/ (klávesa Voice Over).
+Tu na klávesnici nenaleznete, ale pokud není nastaveno jinak, vyvoláte ji
+současným stiskem Ctrl (Control) a Alt. Například /VO+šipka doprava/ tak
+znamená /Ctrl+Alt+šipka doprava/.
+
+==== Základní povely Mac OS X ==== keyboard-macosx
+
+:CMD+Q: Zavření aplikace
+:CMD+TAB: Přepnutí do jiné aktuálně běžící aplikace
+
+Další klávesové zkratky aplikací i systému zjistíte, pokud si budete procházet
+hlavní menu (poklepání dvěma prsty u dolního okraje trackpadu nebo klávesová
+kombinace /VO+m/).
+
+==== Pohyb a potvrzení ==== keyboard-movement
+
+:VO+šipka doprava/doleva: dopředu/dozadu
+:VO+SHIFT+šipka doprava/doleva: dovnitř/ven (také začít práci s položkou/ukončit práci s položkou)
+:VO+šipka nahoru/dolů: nahoru/dolů (pokud má smysl)
+:VO+mezerník: potvrzení
+
+Je třeba zdůraznit, že není vhodné pro potvrzování aktuálně vybrané položky
+používat klávesu ENTER. Klávesa ENTER znamená vyvolání výchozí akce, nikoliv
+potvrzení aktuálně vybrané položky. Klávesa ENTER tedy v mnohých případech
+vůbec nebere v úvahu váš aktuální výběr a často byste tak získali zcela jiný
+výsledek, než jaký jste zamýšleli. K potvrzování používejte VO+mezerník.
+
+==== Skok na spřátelenou oblast ==== keyboard-jump
+
+Pro snadnější pohyb mezi částmi některých aplikací (například Kontakty nebo
+Mail) lze s výhodou použít tzv. skok na spřátelenou oblast. Například v
+aplikaci Kontakty je to přímý přesun z tabulky jmen do kontaktních údajů, v
+aplikaci Mail je to zase přímý přesun mezi složkami, seznamem zpráv a textem
+aktuálně otevřené zprávy.
+
+:VO+J: skok na spřátelenou oblast
+
+==== Vyvolání nabídek ==== keyboard-menus
+
+:VO+D: Vstup do docku
+:VO+M: Vstup do menu
+:VO+M M: Vstup do stavové nabídky (hodiny, wifi, baterie, ...)
+:CMD+mezerník: Spotlight
+
+=== Nápověda === help
+
+Jedna z velkých předností Voice Overu je rozsáhlá zabudovaná nápověda.
+Obsahuje příručku ovládání, interaktivní rychlokurz, seznam všech příkazů a
+klávesových zkratek, přehled použitých zvuků i speciální mód pro zkoumání
+klávesnice, vše v českém jazyce.
+
+Nabídku nápovědy vyvoláte stiskem kláves /VO+H/ (/Ctrl+Alt+H/). Pohybujete se v
+ní pomocí kombinace /VO+kurzorové šipky/ a vybranou položku potvrdíte pomocí
+/VO+mezerník/. Můžete použít také gesta.
+
+Pokud s Voice Overem začínáte, vřele doporučujeme spustit a projít si
+rychlokurz.
+
+Velmi užitečný je seznam všech příkazů, který je přímo dostupný po stisku
+/VO+H H/. V tomto seznamu lze vyhledávat, pokud krátce za sebou napíšete
+několik písmen slova, které hledáte. Hledáte-li například příkazy pro práci s
+rotorem, stiskněte /VO+H H/ a napište /rotor/. Dostanete seznam příkazů i gest
+souvisejících s rotorem. Takto můžete vždy nalézt i méně časté příkazy, pro než
+si nepamatujete klávesové zkratky.
+
+:VO+H: Základní nabídka nápovědy
+:VO+H H: Nápověda k příkazům (možnost vyhledávat)
+
+=== Tipy === tips
+
+
+== Zvětšovač obrazovky (pro slabozraké) == zoom
+
+Mac OS X obsahuje rovněž zabudovaný zvětšovač obrazovky. Zapnete jej v
+nastavení zpřístupnění. Podrobnosti o něm zde budou postupně doplněny.
+
